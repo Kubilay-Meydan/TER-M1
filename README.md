@@ -14,7 +14,7 @@ This Python script extracts module names from Snakemake workflow files. It searc
 
 The script will then process the files in the specified repository and print out a list of module names sorted by file, followed by a list of all module names found in all the files and the number of modules found.
 
-Searches through .py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk' file types
+Searches through '.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk' file types
 
 ## Requirements
 
