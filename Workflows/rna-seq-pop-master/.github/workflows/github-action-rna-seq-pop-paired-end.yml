@@ -1,0 +1,37 @@
+name: rna-seq-pop-paired-end
+
+on: pull_request
+
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10']
+    steps:
+      - name: Set up python3
+        uses: actions/setup-python@v2
+        with:
+          python-version:  ${{ matrix.python-version }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+        
+      - name: cp results book yamls 
+        run: cp docs/rna-seq-pop-results/_toc.yml docs/rna-seq-pop-results/_config.yml .test/docs/rna-seq-pop-results
+
+      - name: cp landing page
+        run: cp docs/rna-seq-pop-results/landing-page.md .test/docs/rna-seq-pop-results
+
+      - name: Test workflow paired-end
+        uses: snakemake/snakemake-github-action@v1.23.0
+        with:
+          directory: '.test'
+          snakefile: 'workflow/Snakefile'
+          args: '--cores 4 --use-conda --configfile .test/config/config_paired_end.yaml --conda-cleanup-pkgs cache'
+          stagein: 
+            "
+            conda config --set channel_priority flexible
+            "

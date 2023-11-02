@@ -1,0 +1,1 @@
+**Gene set enrichment plot** of gene set ``{{ snakemake.wildcards.gene_set }}``, found to be significantly enriched for differentially expressed genes by fgsea, using the sleuth model ``{{ snakemake.params.model["full"] }}``.

@@ -1,0 +1,153 @@
+__default__:
+    h_vmem: 2G
+    h_rt:   1:0:0
+    submission_string: " "
+    tmem: 2G
+generate_genome:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:    6G
+    tmem:   6G
+    h_rt: 72:00:00
+fastqc:
+    h_vmem:    4G
+    tmem:   4G
+    h_rt: 72:00:00
+run_ir_finder:
+    h_vmem:    4G
+    tmem:   4G
+    h_rt: 72:00:00
+tpmcalculator_path:
+    h_vmem:    4G
+    tmem:   4G
+    h_rt: 72:00:00
+multiqc:
+    h_vmem:    4G
+    tmem:   4G
+    h_rt: 72:00:00
+fastp_trimming:
+    h_vmem:    4G
+    tmem:   4G
+    h_rt: 72:00:00
+run_star_pe:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 120:00:00
+run_star_se:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+sort_index_bams:
+    h_vmem:   2G
+    tmem:   2G
+    h_rt: 72:00:00
+sort_bams:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   6G
+    tmem:   6G
+    h_rt: 72:00:00
+run_te:
+    h_vmem:    16G
+    tmem:   16G
+    h_rt: 72:00:00
+validate_fastq_pairing:
+    submission_string: "-pe smp 2 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+interleave_fastqs:
+    submission_string: "-pe smp 2 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+subsample_fastqs:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+fastp_trimming:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+megadepth_coverage:
+    submission_string: "-pe smp 2 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+name_sort:
+    h_vmem:   16G
+    tmem:   16G
+    h_rt: 72:00:00
+generate_partial_decoys:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem: 32G
+    tmem: 32G
+    h_rt: 72:00:00
+salmon_index:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   10G
+    tmem:   10G
+    h_rt: 24:00:00
+salmon_quant_pe:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    smp: 4
+    h_rt: 72:00:00
+salmon_quant_se:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   8G
+    tmem:   8G
+    smp: 4
+    h_rt: 72:00:00
+scallop_per_samp:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+gtf_to_bed12:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+multiqc:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+flagstat:
+    h_vmem:   10G
+    tmem:   10G
+    h_rt: 72:00:00
+gene_body_coverage:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+infer_experiment:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+inner_distance_freq:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+junction_saturation:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+read_distribution:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+salmon_index_extended:
+    submission_string: "-pe smp 4 -R y"
+    h_vmem:   16G
+    tmem:   16G
+    h_rt: 12:00:00
+gunzip_fastq:
+    submission_string: " "
+    h_vmem:   16G
+    tmem:   16G
+    h_rt: 12:00:00
+feature_counts:
+    h_vmem:   8G
+    tmem:   8G
+    h_rt: 72:00:00
+
