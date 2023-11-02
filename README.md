@@ -3,7 +3,7 @@
 
 # Snakemake rules Extractor
 
-This Python script extracts module names from Snakemake workflow files. It searches through all the files in a specified local repository and extracts words that follow the word "rule" at the beginning of a line, provided that the word is followed by a colon `:` or " :". This is the typical snakemake sythax for defining rules or modules
+This Python script extracts module names from Snakemake workflow files. It searches through all the files in a specified local repository and extracts words that follow the word "rule" at the beginning of a line, provided that the word is followed by a colon `:` or ` :`. This is the typical snakemake sythax for defining rules or modules
 
 ## How to Use
 
