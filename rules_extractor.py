@@ -31,7 +31,7 @@ def main(repo_path):
             all_words = set()
             for root, dirs, files in os.walk(workflow_path):
                 for file in files:
-                    if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk')) or file.lower() == "snakefile":
+                    if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk', '.snakefile')) or file.lower() == "snakefile":
                         file_path = os.path.join(root, file)
                         words_after_rule = extract_words_after_rule(file_path)
                         all_words.update(words_after_rule)
