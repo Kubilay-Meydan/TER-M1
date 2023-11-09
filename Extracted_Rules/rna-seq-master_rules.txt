@@ -1,0 +1,6 @@
+make_salmon_txi
+all
+all_rna_eda
+symlink_rnaseq_de_inputs
+symlink_salmon
+dumbtest

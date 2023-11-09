@@ -1,0 +1,4 @@
+kallisto_quant
+sleuth
+all
+kallisto_index

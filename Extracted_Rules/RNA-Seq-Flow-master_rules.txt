@@ -1,0 +1,12 @@
+pass1
+all
+pass2
+mark_dups
+RNA_SeqC
+fastqc
+rsem_genome
+star_genome
+merge
+fastqctrim
+rsem_norm
+trim_galore_pe
