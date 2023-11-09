@@ -1,23 +1,53 @@
-library(dplyr)
+# Load necessary packages
 library(ggplot2)
-library(readr)
+library(dplyr)
 
+# Read the CSV file
+data <- read.csv("comparison_results.csv")
 
+# Identify words that only have 'dissimilar' as their similarity level
+words_with_only_dissimilar <- data %>%
+  group_by(Word1) %>%
+  filter(all(Similarity_Level == "dissimilar")) %>%
+  select(Word1) %>%
+  unique() %>%
+  ungroup() %>%
+  bind_rows(
+    data %>%
+      group_by(Word2) %>%
+      filter(all(Similarity_Level == "dissimilar")) %>%
+      select(Word1 = Word2) %>%
+      unique() %>%
+      ungroup()
+  ) %>%
+  pull(Word1)
 
-# Load the data from the CSV file
-comparison_data <- read_csv("comparison_results.csv")
+# Filter out 'dissimilar' rows and words that only have 'dissimilar' associations
+filtered_data <- data %>%
+  filter(Similarity_Level != "dissimilar", 
+         !Word1 %in% words_with_only_dissimilar, 
+         !Word2 %in% words_with_only_dissimilar)
 
-# Count the number of occurrences in each similarity level for each file pair
-comparison_counts <- comparison_data %>%
-  group_by(File1, File2, Similarity_Level) %>%
-  summarise(Count = n(), .groups = 'drop') # Added .groups = 'drop' to avoid a warning
+# Get an ordered list of unique words
+unique_words <- unique(c(filtered_data$Word1, filtered_data$Word2))
+unique_words <- sort(unique_words)
 
-# Create a bar plot
-ggplot(comparison_counts, aes(x = interaction(File1, File2), y = Count, fill = Similarity_Level)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(x = "File Pairs", y = "Count of Word Pairs", fill = "Similarity Level") +
-  ggtitle("Comparison of Word Pairs by Similarity Level")
+# Convert Similarity_Level to an ordered factor
+filtered_data$Similarity_Level <- factor(filtered_data$Similarity_Level, 
+                                         levels = c("vaguely similar", "similar", "identical"),
+                                         ordered = TRUE)
 
-# Save the plot as an image
-ggsave("word_similarity_comparison.png", width = 12, height = 8)
+# Convert Word1 and Word2 to factors with the same levels
+filtered_data$Word1 <- factor(filtered_data$Word1, levels = unique_words)
+filtered_data$Word2 <- factor(filtered_data$Word2, levels = unique_words)
+
+# Plot heatmap with discrete colors and sorted axes
+ggplot(filtered_data, aes(x = Word1, y = Word2, fill = Similarity_Level)) +
+  geom_tile() +
+  scale_fill_manual(values = c("vaguely similar" = "#ADD8E6", "similar" = "#FDB45C", "identical" = "#2E8B57")) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1), 
+        axis.text.y = element_text(hjust = 1)) +
+  labs(x = "Word1", y = "Word2", fill = "Similarity Level") +
+  scale_x_discrete(limits = unique_words) +
+  scale_y_discrete(limits = unique_words)

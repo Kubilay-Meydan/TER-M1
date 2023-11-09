@@ -1,59 +1,52 @@
 import os
 import difflib
 import pandas as pd
-from collections import defaultdict
 
 # Adjust the directory path to where your .txt files are located
 directory_path = 'Extracted_Rules'
 
-# Load words from a file into a set
-def load_words_from_file(file_path):
-    with open(file_path, 'r') as file:
-        return set(file.read().splitlines())
+# Load words from all files into a set
+def load_all_words(directory_path):
+    all_words = set()
+    for filename in os.listdir(directory_path):
+        if filename.endswith('.txt'):
+            filepath = os.path.join(directory_path, filename)
+            with open(filepath, 'r') as file:
+                all_words.update(file.read().splitlines())
+    return all_words
 
-# Compare two sets of words and group them by similarity
-def compare_words(set1, set2):
-    groups = defaultdict(list)
-    for word1 in set1:
-        for word2 in set2:
+# Compare every word with every other word
+def compare_all_words(words):
+    comparison_results = []
+    for word1 in words:
+        for word2 in words:
             ratio = difflib.SequenceMatcher(None, word1, word2).ratio()
             if ratio == 1:
-                groups['identical'].append((word1, word2))
+                similarity_level = 'identical'
             elif ratio >= 0.8:
-                groups['similar'].append((word1, word2))
+                similarity_level = 'similar'
             elif ratio >= 0.6:
-                groups['vaguely similar'].append((word1, word2))
+                similarity_level = 'vaguely similar'
             else:
-                groups['dissimilar'].append((word1, word2))
-    return groups
+                similarity_level = 'dissimilar'
+            comparison_results.append({
+                'Word1': word1,
+                'Word2': word2,
+                'Similarity_Level': similarity_level
+            })
+    return comparison_results
 
-# List all txt files in the directory
-txt_files = [f for f in os.listdir(directory_path) if f.endswith('.txt')]
+# Load all words from the directory
+all_words = load_all_words(directory_path)
 
-# Load words from all files
-words_per_file = {file: load_words_from_file(os.path.join(directory_path, file)) for file in txt_files}
-
-# Compare words between all files and organize into a DataFrame
-dataframes = []
-
-for i, file1 in enumerate(txt_files):
-    for file2 in txt_files[i+1:]:
-        comparison = compare_words(words_per_file[file1], words_per_file[file2])
-        for similarity_level, word_pairs in comparison.items():
-            for word1, word2 in word_pairs:
-                dataframes.append({
-                    'File1': file1,
-                    'File2': file2,
-                    'Word1': word1,
-                    'Word2': word2,
-                    'Similarity_Level': similarity_level
-                })
+# Perform the comparison
+comparison_results = compare_all_words(all_words)
 
 # Convert the results into a DataFrame
-df = pd.DataFrame(dataframes)
+df = pd.DataFrame(comparison_results)
 
 # Sort the DataFrame for better readability
-df.sort_values(by=['Similarity_Level', 'File1', 'File2'], inplace=True)
+df.sort_values(by=['Similarity_Level', 'Word1', 'Word2'], inplace=True)
 
 # Save the DataFrame to a CSV file
 output_csv_path = os.path.join(directory_path, 'comparison_results.csv')
