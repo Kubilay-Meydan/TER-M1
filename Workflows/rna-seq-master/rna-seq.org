@@ -1,0 +1,477 @@
+* RNA-seq Snakemake Pipelines
+:PROPERTIES:
+:ID:       2a6a5dac-151e-42e8-a80a-74f77ad0d4ca
+:header-args: :tangle no :tangle-mode (identity #o555) :mkdirp yes
+:header-args+: :noweb yes
+:END:
+http://refgenomes.databio.org/v3/assets/archive/2230c535660fb4774114bfa966a62f823fdb6d21acf138d4/salmon_partial_sa_index?tag=default
+** Repository setup and administration
+*** Bash preamble
+*** prebuilt salmon refs
+http://refgenomes.databio.org/v3/genomes/splash/2230c535660fb4774114bfa966a62f823fdb6d21acf138d4
+
+*** Setup
+- get test data
+  #+begin_src bash
+repo=~/repos/rna-seq
+# get salmon files
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/1-ir.AACATCTCGA-TATTCGCCAG/1-ir.AACATCTCGA-TATTCGCCAG.quant.sf ${repo}/test/inputs/exp1.quant.sf
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/2-ir.GTAACGTCAC-ACCAACTAAG/2-ir.GTAACGTCAC-ACCAACTAAG.quant.sf ${repo}/test/inputs/exp2.quant.sf
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/3-ir.GCTAACCGTG-TCACCATAAG/3-ir.GCTAACCGTG-TCACCATAAG.quant.sf ${repo}/test/inputs/expsample3.quant.sf
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/10-ct.TCATCCGTGA-TTAGGAGGAA/10-ct.TCATCCGTGA-TTAGGAGGAA.quant.sf ${repo}/test/inputs/ctrl.quant.sf
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/9-ct.TCCAGAATGT-TGGTCCAATT/9-ct.TCCAGAATGT-TGGTCCAATT.quant.sf ${repo}/test/inputs/ctrl2.quant.sf
+
+cp ~/card/inputs/Rentschler_s4630_MGI0042/8-ct.CCGAACATGT-ACCTCATTGA/8-ct.CCGAACATGT-ACCTCATTGA.quant.sf ${repo}/test/inputs/normal.quant.sf
+#+end_src
+- file:test/inputs/libraries.tsv
+  | library | basename            | participant | run  | group |
+  |---------+---------------------+-------------+------+-------|
+  | lib001  | ctrl.quant.sf       | subj001     | seq1 | ctrl  |
+  | lib002  | ctrl2.quant.sf      | subj002     | seq2 | ctrl  |
+  | lib003  | normal.quant.sf     | subj003     | seq1 | ctrl  |
+  | lib004  | exp1.quant.sf       | subj004     | seq2 | exp   |
+  | lib005  | exp2.quant.sf       | subj005     | seq1 | exp   |
+  | lib006  | expsample3.quant.sf | subj006     | seq2 | exp   |
+** Bulk RNA-seq Exploratory Data Analysis                               :smk:
+:PROPERTIES:
+:header-args:snakemake: :tangle ./workflow/rna_seq_eda.smk
+:END:
+*** Make txi counts from salmon files                              :smk_rule:
+- Snakemake
+  #+begin_src snakemake
+rule make_salmon_txi:
+    input: expand(salmon_dir + "/{library}.sf", library = RNA_LIBS),
+    log: logdir + "/{experiment}_make_salmon_txi.log",
+    output: rna_dir + "/{experiment}_txi.rdata",
+    params:
+        script = rna_script_dir + "/make_salmon_txi.R",
+        txdb = txdb,
+    shell:
+        """
+        Rscript {params.script} \
+        "{input}" \
+        {output} \
+        {params.txdb} \
+        > {log} 2>&1
+        """
+#+end_src
+- [[file:./workflow/scripts/make_salmon_txi.R][Rscript]]
+  #+begin_src R :noweb yes :tangle ./scripts/make_salmon_txi.R
+#!/usr/bin/env Rscript
+
+
+args = commandArgs(trailingOnly = TRUE)
+in_salmon_str = args[1]
+out_txi = args[2]
+in_txdb = args[3]
+
+# Load libraries
+library(paste(in_txdb), character.only=T)
+txdb = get(in_txdb)
+library(tximport)
+
+# Make salmon file list
+in_salmon_vec = unlist(strsplit(in_salmon_str, " "))
+names(in_salmon_vec) = substr(gsub("^.*lib", "lib", in_salmon_vec), 1, 6)
+
+# Make gene annotation
+k = keys(txdb, keytype = "TXNAME")
+tx2gene = AnnotationDbi::select(txdb, k, "GENEID", "TXNAME")
+
+# Make txi object
+txi = tximport(in_salmon_vec, type = "salmon", tx2gene = tx2gene)
+
+# Save txi object
+save(txi, file = out_txi)
+#+end_src
+*** INPROCESS All sample EDA                                       :smk_rule:
+- Snakemake
+  #+begin_src snakemake
+rule all_rna_eda:
+    container: "/home/jeszyman/sing_containers/atac.1.1.0.sif",
+    input: analysis + "/{experiment}_txi.rdata",
+    log: logdir + "/{experiment}_rna_eda.log",
+    output:
+        pca = results + "/figures/{experiment}_pca.pdf",
+        rdata = analysis + "/{experiment}_eda.rdata",
+    params:
+        factor_str = factor_str,
+        library_tsv = library_tsv,
+        script = rna_scriptdir + "/all_rna_eda.R",
+    shell:
+        """
+        Rscript {params.script} \
+        {input} \
+        {output.pca} \
+        {output.rdata} \
+        "{params.factor_str}" \
+        {params.library_tsv} \
+        > {log} 2>&1
+        """
+#+end_src
+- Rscript
+  #+begin_src R :tangle ./scripts/all_rna_eda.R
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly = TRUE)
+txi_rdata = args[1]
+pca_plot_pdf = args[2]
+out_rdata = args[3]
+factor_str = args[4]
+library_tsv = args[5]
+
+## txi_rdata = "test/analysis/all_txi.rdata"
+## library_tsv = "test/inputs/libraries.tsv"
+## factor_str = "run group"
+## out_rdata = "test/analysis/eda.rdata"
+## pca_plot_pdf = "test/results/all_pca.pdf"
+
+library(cowplot)
+
+library(ggrepel)
+library(tidyverse)
+
+load(txi_rdata)
+
+library(edgeR)
+
+counts = txi$counts
+
+# Obtaining per-observation scaling factors for length, adjusted to avoid
+# (see https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html#edgeR)
+norm_mat = txi$length
+norm_mat = norm_mat/exp(rowMeans(log(norm_mat)))
+norm_counts = counts/norm_mat
+
+# Get effective library sizes from scaled counts
+eff_lib = calcNormFactors(norm_counts) * colSums(norm_counts)
+norm_mat = sweep(norm_mat, 2, eff_lib, "*")
+norm_mat = log(norm_mat)
+
+# Creating a DGEList object for use in edgeR.
+y = DGEList(counts)
+y = scaleOffset(y, norm_mat)
+
+libraries = read_tsv(library_tsv)
+factor_vec = unlist(strsplit(factor_str, " "))
+
+formula = as.formula(paste("~ ", paste(factor_vec, collapse = "+")))
+formula
+design = model.matrix(formula, libraries)
+design
+
+# filtering using the design information
+## design <- model.matrix(~condition, data = sampleTable)
+keep <- filterByExpr(y, design)
+y <- y[keep, ]
+
+logCPM <- cpm(y, prior.count=2, log=TRUE, offset = y$offset)
+
+pca = prcomp(t(logCPM))
+
+make_pca_plots = function(in_pca, full_libs){
+  pve_pc1=round(100*summary(in_pca)$importance[2,1])
+  pve_pc2=round(100*summary(in_pca)$importance[2,2])
+  pca_plot = as.data.frame(in_pca$x) %>%
+    rownames_to_column(var = "library") %>%
+    left_join(libraries, by = "library") %>%
+    ggplot(., aes(x = PC1, y = PC2, color = get(tail(factor_vec, n= 1)), label = library)) +
+    geom_point(size = 4) +
+    geom_text_repel() +
+    xlab(paste("PC1, ", pve_pc1, "% variance explained", sep ="")) +
+    ylab(paste("PC2, ", pve_pc2, "% variance explained", sep ="")) +
+    scale_color_discrete(name = paste0(tail(factor_vec, n=1))) +
+    theme_cowplot() +
+    theme(legend.position = "bottom")
+  return(pca_plot)
+}
+
+pca_plot = make_pca_plots(pca, libraries)
+# Note this resembles plotMDS(y, gene.selection = "common")
+
+save(design, formula, logCPM, pca, pca_plot, y, file = out_rdata)
+
+save_plot(pca_plot, file = pca_plot_pdf)
+#+end_src
+*** Dev
+:PROPERTIES:
+:header-args:snakemake: :tangle no
+:END:
+*** Ideas
+:PROPERTIES:
+:header-args:snakemake: :tangle no
+:END:
+** Snakemake conda environment yaml
+:PROPERTIES:
+:header-args:bash: :tangle ./config/rna_env.yaml
+:END:
+#+begin_src bash
+
+name: rna
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bioconductor-deseq2
+  - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+  - bioconductor-tximport
+  - r-tidyverse
+
+#+end_src
+** Snakemake configuration YAML
+#+begin_src bash :tangle ./config/int_test.yaml
+experiment_id: inttest_human
+txdb: "TxDb.Mmusculus.UCSC.mm10.ensGene",
+threads: 4
+rna_container: "/home/jeszyman/sing_containers/rna.1.2.0.sif"
+datadir: "test"
+rna_repo: "/home/jeszyman/repos/rna-seq"
+factor_str: "run group"
+#+end_src
+** [[file:workflow/int_test.smk][Integration testing]] :smk:
+:PROPERTIES:
+:header-args:snakemake: :tangle ./workflow/int_test.smk
+:END:
+*** Preamble
+#+begin_src snakemake
+#########1#########2#########3#########4#########5#########6#########7#########8
+###                                                                          ###
+###               Integration Testing Snakefile for RNA-seq                  ###
+###                                                                          ###
+#########1#########2#########3#########4#########5#########6#########7#########8
+
+##################################
+###   Load Required Packages   ###
+##################################
+
+import numpy as np
+import os
+import pandas as pd
+import re
+
+#+end_src
+*** Variable naming
+#+begin_src snakemake
+
+###########################
+###   Variable Naming   ###
+###########################
+
+# Names directly from configuration YAML
+threads = config['threads']
+
+# Names build from configuration parameter base
+rna_script_dir = config['rna_repo'] + "/scripts"
+#+end_src
+*** Functions
+#+begin_src snakemake
+RNA_LIBS = ["lib001", "lib002", "lib003", "lib004"]
+#+end_src
+*** All rule
+#+begin_src snakemake
+rule all:
+    input:
+        analysis + "/{experiment}_txi.rdata",
+rule dumbtest:
+    output: "/tmp/test2.tsv",
+    params:
+        script = rna_script_dir + "/dumbtest.R"
+    shell:
+        """
+        Rscript {params.script} \
+        {output}
+        """
+#+end_src
+- [[file:./scripts/dumbtest.R][Rscript]]
+  #+begin_src R :tangle ./scripts/dumbtest.R
+#!/usr/bin/env Rscript
+
+############
+###      ###
+############
+
+# For unit testing
+
+
+# Command line arguements
+args = commandArgs(trailingOnly = TRUE)
+out= args[1]
+
+# Load required packages
+library(tidyverse)
+
+test = data.frame(top=c(1,2,3),
+                  bottom=c('a','b','c'))
+
+test2 = as_tibble(test)
+
+write_tsv(test2, file = out)
+#+end_src
+*** Benchmark aggregation
+*** Includes statements
+*** Bulk RNA-seq Exploratory Data Analysis Integration Testing :smk:
+:PROPERTIES:
+:header-args:snakemake: :tangle ./workflow/rna_seq_eda_int.smk
+:END:
+**** Preamble
+#+begin_src snakemake
+#print("Integration testing snakefile for bulk RNA-seq\n")
+
+# Import common packages
+import pandas as pd
+import re
+import numpy as np
+
+#+end_src
+**** Variable naming
+#+begin_src snakemake
+datadir = config["datadir"]
+inputs=datadir + "/inputs"
+analysis = datadir + "/analysis"
+salmon = analysis + "/salmon"
+results = datadir + "/results"
+factor_str= config["factor_str"]
+rna_container = config["rna_container"]
+logdir = config["datadir"] + "/logs"
+
+rna_repo = config["rna_repo"]
+rna_scriptdir = rna_repo + "/scripts"
+library_tsv=inputs + "/libraries.tsv"
+#+end_src
+**** Functions, miscellaneous
+#+begin_src snakemake
+rna_libraries = pd.read_table(inputs + "/libraries.tsv")
+rna_libraries["path"]= inputs + "/" + rna_libraries["basename"]
+
+# Needs full path to work (no tilda)
+readable = []
+for x in rna_libraries.path:
+    readable.append(os.access(x, os.R_OK))
+rna_libraries['readable']=readable
+
+rna_libraries = rna_libraries[rna_libraries.readable == True]
+
+rna_library_indict = rna_libraries["library"].tolist()
+rna_file_indict = rna_libraries["path"].tolist()
+rna_lib_dict = dict(zip(rna_library_indict, rna_file_indict))
+
+BULK_RNA_LIBS = list(rna_lib_dict.keys())
+
+#+end_src
+**** All rule
+#+begin_src snakemake
+rule all:
+    input:
+        expand(salmon + "/{library}.quant.sf", library = BULK_RNA_LIBS),
+        expand(analysis + "/{experiment}_txi.rdata", experiment = "all"),
+        results + "/figures/all_pca.pdf",
+        analysis + "/all_eda.rdata",
+#+end_src
+**** Symlink inputs                                                :smk_rule:
+- Snakemake
+  #+begin_src snakemake
+rule symlink_salmon:
+    container: rna_container,
+    input: lambda wildcards: rna_lib_dict[wildcards.library],
+    log: logdir + "/{library}_symlink_salmon.log",
+    output: salmon + "/{library}.quant.sf",
+    params:
+        script = rna_scriptdir + "/symlink_salmon.sh"
+    shell:
+        """
+        {params.script} {input} {output} &> {log}
+        """
+#+end_src
+- Shell
+  #+begin_src bash :tangle ./scripts/symlink_salmon.sh
+#!/usr/bin/env bash
+set -o errexit   # abort on nonzero exitstatus
+set -o nounset   # abort on unbound variable
+set -o pipefail  # don't hide errors within pipes
+
+variables(){
+   in_salmon="${1}"
+   out_sym="${2}"
+}
+
+main(){
+    variables $@
+    ln --force --relative --symbolic $in_salmon $out_sym
+}
+
+main "$@"
+
+#+end_src
+**** Include statements
+#+begin_src snakemake
+include: rna_repo + "/workflow/rna_seq_eda.smk"
+#+end_src
+
+*** Post-QC RNA-seq Differential Expression  :smk:
+:PROPERTIES:
+:header-args:snakemake: :tangle ./workflow/rnaseq_de.smk
+:END:
+**** Preamble
+#+begin_src snakemake
+print("Integration testing snakefile for Post-QC RNA-seq Differential Expression\n")
+
+# Import common packages
+import pandas as pd
+import re
+import numpy as np
+
+#+end_src
+**** Variable naming
+#+begin_src snakemake
+
+#+end_src
+**** Functions, miscellaneous
+#+begin_src snakemake
+
+#+end_src
+**** All rule
+#+begin_src snakemake
+rule all:
+    input:
+        design
+        tmm
+        ebayes
+        dds
+#+end_src
+**** Symlink inputs
+#+begin_src snakemake
+rule symlink_rnaseq_de_inputs:
+    input:
+
+#+end_src
+**** Include statements
+#+begin_src snakemake
+#include: " <INCLUDE FILE LOCATION (VIA CONFIG PARAM)>"
+#+end_src
+** Repository setup and administration
+*** DONE [[id:1a8d792b-9621-42a8-80c9-399b6065630a][Bioinformatics pipeline initial build]]
+CLOSED: [2022-10-26 Wed 13:48]
+** README
+:PROPERTIES:
+:export_file_name: ./readme.md
+:export_file_options: toc:nil
+:END:
+*** Pipeline Directed Acyclic Graphs
+*** Prerequisites for local integration testing
+- See configuation file (./config/int_test.yaml) for required parameters and versioned singularity container
+*** Changelog
+- [2022-10-28 Fri] Stable 1.0.1 libraries_tsv naming abstracted
+- [2022-10-28 Fri] Stable 1.0.0 Basic edgeR run
+
+** Development :dev:
+*** Version 1.0.0
+**** TODO [[id:f6717c79-64ce-4b16-b455-649df2ba20fd][Project stable version update]]
+*** Ideas :ideas:
+- cibersort
+** Reference :ref:
+- https://github.com/zhxiaokang/RASflow/blob/master/scripts/dea_genome.R
+- https://bitbucket.org/cfce/viper/src/master/modules/scripts/DEseq.R

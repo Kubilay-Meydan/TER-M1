@@ -1,0 +1,7 @@
+library	basename	participant	group	run
+lib001	ctrl.quant.sf	subj001	ctrl	seq1
+lib002	ctrl2.quant.sf	subj002	ctrl	seq2
+lib003	normal.quant.sf	subj003	ctrl	seq1
+lib004	exp1.quant.sf	subj004	exp	seq2
+lib005	exp2.quant.sf	subj005	exp	seq1
+lib006	expsample3.quant.sf	subj006	exp	seq2

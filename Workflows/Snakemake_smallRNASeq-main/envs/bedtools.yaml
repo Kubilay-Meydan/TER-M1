@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bedtools = 2.30
+  - bedops = 2.4.40
