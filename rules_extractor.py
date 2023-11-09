@@ -13,24 +13,32 @@ def extract_words_after_rule(file_path):
                     words_after_rule.append(words[1][:-1])
     return words_after_rule
 
+def ensure_directory_exists(directory_path):
+    if not os.path.exists(directory_path):
+        os.makedirs(directory_path)
+
+def save_rules_by_workflow(extracted_rules_dir, workflow_name, rules):
+    ensure_directory_exists(extracted_rules_dir)
+    with open(os.path.join(extracted_rules_dir, f'{workflow_name}_rules.txt'), 'w') as f:
+        for rule in rules:
+            f.write(f'{rule}\n')
+
 def main(repo_path):
-    words_by_file = {}
-    all_words = set()
-    for root, dirs, files in os.walk(repo_path):
-        for file in files:
-            if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk')):
-                file_path = os.path.join(root, file)
-                words_after_rule = extract_words_after_rule(file_path)
-                if words_after_rule:
-                    words_by_file[file] = words_after_rule
-                    all_words.update(words_after_rule)
-    
-    print('Words after "rule" sorted by file:')
-    for file, words_after_rule in words_by_file.items():
-        print(f'{file}: {words_after_rule}')
-    
-    print('\nAll words found in all the files:', sorted(all_words), "\nNombre de rules trouvés", len(all_words))
+    extracted_rules_dir = os.path.join(repo_path, 'Extracted_Rules')
+    for workflow_folder in os.listdir(repo_path):
+        workflow_path = os.path.join(repo_path, workflow_folder)
+        if os.path.isdir(workflow_path):  # Check if it's a directory
+            all_words = set()
+            for root, dirs, files in os.walk(workflow_path):
+                for file in files:
+                    if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk')) or file.lower() == "snakefile":
+                        file_path = os.path.join(root, file)
+                        words_after_rule = extract_words_after_rule(file_path)
+                        all_words.update(words_after_rule)
+            save_rules_by_workflow(extracted_rules_dir, workflow_folder, all_words)
+
+    print(f'Rules have been saved into the "{extracted_rules_dir}" directory.')
 
 if __name__ == '__main__':
-    repo_path = input('Enter the path to the local repository: ')
+    repo_path = input('Enter the path to the Workflows folder: ')
     main(repo_path)
