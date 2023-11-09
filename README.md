@@ -14,7 +14,7 @@ This Python script extracts module names from Snakemake workflow files. It searc
 
 The script will then process the files in the specified repository, workflow by workflow and save a list of txt files for each one containing a list of module names. It will save those txt files in a directory called `Extracted_Rules` it creates in the Workflow directory. So to access your text files containg the rules, you will have to go to `Workflows/Extracted_Rules`
 
-Searches through '.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk' file types `OR` files that have no type but are named "Snakefile". (The capitalisation doesn't matter)
+Searches through '.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk', '.snakefile' file types `OR` files that have no type but are named "Snakefile". (The capitalisation doesn't matter)
 
 ## Requirements
 
