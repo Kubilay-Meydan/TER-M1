@@ -24,7 +24,8 @@ def save_rules_by_workflow(extracted_rules_dir, workflow_name, rules):
             f.write(f'{rule}\n')
 
 def main(repo_path):
-    extracted_rules_dir = os.path.join(repo_path, 'Extracted_Rules')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    extracted_rules_dir = os.path.join(script_dir, 'Extracted_Rules')
     for workflow_folder in os.listdir(repo_path):
         workflow_path = os.path.join(repo_path, workflow_folder)
         if os.path.isdir(workflow_path):  # Check if it's a directory
