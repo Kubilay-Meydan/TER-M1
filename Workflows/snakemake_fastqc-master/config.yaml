@@ -1,0 +1,20 @@
+###############################################################################
+#
+#   Config file for this Snakemake pipeline.
+#
+#   AUTHOR: Maciej_Bak
+#   AFFILIATION: Swiss_Institute_of_Bioinformatics
+#   CONTACT: maciej.bak@unibas.ch
+#   CREATED: 21-11-2019
+#   LICENSE: Apache_2.0
+#
+###############################################################################
+---
+
+# path for the result directory
+output_dir: "output_dir"
+
+# path to the table with RNA-Seq data info
+design_file: "sample_design_table.tsv"
+
+...

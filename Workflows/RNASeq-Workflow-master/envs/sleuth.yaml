@@ -1,0 +1,8 @@
+name: sleuth
+channels:
+    - bioconda
+    - r
+    - conda-forge
+dependencies:
+    - r-sleuth
+    - readline=6.2=0

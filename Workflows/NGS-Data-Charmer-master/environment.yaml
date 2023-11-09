@@ -1,0 +1,29 @@
+name: ngs_data_charmer
+
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - graphviz
+  - python
+  - snakemake
+  - pyyaml
+  - hisat2
+  - perl
+  - subread
+  - pysam
+  - pandas
+  - igvtools
+  - bedtools
+  - trim-galore
+  - deeptools
+  - multiqc
+  - bowtie2
+  - cutadapt
+  - picard
+  - gmap
+  - samtools
+  - biopython
+  - bamtools
