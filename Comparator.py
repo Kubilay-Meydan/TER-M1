@@ -1,78 +1,104 @@
 import tkinter as tk
-import itertools
+from tkinter import scrolledtext
 import os
-import csv
-import glob
+import itertools
+import pandas as pd
+from pygments import lex
+from pygments.lexers import PythonLexer
+from pygments.styles import get_style_by_name
 
-# Specify the directory containing the files
-directory = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Rules_classified/QC qnd trimming'
+def create_gui(directory):
+    # Initialize the matrix and list of file pairs
+    files = [f for f in os.listdir(directory) if f.endswith('.py')]
+    matrix = pd.DataFrame('SS', index=files, columns=files)
+    file_pairs = list(itertools.combinations(files, 2))
+    if not file_pairs:
+        print("Need at least two Python files in the directory for comparison.")
+        return
 
-# Function to read all .py files from the directory
-def get_files_from_directory(directory):
-    return [os.path.basename(file) for file in glob.glob(os.path.join(directory, '*.py'))]
+    # Create the main window
+    root = tk.Tk()
+    root.title("Python File Comparer")
 
-# Function to load or create the comparison matrix
-def load_or_create_matrix(files, directory):
-    matrix_path = os.path.join(directory, 'comparison_matrix.csv')
-    if os.path.exists(matrix_path):
-        with open(matrix_path, mode='r', newline='') as file:
-            reader = csv.reader(file)
-            return {frozenset({row[0], row[1]}): row[2] for row in reader}
-    else:
-        return {frozenset({file1, file2}): 'SS' for file1, file2 in itertools.combinations(files, 2)}
+    # Set the window to fullscreen
+    root.state('zoomed')  # For Windows, use 'zoomed'
+    # root.attributes('-fullscreen', True)  # Uncomment this line for Linux/MacOS
 
-# Function to save the matrix to a CSV file
-def save_matrix_to_csv(matrix, directory):
-    matrix_path = os.path.join(directory, 'comparison_matrix.csv')
-    with open(matrix_path, mode='w', newline='') as file:
-        writer = csv.writer(file)
-        for pair, value in matrix.items():
-            writer.writerow(list(pair) + [value])
+    # Create scrolled text areas for the two files
+    text_area_left = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=40, height=10)
+    text_area_right = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=40, height=10)
 
-# Function to update the matrix and display next pair
-def update_matrix_and_display_next(value):
-    global current_pair
-    comparison_matrix[frozenset(current_pair)] = value
-    save_matrix_to_csv(comparison_matrix, directory)
-    display_next_pair()
+    # Place the text areas in the window
+    text_area_left.grid(column=0, row=0, padx=10, pady=10, sticky="nsew")
+    text_area_right.grid(column=1, row=0, padx=10, pady=10, sticky="nsew")
 
-# Function to display the next pair of files
-def display_next_pair():
-    global current_pair
-    try:
-        current_pair = next(pairs_iterator)
-        file1_label.config(text=current_pair[0])
-        file2_label.config(text=current_pair[1])
-    except StopIteration:
-        file1_label.config(text="Done")
-        file2_label.config(text="Done")
+    # Configure grid weights to allow resizing
+    root.grid_rowconfigure(0, weight=1)
+    root.grid_columnconfigure(0, weight=1)
+    root.grid_columnconfigure(1, weight=1)
 
-# Main
-files = get_files_from_directory(directory)
-comparison_matrix = load_or_create_matrix(files, directory)
+    # Function to apply syntax highlighting
+    def add_syntax_highlighting(text_area, file_content):
+        style = get_style_by_name('default')
+        lexer = PythonLexer()
+        tokens = lex(file_content, lexer)
+        start = '1.0'
+        for token_type, value in tokens:
+            end = text_area.index(f"{start}+{len(value)}c")
+            color = style.style_for_token(token_type)['color']
+            if color:
+                # Ensure the color is in the correct format for Tkinter
+                color = '#' + color
+            text_area.tag_add(str(token_type), start, end)
+            text_area.tag_config(str(token_type), foreground=color)
+            start = end
 
-# Set up the main window
-root = tk.Tk()
-root.title("File Comparison")
+    # Function to load file content into a text area and apply syntax highlighting
+    def load_file_content(file_path, text_area):
+        text_area.delete('1.0', tk.END)  # Clear existing content
+        with open(file_path, 'r') as file:
+            content = file.read()
+            text_area.insert(tk.INSERT, content)
+            add_syntax_highlighting(text_area, content)
 
-# Labels to display file names
-file1_label = tk.Label(root, text="", font=("Helvetica", 16))
-file1_label.pack()
-file2_label = tk.Label(root, text="", font=("Helvetica", 16))
-file2_label.pack()
 
-# Buttons for comparison choices
-buttons_frame = tk.Frame(root)
-buttons_frame.pack(pady=10)
+    # Function to save the matrix to a CSV file
+    def save_matrix_to_csv():
+        csv_path = os.path.join(directory, 'file_comparison_matrix.csv')
+        matrix.to_csv(csv_path)
+        print(f"Matrix saved to {csv_path}")
 
-for value in ["VS", "S", "SS", "D"]:
-    button = tk.Button(buttons_frame, text=value, command=lambda v=value: update_matrix_and_display_next(v))
-    button.pack(side=tk.LEFT, padx=5)
+    # Function to update the matrix and display the next file pair
+    def update_and_advance(value):
+        left_file, right_file = file_pairs[0]
+        matrix.at[left_file, right_file] = value
+        matrix.at[right_file, left_file] = value
+        file_pairs.pop(0)  # Remove the current pair
+        if file_pairs:
+            # Load the next pair of files
+            next_pair = file_pairs[0]
+            load_file_content(os.path.join(directory, next_pair[0]), text_area_left)
+            load_file_content(os.path.join(directory, next_pair[1]), text_area_right)
+        else:
+            print("All file comparisons completed.")
+            save_matrix_to_csv()
+            root.destroy()  # Close the GUI
 
-# Initialize the iterator and display the first pair
-pairs_iterator = iter(itertools.combinations(files, 2))
-current_pair = None
-display_next_pair()
+    # Add buttons for updating the matrix
+    buttons_frame = tk.Frame(root)
+    buttons_frame.grid(column=0, row=1, columnspan=2, pady=10)
+    for value in ["VS", "S", "SS", "D"]:
+        button = tk.Button(buttons_frame, text=value, command=lambda v=value: update_and_advance(v))
+        button.pack(side=tk.LEFT, padx=5)
 
-# Start the GUI event loop
-root.mainloop()
+    # Load the first pair of files
+    first_pair = file_pairs[0]
+    load_file_content(os.path.join(directory, first_pair[0]), text_area_left)
+    load_file_content(os.path.join(directory, first_pair[1]), text_area_right)
+
+    # Start the GUI event loop
+    root.mainloop()
+
+# Replace this path with the path to your directory containing Python files
+directory_path = 'rules_for_comparison'
+create_gui(directory_path)
