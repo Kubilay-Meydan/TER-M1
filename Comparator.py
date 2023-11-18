@@ -12,6 +12,8 @@ def create_gui(directory):
     files = [f for f in os.listdir(directory) if f.endswith('.py')]
     matrix = pd.DataFrame('SS', index=files, columns=files)
     file_pairs = list(itertools.combinations(files, 2))
+    for f in files:
+        matrix.at[f, f] = 'I'
     if not file_pairs:
         print("Need at least two Python files in the directory for comparison.")
         return
@@ -102,3 +104,4 @@ def create_gui(directory):
 # Replace this path with the path to your directory containing Python files
 directory_path = 'rules_for_comparison'
 create_gui(directory_path)
+
