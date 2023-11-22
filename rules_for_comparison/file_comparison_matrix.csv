@@ -1,15 +1,15 @@
 ,fastqc (RNA seq flow).py,fastqc(smallRNASeq-main).py,multiqc(smallRNASeq-main).py,fastqc.py,multiqc.py,fastqctrim.py,fastqctrimmed.py,trim_galore_pe.py,trimgalorePE.py,cutadapt.py,trimgaloreSE.py,trim_fastq_fastqc.py,fastqc (RNAFlow).py,cutadapt(smallRNASeq-main).py
-fastqc (RNA seq flow).py,I,VS,VS,VS,VS,VS,S,SS,D,SS,S,SS,D,S
-fastqc(smallRNASeq-main).py,VS,I,VS,S,SS,D,SS,S,VS,VS,S,SS,D,SS
-multiqc(smallRNASeq-main).py,VS,VS,I,S,VS,S,SS,D,SS,SS,D,SS,S,VS
-fastqc.py,VS,S,S,I,S,SS,D,S,VS,SS,D,SS,S,VS
-multiqc.py,VS,SS,VS,S,I,S,SS,D,SS,S,VS,S,SS,D
-fastqctrim.py,VS,D,S,SS,S,I,SS,S,VS,S,SS,D,SS,S
-fastqctrimmed.py,S,SS,SS,D,SS,SS,I,VS,S,SS,D,SS,S,VS
-trim_galore_pe.py,SS,S,D,S,D,S,VS,I,S,SS,D,SS,S,VS
-trimgalorePE.py,D,VS,SS,VS,SS,VS,S,S,I,SS,S,D,SS,SS
-cutadapt.py,SS,VS,SS,SS,S,S,SS,SS,SS,I,D,VS,S,SS
-trimgaloreSE.py,S,S,D,D,VS,SS,D,D,S,D,I,D,SS,S
-trim_fastq_fastqc.py,SS,SS,SS,SS,S,D,SS,SS,D,VS,D,I,VS,S
-fastqc (RNAFlow).py,D,D,S,S,SS,SS,S,S,SS,S,SS,VS,I,SS
-cutadapt(smallRNASeq-main).py,S,SS,VS,VS,D,S,VS,VS,SS,SS,S,S,SS,I
+fastqc (RNA seq flow).py,I,S,S,S,S,SS,SS,SS,SS,SS,SS,SS,SS,SS
+fastqc(smallRNASeq-main).py,S,I,SS,SS,VS,VS,VS,VS,S,S,S,SS,SS,SS
+multiqc(smallRNASeq-main).py,S,SS,I,SS,SS,SS,SS,SS,SS,SS,SS,SS,SS,SS
+fastqc.py,S,SS,SS,I,SS,SS,SS,SS,SS,SS,SS,SS,SS,SS
+multiqc.py,S,VS,SS,SS,I,SS,SS,S,S,S,S,S,VS,VS
+fastqctrim.py,SS,VS,SS,SS,SS,I,VS,VS,VS,VS,VS,VS,VS,D
+fastqctrimmed.py,SS,VS,SS,SS,SS,VS,I,D,D,D,D,D,D,D
+trim_galore_pe.py,SS,VS,SS,SS,S,VS,D,I,D,D,D,D,D,D
+trimgalorePE.py,SS,S,SS,SS,S,VS,D,D,I,D,D,D,D,D
+cutadapt.py,SS,S,SS,SS,S,VS,D,D,D,I,D,D,D,D
+trimgaloreSE.py,SS,S,SS,SS,S,VS,D,D,D,D,I,D,D,D
+trim_fastq_fastqc.py,SS,SS,SS,SS,S,VS,D,D,D,D,D,I,D,D
+fastqc (RNAFlow).py,SS,SS,SS,SS,VS,VS,D,D,D,D,D,D,I,D
+cutadapt(smallRNASeq-main).py,SS,SS,SS,SS,VS,D,D,D,D,D,D,D,D,I

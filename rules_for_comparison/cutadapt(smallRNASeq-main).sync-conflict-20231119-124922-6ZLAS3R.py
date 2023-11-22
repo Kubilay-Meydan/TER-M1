@@ -1,0 +1,23 @@
+rule cutadapt:
+	input:
+		reads=("data/Reads/{sample}/{sample}.fq.gz"),
+
+	output:
+		"cutadapt/{sample}.trimmed.fq.gz"
+
+	threads: 2
+
+	log: "qc/cutadapt/{sample}.cutadapt.json"
+
+	conda: "envs/cutadapt.yaml"
+
+	shell:"""
+		cutadapt \
+		--cores {threads} \
+		-q 20 \
+		-m 18 \
+		-M 30 \
+		--json {log} \
+		-o {output} \
+		{input}
+	"""
