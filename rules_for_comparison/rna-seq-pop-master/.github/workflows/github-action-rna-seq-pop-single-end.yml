@@ -1,0 +1,34 @@
+name: rna-seq-pop-single-end
+
+on: pull_request
+
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up python3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: cp results book yamls 
+        run: cp docs/rna-seq-pop-results/_toc.yml docs/rna-seq-pop-results/_config.yml .test/docs/rna-seq-pop-results
+
+      - name: cp landing page
+        run: cp docs/rna-seq-pop-results/landing-page.md .test/docs/rna-seq-pop-results
+
+      - name: Test workflow single-end
+        uses: snakemake/snakemake-github-action@v1.23.0
+        with:
+          directory: '.test'
+          snakefile: 'workflow/Snakefile'
+          args: "--cores 4 --use-conda --configfile .test/config/config_single_end.yaml --conda-cleanup-pkgs cache"
+          stagein: 
+            "
+            conda config --set channel_priority flexible
+            "

@@ -1,0 +1,10 @@
+.test/benchmarks/**
+.test/logs/**
+.test/results/**
+.test/resources/**
+.test/.snakemake/**
+benchmarks/**
+logs/**
+resources/**
+results/**
+.snakemake/**

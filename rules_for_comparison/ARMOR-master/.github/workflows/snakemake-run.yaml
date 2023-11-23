@@ -1,0 +1,94 @@
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '0 9 * * 5'
+
+name: snakemake-run
+
+jobs:
+  snakemake-run:
+    name: run snakemake
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+        include:
+        - os: macos-latest
+          rversion: '4.2'
+        - os: ubuntu-latest
+          rversion: '4.2'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      
+      - name: Install R (macOS)
+        uses: r-lib/actions/setup-r@v2
+        if: runner.os == 'macOS'
+        with:
+          r-version: ${{ matrix.rversion }}
+      
+      - name: Check where R is installed
+        if: runner.os == 'macOS'
+        run: |
+          which R
+          Rscript -e 'print(.libPaths())'
+      
+      - name: Set up workflow R for macOS
+        if: runner.os == 'macOS'
+        run: |
+          sed -i .bak 's/useCondaR: True/useCondaR: False/' config.yaml
+          mkdir -p $HOME/Rlib
+          echo "R_LIBS_USER=${HOME}/Rlib" > .Renviron
+          cat .Renviron
+          Rscript -e "install.packages('BiocManager'); BiocManager::install('GenomeInfoDbData')"
+          
+      - name: Set up conda
+        uses: s-weigand/setup-conda@v1.1.1
+        with:
+          activate-conda: true
+          update-conda: true
+          conda-channels: 'bioconda,conda-forge,defaults'
+
+      - name: Install system dependencies (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable --yes 
+          sudo apt-get --yes --force-yes update -qq && \
+          sudo apt-get -y install libcairo2-dev libv8-dev \
+          libgdal-dev libgeos-dev libgeos++-dev libproj-dev libudunits2-dev \
+          libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev libglpk-dev \
+          libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libgit2-dev
+
+      - name: Install snakemake (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          conda install -c conda-forge mamba=0.23.3
+          rm -f /usr/share/miniconda/pkgs/cache/*.json # workaround from mamba-org/mamba#488
+          mamba install -c bioconda snakemake=6.10.0
+
+      - name: Install snakemake (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          conda install -c conda-forge mamba=0.23.3
+          mamba install -c bioconda snakemake=6.10.0
+          
+      - name: Run workflow
+        env:
+          BIOCONDUCTOR_USE_CONTAINER_REPOSITORY: true
+        run: |
+          mkdir -p $HOME/.R
+          echo -e 'MAKEFLAGS = -j8' > $HOME/.R/Makevars
+          echo 'options(Ncpus = 8)' > $HOME/.Rprofile
+          echo 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=TRUE)' >> $HOME/.Rprofile
+          snakemake --use-conda --cores 4 --conda-frontend mamba
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: all_rout
+          path: example_data/output/Rout/*.Rout
