@@ -12,6 +12,13 @@ Kubilay MEYDAN - Nathan CARRE
               
 
 
+<div id="badges">
+  <a href="Benchling">
+    <img src="https://img.shields.io/badge/Benchling-blue?style=flat"/>
+  </a>
+
+</div>
+
 
 # Snakemake rules Extractor
 
