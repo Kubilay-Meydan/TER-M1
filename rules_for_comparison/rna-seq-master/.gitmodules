@@ -1,4 +1,0 @@
-[submodule "rna-seq.stable.1.0.0"]
-	path = rna-seq.stable.1.0.0
-	url = git@github.com:jeszyman/rna-seq
-	branch = stable.1.0.0

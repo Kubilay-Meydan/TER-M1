@@ -1,9 +1,0 @@
-name: rna
-channels:
-  - bioconda
-  - conda-forge
-dependencies:
-  - bioconductor-deseq2
-  - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
-  - bioconductor-tximport
-  - r-tidyverse
