@@ -24,8 +24,11 @@ This Python script creates a Graphical User Interface (GUI) for comparing workfl
 ## Requirements
 
 Python 3.x
+
 Tkinter (typically included with Python)
+
 Pandas: pip install pandas
+
 Pygments: pip install pygments
 
 ## Usage
