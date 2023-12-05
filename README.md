@@ -23,24 +23,24 @@ This Python script creates a Graphical User Interface (GUI) for comparing workfl
 
 ## Requirements
 
-    Python 3.x
-    Tkinter (typically included with Python)
-    Pandas: pip install pandas
-    Pygments: pip install pygments
+Python 3.x
+Tkinter (typically included with Python)
+Pandas: pip install pandas
+Pygments: pip install pygments
 
 ## Usage
 
-    Prepare Directory: Ensure the script is placed in a directory or the directory_path variable in the script correctly references the directory containing the workflow modules.
+Prepare Directory: Ensure the script is placed in a directory or the directory_path variable in the script correctly references the directory containing the workflow modules.
 
-    Execute the Script: Run the script to open the GUI window.
+Execute the Script: Run the script to open the GUI window.
 
-    Module Comparison: Two text areas in the GUI will each display a workflow module for visual comparison.
+Module Comparison: Two text areas in the GUI will each display a workflow module for visual comparison.
 
-    Document Findings: Utilize the buttons ('VS', 'S', 'SS', 'D') beneath the text areas to categorize the similarity between the currently displayed module pair.
+Document Findings: Utilize the buttons ('VS', 'S', 'SS', 'D') beneath the text areas to categorize the similarity between the currently displayed module pair.
 
-    Progress Through Modules: After making a selection, the script will load the next pair of modules. Continue this process until you have reviewed all pairs.
+Progress Through Modules: After making a selection, the script will load the next pair of modules. Continue this process until you have reviewed all pairs.
 
-    Save Results: Once all comparisons are complete, the matrix will be saved as file_comparison_matrix.csv in your designated directory.
+Save Results: Once all comparisons are complete, the matrix will be saved as file_comparison_matrix.csv in your designated directory.
 
 
 
