@@ -13,7 +13,7 @@ Kubilay MEYDAN - Nathan CARRE
 
 
 <div id="badges">
-  <a href="[Benchling](https://benchling.com/nathancarre/f_/04qI0Zll-ter-workflow/)">
+  <a href="https://benchling.com/nathancarre/f_/04qI0Zll-ter-workflow/">
     <img src="https://img.shields.io/badge/Benchling-blue?style=flat"/>
   </a>
 
