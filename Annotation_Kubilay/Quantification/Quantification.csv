@@ -1,0 +1,17 @@
+,rsem_norm.py,feature_counts.py,salmon_quant_se.py,salmonSE.py,salmon_quant_pe.py,salmonPE.py,salmon_index_extended.py,counts_matrix.py,samlon_quant.py,featureCounts 2.py,salmon_quant.py,salmon_index.py,featureCounts.py,sortedbam_to_counts.py,tximeta.py,kallistoQuant.py
+rsem_norm.py,I,SS,D,D,D,D,D,D,D,SS,D,D,SS,SS,D,D
+feature_counts.py,SS,I,D,D,D,D,D,D,D,SS,D,D,SS,SS,D,D
+salmon_quant_se.py,D,D,I,S,SS,SS,D,D,S,D,SS,D,D,D,D,SS
+salmonSE.py,D,D,S,I,SS,SS,D,D,S,D,SS,D,D,D,D,SS
+salmon_quant_pe.py,D,D,SS,SS,I,S,D,D,SS,D,S,D,D,D,D,SS
+salmonPE.py,D,D,SS,SS,S,I,D,D,S,D,S,D,D,D,D,SS
+salmon_index_extended.py,D,D,D,D,D,D,I,D,D,D,D,VS,D,D,D,D
+counts_matrix.py,D,D,D,D,D,D,D,I,D,SS,D,D,SS,D,D,D
+samlon_quant.py,D,D,S,S,SS,S,D,D,I,D,SS,D,D,D,D,SS
+featureCounts 2.py,SS,SS,D,D,D,D,D,SS,D,I,D,D,S,SS,D,D
+salmon_quant.py,D,D,SS,SS,S,S,D,D,SS,D,I,D,D,D,D,SS
+salmon_index.py,D,D,D,D,D,D,VS,D,D,D,D,I,D,D,D,SS
+featureCounts.py,SS,SS,D,D,D,D,D,SS,D,S,D,D,I,SS,D,D
+sortedbam_to_counts.py,SS,SS,D,D,D,D,D,D,D,SS,D,D,SS,I,D,D
+tximeta.py,D,D,D,D,D,D,D,D,D,D,D,D,D,D,I,D
+kallistoQuant.py,D,D,SS,SS,SS,SS,D,D,SS,D,SS,SS,D,D,D,I

@@ -1,0 +1,16 @@
+,multiqc 2.py,fastqc 5.py,fastqc 4.py,multiqc 3.py,fastqc.py,run_multiqc.py,MultiQC.py,fastqctrimmed.py,fastqc_trimmed.py,trim_fasq_fastqc.py,fastqc 3.py,fastQCtrimmed 2.py,fastqc 2.py,fastqcrim.py,fastqc 6.py
+multiqc 2.py,I,SS,SS,VS,SS,S,S,SS,SS,SS,SS,SS,SS,SS,SS
+fastqc 5.py,SS,I,S,SS,VS,SS,SS,S,S,S,S,S,VS,S,VS
+fastqc 4.py,SS,S,I,SS,VS,SS,SS,S,S,S,VS,S,VS,S,VS
+multiqc 3.py,VS,SS,SS,I,SS,S,VS,SS,SS,SS,SS,SS,SS,SS,SS
+fastqc.py,SS,VS,VS,SS,I,SS,SS,S,S,S,S,S,VS,S,S
+run_multiqc.py,S,SS,SS,S,SS,I,VS,SS,S,SS,S,SS,SS,SS,SS
+MultiQC.py,S,SS,SS,VS,SS,VS,I,SS,SS,SS,SS,SS,SS,SS,SS
+fastqctrimmed.py,SS,S,S,SS,S,SS,SS,I,S,SS,SS,S,SS,S,SS
+fastqc_trimmed.py,SS,S,S,SS,S,S,SS,S,I,SS,SS,S,SS,S,SS
+trim_fasq_fastqc.py,SS,S,S,SS,S,SS,SS,SS,SS,I,D,SS,D,SS,D
+fastqc 3.py,SS,S,VS,SS,S,S,SS,SS,SS,D,I,SS,S,SS,S
+fastQCtrimmed 2.py,SS,S,S,SS,S,SS,SS,S,S,SS,SS,I,SS,S,SS
+fastqc 2.py,SS,VS,VS,SS,VS,SS,SS,SS,SS,D,S,SS,I,SS,VS
+fastqcrim.py,SS,S,S,SS,S,SS,SS,S,S,SS,SS,S,SS,I,SS
+fastqc 6.py,SS,VS,VS,SS,S,SS,SS,SS,SS,D,S,SS,VS,SS,I
