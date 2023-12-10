@@ -1,0 +1,11 @@
+,sampleReads.py,cutadapt 2.py,trim_galore_pe.py,trimgalorePE.py,cutadapt.py,trimgaloreSE.py,fastp_trimming_SE.py,fastp_trimming_PE.py,merge_trimmed_PE.py,merge_trimmed_SE.py
+sampleReads.py,I,D,D,D,D,D,D,D,D,D
+cutadapt 2.py,D,I,SS,SS,VS,SS,SS,SS,SS,D
+trim_galore_pe.py,D,SS,I,VS,SS,SS,SS,S,D,D
+trimgalorePE.py,D,SS,VS,I,SS,SS,SS,VS,D,D
+cutadapt.py,D,VS,SS,SS,I,SS,S,SS,SS,D
+trimgaloreSE.py,D,SS,SS,SS,SS,I,SS,SS,SS,D
+fastp_trimming_SE.py,D,SS,SS,SS,S,SS,I,SS,D,D
+fastp_trimming_PE.py,D,SS,S,VS,SS,SS,SS,I,D,D
+merge_trimmed_PE.py,D,SS,D,D,SS,SS,D,D,I,VS
+merge_trimmed_SE.py,D,D,D,D,D,D,D,D,VS,I
