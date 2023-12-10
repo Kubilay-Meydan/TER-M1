@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import scrolledtext
+from tkinter import scrolledtext, ttk
 import os
 import itertools
 import pandas as pd
@@ -39,7 +39,19 @@ def create_gui(directory):
     root.grid_rowconfigure(0, weight=1)
     root.grid_columnconfigure(0, weight=1)
     root.grid_columnconfigure(1, weight=1)
+    
+    progress_frame = tk.Frame(root)
+    progress_frame.grid(column=0, row=2, columnspan=2, pady=10)
+    progress_var = tk.IntVar()
+    progress_bar = ttk.Progressbar(progress_frame, orient=tk.HORIZONTAL, length=100, mode='determinate', variable=progress_var)
+    progress_bar.pack(fill=tk.X, expand=True)
+    total_comparisons = len(file_pairs)
+    progress_var.set(0)
 
+    def update_progress_bar():
+        completed_comparisons = total_comparisons - len(file_pairs)
+        progress_var.set((completed_comparisons / total_comparisons) * 100)
+    
     # Function to apply syntax highlighting
     def add_syntax_highlighting(text_area, file_content):
         style = get_style_by_name('default')
@@ -82,6 +94,7 @@ def create_gui(directory):
             next_pair = file_pairs[0]
             load_file_content(os.path.join(directory, next_pair[0]), text_area_left)
             load_file_content(os.path.join(directory, next_pair[1]), text_area_right)
+            update_progress_bar()
         else:
             print("All file comparisons completed.")
             save_matrix_to_csv()
@@ -103,6 +116,6 @@ def create_gui(directory):
     root.mainloop()
 
 # Replace this path with the path to your directory containing Python files
-directory_path = 'rules_for_comparison'
+directory_path = 'Classification Kubilay/1_Quality_Control'
 create_gui(directory_path)
 
