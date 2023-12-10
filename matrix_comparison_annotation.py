@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 
 #Charger les matrices à partir des fichiers CSV
-matrice_1 = pd.read_csv('/Users/natha/Desktop/Backup Matrice Annotation/5_Quantification/file_comparison_matrix.csv', index_col=0)
-matrice_2 = pd.read_csv('/Users/natha/Desktop/Backup Matrice Annotation/5_Quantification/Quantification.csv', index_col=0)
+matrice_1 = pd.read_csv('/Users/natha/Desktop/Cours/TER-M1/TER-M1/Annotation_Nathan/8_Vizualisation/file_comparison_matrix.csv', index_col=0)
+matrice_2 = pd.read_csv('/Users/natha/Desktop/Cours/TER-M1/TER-M1/Annotation_Kubilay/Visualisation/Visualisation.csv', index_col=0)
 
 #Trouver les règles communes (intersection des indices et des colonnes)
 indices_communs = matrice_1.index.intersection(matrice_2.index)
