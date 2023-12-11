@@ -52,7 +52,7 @@ Pygments: pip install pygments
 
 ## Usage
 
-Prepare Directory: Ensure the script is placed in a directory or the directory_path variable in the script correctly references the directory containing the workflow modules.
+Prepare Directory: Ensure the script is placed in a directory and the directory_path variable in the script correctly references the directory containing the workflow modules.
 
 Execute the Script: Run the script to open the GUI window.
 
