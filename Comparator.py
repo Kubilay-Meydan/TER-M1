@@ -116,6 +116,6 @@ def create_gui(directory):
     root.mainloop()
 
 # Replace this path with the path to your directory containing Python files
-directory_path = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Classification Kubilay/8_Visualization_and_Reporting'
+directory_path = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Classification Kubilay/1_Quality_Control'
 create_gui(directory_path)
 

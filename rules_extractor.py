@@ -17,26 +17,25 @@ def ensure_directory_exists(directory_path):
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
-def save_rules_by_workflow(extracted_rules_dir, workflow_name, rules):
+def save_rule(extracted_rules_dir, file_name, rule):
     ensure_directory_exists(extracted_rules_dir)
-    with open(os.path.join(extracted_rules_dir, f'{workflow_name}_rules.txt'), 'w') as f:
-        for rule in rules:
-            f.write(f'{rule}\n')
+    with open(os.path.join(extracted_rules_dir, f'{file_name}_rules.txt'), 'a') as f:
+        f.write(f'{rule}\n')
 
 def main(repo_path):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     extracted_rules_dir = os.path.join(script_dir, 'Extracted_Rules')
+    
     for workflow_folder in os.listdir(repo_path):
         workflow_path = os.path.join(repo_path, workflow_folder)
         if os.path.isdir(workflow_path):  # Check if it's a directory
-            all_words = set()
             for root, dirs, files in os.walk(workflow_path):
                 for file in files:
-                    if file.endswith(('.py', '.java', '.c', '.cpp', '.js', '.ts', '.html', '.css', '.smk', '.snakefile')) or file.lower() == "snakefile":
+                    if file.endswith('.py'):
                         file_path = os.path.join(root, file)
                         words_after_rule = extract_words_after_rule(file_path)
-                        all_words.update(words_after_rule)
-            save_rules_by_workflow(extracted_rules_dir, workflow_folder, all_words)
+                        for rule in words_after_rule:
+                            save_rule(extracted_rules_dir, os.path.splitext(file)[0], rule)
 
     print(f'Rules have been saved into the "{extracted_rules_dir}" directory.')
 

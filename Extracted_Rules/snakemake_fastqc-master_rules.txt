@@ -1,4 +1,0 @@
-run_FastQC
-all
-create_output_dir
-extract_adapters

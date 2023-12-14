@@ -1,5 +1,0 @@
-all
-split_vcf_by_chr
-vcf2h5
-get_WASP
-install_WASP
