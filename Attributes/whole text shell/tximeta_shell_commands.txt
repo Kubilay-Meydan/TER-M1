@@ -1,0 +1,1 @@
+{params.Rbin} CMD BATCH --no-restore --no-save --args salmondir={params.salmondir} json={input.json} metafile={input.metatxt} outrds={output} annotation={params.flag} organism={params.organism} {input.script} {log}

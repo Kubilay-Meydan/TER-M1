@@ -1,0 +1,1 @@
+echo TrimGalore! version:\n > {log}; trim_galore --version >> {log};  trim_galore -q 20 --phred33 --length 20 -o {params.FASTQtrimmeddir} --path_to_cutadapt cutadapt {input.fastq}

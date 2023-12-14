@@ -1,0 +1,1 @@
+ fastp -i {input.fastq_file} \ -o {output.out_fastqc} \ --json {output.fastpjson} \ --html {output.fastphtml} \ {params.fastp_parameters} \ 2> {log} 

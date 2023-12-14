@@ -1,0 +1,1 @@
+multiqc . -f --outdir ./ --config {params.multiqc_config}

@@ -1,0 +1,1 @@
+echo FastQC version:\n > {log}; fastqc --version >> {log};  fastqc -o {params.FastQC} -t {threads} {input.fastq}

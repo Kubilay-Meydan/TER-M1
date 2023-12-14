@@ -1,0 +1,1 @@
+ multiqc {input} -n multiqc_report -f -q -o qc 

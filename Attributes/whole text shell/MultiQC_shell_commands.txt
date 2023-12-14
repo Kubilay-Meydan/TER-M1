@@ -1,0 +1,1 @@
+echo MultiQC version:\n > {log}; multiqc --version >> {log};  multiqc {params.inputdirs} -f -o {params.MultiQCdir}

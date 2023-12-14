@@ -1,0 +1,1 @@
+ fastqc  --thread 8 --outdir {params.prefix} --nogroup {input.f1} 

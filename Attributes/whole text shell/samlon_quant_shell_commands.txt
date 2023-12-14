@@ -1,0 +1,1 @@
+ salmon quant \ -i {input.index} \ -l A \ -p {threads} \ -r {input.fastq} \ --validateMappings \ -o {params.outdir}_quant 

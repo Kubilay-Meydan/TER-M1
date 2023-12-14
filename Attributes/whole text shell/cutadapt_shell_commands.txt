@@ -1,0 +1,1 @@
+ cutadapt \ --cores {threads} \ -q 20 \ -m 18 \ -M 30 \ --json {log} \ -o {output} \ {input} 

@@ -1,0 +1,1 @@
+echo samtools version:\n > {log}; samtools --version >> {log};  samtools index {input.bam}

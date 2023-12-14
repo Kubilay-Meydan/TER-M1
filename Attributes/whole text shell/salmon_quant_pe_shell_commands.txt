@@ -1,0 +1,1 @@
+ salmon quant \ --index {params.index_dir} \ --libType {params.libtype} \ --mates1 {input.fast1} \ --mates2 {input.fast2} \ --geneMap {params.gtf} \ --threads {params.threads} \ {params.extra_params} \ -o {params.output_dir} \ 

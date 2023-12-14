@@ -1,0 +1,1 @@
+ {params.salmon} index \ -t {input.extended_fa} \ -i {params.outdir} \ --decoys {input.decoys} \ -k {params.k} \ {params.gencode} \ -p {threads} 

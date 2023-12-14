@@ -1,0 +1,1 @@
+ multiqc \ {params.save_plots} \ -o {params.outdir} \ {params.runtime} \ {params.dirs} 
