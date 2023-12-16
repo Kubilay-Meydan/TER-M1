@@ -1,0 +1,1 @@
+f'{ENVS}/cutadapt.yaml' threads: config['threads']

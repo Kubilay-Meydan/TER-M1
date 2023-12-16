@@ -1,0 +1,1 @@
+f'{ENVS}/fastqScreen.yaml' threads: config['threads']

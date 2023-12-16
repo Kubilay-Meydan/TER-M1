@@ -18,3 +18,4 @@ rule featureCounts:
         'featureCounts {params.paired} -a {input.gtf} -o {output.counts} '
         '{input.bam} -t exon -g gene_id -T {threads} -s {params.strand} '
         '&> {log}'
+
