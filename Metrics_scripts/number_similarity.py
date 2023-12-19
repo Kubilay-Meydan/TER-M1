@@ -22,6 +22,6 @@ def construire_matrice_similarite_et_sauvegarder(dossier, fichier_csv):
     df.to_csv(fichier_csv)
 
 # Utiliser la fonction
-dossier = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Attributes/input_type'  # Remplacer par le chemin vers votre dossier
-fichier_csv = 'nombre_lignes_similarite.csv'  # Nom du fichier CSV de sortie
+dossier = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Attributes/output_type'  # Remplacer par le chemin vers votre dossier
+fichier_csv = 'output_number_similarity.csv'  # Nom du fichier CSV de sortie
 construire_matrice_similarite_et_sauvegarder(dossier, fichier_csv)
