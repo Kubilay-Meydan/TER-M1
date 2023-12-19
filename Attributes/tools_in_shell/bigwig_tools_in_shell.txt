@@ -1,5 +1,3 @@
 RAP
-bedtools
-Bedtools
-bedtools genomecov
 STAR
+BEDtools

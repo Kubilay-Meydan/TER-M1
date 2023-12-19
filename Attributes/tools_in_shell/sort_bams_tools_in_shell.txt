@@ -1,2 +1,2 @@
-samtools
-samtools sort
+SAMtools
+samtools_sort

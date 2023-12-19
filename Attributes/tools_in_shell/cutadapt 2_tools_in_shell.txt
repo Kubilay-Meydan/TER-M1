@@ -1,2 +1,1 @@
 cutadapt
-CutAdapt

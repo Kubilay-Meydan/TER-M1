@@ -1,0 +1,217 @@
+{
+    "FastQC": {
+        "description": "A quality control tool for high throughput sequence data.",
+        "operations": [
+            "operation_2403",
+            "operation_3218"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_2269",
+            "http://edamontology.org/topic_0092",
+            "http://edamontology.org/topic_0003"
+        ],
+        "categories": [
+            "operation_2403",
+            "operation_3218",
+            "topic_2269",
+            "topic_0092",
+            "topic_0003"
+        ]
+    },
+    "Salmon": {
+        "description": "Salmon is a tool for wicked-fast transcript quantification from RNA-seq data.",
+        "operations": [],
+        "topics": [
+            "http://edamontology.org/topic_0102"
+        ],
+        "categories": [
+            "topic_0102"
+        ]
+    },
+    "SAMtools": {
+        "description": "SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format",
+        "operations": [
+            "operation_0565",
+            "operation_3184",
+            "operation_2426"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_0091",
+            "http://edamontology.org/topic_0102"
+        ],
+        "categories": [
+            "operation_0565",
+            "operation_3184",
+            "operation_2426",
+            "topic_0091",
+            "topic_0102"
+        ]
+    },
+    "multiqc": {
+        "description": "multiqc aggregates results from multiple bioinformatics analyses across many samples into a single report. it searches a given directory for analysis logs and compiles a html report. it's a general use tool, perfect for summarising the output from numerous bioinformatics tools.",
+        "function": [
+            "validation"
+        ],
+        "topic": [
+            "sequencing",
+            "bioinformatics"
+        ]
+    },
+    "STAR": {
+        "description": "ultrafast universal rna-seq data aligner",
+        "function": [
+            "sequence alignment"
+        ],
+        "topic": [
+            "rna-seq",
+            "transcriptomics"
+        ]
+    },
+    "cutadapt": {
+        "description": "removes adapter sequences from high-throughput sequencing data",
+        "operations": [
+            "operation_0369",
+            "operation_0004"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_0003"
+        ],
+        "categories": [
+            "operation_0369",
+            "operation_0004",
+            "topic_0003"
+        ]
+    },
+    "RAP": {
+        "description": "it is a web tool that performs a quite complete and customizable rna-seq pipeline and provides an easy and intuitive access through a web interface to intermediate and final results. the main aim of rap is to provide to users information about gene and transcript expression, differential expression, alternative splicing, polya signals, fusion transcripts, etc.",
+        "function": [
+            "read mapping"
+        ],
+        "topic": [
+            "bioinformatics",
+            "sequencing",
+            "transcriptomics"
+        ]
+    },
+    "picard-tools": {
+        "description": "command-line utilities that manipulate SAM files",
+        "operations": [
+            "operation_2409",
+            "operation_3096",
+            "operation_0562"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_0102"
+        ],
+        "categories": [
+            "operation_2409",
+            "operation_3096",
+            "operation_0562",
+            "topic_0102"
+        ]
+    },
+    "kallisto": {
+        "description": "kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
+        "operations": [
+            "operation_3182",
+            "operation_3198",
+            "operation_0314"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_3308",
+            "http://edamontology.org/topic_3170",
+            "http://edamontology.org/topic_0203"
+        ],
+        "categories": [
+            "operation_3182",
+            "operation_3198",
+            "operation_0314",
+            "topic_3308",
+            "topic_3170",
+            "topic_0203"
+        ]
+    },
+    "fastp": {
+        "description": "An ultra-fast all-in-one FASTQ preprocessor (QC/adapters/trimming/filtering/splitting/merging...)",
+        "operations": [],
+        "topics": [],
+        "categories": []
+    },
+    "BEDtools": {
+        "description": "Flexible suite of utilities for comparing genomic features",
+        "operations": [
+            "operation_0415",
+            "operation_0426",
+            "operation_0253",
+            "operation_2429"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_0622"
+        ],
+        "categories": [
+            "operation_0415",
+            "operation_0426",
+            "operation_0253",
+            "operation_2429",
+            "topic_0622"
+        ]
+    },
+    "tximeta": {
+        "description": "reference sequence checksums for provenance identification in rna-seq | use of tximeta with a denovo transcriptome | transcript quantification import with automatic metadata | transcript quantification import from salmon with automatic population of metadata and transcript ranges. filtered, combined, or de novo transcriptomes can be linked to the appropriate sources with linkedtxomes and shared for reproducible analyses | annotation, dataimport, geneexpression, immunooncology, preprocessing, rnaseq, software, transcription, transcriptomics",
+        "function": [
+            "de-novo assembly",
+            "protein quantification",
+            "rna-seq quantification"
+        ],
+        "topic": [
+            "rna-seq",
+            "transcriptomics",
+            "transcription factors and regulatory sites"
+        ]
+    },
+    "samtools_flagstat": {
+        "description": "simple statistics calculation on bam files.",
+        "function": [
+            "sequence composition calculation"
+        ],
+        "topic": [
+            "sequencing",
+            "sequence analysis"
+        ]
+    },
+    "samtools_sort": {
+        "description": "this tool uses the samtools toolkit to produce an indexed bam file based on a sorted input sam file.",
+        "function": [
+            "formatting"
+        ],
+        "topic": [
+            "sequencing",
+            "data management"
+        ]
+    },
+    "hisat2": {
+        "description": "HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) against the general human population (as well as against a single reference genome).",
+        "operations": [
+            "operation_3199",
+            "operation_0292"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_3320",
+            "http://edamontology.org/topic_3308",
+            "http://edamontology.org/topic_2885",
+            "http://edamontology.org/topic_3175",
+            "http://edamontology.org/topic_0102",
+            "http://edamontology.org/topic_3170"
+        ],
+        "categories": [
+            "operation_3199",
+            "operation_0292",
+            "topic_3320",
+            "topic_3308",
+            "topic_2885",
+            "topic_3175",
+            "topic_0102",
+            "topic_3170"
+        ]
+    }
+}

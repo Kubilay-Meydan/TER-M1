@@ -1,2 +1,2 @@
-samtools flagstat
-samtools
+samtools_flagstat
+SAMtools

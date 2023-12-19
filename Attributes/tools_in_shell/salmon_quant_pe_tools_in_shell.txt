@@ -1,4 +1,1 @@
-quant
-salmon
-salmon quant
 Salmon
