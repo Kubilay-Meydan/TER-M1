@@ -1,0 +1,1 @@
+"Salmon is a tool for wicked-fast transcript quantification from RNA-seq data."

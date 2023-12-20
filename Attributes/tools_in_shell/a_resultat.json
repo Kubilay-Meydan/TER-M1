@@ -169,6 +169,25 @@
             "transcription factors and regulatory sites"
         ]
     },
+    "fastq_screen": {
+        "description": "FastQ Screen allows you to screen a library of sequences in FastQ format against a set of sequence databases so you can see if the composition of the library matches with what you expect.",
+        "operations": [
+            "operation_3218",
+            "operation_3198"
+        ],
+        "topics": [
+            "http://edamontology.org/topic_0092",
+            "http://edamontology.org/topic_0622",
+            "http://edamontology.org/topic_3308"
+        ],
+        "categories": [
+            "operation_3218",
+            "operation_3198",
+            "topic_0092",
+            "topic_0622",
+            "topic_3308"
+        ]
+    },
     "samtools_flagstat": {
         "description": "simple statistics calculation on bam files.",
         "function": [

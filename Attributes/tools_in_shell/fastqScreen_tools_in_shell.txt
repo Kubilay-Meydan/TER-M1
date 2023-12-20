@@ -1,1 +1,1 @@
-FastQC Screen
+fastq_screen

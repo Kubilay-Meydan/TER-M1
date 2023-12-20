@@ -1,0 +1,2 @@
+"A quality control tool for high throughput sequence data."
+"An ultra-fast all-in-one FASTQ preprocessor (QC/adapters/trimming/filtering/splitting/merging...)"
