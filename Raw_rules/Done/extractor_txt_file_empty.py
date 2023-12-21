@@ -17,4 +17,4 @@ def copy_structure_and_convert(src_folder, dest_folder):
                 # Créer un fichier .txt vide
                 open(new_file_path, 'w').close()
 
-copy_structure_and_convert('Classification Nathan', 'Attributes/shell_tools_description')
+copy_structure_and_convert('Classification Nathan', 'Attributes/shell_tools_categories')

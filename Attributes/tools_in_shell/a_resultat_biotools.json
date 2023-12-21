@@ -1,0 +1,182 @@
+{
+    "Salmon": {
+        "description": "a tool for transcript expression quantification from rna-seq data",
+        "function": [
+            "sequence composition calculation",
+            "rna-seq quantification",
+            "gene expression analysis"
+        ],
+        "topic": [
+            "rna-seq",
+            "gene expression",
+            "transcriptomics"
+        ]
+    },
+    "fastp": {
+        "description": "a tool designed to provide fast all-in-one preprocessing for fastq files. this tool is developed in c++ with multithreading supported to afford high performance.",
+        "function": [
+            "sequencing quality control",
+            "sequence contamination filtering"
+        ],
+        "topic": [
+            "sequence analysis",
+            "probes and primers"
+        ]
+    },
+    "STAR": {
+        "description": "ultrafast universal rna-seq data aligner",
+        "function": [
+            "sequence alignment"
+        ],
+        "topic": [
+            "rna-seq",
+            "transcriptomics"
+        ]
+    },
+    "cutadapt": {
+        "description": "find and remove adapter sequences, primers, poly-a tails and other types of unwanted sequence from your high-throughput sequencing reads.",
+        "function": [
+            "sequence trimming"
+        ],
+        "topic": [
+            "genomics",
+            "probes and primers",
+            "sequencing"
+        ]
+    },
+    "BEDtools": {
+        "description": "bedtools is an extensive suite of utilities for comparing genomic features in bed format.",
+        "function": [
+            "mapping"
+        ],
+        "topic": [
+            "genomics"
+        ]
+    },
+    "tximeta": {
+        "description": "reference sequence checksums for provenance identification in rna-seq | use of tximeta with a denovo transcriptome | transcript quantification import with automatic metadata | transcript quantification import from salmon with automatic population of metadata and transcript ranges. filtered, combined, or de novo transcriptomes can be linked to the appropriate sources with linkedtxomes and shared for reproducible analyses | annotation, dataimport, geneexpression, immunooncology, preprocessing, rnaseq, software, transcription, transcriptomics",
+        "function": [
+            "de-novo assembly",
+            "rna-seq quantification",
+            "protein quantification"
+        ],
+        "topic": [
+            "rna-seq",
+            "transcriptomics",
+            "transcription factors and regulatory sites"
+        ]
+    },
+    "picard_tools": {
+        "description": "a set of command line tools for manipulating high-throughput sequencing (hts) data in formats such as sam/bam/cram and vcf. available as a standalone program or within the gatk4 program.",
+        "function": [
+            "genetic variation analysis"
+        ],
+        "topic": [
+            "sequencing",
+            "data management"
+        ]
+    },
+    "RAP": {
+        "description": "it is a web tool that performs a quite complete and customizable rna-seq pipeline and provides an easy and intuitive access through a web interface to intermediate and final results. the main aim of rap is to provide to users information about gene and transcript expression, differential expression, alternative splicing, polya signals, fusion transcripts, etc.",
+        "function": [
+            "read mapping"
+        ],
+        "topic": [
+            "bioinformatics",
+            "sequencing",
+            "transcriptomics"
+        ]
+    },
+    "fastq_screen": {
+        "description": "a simple way to screen a library of short reads against a set of reference libraries. its most common use is as part of a qc pipeline to confirm that a library comes from the expected source, and to help identify any sources of contamination.",
+        "function": [
+            "sequencing quality control",
+            "read mapping"
+        ],
+        "topic": [
+            "genomics",
+            "transcriptomics"
+        ]
+    },
+    "kallisto": {
+        "description": "a program for quantifying abundances of transcripts from rna-seq data, or more generally of target sequences using high-throughput sequencing reads. it is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
+        "function": [
+            "gene expression profiling"
+        ],
+        "topic": [
+            "transcriptomics",
+            "rna-seq",
+            "gene expression"
+        ]
+    },
+    "hisat2": {
+        "description": "alignment program for mapping next-generation sequencing reads (both dna and rna) to a population of human genomes (as well as to a single reference genome).",
+        "function": [
+            "sequence alignment"
+        ],
+        "topic": [
+            "rna-seq"
+        ]
+    },
+    "FastQC": {
+        "description": "this tool aims to provide a qc report which can spot problems or biases which originate either in the sequencer or in the starting library material. it can be run in one of two modes. it can either run as a stand alone interactive application for the immediate analysis of small numbers of fastq files, or it can be run in a non-interactive mode where it would be suitable for integrating into a larger analysis pipeline for the systematic processing of large numbers of files.",
+        "function": [
+            "sequence composition calculation",
+            "sequencing quality control",
+            "statistical calculation"
+        ],
+        "topic": [
+            "sequencing",
+            "data quality management",
+            "sequence analysis"
+        ]
+    },
+    "samtools_flagstat": {
+        "description": "simple statistics calculation on bam files.",
+        "function": [
+            "sequence composition calculation"
+        ],
+        "topic": [
+            "sequencing",
+            "sequence analysis"
+        ]
+    },
+    "samtools_sort": {
+        "description": "this tool uses the samtools toolkit to produce an indexed bam file based on a sorted input sam file.",
+        "function": [
+            "formatting"
+        ],
+        "topic": [
+            "sequencing",
+            "data management"
+        ]
+    },
+    "SAMtools": {
+        "description": "samtools and bcftools are widely used programs for processing and analysing high-throughput sequencing data. they include tools for file format conversion and manipulation, sorting, querying, statistics, variant calling, and effect analysis amongst other methods.",
+        "function": [
+            "indexing",
+            "editing",
+            "parsing",
+            "visualisation",
+            "formatting",
+            "sorting",
+            "filtering"
+        ],
+        "topic": [
+            "mapping",
+            "sequence analysis",
+            "sequencing",
+            "rare diseases"
+        ]
+    },
+    "multiqc": {
+        "description": "multiqc aggregates results from multiple bioinformatics analyses across many samples into a single report. it searches a given directory for analysis logs and compiles a html report. it's a general use tool, perfect for summarising the output from numerous bioinformatics tools.",
+        "function": [
+            "validation"
+        ],
+        "topic": [
+            "sequencing",
+            "bioinformatics"
+        ]
+    }
+}

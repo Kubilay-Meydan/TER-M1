@@ -13,17 +13,10 @@ rna_seq_tools = ["STAR", "Cufflinks", "Bedtools", "STAR-Fusion", "Picard", "RSeQ
 def extract_rna_seq_tools_from_shell(file_path):
     found_tools = set()
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
-        inside_shell_block = False
         for line in file:
-            stripped_line = line.strip()
-            if stripped_line.startswith('shell:'):
-                inside_shell_block = True
-            elif inside_shell_block and (stripped_line.startswith('rule') or stripped_line == ''):
-                inside_shell_block = False
-            elif inside_shell_block:
-                for tool in rna_seq_tools:
-                    if tool.lower() in stripped_line.lower():
-                        found_tools.add(tool)
+            for tool in rna_seq_tools:
+                if tool.lower() in line.lower():
+                    found_tools.add(tool)
     return found_tools
 
 def ensure_directory_exists(directory_path):
@@ -42,7 +35,7 @@ def main(repo_path):
 
     for root, dirs, files in os.walk(repo_path):
         for file in files:
-            if file.endswith('.py'):
+            if file.endswith('.txt'):
                 file_path = os.path.join(root, file)
                 tools = extract_rna_seq_tools_from_shell(file_path)
                 if tools:

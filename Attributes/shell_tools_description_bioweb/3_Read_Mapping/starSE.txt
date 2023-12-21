@@ -1,0 +1,2 @@
+"it is a web tool that performs a quite complete and customizable rna-seq pipeline and provides an easy and intuitive access through a web interface to intermediate and final results. the main aim of rap is to provide to users information about gene and transcript expression, differential expression, alternative splicing, polya signals, fusion transcripts, etc."
+"ultrafast universal rna-seq data aligner"

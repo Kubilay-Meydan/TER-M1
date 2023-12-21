@@ -4,30 +4,22 @@ import requests
 
 # Fonctions pour interagir avec l'API bio.tools
 def get_terms_function(dico):
-    tab = []
-    for d in dico:
-        for o in d['operation']:
-            tab.append(o['term'].lower())
-    return list(set(tab))
+    return [o['term'].lower() for d in dico for o in d['operation']]
 
 def get_terms_topic(dico):
-    tab = []
-    for d in dico:
-        tab.append(d['term'].lower())
-    return tab
+    return [d['term'].lower() for d in dico]
 
-def get_info_biotools(tool, archive):
+def get_info_biotools(tool):
     tool = tool.lower()  # Convertir le nom de l'outil en minuscules
-    if tool in archive:
-        return archive[tool]
-
     try:
         response = requests.get(f"https://bio.tools/api/{tool}/?format=json")
         if response.status_code == 200:
             dico = response.json()
-            res = {'description': dico['description'].lower(), 'function': get_terms_function(dico['function']), 'topic': get_terms_topic(dico['topic'])}
-            archive[tool] = res
-            return res
+            return {
+                'description': dico['description'].lower(),
+                'function': get_terms_function(dico['function']),
+                'topic': get_terms_topic(dico['topic'])
+            }
         else:
             print(f"Failed to fetch tool info for {tool}. Status code: {response.status_code}")
             return None
@@ -38,38 +30,22 @@ def get_info_biotools(tool, archive):
 # Script principal
 def read_tools_from_file(file_path):
     with open(file_path, 'r') as file:
-        tools = file.read().splitlines()
-    return tools
+        return file.read().splitlines()
 
 def main(rules_folder_path):
-    # Chemin vers le fichier bioweb_archive.json
-    bioweb_archive_path = os.path.join(rules_folder_path, "bioweb_archive.json")
-
-    # Chargement ou initialisation de l'archive
-    try:
-        with open(bioweb_archive_path) as json_file:
-            archive = json.load(json_file)
-    except FileNotFoundError:
-        archive = {}
-
-    tools_info = {}
+    unique_tools = set()
     for file_name in os.listdir(rules_folder_path):
         if file_name.endswith('_tools_in_shell.txt'):
             file_path = os.path.join(rules_folder_path, file_name)
-            tools = read_tools_from_file(file_path)
-            for tool in tools:
-                tool_info = get_info_biotools(tool, archive)
-                if tool_info:
-                    tools_info[tool] = tool_info
+            unique_tools.update(read_tools_from_file(file_path))
 
-    # Sauvegarde des informations dans bioweb_archive.json
-    with open(bioweb_archive_path, "w") as outfile:
-        json.dump(archive, outfile, indent=4)
+    tools_info = {tool: get_info_biotools(tool) for tool in unique_tools if get_info_biotools(tool)}
 
     # Sauvegarde des résultats dans resultat.json
-    json_path = os.path.join(rules_folder_path, 'a_resultat.json')
+    json_path = os.path.join(rules_folder_path, 'a_resultat_biotools.json')
     with open(json_path, 'w') as file:
         json.dump(tools_info, file, indent=4)
+
     print(f'Tools information has been saved in "{json_path}".')
 
 if __name__ == '__main__':

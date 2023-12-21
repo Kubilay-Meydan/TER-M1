@@ -1,0 +1,1 @@
+"multiqc aggregates results from multiple bioinformatics analyses across many samples into a single report. it searches a given directory for analysis logs and compiles a html report. it's a general use tool, perfect for summarising the output from numerous bioinformatics tools."
