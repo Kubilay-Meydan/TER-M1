@@ -1,0 +1,3 @@
+featureCounts{params.paired}-a{input.gtf}-o{output.counts}
+{input.bam}-texon-ggene_id-T{threads}-s{params.strand}
+&>{log}

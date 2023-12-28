@@ -1,0 +1,8 @@
+		salmonquant\
+		-i{input.index}\
+		-lA\
+		-p{threads}\
+		-r{input.fastq}\
+		--validateMappings\
+		-o{params.outdir}_quant
+	

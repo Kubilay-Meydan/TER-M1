@@ -1,0 +1,12 @@
+STAR\
+--runThreadN{threads}\
+--runModegenomeGenerate\
+--genomeDir{input.genomedir}\
+--outFileNamePrefix{input.genomedir}\
+--genomeFastaFiles{input.fasta}\
+--sjdbGTFfile{input.gtf}\
+--limitSjdbInsertNsj1637800\
+--sjdbFileChrStartEnd{input.sjs}\
+--sjdbOverhang{params.overhang}
+
+

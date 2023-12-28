@@ -1,0 +1,3 @@
+		echoTrimGalore!version:\n>{log};trim_galore--version>>{log};
+		trim_galore-q20--phred33--length20-o{params.FASTQtrimmeddir}--path_to_cutadaptcutadapt{input.fastq}
+

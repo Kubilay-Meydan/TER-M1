@@ -1,0 +1,10 @@
+
+salmonindex\
+-t{input.gentrome_fa}\
+-i{params.outdir}\
+--decoys{input.decoys}\
+-k{params.k}\
+{params.gencode}\
+-p{threads}
+
+

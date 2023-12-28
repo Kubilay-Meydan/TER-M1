@@ -1,0 +1,4 @@
+
+cat{params.one}>{output.out_one}
+
+

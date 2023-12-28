@@ -1,0 +1,1 @@
+{ALIGN}-d{input.ref}-rALL-f{input.fq}-oSAM2>{log}>{output}

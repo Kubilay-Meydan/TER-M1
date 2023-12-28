@@ -1,0 +1,29 @@
+rule run_star_se:
+input:
+generated_index = GENOME_DIR + "/SA",
+one = lambda wildcards: get_processed_fastq(wildcards.name, pair=1)
+output:
+star_outdir + "{name}.SJ.out.tab",
+star_outdir + "{name}.Log.final.out",
+temp(star_outdir + "{name}.Aligned.out.bam")
+params:
+extra_star_parameters = return_parsed_extra_params(config['extra_star_parameters']),
+genomeDir = GENOME_DIR,
+outTmpDir = os.path.join(star_outdir + "{name}_tmpdir"),
+outputPrefix = os.path.join(star_outdir + "{name}.")
+wildcard_constraints:
+sample="|".join(SAMPLE_NAMES)
+conda:
+"../env/align.yaml"
+threads:
+4
+shell:
+"""
+rm -rf {params.outTmpDir}
+STAR --genomeDir {params.genomeDir} \
+--readFilesIn {input.one} \
+--outFileNamePrefix {params.outputPrefix} \
+--readFilesCommand zcat --runThreadN {threads} \
+{params.extra_star_parameters} \
+--outTmpDir {params.outTmpDir}
+"""

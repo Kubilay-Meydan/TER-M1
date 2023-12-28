@@ -1,0 +1,3 @@
+		echoSalmonversion:\n>{log};salmon--version>>{log};
+		salmonquant-i{params.salmonindex}-lA-r{input.fastq}
+		-o{params.salmondir}/{wildcards.sample}-p{threads}{params.salmonextraparams}

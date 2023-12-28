@@ -1,0 +1,7 @@
+
+trim_galore\
+{params.extra}\
+--paired{input.f1}{input.f2}\
+-o{params.prefix}
+
+

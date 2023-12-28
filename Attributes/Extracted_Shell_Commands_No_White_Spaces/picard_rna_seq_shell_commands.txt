@@ -1,0 +1,8 @@
+		
+		java-jar/share/apps/genomics/picard-2.20.3/bin/picard.jarCollectRnaSeqMetrics\
+		I={input.bamfile}\
+		O=output.RNA_Metrics\
+		REF_FLAT=ref_flat.txt\
+		STRAND=\
+		
+

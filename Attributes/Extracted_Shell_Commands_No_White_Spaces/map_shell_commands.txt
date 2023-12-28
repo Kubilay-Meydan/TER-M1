@@ -1,0 +1,6 @@
+		
+		{STAR}--genomeDir{input.starref}--outFileNamePrefix{wildcards.sample}_--readFilesIn{input.sample}--runThreadN24--genomeLoadNoSharedMemory--outSAMattributesAll--outSAMstrandFieldintronMotif--sjdbGTFfile{input.gtf}
+		mv{wildcards.sample}_Aligned.out.sam{output}
+		mv{wildcards.sample}_Log.final.out{wildcards.sample}_Log.out{wildcards.sample}_Log.progress.out{wildcards.sample}_SJ.out.tabstarlogs
+		
+

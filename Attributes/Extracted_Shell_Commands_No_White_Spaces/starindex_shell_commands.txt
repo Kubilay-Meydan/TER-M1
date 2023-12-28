@@ -1,0 +1,1 @@
+{STAR}--limitGenomeGenerateRAM54760833024--runModegenomeGenerate--genomeDir{input.starref}--genomeFastaFiles{input.ref}

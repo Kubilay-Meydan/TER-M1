@@ -1,0 +1,3 @@
+moduleloadpicard
+{params.picard}MarkDuplicatesINPUT={input.bam}OUTPUT={output.dbam}METRICS_FILE={output.metric}ASSUME_SORT_ORDER=coordinateOPTICAL_DUPLICATE_PIXEL_DISTANCE=100
+

@@ -1,0 +1,2 @@
+		{params.Rbin}CMDBATCH--no-restore--no-save--argsse={input.rds}design={params.design}contrast={params.contrast}ncores={params.ncores}rmdtemplate={input.template}outputdir={params.directory}outputfile=DRIMSeq_dtu.html{input.script}{log}
+

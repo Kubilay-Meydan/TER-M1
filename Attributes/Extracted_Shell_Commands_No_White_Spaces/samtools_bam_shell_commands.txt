@@ -1,0 +1,4 @@
+		samtoolsview-bS{input}>{output}
+
+	
+

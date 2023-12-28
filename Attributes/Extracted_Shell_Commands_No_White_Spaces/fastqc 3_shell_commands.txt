@@ -1,0 +1,5 @@
+		
+		mkdir-p{params.outdir}
+		fastqc{input.fastq_file}-o{params.outdir}
+		
+

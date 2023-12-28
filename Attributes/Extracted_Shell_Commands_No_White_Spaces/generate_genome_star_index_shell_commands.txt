@@ -1,0 +1,11 @@
+		
+		STAR\
+	--runThreadN{threads}\
+	--runModegenomeGenerate\
+	--genomeDir{GENOME_DIR}\
+	--genomeFastaFiles{input.fasta}\
+	--sjdbGTFfile{input.gtf}\
+	--sjdbOverhang{params.sjdbOverhang}\
+		--genomeSAsparseD10
+		
+

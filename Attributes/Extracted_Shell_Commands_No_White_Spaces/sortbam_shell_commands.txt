@@ -1,0 +1,1 @@
+{SORT}-t{TMPDIR}-s-i-o{output.bam}{input}

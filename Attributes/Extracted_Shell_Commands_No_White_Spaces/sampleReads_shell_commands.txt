@@ -1,0 +1,2 @@
+(seqtksample-s{params.seed}{input}{params.nReads}
+|gzip>{output})2>{log}

@@ -1,0 +1,3 @@
+		samtoolsflagstat{input}>{output}
+	
+

@@ -30,6 +30,6 @@ def build_and_save_levenshtein_similarity_matrix(folder, csv_file):
     df.to_csv(csv_file)
 
 # Using the function
-folder = '/Users/kubilaymeydan/Desktop/M1 Bibs/S1/TER/TER-M1/Attributes/output_type'  # Replace with the path to your folder
-csv_file = 'output_levenshtein_similarity_matrix.csv'  # Output CSV file name
+folder = 'Attributes/Extracted_Shell_Commands_No_White_Spaces'  # Replace with the path to your folder
+csv_file = 'Extracted_Shell_Commands_No_White_Spaces_similarity_matrix.csv'  # Output CSV file name
 build_and_save_levenshtein_similarity_matrix(folder, csv_file)

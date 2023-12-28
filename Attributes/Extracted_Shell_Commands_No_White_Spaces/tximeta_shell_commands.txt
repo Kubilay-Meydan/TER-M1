@@ -1,0 +1,2 @@
+		{params.Rbin}CMDBATCH--no-restore--no-save--argssalmondir={params.salmondir}json={input.json}metafile={input.metatxt}outrds={output}annotation={params.flag}organism={params.organism}{input.script}{log}
+

@@ -1,0 +1,4 @@
+
+{params.gffcompare}-ogffall-r{params.ref_gtf}{input}
+
+

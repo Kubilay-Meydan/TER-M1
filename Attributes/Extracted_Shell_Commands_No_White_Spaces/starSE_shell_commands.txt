@@ -1,0 +1,6 @@
+		echoSTARversion:\n>{log};STAR--version>>{log};
+		STAR--genomeDir{params.STARindex}--readFilesIn{input.fastq}
+		--runThreadN{threads}--outFileNamePrefix{params.STARdir}/{wildcards.sample}/{wildcards.sample}_
+		--outSAMtypeBAMSortedByCoordinate--readFilesCommandgunzip-c
+		{params.starextraparams}
+

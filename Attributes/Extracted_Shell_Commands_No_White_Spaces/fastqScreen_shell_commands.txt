@@ -1,0 +1,3 @@
+{SCRIPTS}/fastqScreen.py{input}{params.config}
+--subset{params.subset}--threads{threads}
+--plotOut{output.png}--dataOut{output.txt}&>{log}

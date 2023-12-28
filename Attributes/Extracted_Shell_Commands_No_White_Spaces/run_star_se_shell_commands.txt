@@ -1,0 +1,9 @@
+		
+		rm-rf{params.outTmpDir}
+		STAR--genomeDir{params.genomeDir}\
+		--readFilesIn{input.one}\
+		--outFileNamePrefix{params.outputPrefix}\
+		--readFilesCommandzcat--runThreadN{threads}\
+		{params.extra_star_parameters}\
+		--outTmpDir{params.outTmpDir}
+		

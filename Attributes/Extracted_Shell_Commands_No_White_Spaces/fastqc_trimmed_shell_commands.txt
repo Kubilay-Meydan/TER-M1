@@ -1,0 +1,3 @@
+fastqc-t{threads}{input}--noextract{params}-oqc/fastqc_trimmed2>{log}
+
+

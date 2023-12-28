@@ -1,0 +1,16 @@
+
+		featureCounts\
+		-T{threads}\
+		-tmiRNA\
+		-gName\
+		-G{input.fasta}\
+		-FGFF\
+		--fracOverlap0.2\
+		-O\
+		-s0\
+		-M\
+		-a\
+		{input.gff}\
+		-o{output[0]}{input.bam}2>{log}
+	
+

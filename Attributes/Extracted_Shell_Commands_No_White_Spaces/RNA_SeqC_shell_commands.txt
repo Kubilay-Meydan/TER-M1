@@ -1,0 +1,3 @@
+
+rnaseqc{input.gtf}{input.bam}{params.prefix}--legacy--verbose
+

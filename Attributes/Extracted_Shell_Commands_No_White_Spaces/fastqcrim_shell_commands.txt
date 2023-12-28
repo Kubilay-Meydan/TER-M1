@@ -1,0 +1,4 @@
+
+fastqc--thread8--outdir{params.prefix}--nogroup{input.f1}
+
+

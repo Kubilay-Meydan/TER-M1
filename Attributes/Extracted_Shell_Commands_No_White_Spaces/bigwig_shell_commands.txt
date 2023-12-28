@@ -1,0 +1,5 @@
+		echobedtoolsversion:\n>{log};bedtools--version>>{log};
+		bedtoolsgenomecov-split-ibam{input.bam}-bg|LC_COLLATE=Csort-k1,1-k2,2n>
+		{params.STARbigwigdir}/{wildcards.sample}_Aligned.sortedByCoord.out.bedGraph;
+		bedGraphToBigWig{params.STARbigwigdir}/{wildcards.sample}_Aligned.sortedByCoord.out.bedGraph
+		{input.chrl}{output};rm-f{params.STARbigwigdir}/{wildcards.sample}_Aligned.sortedByCoord.out.bedGraph
