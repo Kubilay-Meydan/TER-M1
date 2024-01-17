@@ -30,6 +30,6 @@ def build_and_save_levenshtein_similarity_matrix(folder, csv_file):
     df.to_csv(csv_file)
 
 # Using the function
-folder = 'Attributes/Extracted_Shell_Commands_No_White_Spaces'  # Replace with the path to your folder
-csv_file = 'Extracted_Shell_Commands_No_White_Spaces_similarity_matrix.csv'  # Output CSV file name
+folder = 'Attributes/Conda_no_white_spaces'  # Replace with the path to your folder
+csv_file = 'Conda_no_white_spaces_Levenshtein.csv'  # Output CSV file name
 build_and_save_levenshtein_similarity_matrix(folder, csv_file)

@@ -1,0 +1,1 @@
+f'{ENVS}/hisat2.yaml'threads:max(1, config['threads'] - 1)
