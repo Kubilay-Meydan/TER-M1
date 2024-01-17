@@ -1,0 +1,8 @@
+"sequence composition calculation"
+"indexing",
+"editing",
+"parsing",
+"visualisation",
+"formatting",
+"sorting",
+"filtering"

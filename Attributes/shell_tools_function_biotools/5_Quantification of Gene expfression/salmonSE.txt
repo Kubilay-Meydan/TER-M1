@@ -1,0 +1,4 @@
+"read mapping"
+"sequence composition calculation",
+"rna-seq quantification",
+"gene expression analysis"
