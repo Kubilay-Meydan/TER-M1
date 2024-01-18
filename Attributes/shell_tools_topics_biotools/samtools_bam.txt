@@ -1,4 +1,4 @@
-"mapping",
-"sequence analysis",
-"sequencing",
-"rare diseases"
+mapping
+sequence analysis
+sequencing
+rare diseases

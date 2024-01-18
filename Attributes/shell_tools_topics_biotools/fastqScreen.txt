@@ -1,2 +1,2 @@
-"genomics",
-"transcriptomics"
+genomics
+transcriptomics

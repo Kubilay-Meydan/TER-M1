@@ -1,5 +1,5 @@
-"bioinformatics",
-"sequencing",
-"transcriptomics"
-"rna-seq",
-"transcriptomics"
+bioinformatics
+sequencing
+transcriptomics
+rna-seq
+transcriptomics

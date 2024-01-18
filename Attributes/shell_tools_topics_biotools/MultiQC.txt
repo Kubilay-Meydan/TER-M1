@@ -1,2 +1,2 @@
-"sequencing",
-"bioinformatics"
+sequencing
+bioinformatics

@@ -1,2 +1,2 @@
-"sequencing",
-"data management"
+sequencing
+data management

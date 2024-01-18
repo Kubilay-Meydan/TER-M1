@@ -1,6 +1,6 @@
-"mapping",
-"sequence analysis",
-"sequencing",
-"rare diseases"
-"sequencing",
-"data management"
+mapping
+sequence analysis
+sequencing
+rare diseases
+sequencing
+data management

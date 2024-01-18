@@ -1,3 +1,3 @@
-"transcriptomics",
-"rna-seq",
-"gene expression"
+transcriptomics
+rna-seq
+gene expression

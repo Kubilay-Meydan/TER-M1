@@ -1,2 +1,2 @@
-"rna-seq",
-"transcriptomics"
+rna-seq
+transcriptomics
