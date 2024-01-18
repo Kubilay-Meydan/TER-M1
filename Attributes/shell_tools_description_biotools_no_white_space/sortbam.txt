@@ -1,0 +1,1 @@
+"SAMToolsprovidevariousutilitiesformanipulatingalignmentsintheSAMformat,includingsorting,merging,indexingandgeneratingalignmentsinaper-positionformat""simplestatisticscalculationonbamfiles."
