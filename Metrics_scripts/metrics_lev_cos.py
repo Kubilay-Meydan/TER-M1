@@ -20,6 +20,6 @@ def process_folders(folders):
         Levenshtein2D.build_and_save_levenshtein_similarity_matrix(folder, levenshtein_csv)
 
 # List of folders to process
-folders_to_process = ['Attributes/shell_tools_description_biotools']  # Replace with your actual folder paths
+folders_to_process = ['Attributes/shell_tools_description_biotools_no_white_space', 'Attributes/shell_tools_description_biotools']  # Replace with your actual folder paths
 
 process_folders(folders_to_process)
