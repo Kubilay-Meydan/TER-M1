@@ -1,0 +1,667 @@
+Pair,Similarity
+"salmonPE,run_star_se",0.10404813377578108
+"salmonPE,salmonSE",1.0
+"salmonPE,run_star_pe",0.132022299124279
+"salmonPE,generate_genome_star_index",0.132022299124279
+"salmonPE,cutadapt",0.3022491535155691
+"salmonPE,MultiQC",1.0
+"salmonPE,sort_index_bams",0.132022299124279
+"salmonPE,hisat2",0.15051940020460775
+"salmonPE,fastp_trimming_PE",0.132022299124279
+"salmonPE,startPE",1.0
+"salmonPE,fastp_trimming_SE",0.132022299124279
+"salmonPE,fastqc 3",0.132022299124279
+"salmonPE,fastqc_trimmed",0.32264966673981477
+"salmonPE,samlon_quant",0.27704646018438317
+"salmonPE,kallistoQuant",0.17287243500800079
+"salmonPE,fastqc 2",0.32264966673981477
+"salmonPE,bamindex",1.0
+"salmonPE,featureCounts 2",0.17287243500800079
+"salmonPE,tximeta",0.0
+"salmonPE,fastqScreen",0.17287243500800079
+"salmonPE,multiqc 2",0.32264966673981477
+"salmonPE,trimgalorePE",1.0
+"salmonPE,trimgaloreSE",1.0
+"salmonPE,multiqc 3",0.132022299124279
+"salmonPE,salmon_quant_pe",0.132022299124279
+"salmonPE,sort_bams",0.132022299124279
+"salmonPE,edgeR",0.0
+"salmonPE,fastqc",0.5137503593357258
+"salmonPE,sampleReads",0.27704646018438317
+"salmonPE,salmon_quant_se",0.132022299124279
+"salmonPE,cutadapt 2",0.17851568081967023
+"salmonPE,DRIMSeq",0.0
+"salmonPE,bigwig",1.0
+"salmonPE,fastqctrimmed",0.5137503593357258
+"salmonPE,starSE",1.0
+"salmonPE,salmon_index",0.132022299124279
+"run_star_se,salmonSE",0.10404813377578108
+"run_star_se,run_star_pe",0.7881103000473845
+"run_star_se,generate_genome_star_index",0.7881103000473845
+"run_star_se,cutadapt",0.07396698701006661
+"run_star_se,MultiQC",0.10404813377578108
+"run_star_se,sort_index_bams",0.7881103000473845
+"run_star_se,hisat2",0.41142699148657225
+"run_star_se,fastp_trimming_PE",0.7881103000473845
+"run_star_se,startPE",0.10404813377578108
+"run_star_se,fastp_trimming_SE",0.7881103000473845
+"run_star_se,fastqc 3",0.7881103000473845
+"run_star_se,fastqc_trimmed",0.07895943935974291
+"run_star_se,samlon_quant",0.06779933602225167
+"run_star_se,kallistoQuant",0.47252637035237455
+"run_star_se,fastqc 2",0.07895943935974291
+"run_star_se,bamindex",0.10404813377578108
+"run_star_se,featureCounts 2",0.47252637035237455
+"run_star_se,tximeta",0.0
+"run_star_se,fastqScreen",0.47252637035237455
+"run_star_se,multiqc 2",0.07895943935974291
+"run_star_se,trimgalorePE",0.10404813377578108
+"run_star_se,trimgaloreSE",0.10404813377578108
+"run_star_se,multiqc 3",0.7881103000473845
+"run_star_se,salmon_quant_pe",0.7881103000473845
+"run_star_se,sort_bams",0.7881103000473845
+"run_star_se,edgeR",0.0
+"run_star_se,fastqc",0.3252545804674322
+"run_star_se,sampleReads",0.06779933602225167
+"run_star_se,salmon_quant_se",0.7881103000473845
+"run_star_se,cutadapt 2",0.4879515158376625
+"run_star_se,DRIMSeq",0.0
+"run_star_se,bigwig",0.10404813377578108
+"run_star_se,fastqctrimmed",0.3252545804674322
+"run_star_se,starSE",0.10404813377578108
+"run_star_se,salmon_index",0.7881103000473845
+"salmonSE,run_star_pe",0.132022299124279
+"salmonSE,generate_genome_star_index",0.132022299124279
+"salmonSE,cutadapt",0.3022491535155691
+"salmonSE,MultiQC",1.0
+"salmonSE,sort_index_bams",0.132022299124279
+"salmonSE,hisat2",0.15051940020460775
+"salmonSE,fastp_trimming_PE",0.132022299124279
+"salmonSE,startPE",1.0
+"salmonSE,fastp_trimming_SE",0.132022299124279
+"salmonSE,fastqc 3",0.132022299124279
+"salmonSE,fastqc_trimmed",0.32264966673981477
+"salmonSE,samlon_quant",0.27704646018438317
+"salmonSE,kallistoQuant",0.17287243500800079
+"salmonSE,fastqc 2",0.32264966673981477
+"salmonSE,bamindex",1.0
+"salmonSE,featureCounts 2",0.17287243500800079
+"salmonSE,tximeta",0.0
+"salmonSE,fastqScreen",0.17287243500800079
+"salmonSE,multiqc 2",0.32264966673981477
+"salmonSE,trimgalorePE",1.0
+"salmonSE,trimgaloreSE",1.0
+"salmonSE,multiqc 3",0.132022299124279
+"salmonSE,salmon_quant_pe",0.132022299124279
+"salmonSE,sort_bams",0.132022299124279
+"salmonSE,edgeR",0.0
+"salmonSE,fastqc",0.5137503593357258
+"salmonSE,sampleReads",0.27704646018438317
+"salmonSE,salmon_quant_se",0.132022299124279
+"salmonSE,cutadapt 2",0.17851568081967023
+"salmonSE,DRIMSeq",0.0
+"salmonSE,bigwig",1.0
+"salmonSE,fastqctrimmed",0.5137503593357258
+"salmonSE,starSE",1.0
+"salmonSE,salmon_index",0.132022299124279
+"run_star_pe,generate_genome_star_index",1.0
+"run_star_pe,cutadapt",0.09385359765710383
+"run_star_pe,MultiQC",0.132022299124279
+"run_star_pe,sort_index_bams",1.0
+"run_star_pe,hisat2",0.04673888102606106
+"run_star_pe,fastp_trimming_PE",1.0
+"run_star_pe,startPE",0.132022299124279
+"run_star_pe,fastp_trimming_SE",1.0
+"run_star_pe,fastqc 3",1.0
+"run_star_pe,fastqc_trimmed",0.10018831038624355
+"run_star_pe,samlon_quant",0.08602772482249667
+"run_star_pe,kallistoQuant",0.053679885526657034
+"run_star_pe,fastqc 2",0.10018831038624355
+"run_star_pe,bamindex",0.132022299124279
+"run_star_pe,featureCounts 2",0.053679885526657034
+"run_star_pe,tximeta",0.0
+"run_star_pe,fastqScreen",0.053679885526657034
+"run_star_pe,multiqc 2",0.10018831038624355
+"run_star_pe,trimgalorePE",0.132022299124279
+"run_star_pe,trimgaloreSE",0.132022299124279
+"run_star_pe,multiqc 3",1.0
+"run_star_pe,salmon_quant_pe",1.0
+"run_star_pe,sort_bams",1.0
+"run_star_pe,edgeR",0.0
+"run_star_pe,fastqc",0.06782650361542703
+"run_star_pe,sampleReads",0.08602772482249667
+"run_star_pe,salmon_quant_se",1.0
+"run_star_pe,cutadapt 2",0.05543221110219012
+"run_star_pe,DRIMSeq",0.0
+"run_star_pe,bigwig",0.132022299124279
+"run_star_pe,fastqctrimmed",0.06782650361542703
+"run_star_pe,starSE",0.132022299124279
+"run_star_pe,salmon_index",1.0
+"generate_genome_star_index,cutadapt",0.09385359765710383
+"generate_genome_star_index,MultiQC",0.132022299124279
+"generate_genome_star_index,sort_index_bams",1.0
+"generate_genome_star_index,hisat2",0.04673888102606106
+"generate_genome_star_index,fastp_trimming_PE",1.0
+"generate_genome_star_index,startPE",0.132022299124279
+"generate_genome_star_index,fastp_trimming_SE",1.0
+"generate_genome_star_index,fastqc 3",1.0
+"generate_genome_star_index,fastqc_trimmed",0.10018831038624355
+"generate_genome_star_index,samlon_quant",0.08602772482249667
+"generate_genome_star_index,kallistoQuant",0.053679885526657034
+"generate_genome_star_index,fastqc 2",0.10018831038624355
+"generate_genome_star_index,bamindex",0.132022299124279
+"generate_genome_star_index,featureCounts 2",0.053679885526657034
+"generate_genome_star_index,tximeta",0.0
+"generate_genome_star_index,fastqScreen",0.053679885526657034
+"generate_genome_star_index,multiqc 2",0.10018831038624355
+"generate_genome_star_index,trimgalorePE",0.132022299124279
+"generate_genome_star_index,trimgaloreSE",0.132022299124279
+"generate_genome_star_index,multiqc 3",1.0
+"generate_genome_star_index,salmon_quant_pe",1.0
+"generate_genome_star_index,sort_bams",1.0
+"generate_genome_star_index,edgeR",0.0
+"generate_genome_star_index,fastqc",0.06782650361542703
+"generate_genome_star_index,sampleReads",0.08602772482249667
+"generate_genome_star_index,salmon_quant_se",1.0
+"generate_genome_star_index,cutadapt 2",0.05543221110219012
+"generate_genome_star_index,DRIMSeq",0.0
+"generate_genome_star_index,bigwig",0.132022299124279
+"generate_genome_star_index,fastqctrimmed",0.06782650361542703
+"generate_genome_star_index,starSE",0.132022299124279
+"generate_genome_star_index,salmon_index",1.0
+"cutadapt,MultiQC",0.3022491535155691
+"cutadapt,sort_index_bams",0.09385359765710383
+"cutadapt,hisat2",0.10700303903277442
+"cutadapt,fastp_trimming_PE",0.09385359765710383
+"cutadapt,startPE",0.3022491535155691
+"cutadapt,fastp_trimming_SE",0.09385359765710383
+"cutadapt,fastqc 3",0.09385359765710383
+"cutadapt,fastqc_trimmed",0.22936907028025205
+"cutadapt,samlon_quant",0.19695011508618832
+"cutadapt,kallistoQuant",0.12289363288524188
+"cutadapt,fastqc 2",0.22936907028025205
+"cutadapt,bamindex",0.3022491535155691
+"cutadapt,featureCounts 2",0.12289363288524188
+"cutadapt,tximeta",0.0
+"cutadapt,fastqScreen",0.12289363288524188
+"cutadapt,multiqc 2",0.22936907028025205
+"cutadapt,trimgalorePE",0.3022491535155691
+"cutadapt,trimgaloreSE",0.3022491535155691
+"cutadapt,multiqc 3",0.09385359765710383
+"cutadapt,salmon_quant_pe",0.09385359765710383
+"cutadapt,sort_bams",0.09385359765710383
+"cutadapt,edgeR",0.0
+"cutadapt,fastqc",0.1552806112275426
+"cutadapt,sampleReads",0.19695011508618832
+"cutadapt,salmon_quant_se",0.09385359765710383
+"cutadapt,cutadapt 2",0.5906242540079595
+"cutadapt,DRIMSeq",0.0
+"cutadapt,bigwig",0.3022491535155691
+"cutadapt,fastqctrimmed",0.1552806112275426
+"cutadapt,starSE",0.3022491535155691
+"cutadapt,salmon_index",0.09385359765710383
+"MultiQC,sort_index_bams",0.132022299124279
+"MultiQC,hisat2",0.15051940020460775
+"MultiQC,fastp_trimming_PE",0.132022299124279
+"MultiQC,startPE",1.0
+"MultiQC,fastp_trimming_SE",0.132022299124279
+"MultiQC,fastqc 3",0.132022299124279
+"MultiQC,fastqc_trimmed",0.32264966673981477
+"MultiQC,samlon_quant",0.27704646018438317
+"MultiQC,kallistoQuant",0.17287243500800079
+"MultiQC,fastqc 2",0.32264966673981477
+"MultiQC,bamindex",1.0
+"MultiQC,featureCounts 2",0.17287243500800079
+"MultiQC,tximeta",0.0
+"MultiQC,fastqScreen",0.17287243500800079
+"MultiQC,multiqc 2",0.32264966673981477
+"MultiQC,trimgalorePE",1.0
+"MultiQC,trimgaloreSE",1.0
+"MultiQC,multiqc 3",0.132022299124279
+"MultiQC,salmon_quant_pe",0.132022299124279
+"MultiQC,sort_bams",0.132022299124279
+"MultiQC,edgeR",0.0
+"MultiQC,fastqc",0.5137503593357258
+"MultiQC,sampleReads",0.27704646018438317
+"MultiQC,salmon_quant_se",0.132022299124279
+"MultiQC,cutadapt 2",0.17851568081967023
+"MultiQC,DRIMSeq",0.0
+"MultiQC,bigwig",1.0
+"MultiQC,fastqctrimmed",0.5137503593357258
+"MultiQC,starSE",1.0
+"MultiQC,salmon_index",0.132022299124279
+"sort_index_bams,hisat2",0.04673888102606106
+"sort_index_bams,fastp_trimming_PE",1.0
+"sort_index_bams,startPE",0.132022299124279
+"sort_index_bams,fastp_trimming_SE",1.0
+"sort_index_bams,fastqc 3",1.0
+"sort_index_bams,fastqc_trimmed",0.10018831038624355
+"sort_index_bams,samlon_quant",0.08602772482249667
+"sort_index_bams,kallistoQuant",0.053679885526657034
+"sort_index_bams,fastqc 2",0.10018831038624355
+"sort_index_bams,bamindex",0.132022299124279
+"sort_index_bams,featureCounts 2",0.053679885526657034
+"sort_index_bams,tximeta",0.0
+"sort_index_bams,fastqScreen",0.053679885526657034
+"sort_index_bams,multiqc 2",0.10018831038624355
+"sort_index_bams,trimgalorePE",0.132022299124279
+"sort_index_bams,trimgaloreSE",0.132022299124279
+"sort_index_bams,multiqc 3",1.0
+"sort_index_bams,salmon_quant_pe",1.0
+"sort_index_bams,sort_bams",1.0
+"sort_index_bams,edgeR",0.0
+"sort_index_bams,fastqc",0.06782650361542703
+"sort_index_bams,sampleReads",0.08602772482249667
+"sort_index_bams,salmon_quant_se",1.0
+"sort_index_bams,cutadapt 2",0.05543221110219012
+"sort_index_bams,DRIMSeq",0.0
+"sort_index_bams,bigwig",0.132022299124279
+"sort_index_bams,fastqctrimmed",0.06782650361542703
+"sort_index_bams,starSE",0.132022299124279
+"sort_index_bams,salmon_index",1.0
+"hisat2,fastp_trimming_PE",0.04673888102606106
+"hisat2,startPE",0.15051940020460775
+"hisat2,fastp_trimming_SE",0.04673888102606106
+"hisat2,fastqc 3",0.04673888102606106
+"hisat2,fastqc_trimmed",0.11422528229609642
+"hisat2,samlon_quant",0.09808071535748572
+"hisat2,kallistoQuant",0.5928867184302965
+"hisat2,fastqc 2",0.11422528229609642
+"hisat2,bamindex",0.15051940020460775
+"hisat2,featureCounts 2",0.5928867184302965
+"hisat2,tximeta",0.0
+"hisat2,fastqScreen",0.5928867184302965
+"hisat2,multiqc 2",0.11422528229609642
+"hisat2,trimgalorePE",0.15051940020460775
+"hisat2,trimgaloreSE",0.15051940020460775
+"hisat2,multiqc 3",0.04673888102606106
+"hisat2,salmon_quant_pe",0.04673888102606106
+"hisat2,sort_bams",0.04673888102606106
+"hisat2,edgeR",0.0
+"hisat2,fastqc",0.48041222306056613
+"hisat2,sampleReads",0.09808071535748572
+"hisat2,salmon_quant_se",0.04673888102606106
+"hisat2,cutadapt 2",0.6122409057558893
+"hisat2,DRIMSeq",0.13109316636418564
+"hisat2,bigwig",0.15051940020460775
+"hisat2,fastqctrimmed",0.48041222306056613
+"hisat2,starSE",0.15051940020460775
+"hisat2,salmon_index",0.04673888102606106
+"fastp_trimming_PE,startPE",0.132022299124279
+"fastp_trimming_PE,fastp_trimming_SE",1.0
+"fastp_trimming_PE,fastqc 3",1.0
+"fastp_trimming_PE,fastqc_trimmed",0.10018831038624355
+"fastp_trimming_PE,samlon_quant",0.08602772482249667
+"fastp_trimming_PE,kallistoQuant",0.053679885526657034
+"fastp_trimming_PE,fastqc 2",0.10018831038624355
+"fastp_trimming_PE,bamindex",0.132022299124279
+"fastp_trimming_PE,featureCounts 2",0.053679885526657034
+"fastp_trimming_PE,tximeta",0.0
+"fastp_trimming_PE,fastqScreen",0.053679885526657034
+"fastp_trimming_PE,multiqc 2",0.10018831038624355
+"fastp_trimming_PE,trimgalorePE",0.132022299124279
+"fastp_trimming_PE,trimgaloreSE",0.132022299124279
+"fastp_trimming_PE,multiqc 3",1.0
+"fastp_trimming_PE,salmon_quant_pe",1.0
+"fastp_trimming_PE,sort_bams",1.0
+"fastp_trimming_PE,edgeR",0.0
+"fastp_trimming_PE,fastqc",0.06782650361542703
+"fastp_trimming_PE,sampleReads",0.08602772482249667
+"fastp_trimming_PE,salmon_quant_se",1.0
+"fastp_trimming_PE,cutadapt 2",0.05543221110219012
+"fastp_trimming_PE,DRIMSeq",0.0
+"fastp_trimming_PE,bigwig",0.132022299124279
+"fastp_trimming_PE,fastqctrimmed",0.06782650361542703
+"fastp_trimming_PE,starSE",0.132022299124279
+"fastp_trimming_PE,salmon_index",1.0
+"startPE,fastp_trimming_SE",0.132022299124279
+"startPE,fastqc 3",0.132022299124279
+"startPE,fastqc_trimmed",0.32264966673981477
+"startPE,samlon_quant",0.27704646018438317
+"startPE,kallistoQuant",0.17287243500800079
+"startPE,fastqc 2",0.32264966673981477
+"startPE,bamindex",1.0
+"startPE,featureCounts 2",0.17287243500800079
+"startPE,tximeta",0.0
+"startPE,fastqScreen",0.17287243500800079
+"startPE,multiqc 2",0.32264966673981477
+"startPE,trimgalorePE",1.0
+"startPE,trimgaloreSE",1.0
+"startPE,multiqc 3",0.132022299124279
+"startPE,salmon_quant_pe",0.132022299124279
+"startPE,sort_bams",0.132022299124279
+"startPE,edgeR",0.0
+"startPE,fastqc",0.5137503593357258
+"startPE,sampleReads",0.27704646018438317
+"startPE,salmon_quant_se",0.132022299124279
+"startPE,cutadapt 2",0.17851568081967023
+"startPE,DRIMSeq",0.0
+"startPE,bigwig",1.0
+"startPE,fastqctrimmed",0.5137503593357258
+"startPE,starSE",1.0
+"startPE,salmon_index",0.132022299124279
+"fastp_trimming_SE,fastqc 3",1.0
+"fastp_trimming_SE,fastqc_trimmed",0.10018831038624355
+"fastp_trimming_SE,samlon_quant",0.08602772482249667
+"fastp_trimming_SE,kallistoQuant",0.053679885526657034
+"fastp_trimming_SE,fastqc 2",0.10018831038624355
+"fastp_trimming_SE,bamindex",0.132022299124279
+"fastp_trimming_SE,featureCounts 2",0.053679885526657034
+"fastp_trimming_SE,tximeta",0.0
+"fastp_trimming_SE,fastqScreen",0.053679885526657034
+"fastp_trimming_SE,multiqc 2",0.10018831038624355
+"fastp_trimming_SE,trimgalorePE",0.132022299124279
+"fastp_trimming_SE,trimgaloreSE",0.132022299124279
+"fastp_trimming_SE,multiqc 3",1.0
+"fastp_trimming_SE,salmon_quant_pe",1.0
+"fastp_trimming_SE,sort_bams",1.0
+"fastp_trimming_SE,edgeR",0.0
+"fastp_trimming_SE,fastqc",0.06782650361542703
+"fastp_trimming_SE,sampleReads",0.08602772482249667
+"fastp_trimming_SE,salmon_quant_se",1.0
+"fastp_trimming_SE,cutadapt 2",0.05543221110219012
+"fastp_trimming_SE,DRIMSeq",0.0
+"fastp_trimming_SE,bigwig",0.132022299124279
+"fastp_trimming_SE,fastqctrimmed",0.06782650361542703
+"fastp_trimming_SE,starSE",0.132022299124279
+"fastp_trimming_SE,salmon_index",1.0
+"fastqc 3,fastqc_trimmed",0.10018831038624355
+"fastqc 3,samlon_quant",0.08602772482249667
+"fastqc 3,kallistoQuant",0.053679885526657034
+"fastqc 3,fastqc 2",0.10018831038624355
+"fastqc 3,bamindex",0.132022299124279
+"fastqc 3,featureCounts 2",0.053679885526657034
+"fastqc 3,tximeta",0.0
+"fastqc 3,fastqScreen",0.053679885526657034
+"fastqc 3,multiqc 2",0.10018831038624355
+"fastqc 3,trimgalorePE",0.132022299124279
+"fastqc 3,trimgaloreSE",0.132022299124279
+"fastqc 3,multiqc 3",1.0
+"fastqc 3,salmon_quant_pe",1.0
+"fastqc 3,sort_bams",1.0
+"fastqc 3,edgeR",0.0
+"fastqc 3,fastqc",0.06782650361542703
+"fastqc 3,sampleReads",0.08602772482249667
+"fastqc 3,salmon_quant_se",1.0
+"fastqc 3,cutadapt 2",0.05543221110219012
+"fastqc 3,DRIMSeq",0.0
+"fastqc 3,bigwig",0.132022299124279
+"fastqc 3,fastqctrimmed",0.06782650361542703
+"fastqc 3,starSE",0.132022299124279
+"fastqc 3,salmon_index",1.0
+"fastqc_trimmed,samlon_quant",0.21024339773263762
+"fastqc_trimmed,kallistoQuant",0.13118842264293043
+"fastqc_trimmed,fastqc 2",1.0000000000000002
+"fastqc_trimmed,bamindex",0.32264966673981477
+"fastqc_trimmed,featureCounts 2",0.13118842264293043
+"fastqc_trimmed,tximeta",0.0
+"fastqc_trimmed,fastqScreen",0.13118842264293043
+"fastqc_trimmed,multiqc 2",1.0000000000000002
+"fastqc_trimmed,trimgalorePE",0.32264966673981477
+"fastqc_trimmed,trimgaloreSE",0.32264966673981477
+"fastqc_trimmed,multiqc 3",0.10018831038624355
+"fastqc_trimmed,salmon_quant_pe",0.10018831038624355
+"fastqc_trimmed,sort_bams",0.10018831038624355
+"fastqc_trimmed,edgeR",0.0
+"fastqc_trimmed,fastqc",0.16576138222713208
+"fastqc_trimmed,sampleReads",0.21024339773263762
+"fastqc_trimmed,salmon_quant_se",0.10018831038624355
+"fastqc_trimmed,cutadapt 2",0.13547093602677313
+"fastqc_trimmed,DRIMSeq",0.0
+"fastqc_trimmed,bigwig",0.32264966673981477
+"fastqc_trimmed,fastqctrimmed",0.16576138222713208
+"fastqc_trimmed,starSE",0.32264966673981477
+"fastqc_trimmed,salmon_index",0.10018831038624355
+"samlon_quant,kallistoQuant",0.1126462905653814
+"samlon_quant,fastqc 2",0.21024339773263762
+"samlon_quant,bamindex",0.27704646018438317
+"samlon_quant,featureCounts 2",0.1126462905653814
+"samlon_quant,tximeta",0.0
+"samlon_quant,fastqScreen",0.1126462905653814
+"samlon_quant,multiqc 2",0.21024339773263762
+"samlon_quant,trimgalorePE",0.27704646018438317
+"samlon_quant,trimgaloreSE",0.27704646018438317
+"samlon_quant,multiqc 3",0.08602772482249667
+"samlon_quant,salmon_quant_pe",0.08602772482249667
+"samlon_quant,sort_bams",0.08602772482249667
+"samlon_quant,edgeR",0.0
+"samlon_quant,fastqc",0.14233271847241774
+"samlon_quant,sampleReads",0.18052765932634682
+"samlon_quant,salmon_quant_se",0.08602772482249667
+"samlon_quant,cutadapt 2",0.11632351479956177
+"samlon_quant,DRIMSeq",0.0
+"samlon_quant,bigwig",0.27704646018438317
+"samlon_quant,fastqctrimmed",0.14233271847241774
+"samlon_quant,starSE",0.27704646018438317
+"samlon_quant,salmon_index",0.08602772482249667
+"kallistoQuant,fastqc 2",0.13118842264293043
+"kallistoQuant,bamindex",0.17287243500800079
+"kallistoQuant,featureCounts 2",0.680933956417737
+"kallistoQuant,tximeta",0.0
+"kallistoQuant,fastqScreen",0.680933956417737
+"kallistoQuant,multiqc 2",0.13118842264293043
+"kallistoQuant,trimgalorePE",0.17287243500800079
+"kallistoQuant,trimgaloreSE",0.17287243500800079
+"kallistoQuant,multiqc 3",0.053679885526657034
+"kallistoQuant,salmon_quant_pe",0.053679885526657034
+"kallistoQuant,sort_bams",0.053679885526657034
+"kallistoQuant,edgeR",0.0
+"kallistoQuant,fastqc",0.5517563230732602
+"kallistoQuant,sampleReads",0.1126462905653814
+"kallistoQuant,salmon_quant_se",0.053679885526657034
+"kallistoQuant,cutadapt 2",0.7031623567835911
+"kallistoQuant,DRIMSeq",0.1505612887872242
+"kallistoQuant,bigwig",0.17287243500800079
+"kallistoQuant,fastqctrimmed",0.5517563230732602
+"kallistoQuant,starSE",0.17287243500800079
+"kallistoQuant,salmon_index",0.053679885526657034
+"fastqc 2,bamindex",0.32264966673981477
+"fastqc 2,featureCounts 2",0.13118842264293043
+"fastqc 2,tximeta",0.0
+"fastqc 2,fastqScreen",0.13118842264293043
+"fastqc 2,multiqc 2",1.0000000000000002
+"fastqc 2,trimgalorePE",0.32264966673981477
+"fastqc 2,trimgaloreSE",0.32264966673981477
+"fastqc 2,multiqc 3",0.10018831038624355
+"fastqc 2,salmon_quant_pe",0.10018831038624355
+"fastqc 2,sort_bams",0.10018831038624355
+"fastqc 2,edgeR",0.0
+"fastqc 2,fastqc",0.16576138222713208
+"fastqc 2,sampleReads",0.21024339773263762
+"fastqc 2,salmon_quant_se",0.10018831038624355
+"fastqc 2,cutadapt 2",0.13547093602677313
+"fastqc 2,DRIMSeq",0.0
+"fastqc 2,bigwig",0.32264966673981477
+"fastqc 2,fastqctrimmed",0.16576138222713208
+"fastqc 2,starSE",0.32264966673981477
+"fastqc 2,salmon_index",0.10018831038624355
+"bamindex,featureCounts 2",0.17287243500800079
+"bamindex,tximeta",0.0
+"bamindex,fastqScreen",0.17287243500800079
+"bamindex,multiqc 2",0.32264966673981477
+"bamindex,trimgalorePE",1.0
+"bamindex,trimgaloreSE",1.0
+"bamindex,multiqc 3",0.132022299124279
+"bamindex,salmon_quant_pe",0.132022299124279
+"bamindex,sort_bams",0.132022299124279
+"bamindex,edgeR",0.0
+"bamindex,fastqc",0.5137503593357258
+"bamindex,sampleReads",0.27704646018438317
+"bamindex,salmon_quant_se",0.132022299124279
+"bamindex,cutadapt 2",0.17851568081967023
+"bamindex,DRIMSeq",0.0
+"bamindex,bigwig",1.0
+"bamindex,fastqctrimmed",0.5137503593357258
+"bamindex,starSE",1.0
+"bamindex,salmon_index",0.132022299124279
+"featureCounts 2,tximeta",0.0
+"featureCounts 2,fastqScreen",0.680933956417737
+"featureCounts 2,multiqc 2",0.13118842264293043
+"featureCounts 2,trimgalorePE",0.17287243500800079
+"featureCounts 2,trimgaloreSE",0.17287243500800079
+"featureCounts 2,multiqc 3",0.053679885526657034
+"featureCounts 2,salmon_quant_pe",0.053679885526657034
+"featureCounts 2,sort_bams",0.053679885526657034
+"featureCounts 2,edgeR",0.0
+"featureCounts 2,fastqc",0.5517563230732602
+"featureCounts 2,sampleReads",0.1126462905653814
+"featureCounts 2,salmon_quant_se",0.053679885526657034
+"featureCounts 2,cutadapt 2",0.7031623567835911
+"featureCounts 2,DRIMSeq",0.1505612887872242
+"featureCounts 2,bigwig",0.17287243500800079
+"featureCounts 2,fastqctrimmed",0.5517563230732602
+"featureCounts 2,starSE",0.17287243500800079
+"featureCounts 2,salmon_index",0.053679885526657034
+"tximeta,fastqScreen",0.0
+"tximeta,multiqc 2",0.0
+"tximeta,trimgalorePE",0.0
+"tximeta,trimgaloreSE",0.0
+"tximeta,multiqc 3",0.0
+"tximeta,salmon_quant_pe",0.0
+"tximeta,sort_bams",0.0
+"tximeta,edgeR",1.0
+"tximeta,fastqc",0.0
+"tximeta,sampleReads",0.0
+"tximeta,salmon_quant_se",0.0
+"tximeta,cutadapt 2",0.0
+"tximeta,DRIMSeq",0.0
+"tximeta,bigwig",0.0
+"tximeta,fastqctrimmed",0.0
+"tximeta,starSE",0.0
+"tximeta,salmon_index",0.0
+"fastqScreen,multiqc 2",0.13118842264293043
+"fastqScreen,trimgalorePE",0.17287243500800079
+"fastqScreen,trimgaloreSE",0.17287243500800079
+"fastqScreen,multiqc 3",0.053679885526657034
+"fastqScreen,salmon_quant_pe",0.053679885526657034
+"fastqScreen,sort_bams",0.053679885526657034
+"fastqScreen,edgeR",0.0
+"fastqScreen,fastqc",0.5517563230732602
+"fastqScreen,sampleReads",0.1126462905653814
+"fastqScreen,salmon_quant_se",0.053679885526657034
+"fastqScreen,cutadapt 2",0.7031623567835911
+"fastqScreen,DRIMSeq",0.1505612887872242
+"fastqScreen,bigwig",0.17287243500800079
+"fastqScreen,fastqctrimmed",0.5517563230732602
+"fastqScreen,starSE",0.17287243500800079
+"fastqScreen,salmon_index",0.053679885526657034
+"multiqc 2,trimgalorePE",0.32264966673981477
+"multiqc 2,trimgaloreSE",0.32264966673981477
+"multiqc 2,multiqc 3",0.10018831038624355
+"multiqc 2,salmon_quant_pe",0.10018831038624355
+"multiqc 2,sort_bams",0.10018831038624355
+"multiqc 2,edgeR",0.0
+"multiqc 2,fastqc",0.16576138222713208
+"multiqc 2,sampleReads",0.21024339773263762
+"multiqc 2,salmon_quant_se",0.10018831038624355
+"multiqc 2,cutadapt 2",0.13547093602677313
+"multiqc 2,DRIMSeq",0.0
+"multiqc 2,bigwig",0.32264966673981477
+"multiqc 2,fastqctrimmed",0.16576138222713208
+"multiqc 2,starSE",0.32264966673981477
+"multiqc 2,salmon_index",0.10018831038624355
+"trimgalorePE,trimgaloreSE",1.0
+"trimgalorePE,multiqc 3",0.132022299124279
+"trimgalorePE,salmon_quant_pe",0.132022299124279
+"trimgalorePE,sort_bams",0.132022299124279
+"trimgalorePE,edgeR",0.0
+"trimgalorePE,fastqc",0.5137503593357258
+"trimgalorePE,sampleReads",0.27704646018438317
+"trimgalorePE,salmon_quant_se",0.132022299124279
+"trimgalorePE,cutadapt 2",0.17851568081967023
+"trimgalorePE,DRIMSeq",0.0
+"trimgalorePE,bigwig",1.0
+"trimgalorePE,fastqctrimmed",0.5137503593357258
+"trimgalorePE,starSE",1.0
+"trimgalorePE,salmon_index",0.132022299124279
+"trimgaloreSE,multiqc 3",0.132022299124279
+"trimgaloreSE,salmon_quant_pe",0.132022299124279
+"trimgaloreSE,sort_bams",0.132022299124279
+"trimgaloreSE,edgeR",0.0
+"trimgaloreSE,fastqc",0.5137503593357258
+"trimgaloreSE,sampleReads",0.27704646018438317
+"trimgaloreSE,salmon_quant_se",0.132022299124279
+"trimgaloreSE,cutadapt 2",0.17851568081967023
+"trimgaloreSE,DRIMSeq",0.0
+"trimgaloreSE,bigwig",1.0
+"trimgaloreSE,fastqctrimmed",0.5137503593357258
+"trimgaloreSE,starSE",1.0
+"trimgaloreSE,salmon_index",0.132022299124279
+"multiqc 3,salmon_quant_pe",1.0
+"multiqc 3,sort_bams",1.0
+"multiqc 3,edgeR",0.0
+"multiqc 3,fastqc",0.06782650361542703
+"multiqc 3,sampleReads",0.08602772482249667
+"multiqc 3,salmon_quant_se",1.0
+"multiqc 3,cutadapt 2",0.05543221110219012
+"multiqc 3,DRIMSeq",0.0
+"multiqc 3,bigwig",0.132022299124279
+"multiqc 3,fastqctrimmed",0.06782650361542703
+"multiqc 3,starSE",0.132022299124279
+"multiqc 3,salmon_index",1.0
+"salmon_quant_pe,sort_bams",1.0
+"salmon_quant_pe,edgeR",0.0
+"salmon_quant_pe,fastqc",0.06782650361542703
+"salmon_quant_pe,sampleReads",0.08602772482249667
+"salmon_quant_pe,salmon_quant_se",1.0
+"salmon_quant_pe,cutadapt 2",0.05543221110219012
+"salmon_quant_pe,DRIMSeq",0.0
+"salmon_quant_pe,bigwig",0.132022299124279
+"salmon_quant_pe,fastqctrimmed",0.06782650361542703
+"salmon_quant_pe,starSE",0.132022299124279
+"salmon_quant_pe,salmon_index",1.0
+"sort_bams,edgeR",0.0
+"sort_bams,fastqc",0.06782650361542703
+"sort_bams,sampleReads",0.08602772482249667
+"sort_bams,salmon_quant_se",1.0
+"sort_bams,cutadapt 2",0.05543221110219012
+"sort_bams,DRIMSeq",0.0
+"sort_bams,bigwig",0.132022299124279
+"sort_bams,fastqctrimmed",0.06782650361542703
+"sort_bams,starSE",0.132022299124279
+"sort_bams,salmon_index",1.0
+"edgeR,fastqc",0.0
+"edgeR,sampleReads",0.0
+"edgeR,salmon_quant_se",0.0
+"edgeR,cutadapt 2",0.0
+"edgeR,DRIMSeq",0.0
+"edgeR,bigwig",0.0
+"edgeR,fastqctrimmed",0.0
+"edgeR,starSE",0.0
+"edgeR,salmon_index",0.0
+"fastqc,sampleReads",0.14233271847241774
+"fastqc,salmon_quant_se",0.06782650361542703
+"fastqc,cutadapt 2",0.5697678502383702
+"fastqc,DRIMSeq",0.5279192204969236
+"fastqc,bigwig",0.5137503593357258
+"fastqc,fastqctrimmed",1.0
+"fastqc,starSE",0.5137503593357258
+"fastqc,salmon_index",0.06782650361542703
+"sampleReads,salmon_quant_se",0.08602772482249667
+"sampleReads,cutadapt 2",0.11632351479956177
+"sampleReads,DRIMSeq",0.0
+"sampleReads,bigwig",0.27704646018438317
+"sampleReads,fastqctrimmed",0.14233271847241774
+"sampleReads,starSE",0.27704646018438317
+"sampleReads,salmon_index",0.08602772482249667
+"salmon_quant_se,cutadapt 2",0.05543221110219012
+"salmon_quant_se,DRIMSeq",0.0
+"salmon_quant_se,bigwig",0.132022299124279
+"salmon_quant_se,fastqctrimmed",0.06782650361542703
+"salmon_quant_se,starSE",0.132022299124279
+"salmon_quant_se,salmon_index",1.0
+"cutadapt 2,DRIMSeq",0.155476209794201
+"cutadapt 2,bigwig",0.17851568081967023
+"cutadapt 2,fastqctrimmed",0.5697678502383702
+"cutadapt 2,starSE",0.17851568081967023
+"cutadapt 2,salmon_index",0.05543221110219012
+"DRIMSeq,bigwig",0.0
+"DRIMSeq,fastqctrimmed",0.5279192204969236
+"DRIMSeq,starSE",0.0
+"DRIMSeq,salmon_index",0.0
+"bigwig,fastqctrimmed",0.5137503593357258
+"bigwig,starSE",1.0
+"bigwig,salmon_index",0.132022299124279
+"fastqctrimmed,starSE",0.5137503593357258
+"fastqctrimmed,salmon_index",0.06782650361542703
+"starSE,salmon_index",0.132022299124279

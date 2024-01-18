@@ -20,6 +20,6 @@ def process_folders(folders):
         Levenshtein2D.build_and_save_levenshtein_similarity_matrix(folder, levenshtein_csv)
 
 # List of folders to process
-folders_to_process = ['Attributes/Conda_name_before_extension', 'Attributes/Conda_no_white_spaces', 'rule_name', '']  # Replace with your actual folder paths
+folders_to_process = ['Attributes/Extracted_Raw_Rules','Attributes/Extracted_Raw_Rules_No_White_Spaces' ]  # Replace with your actual folder paths
 
 process_folders(folders_to_process)

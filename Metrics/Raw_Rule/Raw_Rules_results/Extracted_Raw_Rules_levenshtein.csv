@@ -1,0 +1,2416 @@
+Pair,Similarity
+"map.txt,fastqctrimmed.txt",0.15823817292006526
+"map.txt,expressbam.txt",0.23344947735191635
+"map.txt,salmonSE.txt",0.21329639889196672
+"map.txt,fastqScreen.txt",0.18206157965194114
+"map.txt,run_star_se.txt",0.21218961625282162
+"map.txt,fastqc.txt",0.15875613747954176
+"map.txt,trim_fasq_fastqc.txt",0.06707144874329285
+"map.txt,picard_rna_seq.txt",0.18466898954703836
+"map.txt,salmon_index_extended.txt",0.18125770653514184
+"map.txt,fastp_trimming_SE.txt",0.15167785234899334
+"map.txt,starindex.txt",0.23693379790940772
+"map.txt,DRIMSeq.txt",0.18861512319456242
+"map.txt,samtools_flagstat.txt",0.19337979094076652
+"map.txt,salmon_quant_se.txt",0.19080459770114944
+"map.txt,feature_counts.txt",0.20220082530949102
+"map.txt,RNA_SeqC.txt",0.10627177700348434
+"map.txt,fastqc 6.txt",0.18292682926829273
+"map.txt,star_genome.txt",0.1843267108167771
+"map.txt,edgeR.txt",0.19427580225498697
+"map.txt,startPE.txt",0.18920719520319784
+"map.txt,tastq_to_bam_HISAT.txt",0.08738647830474267
+"map.txt,fastqc 5.txt",0.17944250871080136
+"map.txt,multiqc 2.txt",0.186411149825784
+"map.txt,kallistoQuant.txt",0.16944024205748864
+"map.txt,salmon_index.txt",0.1656976744186046
+"map.txt,trim_galore_pe.txt",0.13759999999999994
+"map.txt,samlon_quant.txt",0.22299651567944256
+"map.txt,sortedbam_to_counts.txt",0.1134846461949266
+"map.txt,featureCounts 2.txt",0.1771956856702619
+"map.txt,fastqc 4.txt",0.17770034843205573
+"map.txt,multiqc 3.txt",0.15306122448979587
+"map.txt,merge_trimmed_SE.txt",0.16898954703832758
+"map.txt,trimgaloreSE.txt",0.18649045521292218
+"map.txt,fastQCtrimmed 2.txt",0.20034843205574915
+"map.txt,fastqcrim.txt",0.1707317073170732
+"map.txt,sortedbam_to_rmdup.txt",0.1370729649936736
+"map.txt,sort_index_bams.txt",0.181184668989547
+"map.txt,fastqc 3.txt",0.14432989690721654
+"map.txt,fastqc 2.txt",0.2090592334494773
+"map.txt,rsem_norm.txt",0.1770145310435931
+"map.txt,featureCounts.txt",0.186411149825784
+"map.txt,merge_trimmed_PE.txt",0.2009803921568627
+"map.txt,trimgalorePE.txt",0.2055888223552894
+"map.txt,compare_reference_stringtie.txt",0.181184668989547
+"map.txt,hisat2.txt",0.18466898954703836
+"map.txt,counts_matrix.txt",0.1412459720730398
+"map.txt,sortbam.txt",0.1759581881533101
+"map.txt,starSE.txt",0.22278056951423786
+"map.txt,fetch_unique_stringtie.txt",0.18466898954703836
+"map.txt,bigwig.txt",0.24831568816169391
+"map.txt,cutadapt 2.txt",0.18575063613231557
+"map.txt,cutadapt.txt",0.20557491289198604
+"map.txt,MultiQC.txt",0.13937282229965153
+"map.txt,salmon_quant_pe.txt",0.18967229394240315
+"map.txt,tximeta.txt",0.19138755980861244
+"map.txt,salmon_quant.txt",0.1834061135371179
+"map.txt,sort_bams.txt",0.18466898954703836
+"map.txt,mark_dups.txt",0.15514592933947768
+"map.txt,fastp_trimming_PE.txt",0.15019762845849804
+"map.txt,salmonPE.txt",0.19250180245133386
+"map.txt,samtools_bam.txt",0.18466898954703836
+"map.txt,bamindex.txt",0.1707317073170732
+"map.txt,generate_genome_star_index.txt",0.1655052264808362
+"map.txt,run_star_pe.txt",0.2082474226804124
+"map.txt,pass1.txt",0.1855273287143957
+"map.txt,fastqc_trimmed.txt",0.22299651567944256
+"map.txt,run_multiqc.txt",0.14459930313588854
+"map.txt,sampleReads.txt",0.19512195121951215
+"map.txt,pass2.txt",0.17939481268011526
+"fastqctrimmed.txt,expressbam.txt",0.20554649265905378
+"fastqctrimmed.txt,salmonSE.txt",0.3665743305632503
+"fastqctrimmed.txt,fastqScreen.txt",0.2222222222222222
+"fastqctrimmed.txt,run_star_se.txt",0.25846501128668176
+"fastqctrimmed.txt,fastqc.txt",0.8841761827079935
+"fastqctrimmed.txt,trim_fasq_fastqc.txt",0.06636543349336343
+"fastqctrimmed.txt,picard_rna_seq.txt",0.21207177814029365
+"fastqctrimmed.txt,salmon_index_extended.txt",0.24907521578298397
+"fastqctrimmed.txt,fastp_trimming_SE.txt",0.18255033557046985
+"fastqctrimmed.txt,starindex.txt",0.17292006525285486
+"fastqctrimmed.txt,DRIMSeq.txt",0.32370433305012747
+"fastqctrimmed.txt,samtools_flagstat.txt",0.20554649265905378
+"fastqctrimmed.txt,salmon_quant_se.txt",0.23793103448275865
+"fastqctrimmed.txt,feature_counts.txt",0.2365887207702888
+"fastqctrimmed.txt,RNA_SeqC.txt",0.16313213703099516
+"fastqctrimmed.txt,fastqc 6.txt",0.22185970636215335
+"fastqctrimmed.txt,star_genome.txt",0.17549668874172186
+"fastqctrimmed.txt,edgeR.txt",0.3130962705984388
+"fastqctrimmed.txt,startPE.txt",0.2884743504330446
+"fastqctrimmed.txt,tastq_to_bam_HISAT.txt",0.08435923309788096
+"fastqctrimmed.txt,fastqc 5.txt",0.19575856443719408
+"fastqctrimmed.txt,multiqc 2.txt",0.21859706362153342
+"fastqctrimmed.txt,kallistoQuant.txt",0.16338880484114982
+"fastqctrimmed.txt,salmon_index.txt",0.21656976744186052
+"fastqctrimmed.txt,trim_galore_pe.txt",0.15200000000000002
+"fastqctrimmed.txt,samlon_quant.txt",0.2593800978792822
+"fastqctrimmed.txt,sortedbam_to_counts.txt",0.10867823765020024
+"fastqctrimmed.txt,featureCounts 2.txt",0.20184899845916793
+"fastqctrimmed.txt,fastqc 4.txt",0.22022838499184338
+"fastqctrimmed.txt,multiqc 3.txt",0.19412724306688423
+"fastqctrimmed.txt,merge_trimmed_SE.txt",0.18923327895595432
+"fastqctrimmed.txt,trimgaloreSE.txt",0.6461086637298091
+"fastqctrimmed.txt,fastQCtrimmed 2.txt",0.234910277324633
+"fastqctrimmed.txt,fastqcrim.txt",0.23327895595432302
+"fastqctrimmed.txt,sortedbam_to_rmdup.txt",0.1290594685786588
+"fastqctrimmed.txt,sort_index_bams.txt",0.234910277324633
+"fastqctrimmed.txt,fastqc 3.txt",0.20717781402936375
+"fastqctrimmed.txt,fastqc 2.txt",0.2642740619902121
+"fastqctrimmed.txt,rsem_norm.txt",0.19286657859973577
+"fastqctrimmed.txt,featureCounts.txt",0.22022838499184338
+"fastqctrimmed.txt,merge_trimmed_PE.txt",0.18995098039215685
+"fastqctrimmed.txt,trimgalorePE.txt",0.4640718562874252
+"fastqctrimmed.txt,compare_reference_stringtie.txt",0.23164763458401305
+"fastqctrimmed.txt,hisat2.txt",0.20880913539967372
+"fastqctrimmed.txt,counts_matrix.txt",0.15037593984962405
+"fastqctrimmed.txt,sortbam.txt",0.20880913539967372
+"fastqctrimmed.txt,starSE.txt",0.3274706867671692
+"fastqctrimmed.txt,fetch_unique_stringtie.txt",0.22349102773246332
+"fastqctrimmed.txt,bigwig.txt",0.424446583253128
+"fastqctrimmed.txt,cutadapt 2.txt",0.19338422391857502
+"fastqctrimmed.txt,cutadapt.txt",0.26590538336052205
+"fastqctrimmed.txt,MultiQC.txt",0.6084828711256117
+"fastqctrimmed.txt,salmon_quant_pe.txt",0.22542204568023838
+"fastqctrimmed.txt,tximeta.txt",0.31483253588516746
+"fastqctrimmed.txt,salmon_quant.txt",0.23493449781659392
+"fastqctrimmed.txt,sort_bams.txt",0.234910277324633
+"fastqctrimmed.txt,mark_dups.txt",0.12442396313364057
+"fastqctrimmed.txt,fastp_trimming_PE.txt",0.186429512516469
+"fastqctrimmed.txt,salmonPE.txt",0.3222782984859409
+"fastqctrimmed.txt,samtools_bam.txt",0.21044045676998369
+"fastqctrimmed.txt,bamindex.txt",0.5807504078303426
+"fastqctrimmed.txt,generate_genome_star_index.txt",0.18597063621533438
+"fastqctrimmed.txt,run_star_pe.txt",0.2463917525773196
+"fastqctrimmed.txt,pass1.txt",0.16397228637413397
+"fastqctrimmed.txt,fastqc_trimmed.txt",0.26101141924959215
+"fastqctrimmed.txt,run_multiqc.txt",0.18433931484502442
+"fastqctrimmed.txt,sampleReads.txt",0.21044045676998369
+"fastqctrimmed.txt,pass2.txt",0.1635446685878963
+"expressbam.txt,salmonSE.txt",0.14219759926131115
+"expressbam.txt,fastqScreen.txt",0.1807228915662651
+"expressbam.txt,run_star_se.txt",0.1534988713318285
+"expressbam.txt,fastqc.txt",0.2029459901800328
+"expressbam.txt,trim_fasq_fastqc.txt",0.027817000847218276
+"expressbam.txt,picard_rna_seq.txt",0.22014051522248246
+"expressbam.txt,salmon_index_extended.txt",0.15906288532675705
+"expressbam.txt,fastp_trimming_SE.txt",0.10469798657718121
+"expressbam.txt,starindex.txt",0.21145374449339205
+"expressbam.txt,DRIMSeq.txt",0.11639762107051832
+"expressbam.txt,samtools_flagstat.txt",0.2819383259911894
+"expressbam.txt,salmon_quant_se.txt",0.15402298850574714
+"expressbam.txt,feature_counts.txt",0.17331499312242094
+"expressbam.txt,RNA_SeqC.txt",0.17247386759581884
+"expressbam.txt,fastqc 6.txt",0.21068249258160232
+"expressbam.txt,star_genome.txt",0.13686534216335544
+"expressbam.txt,edgeR.txt",0.11882046834345183
+"expressbam.txt,startPE.txt",0.11192538307794808
+"expressbam.txt,tastq_to_bam_HISAT.txt",0.03874873864783046
+"expressbam.txt,fastqc 5.txt",0.4361233480176211
+"expressbam.txt,multiqc 2.txt",0.22937625754527158
+"expressbam.txt,kallistoQuant.txt",0.16641452344931917
+"expressbam.txt,salmon_index.txt",0.16715116279069764
+"expressbam.txt,trim_galore_pe.txt",0.16959999999999997
+"expressbam.txt,samlon_quant.txt",0.329923273657289
+"expressbam.txt,sortedbam_to_counts.txt",0.05100133511348459
+"expressbam.txt,featureCounts 2.txt",0.20801232665639446
+"expressbam.txt,fastqc 4.txt",0.2009569377990431
+"expressbam.txt,multiqc 3.txt",0.16326530612244894
+"expressbam.txt,merge_trimmed_SE.txt",0.18965517241379315
+"expressbam.txt,trimgaloreSE.txt",0.18942731277533043
+"expressbam.txt,fastQCtrimmed 2.txt",0.23782234957020054
+"expressbam.txt,fastqcrim.txt",0.20971302428256067
+"expressbam.txt,sortedbam_to_rmdup.txt",0.07085617882749895
+"expressbam.txt,sort_index_bams.txt",0.19823788546255505
+"expressbam.txt,fastqc 3.txt",0.20618556701030932
+"expressbam.txt,fastqc 2.txt",0.28125
+"expressbam.txt,rsem_norm.txt",0.14795244385733153
+"expressbam.txt,featureCounts.txt",0.2837301587301587
+"expressbam.txt,merge_trimmed_PE.txt",0.1421568627450981
+"expressbam.txt,trimgalorePE.txt",0.1457085828343313
+"expressbam.txt,compare_reference_stringtie.txt",0.21024258760107817
+"expressbam.txt,hisat2.txt",0.22413793103448276
+"expressbam.txt,counts_matrix.txt",0.07626208378088073
+"expressbam.txt,sortbam.txt",0.29955947136563876
+"expressbam.txt,starSE.txt",0.13400335008375208
+"expressbam.txt,fetch_unique_stringtie.txt",0.2151639344262295
+"expressbam.txt,bigwig.txt",0.14148219441770937
+"expressbam.txt,cutadapt 2.txt",0.13613231552162852
+"expressbam.txt,cutadapt.txt",0.28963414634146345
+"expressbam.txt,MultiQC.txt",0.18265682656826565
+"expressbam.txt,salmon_quant_pe.txt",0.14200595829195628
+"expressbam.txt,tximeta.txt",0.13205741626794254
+"expressbam.txt,salmon_quant.txt",0.1344978165938865
+"expressbam.txt,sort_bams.txt",0.2555066079295154
+"expressbam.txt,mark_dups.txt",0.15514592933947768
+"expressbam.txt,fastp_trimming_PE.txt",0.10671936758893286
+"expressbam.txt,salmonPE.txt",0.117519826964672
+"expressbam.txt,samtools_bam.txt",0.29955947136563876
+"expressbam.txt,bamindex.txt",0.23735408560311289
+"expressbam.txt,generate_genome_star_index.txt",0.20498084291187735
+"expressbam.txt,run_star_pe.txt",0.14948453608247425
+"expressbam.txt,pass1.txt",0.10623556581986138
+"expressbam.txt,fastqc_trimmed.txt",0.2837528604118993
+"expressbam.txt,run_multiqc.txt",0.1937984496124031
+"expressbam.txt,sampleReads.txt",0.2777777777777778
+"expressbam.txt,pass2.txt",0.10086455331412103
+"salmonSE.txt,fastqScreen.txt",0.18282548476454297
+"salmonSE.txt,run_star_se.txt",0.21237303785780237
+"salmonSE.txt,fastqc.txt",0.3601108033240997
+"salmonSE.txt,trim_fasq_fastqc.txt",0.09827732279017232
+"salmonSE.txt,picard_rna_seq.txt",0.18282548476454297
+"salmonSE.txt,salmon_index_extended.txt",0.23638042474607568
+"salmonSE.txt,fastp_trimming_SE.txt",0.21342281879194636
+"salmonSE.txt,starindex.txt",0.11726685133887349
+"salmonSE.txt,DRIMSeq.txt",0.23279524214103653
+"salmonSE.txt,samtools_flagstat.txt",0.1412742382271468
+"salmonSE.txt,salmon_quant_se.txt",0.22253000923361033
+"salmonSE.txt,feature_counts.txt",0.23176361957525393
+"salmonSE.txt,RNA_SeqC.txt",0.20683287165281627
+"salmonSE.txt,fastqc 6.txt",0.1542012927054478
+"salmonSE.txt,star_genome.txt",0.172668513388735
+"salmonSE.txt,edgeR.txt",0.21509106678230705
+"salmonSE.txt,startPE.txt",0.5649566955363091
+"salmonSE.txt,tastq_to_bam_HISAT.txt",0.12088799192734612
+"salmonSE.txt,fastqc 5.txt",0.10618651892890119
+"salmonSE.txt,multiqc 2.txt",0.22068328716528163
+"salmonSE.txt,kallistoQuant.txt",0.21144967682363802
+"salmonSE.txt,salmon_index.txt",0.23822714681440438
+"salmonSE.txt,trim_galore_pe.txt",0.20775623268698062
+"salmonSE.txt,samlon_quant.txt",0.22530009233610337
+"salmonSE.txt,sortedbam_to_counts.txt",0.15647530040053403
+"salmonSE.txt,featureCounts 2.txt",0.20960295475530932
+"salmonSE.txt,fastqc 4.txt",0.18836565096952906
+"salmonSE.txt,multiqc 3.txt",0.21698984302862423
+"salmonSE.txt,merge_trimmed_SE.txt",0.19759926131117267
+"salmonSE.txt,trimgaloreSE.txt",0.37488457987072943
+"salmonSE.txt,fastQCtrimmed 2.txt",0.159741458910434
+"salmonSE.txt,fastqcrim.txt",0.19205909510618657
+"salmonSE.txt,sortedbam_to_rmdup.txt",0.16912695065373262
+"salmonSE.txt,sort_index_bams.txt",0.15327793167128345
+"salmonSE.txt,fastqc 3.txt",0.26315789473684215
+"salmonSE.txt,fastqc 2.txt",0.18282548476454297
+"salmonSE.txt,rsem_norm.txt",0.20313942751615877
+"salmonSE.txt,featureCounts.txt",0.20590951061865193
+"salmonSE.txt,merge_trimmed_PE.txt",0.20867959372114497
+"salmonSE.txt,trimgalorePE.txt",0.39150507848568794
+"salmonSE.txt,compare_reference_stringtie.txt",0.20406278855032323
+"salmonSE.txt,hisat2.txt",0.17913204062788546
+"salmonSE.txt,counts_matrix.txt",0.18367346938775508
+"salmonSE.txt,sortbam.txt",0.13111726685133884
+"salmonSE.txt,starSE.txt",0.6959798994974875
+"salmonSE.txt,fetch_unique_stringtie.txt",0.21698984302862423
+"salmonSE.txt,bigwig.txt",0.30193905817174516
+"salmonSE.txt,cutadapt 2.txt",0.18467220683287167
+"salmonSE.txt,cutadapt.txt",0.1800554016620498
+"salmonSE.txt,MultiQC.txt",0.33148661126500467
+"salmonSE.txt,salmon_quant_pe.txt",0.19205909510618657
+"salmonSE.txt,tximeta.txt",0.3250230840258541
+"salmonSE.txt,salmon_quant.txt",0.19912663755458515
+"salmonSE.txt,sort_bams.txt",0.14958448753462605
+"salmonSE.txt,mark_dups.txt",0.1782086795937211
+"salmonSE.txt,fastp_trimming_PE.txt",0.20421607378129114
+"salmonSE.txt,salmonPE.txt",0.7397260273972603
+"salmonSE.txt,samtools_bam.txt",0.1394275161588181
+"salmonSE.txt,bamindex.txt",0.3361034164358264
+"salmonSE.txt,generate_genome_star_index.txt",0.20221606648199442
+"salmonSE.txt,run_star_pe.txt",0.20960295475530932
+"salmonSE.txt,pass1.txt",0.1608929946112394
+"salmonSE.txt,fastqc_trimmed.txt",0.19205909510618657
+"salmonSE.txt,run_multiqc.txt",0.21791320406278858
+"salmonSE.txt,sampleReads.txt",0.19390581717451527
+"salmonSE.txt,pass2.txt",0.17146974063400577
+"fastqScreen.txt,run_star_se.txt",0.18623024830699775
+"fastqScreen.txt,fastqc.txt",0.21820615796519416
+"fastqScreen.txt,trim_fasq_fastqc.txt",0.08853431234114661
+"fastqScreen.txt,picard_rna_seq.txt",0.18741633199464525
+"fastqScreen.txt,salmon_index_extended.txt",0.27620221948212087
+"fastqScreen.txt,fastp_trimming_SE.txt",0.2825503355704698
+"fastqScreen.txt,starindex.txt",0.13922356091030785
+"fastqScreen.txt,DRIMSeq.txt",0.20305862361937133
+"fastqScreen.txt,samtools_flagstat.txt",0.1606425702811245
+"fastqScreen.txt,salmon_quant_se.txt",0.303448275862069
+"fastqScreen.txt,feature_counts.txt",0.1552878179384204
+"fastqScreen.txt,RNA_SeqC.txt",0.24899598393574296
+"fastqScreen.txt,fastqc 6.txt",0.34002677376171353
+"fastqScreen.txt,star_genome.txt",0.2836644591611479
+"fastqScreen.txt,edgeR.txt",0.20555073720728534
+"fastqScreen.txt,startPE.txt",0.18520986009327112
+"fastqScreen.txt,tastq_to_bam_HISAT.txt",0.11624621594349138
+"fastqScreen.txt,fastqc 5.txt",0.15127175368139223
+"fastqScreen.txt,multiqc 2.txt",0.27443105756358765
+"fastqScreen.txt,kallistoQuant.txt",0.2878179384203481
+"fastqScreen.txt,salmon_index.txt",0.2838018741633199
+"fastqScreen.txt,trim_galore_pe.txt",0.27978580990629187
+"fastqScreen.txt,samlon_quant.txt",0.19946452476572962
+"fastqScreen.txt,sortedbam_to_counts.txt",0.1524699599465955
+"fastqScreen.txt,featureCounts 2.txt",0.43239625167336015
+"fastqScreen.txt,fastqc 4.txt",0.28246318607764387
+"fastqScreen.txt,multiqc 3.txt",0.3038821954484605
+"fastqScreen.txt,merge_trimmed_SE.txt",0.3038821954484605
+"fastqScreen.txt,trimgaloreSE.txt",0.1686746987951807
+"fastqScreen.txt,fastQCtrimmed 2.txt",0.3908969210174029
+"fastqScreen.txt,fastqcrim.txt",0.27175368139223566
+"fastqScreen.txt,sortedbam_to_rmdup.txt",0.19780683256010123
+"fastqScreen.txt,sort_index_bams.txt",0.13386880856760375
+"fastqScreen.txt,fastqc 3.txt",0.1807228915662651
+"fastqScreen.txt,fastqc 2.txt",0.3520749665327979
+"fastqScreen.txt,rsem_norm.txt",0.23778071334214002
+"fastqScreen.txt,featureCounts.txt",0.21552878179384205
+"fastqScreen.txt,merge_trimmed_PE.txt",0.26102941176470584
+"fastqScreen.txt,trimgalorePE.txt",0.17764471057884235
+"fastqScreen.txt,compare_reference_stringtie.txt",0.2449799196787149
+"fastqScreen.txt,hisat2.txt",0.38420348058902276
+"fastqScreen.txt,counts_matrix.txt",0.22234156820622986
+"fastqScreen.txt,sortbam.txt",0.1579651941097724
+"fastqScreen.txt,starSE.txt",0.18509212730318259
+"fastqScreen.txt,fetch_unique_stringtie.txt",0.26104417670682734
+"fastqScreen.txt,bigwig.txt",0.17131857555341679
+"fastqScreen.txt,cutadapt 2.txt",0.26972010178117045
+"fastqScreen.txt,cutadapt.txt",0.20615796519410978
+"fastqScreen.txt,MultiQC.txt",0.17536813922356087
+"fastqScreen.txt,salmon_quant_pe.txt",0.30784508440913605
+"fastqScreen.txt,tximeta.txt",0.19138755980861244
+"fastqScreen.txt,salmon_quant.txt",0.2908296943231441
+"fastqScreen.txt,sort_bams.txt",0.14993306559571618
+"fastqScreen.txt,mark_dups.txt",0.2168674698795181
+"fastqScreen.txt,fastp_trimming_PE.txt",0.27931488801054016
+"fastqScreen.txt,salmonPE.txt",0.1867339581831291
+"fastqScreen.txt,samtools_bam.txt",0.15662650602409633
+"fastqScreen.txt,bamindex.txt",0.17938420348058903
+"fastqScreen.txt,generate_genome_star_index.txt",0.20481927710843373
+"fastqScreen.txt,run_star_pe.txt",0.18041237113402064
+"fastqScreen.txt,pass1.txt",0.2586605080831409
+"fastqScreen.txt,fastqc_trimmed.txt",0.34270414993306564
+"fastqScreen.txt,run_multiqc.txt",0.2222222222222222
+"fastqScreen.txt,sampleReads.txt",0.4457831325301205
+"fastqScreen.txt,pass2.txt",0.2521613832853026
+"run_star_se.txt,fastqc.txt",0.2686230248306998
+"run_star_se.txt,trim_fasq_fastqc.txt",0.08458062694154189
+"run_star_se.txt,picard_rna_seq.txt",0.2279909706546276
+"run_star_se.txt,salmon_index_extended.txt",0.2234762979683973
+"run_star_se.txt,fastp_trimming_SE.txt",0.251006711409396
+"run_star_se.txt,starindex.txt",0.1444695259593679
+"run_star_se.txt,DRIMSeq.txt",0.2276975361087511
+"run_star_se.txt,samtools_flagstat.txt",0.16252821670428896
+"run_star_se.txt,salmon_quant_se.txt",0.2528216704288939
+"run_star_se.txt,feature_counts.txt",0.23702031602708806
+"run_star_se.txt,RNA_SeqC.txt",0.20767494356659144
+"run_star_se.txt,fastqc 6.txt",0.1704288939051919
+"run_star_se.txt,star_genome.txt",0.1589403973509934
+"run_star_se.txt,edgeR.txt",0.22463139635732876
+"run_star_se.txt,startPE.txt",0.25449700199866754
+"run_star_se.txt,tastq_to_bam_HISAT.txt",0.10211907164480327
+"run_star_se.txt,fastqc 5.txt",0.11963882618510158
+"run_star_se.txt,multiqc 2.txt",0.19864559819413097
+"run_star_se.txt,kallistoQuant.txt",0.17607223476297973
+"run_star_se.txt,salmon_index.txt",0.22009029345372455
+"run_star_se.txt,trim_galore_pe.txt",0.19413092550790068
+"run_star_se.txt,samlon_quant.txt",0.25846501128668176
+"run_star_se.txt,sortedbam_to_counts.txt",0.13030707610146863
+"run_star_se.txt,featureCounts 2.txt",0.23137697516930023
+"run_star_se.txt,fastqc 4.txt",0.1997742663656885
+"run_star_se.txt,multiqc 3.txt",0.2426636568848759
+"run_star_se.txt,merge_trimmed_SE.txt",0.22234762979683975
+"run_star_se.txt,trimgaloreSE.txt",0.2720090293453724
+"run_star_se.txt,fastQCtrimmed 2.txt",0.16139954853273142
+"run_star_se.txt,fastqcrim.txt",0.2020316027088036
+"run_star_se.txt,sortedbam_to_rmdup.txt",0.14382117250105442
+"run_star_se.txt,sort_index_bams.txt",0.21106094808126408
+"run_star_se.txt,fastqc 3.txt",0.27539503386004516
+"run_star_se.txt,fastqc 2.txt",0.19525959367945822
+"run_star_se.txt,rsem_norm.txt",0.19187358916478559
+"run_star_se.txt,featureCounts.txt",0.2279909706546276
+"run_star_se.txt,merge_trimmed_PE.txt",0.1828442437923251
+"run_star_se.txt,trimgalorePE.txt",0.19960079840319356
+"run_star_se.txt,compare_reference_stringtie.txt",0.19638826185101577
+"run_star_se.txt,hisat2.txt",0.17720090293453727
+"run_star_se.txt,counts_matrix.txt",0.16111707841031153
+"run_star_se.txt,sortbam.txt",0.1512415349887133
+"run_star_se.txt,starSE.txt",0.2788944723618091
+"run_star_se.txt,fetch_unique_stringtie.txt",0.2234762979683973
+"run_star_se.txt,bigwig.txt",0.2136669874879692
+"run_star_se.txt,cutadapt 2.txt",0.16252821670428896
+"run_star_se.txt,cutadapt.txt",0.2257336343115124
+"run_star_se.txt,MultiQC.txt",0.24604966139954854
+"run_star_se.txt,salmon_quant_pe.txt",0.27408142999006946
+"run_star_se.txt,tximeta.txt",0.2009569377990431
+"run_star_se.txt,salmon_quant.txt",0.3213973799126637
+"run_star_se.txt,sort_bams.txt",0.20993227990970653
+"run_star_se.txt,mark_dups.txt",0.20090293453724606
+"run_star_se.txt,fastp_trimming_PE.txt",0.25032938076416333
+"run_star_se.txt,salmonPE.txt",0.22494592645998557
+"run_star_se.txt,samtools_bam.txt",0.1636568848758465
+"run_star_se.txt,bamindex.txt",0.24717832957110608
+"run_star_se.txt,generate_genome_star_index.txt",0.25846501128668176
+"run_star_se.txt,run_star_pe.txt",0.7958762886597939
+"run_star_se.txt,pass1.txt",0.19245573518090842
+"run_star_se.txt,fastqc_trimmed.txt",0.20541760722347635
+"run_star_se.txt,run_multiqc.txt",0.19187358916478559
+"run_star_se.txt,sampleReads.txt",0.20316027088036115
+"run_star_se.txt,pass2.txt",0.19668587896253598
+"fastqc.txt,trim_fasq_fastqc.txt",0.06551821519344814
+"fastqc.txt,picard_rna_seq.txt",0.2176759410801964
+"fastqc.txt,salmon_index_extended.txt",0.24907521578298397
+"fastqc.txt,fastp_trimming_SE.txt",0.18187919463087243
+"fastqc.txt,starindex.txt",0.16530278232405893
+"fastqc.txt,DRIMSeq.txt",0.3271028037383178
+"fastqc.txt,samtools_flagstat.txt",0.20949263502454996
+"fastqc.txt,salmon_quant_se.txt",0.23678160919540225
+"fastqc.txt,feature_counts.txt",0.2379642365887208
+"fastqc.txt,RNA_SeqC.txt",0.16039279869067102
+"fastqc.txt,fastqc 6.txt",0.22585924713584293
+"fastqc.txt,star_genome.txt",0.17880794701986757
+"fastqc.txt,edgeR.txt",0.31743278404163056
+"fastqc.txt,startPE.txt",0.3091272485009994
+"fastqc.txt,tastq_to_bam_HISAT.txt",0.08153380423814327
+"fastqc.txt,fastqc 5.txt",0.19312602291325698
+"fastqc.txt,multiqc 2.txt",0.21931260229132565
+"fastqc.txt,kallistoQuant.txt",0.15279878971255678
+"fastqc.txt,salmon_index.txt",0.21220930232558144
+"fastqc.txt,trim_galore_pe.txt",0.13119999999999998
+"fastqc.txt,samlon_quant.txt",0.2520458265139116
+"fastqc.txt,sortedbam_to_counts.txt",0.108411214953271
+"fastqc.txt,featureCounts 2.txt",0.19260400616332818
+"fastqc.txt,fastqc 4.txt",0.2225859247135843
+"fastqc.txt,multiqc 3.txt",0.19803600654664488
+"fastqc.txt,merge_trimmed_SE.txt",0.17348608837970536
+"fastqc.txt,trimgaloreSE.txt",0.7283406754772394
+"fastqc.txt,fastQCtrimmed 2.txt",0.2225859247135843
+"fastqc.txt,fastqcrim.txt",0.21931260229132565
+"fastqc.txt,sortedbam_to_rmdup.txt",0.1277941796710249
+"fastqc.txt,sort_index_bams.txt",0.23567921440261863
+"fastqc.txt,fastqc 3.txt",0.20458265139116205
+"fastqc.txt,fastqc 2.txt",0.26513911620294595
+"fastqc.txt,rsem_norm.txt",0.18758256274768825
+"fastqc.txt,featureCounts.txt",0.20949263502454996
+"fastqc.txt,merge_trimmed_PE.txt",0.18014705882352944
+"fastqc.txt,trimgalorePE.txt",0.5039920159680639
+"fastqc.txt,compare_reference_stringtie.txt",0.2274959083469722
+"fastqc.txt,hisat2.txt",0.20621931260229132
+"fastqc.txt,counts_matrix.txt",0.1450053705692803
+"fastqc.txt,sortbam.txt",0.20785597381342058
+"fastqc.txt,starSE.txt",0.3274706867671692
+"fastqc.txt,fetch_unique_stringtie.txt",0.20621931260229132
+"fastqc.txt,bigwig.txt",0.4417709335899904
+"fastqc.txt,cutadapt 2.txt",0.19083969465648853
+"fastqc.txt,cutadapt.txt",0.2635024549918167
+"fastqc.txt,MultiQC.txt",0.6022913256955811
+"fastqc.txt,salmon_quant_pe.txt",0.22542204568023838
+"fastqc.txt,tximeta.txt",0.30622009569377995
+"fastqc.txt,salmon_quant.txt",0.23930131004366817
+"fastqc.txt,sort_bams.txt",0.23076923076923073
+"fastqc.txt,mark_dups.txt",0.12442396313364057
+"fastqc.txt,fastp_trimming_PE.txt",0.1811594202898551
+"fastqc.txt,salmonPE.txt",0.34246575342465757
+"fastqc.txt,samtools_bam.txt",0.20458265139116205
+"fastqc.txt,bamindex.txt",0.5630114566284778
+"fastqc.txt,generate_genome_star_index.txt",0.19148936170212771
+"fastqc.txt,run_star_pe.txt",0.2412371134020619
+"fastqc.txt,pass1.txt",0.1685912240184757
+"fastqc.txt,fastqc_trimmed.txt",0.23567921440261863
+"fastqc.txt,run_multiqc.txt",0.1816693944353519
+"fastqc.txt,sampleReads.txt",0.20621931260229132
+"fastqc.txt,pass2.txt",0.1664265129682997
+"trim_fasq_fastqc.txt,picard_rna_seq.txt",0.04589099124541085
+"trim_fasq_fastqc.txt,salmon_index_extended.txt",0.09220559164077946
+"trim_fasq_fastqc.txt,fastp_trimming_SE.txt",0.1618186952838181
+"trim_fasq_fastqc.txt,starindex.txt",0.02372211239762778
+"trim_fasq_fastqc.txt,DRIMSeq.txt",0.10138378988986163
+"trim_fasq_fastqc.txt,samtools_flagstat.txt",0.02753459474724651
+"trim_fasq_fastqc.txt,salmon_quant_se.txt",0.09644168314035584
+"trim_fasq_fastqc.txt,feature_counts.txt",0.07526122564247384
+"trim_fasq_fastqc.txt,RNA_SeqC.txt",0.06594182434340579
+"trim_fasq_fastqc.txt,fastqc 6.txt",0.0430669302456933
+"trim_fasq_fastqc.txt,star_genome.txt",0.09474724654052524
+"trim_fasq_fastqc.txt,edgeR.txt",0.10152499293984751
+"trim_fasq_fastqc.txt,startPE.txt",0.11861056198813891
+"trim_fasq_fastqc.txt,tastq_to_bam_HISAT.txt",0.3748940977125106
+"trim_fasq_fastqc.txt,fastqc 5.txt",0.019627223948037287
+"trim_fasq_fastqc.txt,multiqc 2.txt",0.06170573284382941
+"trim_fasq_fastqc.txt,kallistoQuant.txt",0.0755436317424456
+"trim_fasq_fastqc.txt,salmon_index.txt",0.07865009884213503
+"trim_fasq_fastqc.txt,trim_galore_pe.txt",0.073990398192601
+"trim_fasq_fastqc.txt,samlon_quant.txt",0.046597006495340265
+"trim_fasq_fastqc.txt,sortedbam_to_counts.txt",0.33691047726630896
+"trim_fasq_fastqc.txt,featureCounts 2.txt",0.07624964699237502
+"trim_fasq_fastqc.txt,fastqc 4.txt",0.05125670714487429
+"trim_fasq_fastqc.txt,multiqc 3.txt",0.07201355549279864
+"trim_fasq_fastqc.txt,merge_trimmed_SE.txt",0.06707144874329285
+"trim_fasq_fastqc.txt,trimgaloreSE.txt",0.07187235244281276
+"trim_fasq_fastqc.txt,fastQCtrimmed 2.txt",0.045608585145439196
+"trim_fasq_fastqc.txt,fastqcrim.txt",0.05648121999435185
+"trim_fasq_fastqc.txt,sortedbam_to_rmdup.txt",0.25007060152499294
+"trim_fasq_fastqc.txt,sort_index_bams.txt",0.02711098559728886
+"trim_fasq_fastqc.txt,fastqc 3.txt",0.06396498164360354
+"trim_fasq_fastqc.txt,fastqc 2.txt",0.051397910194860175
+"trim_fasq_fastqc.txt,rsem_norm.txt",0.08486303304151366
+"trim_fasq_fastqc.txt,featureCounts.txt",0.054221971194577834
+"trim_fasq_fastqc.txt,merge_trimmed_PE.txt",0.09771251059022878
+"trim_fasq_fastqc.txt,trimgalorePE.txt",0.09206438859079358
+"trim_fasq_fastqc.txt,compare_reference_stringtie.txt",0.04885625529511439
+"trim_fasq_fastqc.txt,hisat2.txt",0.05069189494493076
+"trim_fasq_fastqc.txt,counts_matrix.txt",0.18031629483196832
+"trim_fasq_fastqc.txt,sortbam.txt",0.024428127647557196
+"trim_fasq_fastqc.txt,starSE.txt",0.10223100818977693
+"trim_fasq_fastqc.txt,fetch_unique_stringtie.txt",0.061564529793843525
+"trim_fasq_fastqc.txt,bigwig.txt",0.0943236373905676
+"trim_fasq_fastqc.txt,cutadapt 2.txt",0.08472182999152778
+"trim_fasq_fastqc.txt,cutadapt.txt",0.039819260096018105
+"trim_fasq_fastqc.txt,MultiQC.txt",0.05845806269415421
+"trim_fasq_fastqc.txt,salmon_quant_pe.txt",0.1088675515391132
+"trim_fasq_fastqc.txt,tximeta.txt",0.0919231855408077
+"trim_fasq_fastqc.txt,salmon_quant.txt",0.12228184128777186
+"trim_fasq_fastqc.txt,sort_bams.txt",0.026404970347359558
+"trim_fasq_fastqc.txt,mark_dups.txt",0.06791866704320815
+"trim_fasq_fastqc.txt,fastp_trimming_PE.txt",0.1560293702343971
+"trim_fasq_fastqc.txt,salmonPE.txt",0.11508048573849194
+"trim_fasq_fastqc.txt,samtools_bam.txt",0.02598136119740191
+"trim_fasq_fastqc.txt,bamindex.txt",0.0569048291443095
+"trim_fasq_fastqc.txt,generate_genome_star_index.txt",0.052809940694719004
+"trim_fasq_fastqc.txt,run_star_pe.txt",0.09065235809093475
+"trim_fasq_fastqc.txt,pass1.txt",0.12496469923750353
+"trim_fasq_fastqc.txt,fastqc_trimmed.txt",0.0577520474442248
+"trim_fasq_fastqc.txt,run_multiqc.txt",0.061988138943801174
+"trim_fasq_fastqc.txt,sampleReads.txt",0.055210392544479014
+"trim_fasq_fastqc.txt,pass2.txt",0.12905958768709402
+"picard_rna_seq.txt,salmon_index_extended.txt",0.21578298397040685
+"picard_rna_seq.txt,fastp_trimming_SE.txt",0.15100671140939592
+"picard_rna_seq.txt,starindex.txt",0.20140515222482436
+"picard_rna_seq.txt,DRIMSeq.txt",0.16737468139337297
+"picard_rna_seq.txt,samtools_flagstat.txt",0.25761124121779855
+"picard_rna_seq.txt,salmon_quant_se.txt",0.20114942528735635
+"picard_rna_seq.txt,feature_counts.txt",0.26685006877579087
+"picard_rna_seq.txt,RNA_SeqC.txt",0.17770034843205573
+"picard_rna_seq.txt,fastqc 6.txt",0.17564402810304447
+"picard_rna_seq.txt,star_genome.txt",0.1909492273730684
+"picard_rna_seq.txt,edgeR.txt",0.17259323503902857
+"picard_rna_seq.txt,startPE.txt",0.1479013990672885
+"picard_rna_seq.txt,tastq_to_bam_HISAT.txt",0.05933400605449046
+"picard_rna_seq.txt,fastqc 5.txt",0.18969555035128804
+"picard_rna_seq.txt,multiqc 2.txt",0.1569416498993964
+"picard_rna_seq.txt,kallistoQuant.txt",0.17549167927382758
+"picard_rna_seq.txt,salmon_index.txt",0.19622093023255816
+"picard_rna_seq.txt,trim_galore_pe.txt",0.21120000000000005
+"picard_rna_seq.txt,samlon_quant.txt",0.2552693208430913
+"picard_rna_seq.txt,sortedbam_to_counts.txt",0.07583444592790389
+"picard_rna_seq.txt,featureCounts 2.txt",0.214175654853621
+"picard_rna_seq.txt,fastqc 4.txt",0.16627634660421542
+"picard_rna_seq.txt,multiqc 3.txt",0.2142857142857143
+"picard_rna_seq.txt,merge_trimmed_SE.txt",0.20498084291187735
+"picard_rna_seq.txt,trimgaloreSE.txt",0.21879588839941266
+"picard_rna_seq.txt,fastQCtrimmed 2.txt",0.18266978922716626
+"picard_rna_seq.txt,fastqcrim.txt",0.152317880794702
+"picard_rna_seq.txt,sortedbam_to_rmdup.txt",0.1164065795023197
+"picard_rna_seq.txt,sort_index_bams.txt",0.3044496487119438
+"picard_rna_seq.txt,fastqc 3.txt",0.20790378006872856
+"picard_rna_seq.txt,fastqc 2.txt",0.180327868852459
+"picard_rna_seq.txt,rsem_norm.txt",0.20607661822985468
+"picard_rna_seq.txt,featureCounts.txt",0.2142857142857143
+"picard_rna_seq.txt,merge_trimmed_PE.txt",0.2046568627450981
+"picard_rna_seq.txt,trimgalorePE.txt",0.18562874251497008
+"picard_rna_seq.txt,compare_reference_stringtie.txt",0.1920374707259953
+"picard_rna_seq.txt,hisat2.txt",0.17564402810304447
+"picard_rna_seq.txt,counts_matrix.txt",0.11331901181525239
+"picard_rna_seq.txt,sortbam.txt",0.18969555035128804
+"picard_rna_seq.txt,starSE.txt",0.17839195979899503
+"picard_rna_seq.txt,fetch_unique_stringtie.txt",0.194672131147541
+"picard_rna_seq.txt,bigwig.txt",0.2011549566891242
+"picard_rna_seq.txt,cutadapt 2.txt",0.18447837150127222
+"picard_rna_seq.txt,cutadapt.txt",0.24121779859484782
+"picard_rna_seq.txt,MultiQC.txt",0.18265682656826565
+"picard_rna_seq.txt,salmon_quant_pe.txt",0.1876861966236345
+"picard_rna_seq.txt,tximeta.txt",0.18564593301435406
+"picard_rna_seq.txt,salmon_quant.txt",0.18078602620087336
+"picard_rna_seq.txt,sort_bams.txt",0.3091334894613583
+"picard_rna_seq.txt,mark_dups.txt",0.2503840245775729
+"picard_rna_seq.txt,fastp_trimming_PE.txt",0.1462450592885376
+"picard_rna_seq.txt,salmonPE.txt",0.15068493150684936
+"picard_rna_seq.txt,samtools_bam.txt",0.24355971896955508
+"picard_rna_seq.txt,bamindex.txt",0.22568093385214005
+"picard_rna_seq.txt,generate_genome_star_index.txt",0.2624521072796935
+"picard_rna_seq.txt,run_star_pe.txt",0.22061855670103092
+"picard_rna_seq.txt,pass1.txt",0.15550423402617397
+"picard_rna_seq.txt,fastqc_trimmed.txt",0.14416475972540044
+"picard_rna_seq.txt,run_multiqc.txt",0.17441860465116277
+"picard_rna_seq.txt,sampleReads.txt",0.14120370370370372
+"picard_rna_seq.txt,pass2.txt",0.15057636887608072
+"salmon_index_extended.txt,fastp_trimming_SE.txt",0.28657718120805364
+"salmon_index_extended.txt,starindex.txt",0.1454993834771886
+"salmon_index_extended.txt,DRIMSeq.txt",0.24638912489379783
+"salmon_index_extended.txt,samtools_flagstat.txt",0.15166461159062883
+"salmon_index_extended.txt,salmon_quant_se.txt",0.38390804597701145
+"salmon_index_extended.txt,feature_counts.txt",0.1972872996300863
+"salmon_index_extended.txt,RNA_SeqC.txt",0.2836004932182491
+"salmon_index_extended.txt,fastqc 6.txt",0.21948212083847107
+"salmon_index_extended.txt,star_genome.txt",0.2803532008830022
+"salmon_index_extended.txt,edgeR.txt",0.24284475281873374
+"salmon_index_extended.txt,startPE.txt",0.21918720852764828
+"salmon_index_extended.txt,tastq_to_bam_HISAT.txt",0.11806256306760843
+"salmon_index_extended.txt,fastqc 5.txt",0.1171393341553637
+"salmon_index_extended.txt,multiqc 2.txt",0.24290998766954375
+"salmon_index_extended.txt,kallistoQuant.txt",0.29469790382244143
+"salmon_index_extended.txt,salmon_index.txt",0.6757090012330456
+"salmon_index_extended.txt,trim_galore_pe.txt",0.33045622688039455
+"salmon_index_extended.txt,samlon_quant.txt",0.24044389642416775
+"salmon_index_extended.txt,sortedbam_to_counts.txt",0.15460614152202934
+"salmon_index_extended.txt,featureCounts 2.txt",0.32922318125770655
+"salmon_index_extended.txt,fastqc 4.txt",0.26757090012330453
+"salmon_index_extended.txt,multiqc 3.txt",0.3797780517879161
+"salmon_index_extended.txt,merge_trimmed_SE.txt",0.29469790382244143
+"salmon_index_extended.txt,trimgaloreSE.txt",0.2305795314426634
+"salmon_index_extended.txt,fastQCtrimmed 2.txt",0.22194821208384707
+"salmon_index_extended.txt,fastqcrim.txt",0.2638717632552404
+"salmon_index_extended.txt,sortedbam_to_rmdup.txt",0.19190215099114294
+"salmon_index_extended.txt,sort_index_bams.txt",0.1701602959309494
+"salmon_index_extended.txt,fastqc 3.txt",0.1972872996300863
+"salmon_index_extended.txt,fastqc 2.txt",0.27866831072749687
+"salmon_index_extended.txt,rsem_norm.txt",0.26880394574599265
+"salmon_index_extended.txt,featureCounts.txt",0.21085080147965474
+"salmon_index_extended.txt,merge_trimmed_PE.txt",0.23039215686274506
+"salmon_index_extended.txt,trimgalorePE.txt",0.20459081836327342
+"salmon_index_extended.txt,compare_reference_stringtie.txt",0.313193588162762
+"salmon_index_extended.txt,hisat2.txt",0.281134401972873
+"salmon_index_extended.txt,counts_matrix.txt",0.23469387755102045
+"salmon_index_extended.txt,sortbam.txt",0.15043156596794083
+"salmon_index_extended.txt,starSE.txt",0.24204355108877718
+"salmon_index_extended.txt,fetch_unique_stringtie.txt",0.3403205918618989
+"salmon_index_extended.txt,bigwig.txt",0.22232916265640035
+"salmon_index_extended.txt,cutadapt 2.txt",0.2293464858199753
+"salmon_index_extended.txt,cutadapt.txt",0.19112207151664606
+"salmon_index_extended.txt,MultiQC.txt",0.2281134401972873
+"salmon_index_extended.txt,salmon_quant_pe.txt",0.3644488579940417
+"salmon_index_extended.txt,tximeta.txt",0.22200956937799043
+"salmon_index_extended.txt,salmon_quant.txt",0.4585152838427947
+"salmon_index_extended.txt,sort_bams.txt",0.16646115906288528
+"salmon_index_extended.txt,mark_dups.txt",0.26510480887792853
+"salmon_index_extended.txt,fastp_trimming_PE.txt",0.29907773386034253
+"salmon_index_extended.txt,salmonPE.txt",0.2350396539293439
+"salmon_index_extended.txt,samtools_bam.txt",0.15413070283600494
+"salmon_index_extended.txt,bamindex.txt",0.250308261405672
+"salmon_index_extended.txt,generate_genome_star_index.txt",0.24290998766954375
+"salmon_index_extended.txt,run_star_pe.txt",0.2319587628865979
+"salmon_index_extended.txt,pass1.txt",0.2678983833718245
+"salmon_index_extended.txt,fastqc_trimmed.txt",0.279901356350185
+"salmon_index_extended.txt,run_multiqc.txt",0.22071516646115907
+"salmon_index_extended.txt,sampleReads.txt",0.2848335388409371
+"salmon_index_extended.txt,pass2.txt",0.2579250720461095
+"fastp_trimming_SE.txt,starindex.txt",0.08389261744966447
+"fastp_trimming_SE.txt,DRIMSeq.txt",0.18053691275167782
+"fastp_trimming_SE.txt,samtools_flagstat.txt",0.09664429530201346
+"fastp_trimming_SE.txt,salmon_quant_se.txt",0.31409395973154364
+"fastp_trimming_SE.txt,feature_counts.txt",0.20201342281879198
+"fastp_trimming_SE.txt,RNA_SeqC.txt",0.2060402684563758
+"fastp_trimming_SE.txt,fastqc 6.txt",0.15570469798657716
+"fastp_trimming_SE.txt,star_genome.txt",0.25704697986577185
+"fastp_trimming_SE.txt,edgeR.txt",0.1885906040268457
+"fastp_trimming_SE.txt,startPE.txt",0.1305796135909394
+"fastp_trimming_SE.txt,tastq_to_bam_HISAT.txt",0.19475277497477295
+"fastp_trimming_SE.txt,fastqc 5.txt",0.07986577181208054
+"fastp_trimming_SE.txt,multiqc 2.txt",0.18590604026845636
+"fastp_trimming_SE.txt,kallistoQuant.txt",0.236241610738255
+"fastp_trimming_SE.txt,salmon_index.txt",0.2651006711409396
+"fastp_trimming_SE.txt,trim_galore_pe.txt",0.2348993288590604
+"fastp_trimming_SE.txt,samlon_quant.txt",0.1456375838926175
+"fastp_trimming_SE.txt,sortedbam_to_counts.txt",0.24913217623497996
+"fastp_trimming_SE.txt,featureCounts 2.txt",0.25973154362416107
+"fastp_trimming_SE.txt,fastqc 4.txt",0.17986577181208052
+"fastp_trimming_SE.txt,multiqc 3.txt",0.2664429530201342
+"fastp_trimming_SE.txt,merge_trimmed_SE.txt",0.28724832214765106
+"fastp_trimming_SE.txt,trimgaloreSE.txt",0.18255033557046985
+"fastp_trimming_SE.txt,fastQCtrimmed 2.txt",0.15906040268456378
+"fastp_trimming_SE.txt,fastqcrim.txt",0.18791946308724827
+"fastp_trimming_SE.txt,sortedbam_to_rmdup.txt",0.308730493462674
+"fastp_trimming_SE.txt,sort_index_bams.txt",0.102013422818792
+"fastp_trimming_SE.txt,fastqc 3.txt",0.2221476510067114
+"fastp_trimming_SE.txt,fastqc 2.txt",0.18187919463087243
+"fastp_trimming_SE.txt,rsem_norm.txt",0.24161073825503354
+"fastp_trimming_SE.txt,featureCounts.txt",0.15771812080536918
+"fastp_trimming_SE.txt,merge_trimmed_PE.txt",0.34295302013422824
+"fastp_trimming_SE.txt,trimgalorePE.txt",0.19731543624161074
+"fastp_trimming_SE.txt,compare_reference_stringtie.txt",0.17181208053691277
+"fastp_trimming_SE.txt,hisat2.txt",0.1778523489932886
+"fastp_trimming_SE.txt,counts_matrix.txt",0.29538131041890436
+"fastp_trimming_SE.txt,sortbam.txt",0.0892617449664429
+"fastp_trimming_SE.txt,starSE.txt",0.19865771812080535
+"fastp_trimming_SE.txt,fetch_unique_stringtie.txt",0.19798657718120805
+"fastp_trimming_SE.txt,bigwig.txt",0.16644295302013423
+"fastp_trimming_SE.txt,cutadapt 2.txt",0.24765100671140938
+"fastp_trimming_SE.txt,cutadapt.txt",0.12885906040268458
+"fastp_trimming_SE.txt,MultiQC.txt",0.16711409395973154
+"fastp_trimming_SE.txt,salmon_quant_pe.txt",0.3248322147651007
+"fastp_trimming_SE.txt,tximeta.txt",0.1926174496644295
+"fastp_trimming_SE.txt,salmon_quant.txt",0.31744966442953015
+"fastp_trimming_SE.txt,sort_bams.txt",0.10469798657718121
+"fastp_trimming_SE.txt,mark_dups.txt",0.21208053691275164
+"fastp_trimming_SE.txt,fastp_trimming_PE.txt",0.619235836627141
+"fastp_trimming_SE.txt,salmonPE.txt",0.161744966442953
+"fastp_trimming_SE.txt,samtools_bam.txt",0.09395973154362414
+"fastp_trimming_SE.txt,bamindex.txt",0.15033557046979862
+"fastp_trimming_SE.txt,generate_genome_star_index.txt",0.1597315436241611
+"fastp_trimming_SE.txt,run_star_pe.txt",0.25503355704697983
+"fastp_trimming_SE.txt,pass1.txt",0.23221476510067118
+"fastp_trimming_SE.txt,fastqc_trimmed.txt",0.20067114093959737
+"fastp_trimming_SE.txt,run_multiqc.txt",0.1771812080536913
+"fastp_trimming_SE.txt,sampleReads.txt",0.19395973154362411
+"fastp_trimming_SE.txt,pass2.txt",0.21610738255033557
+"starindex.txt,DRIMSeq.txt",0.11214953271028039
+"starindex.txt,samtools_flagstat.txt",0.16431924882629112
+"starindex.txt,salmon_quant_se.txt",0.14022988505747125
+"starindex.txt,feature_counts.txt",0.1636863823933975
+"starindex.txt,RNA_SeqC.txt",0.15156794425087106
+"starindex.txt,fastqc 6.txt",0.17804154302670627
+"starindex.txt,star_genome.txt",0.1567328918322296
+"starindex.txt,edgeR.txt",0.11361665221162187
+"starindex.txt,startPE.txt",0.10059960026648895
+"starindex.txt,tastq_to_bam_HISAT.txt",0.033097880928355194
+"starindex.txt,fastqc 5.txt",0.2582159624413145
+"starindex.txt,multiqc 2.txt",0.15895372233400407
+"starindex.txt,kallistoQuant.txt",0.13464447806354007
+"starindex.txt,salmon_index.txt",0.16715116279069764
+"starindex.txt,trim_galore_pe.txt",0.1472
+"starindex.txt,samlon_quant.txt",0.2071611253196931
+"starindex.txt,sortedbam_to_counts.txt",0.04085447263017361
+"starindex.txt,featureCounts 2.txt",0.15408320493066252
+"starindex.txt,fastqc 4.txt",0.17464114832535882
+"starindex.txt,multiqc 3.txt",0.15816326530612246
+"starindex.txt,merge_trimmed_SE.txt",0.16475095785440608
+"starindex.txt,trimgaloreSE.txt",0.16446402349486045
+"starindex.txt,fastQCtrimmed 2.txt",0.18338108882521487
+"starindex.txt,fastqcrim.txt",0.16777041942604853
+"starindex.txt,sortedbam_to_rmdup.txt",0.059468578658793736
+"starindex.txt,sort_index_bams.txt",0.19907407407407407
+"starindex.txt,fastqc 3.txt",0.1563573883161512
+"starindex.txt,fastqc 2.txt",0.18229166666666663
+"starindex.txt,rsem_norm.txt",0.13606340819022456
+"starindex.txt,featureCounts.txt",0.19444444444444442
+"starindex.txt,merge_trimmed_PE.txt",0.12377450980392157
+"starindex.txt,trimgalorePE.txt",0.12475049900199597
+"starindex.txt,compare_reference_stringtie.txt",0.1967654986522911
+"starindex.txt,hisat2.txt",0.16009852216748766
+"starindex.txt,counts_matrix.txt",0.06605800214822766
+"starindex.txt,sortbam.txt",0.19248826291079812
+"starindex.txt,starSE.txt",0.12144053601340032
+"starindex.txt,fetch_unique_stringtie.txt",0.17213114754098358
+"starindex.txt,bigwig.txt",0.1231953801732435
+"starindex.txt,cutadapt 2.txt",0.12086513994910941
+"starindex.txt,cutadapt.txt",0.20731707317073167
+"starindex.txt,MultiQC.txt",0.16236162361623618
+"starindex.txt,salmon_quant_pe.txt",0.12512413108242304
+"starindex.txt,tximeta.txt",0.11770334928229664
+"starindex.txt,salmon_quant.txt",0.11004366812227073
+"starindex.txt,sort_bams.txt",0.187793427230047
+"starindex.txt,mark_dups.txt",0.1321044546850998
+"starindex.txt,fastp_trimming_PE.txt",0.08300395256916993
+"starindex.txt,salmonPE.txt",0.09589041095890416
+"starindex.txt,samtools_bam.txt",0.19248826291079812
+"starindex.txt,bamindex.txt",0.19455252918287935
+"starindex.txt,generate_genome_star_index.txt",0.23371647509578541
+"starindex.txt,run_star_pe.txt",0.13608247422680408
+"starindex.txt,pass1.txt",0.0969976905311778
+"starindex.txt,fastqc_trimmed.txt",0.19221967963386732
+"starindex.txt,run_multiqc.txt",0.14922480620155043
+"starindex.txt,sampleReads.txt",0.18287037037037035
+"starindex.txt,pass2.txt",0.0943804034582133
+"DRIMSeq.txt,samtools_flagstat.txt",0.12064570943075614
+"DRIMSeq.txt,salmon_quant_se.txt",0.21920135938827523
+"DRIMSeq.txt,feature_counts.txt",0.24129141886151229
+"DRIMSeq.txt,RNA_SeqC.txt",0.19796091758708578
+"DRIMSeq.txt,fastqc 6.txt",0.13933729821580287
+"DRIMSeq.txt,star_genome.txt",0.18011894647408666
+"DRIMSeq.txt,edgeR.txt",0.8334749362786746
+"DRIMSeq.txt,startPE.txt",0.2524983344437042
+"DRIMSeq.txt,tastq_to_bam_HISAT.txt",0.12411705348133195
+"DRIMSeq.txt,fastqc 5.txt",0.08836023789294822
+"DRIMSeq.txt,multiqc 2.txt",0.17502124044180123
+"DRIMSeq.txt,kallistoQuant.txt",0.1852166525063721
+"DRIMSeq.txt,salmon_index.txt",0.24638912489379783
+"DRIMSeq.txt,trim_galore_pe.txt",0.18946474086661003
+"DRIMSeq.txt,samlon_quant.txt",0.1707731520815633
+"DRIMSeq.txt,sortedbam_to_counts.txt",0.15994659546061418
+"DRIMSeq.txt,featureCounts 2.txt",0.21750212404418012
+"DRIMSeq.txt,fastqc 4.txt",0.16652506372132536
+"DRIMSeq.txt,multiqc 3.txt",0.21665250637213251
+"DRIMSeq.txt,merge_trimmed_SE.txt",0.1852166525063721
+"DRIMSeq.txt,trimgaloreSE.txt",0.3118096856414614
+"DRIMSeq.txt,fastQCtrimmed 2.txt",0.1418861512319456
+"DRIMSeq.txt,fastqcrim.txt",0.173322005097706
+"DRIMSeq.txt,sortedbam_to_rmdup.txt",0.16786166174609873
+"DRIMSeq.txt,sort_index_bams.txt",0.12319456244689886
+"DRIMSeq.txt,fastqc 3.txt",0.20985556499575186
+"DRIMSeq.txt,fastqc 2.txt",0.16397621070518265
+"DRIMSeq.txt,rsem_norm.txt",0.21070518266779947
+"DRIMSeq.txt,featureCounts.txt",0.18946474086661003
+"DRIMSeq.txt,merge_trimmed_PE.txt",0.18181818181818177
+"DRIMSeq.txt,trimgalorePE.txt",0.29141886151231944
+"DRIMSeq.txt,compare_reference_stringtie.txt",0.17757009345794394
+"DRIMSeq.txt,hisat2.txt",0.1707731520815633
+"DRIMSeq.txt,counts_matrix.txt",0.186358754027927
+"DRIMSeq.txt,sortbam.txt",0.11554800339847071
+"DRIMSeq.txt,starSE.txt",0.19179229480737015
+"DRIMSeq.txt,fetch_unique_stringtie.txt",0.20390824129141882
+"DRIMSeq.txt,bigwig.txt",0.25063721325403565
+"DRIMSeq.txt,cutadapt 2.txt",0.20560747663551404
+"DRIMSeq.txt,cutadapt.txt",0.14528462192013591
+"DRIMSeq.txt,MultiQC.txt",0.30416312659303313
+"DRIMSeq.txt,salmon_quant_pe.txt",0.20645709430756165
+"DRIMSeq.txt,tximeta.txt",0.340696686491079
+"DRIMSeq.txt,salmon_quant.txt",0.16737468139337297
+"DRIMSeq.txt,sort_bams.txt",0.12404418011894647
+"DRIMSeq.txt,mark_dups.txt",0.1843670348343246
+"DRIMSeq.txt,fastp_trimming_PE.txt",0.191699604743083
+"DRIMSeq.txt,salmonPE.txt",0.2530641672674838
+"DRIMSeq.txt,samtools_bam.txt",0.1146983857264231
+"DRIMSeq.txt,bamindex.txt",0.2676295666949873
+"DRIMSeq.txt,generate_genome_star_index.txt",0.1843670348343246
+"DRIMSeq.txt,run_star_pe.txt",0.22005097706032284
+"DRIMSeq.txt,pass1.txt",0.1447267128560431
+"DRIMSeq.txt,fastqc_trimmed.txt",0.17672047578589634
+"DRIMSeq.txt,run_multiqc.txt",0.18266779949022938
+"DRIMSeq.txt,sampleReads.txt",0.18181818181818177
+"DRIMSeq.txt,pass2.txt",0.1635446685878963
+"samtools_flagstat.txt,salmon_quant_se.txt",0.1586206896551724
+"samtools_flagstat.txt,feature_counts.txt",0.1815680880330124
+"samtools_flagstat.txt,RNA_SeqC.txt",0.19163763066202089
+"samtools_flagstat.txt,fastqc 6.txt",0.21364985163204753
+"samtools_flagstat.txt,star_genome.txt",0.1269315673289183
+"samtools_flagstat.txt,edgeR.txt",0.12228967909800526
+"samtools_flagstat.txt,startPE.txt",0.1072618254497002
+"samtools_flagstat.txt,tastq_to_bam_HISAT.txt",0.0375378405650858
+"samtools_flagstat.txt,fastqc 5.txt",0.36492890995260663
+"samtools_flagstat.txt,multiqc 2.txt",0.25955734406438635
+"samtools_flagstat.txt,kallistoQuant.txt",0.16036308623298035
+"samtools_flagstat.txt,salmon_index.txt",0.1758720930232558
+"samtools_flagstat.txt,trim_galore_pe.txt",0.16959999999999997
+"samtools_flagstat.txt,samlon_quant.txt",0.36317135549872126
+"samtools_flagstat.txt,sortedbam_to_counts.txt",0.049933244325767734
+"samtools_flagstat.txt,featureCounts 2.txt",0.18335901386748843
+"samtools_flagstat.txt,fastqc 4.txt",0.20813397129186606
+"samtools_flagstat.txt,multiqc 3.txt",0.1819727891156463
+"samtools_flagstat.txt,merge_trimmed_SE.txt",0.1954022988505747
+"samtools_flagstat.txt,trimgaloreSE.txt",0.18649045521292218
+"samtools_flagstat.txt,fastQCtrimmed 2.txt",0.22636103151862463
+"samtools_flagstat.txt,fastqcrim.txt",0.20971302428256067
+"samtools_flagstat.txt,sortedbam_to_rmdup.txt",0.06959088991986506
+"samtools_flagstat.txt,sort_index_bams.txt",0.4537037037037037
+"samtools_flagstat.txt,fastqc 3.txt",0.23024054982817865
+"samtools_flagstat.txt,fastqc 2.txt",0.30989583333333337
+"samtools_flagstat.txt,rsem_norm.txt",0.15191545574636722
+"samtools_flagstat.txt,featureCounts.txt",0.3035714285714286
+"samtools_flagstat.txt,merge_trimmed_PE.txt",0.14950980392156865
+"samtools_flagstat.txt,trimgalorePE.txt",0.14271457085828343
+"samtools_flagstat.txt,compare_reference_stringtie.txt",0.24258760107816713
+"samtools_flagstat.txt,hisat2.txt",0.229064039408867
+"samtools_flagstat.txt,counts_matrix.txt",0.07894736842105265
+"samtools_flagstat.txt,sortbam.txt",0.2559241706161137
+"samtools_flagstat.txt,starSE.txt",0.128140703517588
+"samtools_flagstat.txt,fetch_unique_stringtie.txt",0.21926229508196726
+"samtools_flagstat.txt,bigwig.txt",0.14725697786333014
+"samtools_flagstat.txt,cutadapt 2.txt",0.12849872773536897
+"samtools_flagstat.txt,cutadapt.txt",0.3719512195121951
+"samtools_flagstat.txt,MultiQC.txt",0.21771217712177127
+"samtools_flagstat.txt,salmon_quant_pe.txt",0.14399205561072492
+"samtools_flagstat.txt,tximeta.txt",0.13205741626794254
+"samtools_flagstat.txt,salmon_quant.txt",0.12751091703056772
+"samtools_flagstat.txt,sort_bams.txt",0.5071090047393365
+"samtools_flagstat.txt,mark_dups.txt",0.1751152073732719
+"samtools_flagstat.txt,fastp_trimming_PE.txt",0.0974967061923584
+"samtools_flagstat.txt,salmonPE.txt",0.11896178803172319
+"samtools_flagstat.txt,samtools_bam.txt",0.7725118483412322
+"samtools_flagstat.txt,bamindex.txt",0.27626459143968873
+"samtools_flagstat.txt,generate_genome_star_index.txt",0.21647509578544066
+"samtools_flagstat.txt,run_star_pe.txt",0.15670103092783505
+"samtools_flagstat.txt,pass1.txt",0.09314857582755964
+"samtools_flagstat.txt,fastqc_trimmed.txt",0.29748283752860416
+"samtools_flagstat.txt,run_multiqc.txt",0.2151162790697675
+"samtools_flagstat.txt,sampleReads.txt",0.26388888888888884
+"samtools_flagstat.txt,pass2.txt",0.09293948126801155
+"salmon_quant_se.txt,feature_counts.txt",0.19770114942528738
+"salmon_quant_se.txt,RNA_SeqC.txt",0.26321839080459775
+"salmon_quant_se.txt,fastqc 6.txt",0.23333333333333328
+"salmon_quant_se.txt,star_genome.txt",0.29690949227373065
+"salmon_quant_se.txt,edgeR.txt",0.21769297484822203
+"salmon_quant_se.txt,startPE.txt",0.21385742838107924
+"salmon_quant_se.txt,tastq_to_bam_HISAT.txt",0.12431886982845608
+"salmon_quant_se.txt,fastqc 5.txt",0.11839080459770113
+"salmon_quant_se.txt,multiqc 2.txt",0.23448275862068968
+"salmon_quant_se.txt,kallistoQuant.txt",0.28735632183908044
+"salmon_quant_se.txt,salmon_index.txt",0.4862068965517241
+"salmon_quant_se.txt,trim_galore_pe.txt",0.31264367816091954
+"salmon_quant_se.txt,samlon_quant.txt",0.28505747126436787
+"salmon_quant_se.txt,sortedbam_to_counts.txt",0.16154873164218964
+"salmon_quant_se.txt,featureCounts 2.txt",0.328735632183908
+"salmon_quant_se.txt,fastqc 4.txt",0.25172413793103443
+"salmon_quant_se.txt,multiqc 3.txt",0.4160919540229885
+"salmon_quant_se.txt,merge_trimmed_SE.txt",0.32068965517241377
+"salmon_quant_se.txt,trimgaloreSE.txt",0.24137931034482762
+"salmon_quant_se.txt,fastQCtrimmed 2.txt",0.22643678160919545
+"salmon_quant_se.txt,fastqcrim.txt",0.25057471264367814
+"salmon_quant_se.txt,sortedbam_to_rmdup.txt",0.20118093631379164
+"salmon_quant_se.txt,sort_index_bams.txt",0.16781609195402303
+"salmon_quant_se.txt,fastqc 3.txt",0.26091954022988506
+"salmon_quant_se.txt,fastqc 2.txt",0.2666666666666667
+"salmon_quant_se.txt,rsem_norm.txt",0.3057471264367816
+"salmon_quant_se.txt,featureCounts.txt",0.22758620689655173
+"salmon_quant_se.txt,merge_trimmed_PE.txt",0.267816091954023
+"salmon_quant_se.txt,trimgalorePE.txt",0.18562874251497008
+"salmon_quant_se.txt,compare_reference_stringtie.txt",0.26206896551724135
+"salmon_quant_se.txt,hisat2.txt",0.267816091954023
+"salmon_quant_se.txt,counts_matrix.txt",0.23630504833512356
+"salmon_quant_se.txt,sortbam.txt",0.135632183908046
+"salmon_quant_se.txt,starSE.txt",0.23199329983249584
+"salmon_quant_se.txt,fetch_unique_stringtie.txt",0.2827586206896552
+"salmon_quant_se.txt,bigwig.txt",0.1934552454282964
+"salmon_quant_se.txt,cutadapt 2.txt",0.26091954022988506
+"salmon_quant_se.txt,cutadapt.txt",0.2057471264367816
+"salmon_quant_se.txt,MultiQC.txt",0.2195402298850575
+"salmon_quant_se.txt,salmon_quant_pe.txt",0.8609731876861966
+"salmon_quant_se.txt,tximeta.txt",0.2009569377990431
+"salmon_quant_se.txt,salmon_quant.txt",0.5458515283842795
+"salmon_quant_se.txt,sort_bams.txt",0.17931034482758623
+"salmon_quant_se.txt,mark_dups.txt",0.26321839080459775
+"salmon_quant_se.txt,fastp_trimming_PE.txt",0.3399209486166008
+"salmon_quant_se.txt,salmonPE.txt",0.2191780821917808
+"salmon_quant_se.txt,samtools_bam.txt",0.15632183908045982
+"salmon_quant_se.txt,bamindex.txt",0.22298850574712648
+"salmon_quant_se.txt,generate_genome_star_index.txt",0.2551724137931034
+"salmon_quant_se.txt,run_star_pe.txt",0.27113402061855674
+"salmon_quant_se.txt,pass1.txt",0.27174749807544263
+"salmon_quant_se.txt,fastqc_trimmed.txt",0.27356321839080455
+"salmon_quant_se.txt,run_multiqc.txt",0.2183908045977011
+"salmon_quant_se.txt,sampleReads.txt",0.30919540229885056
+"salmon_quant_se.txt,pass2.txt",0.26585014409221897
+"feature_counts.txt,RNA_SeqC.txt",0.1911966987620357
+"feature_counts.txt,fastqc 6.txt",0.17331499312242094
+"feature_counts.txt,star_genome.txt",0.1865342163355408
+"feature_counts.txt,edgeR.txt",0.2445793581960104
+"feature_counts.txt,startPE.txt",0.2071952031978681
+"feature_counts.txt,tastq_to_bam_HISAT.txt",0.09949545913218971
+"feature_counts.txt,fastqc 5.txt",0.13755158184319116
+"feature_counts.txt,multiqc 2.txt",0.20632737276478674
+"feature_counts.txt,kallistoQuant.txt",0.17331499312242094
+"feature_counts.txt,salmon_index.txt",0.17606602475928468
+"feature_counts.txt,trim_galore_pe.txt",0.18982118294360384
+"feature_counts.txt,samlon_quant.txt",0.2379642365887208
+"feature_counts.txt,sortedbam_to_counts.txt",0.13751668891855806
+"feature_counts.txt,featureCounts 2.txt",0.2489683631361761
+"feature_counts.txt,fastqc 4.txt",0.21870701513067403
+"feature_counts.txt,multiqc 3.txt",0.2145804676753783
+"feature_counts.txt,merge_trimmed_SE.txt",0.203576341127923
+"feature_counts.txt,trimgaloreSE.txt",0.1815680880330124
+"feature_counts.txt,fastQCtrimmed 2.txt",0.1746905089408528
+"feature_counts.txt,fastqcrim.txt",0.21733149931224205
+"feature_counts.txt,sortedbam_to_rmdup.txt",0.15141290594685786
+"feature_counts.txt,sort_index_bams.txt",0.2310866574965612
+"feature_counts.txt,fastqc 3.txt",0.21182943603851445
+"feature_counts.txt,fastqc 2.txt",0.19532324621733155
+"feature_counts.txt,rsem_norm.txt",0.20343461030383092
+"feature_counts.txt,featureCounts.txt",0.27922971114167816
+"feature_counts.txt,merge_trimmed_PE.txt",0.16299019607843135
+"feature_counts.txt,trimgalorePE.txt",0.219560878243513
+"feature_counts.txt,compare_reference_stringtie.txt",0.21733149931224205
+"feature_counts.txt,hisat2.txt",0.20770288858321873
+"feature_counts.txt,counts_matrix.txt",0.1707841031149302
+"feature_counts.txt,sortbam.txt",0.17606602475928468
+"feature_counts.txt,starSE.txt",0.22529313232830817
+"feature_counts.txt,fetch_unique_stringtie.txt",0.2310866574965612
+"feature_counts.txt,bigwig.txt",0.24446583253128007
+"feature_counts.txt,cutadapt 2.txt",0.1564885496183206
+"feature_counts.txt,cutadapt.txt",0.20495185694635487
+"feature_counts.txt,MultiQC.txt",0.2090784044016506
+"feature_counts.txt,salmon_quant_pe.txt",0.2065541211519365
+"feature_counts.txt,tximeta.txt",0.23827751196172253
+"feature_counts.txt,salmon_quant.txt",0.22794759825327515
+"feature_counts.txt,sort_bams.txt",0.22696011004126548
+"feature_counts.txt,mark_dups.txt",0.18019257221458052
+"feature_counts.txt,fastp_trimming_PE.txt",0.19499341238471668
+"feature_counts.txt,salmonPE.txt",0.2191780821917808
+"feature_counts.txt,samtools_bam.txt",0.17056396148555708
+"feature_counts.txt,bamindex.txt",0.26272352132049515
+"feature_counts.txt,generate_genome_star_index.txt",0.24209078404401652
+"feature_counts.txt,run_star_pe.txt",0.2412371134020619
+"feature_counts.txt,pass1.txt",0.193225558121632
+"feature_counts.txt,fastqc_trimmed.txt",0.20220082530949102
+"feature_counts.txt,run_multiqc.txt",0.21182943603851445
+"feature_counts.txt,sampleReads.txt",0.21595598349381018
+"feature_counts.txt,pass2.txt",0.19380403458213258
+"RNA_SeqC.txt,fastqc 6.txt",0.25087108013937287
+"RNA_SeqC.txt,star_genome.txt",0.3057395143487859
+"RNA_SeqC.txt,edgeR.txt",0.1951431049436253
+"RNA_SeqC.txt,startPE.txt",0.19453697534976677
+"RNA_SeqC.txt,tastq_to_bam_HISAT.txt",0.08718466195761854
+"RNA_SeqC.txt,fastqc 5.txt",0.1480836236933798
+"RNA_SeqC.txt,multiqc 2.txt",0.24912891986062713
+"RNA_SeqC.txt,kallistoQuant.txt",0.22995461422087748
+"RNA_SeqC.txt,salmon_index.txt",0.2616279069767442
+"RNA_SeqC.txt,trim_galore_pe.txt",0.41600000000000004
+"RNA_SeqC.txt,samlon_quant.txt",0.19163763066202089
+"RNA_SeqC.txt,sortedbam_to_counts.txt",0.11054739652870493
+"RNA_SeqC.txt,featureCounts 2.txt",0.2542372881355932
+"RNA_SeqC.txt,fastqc 4.txt",0.5365853658536586
+"RNA_SeqC.txt,multiqc 3.txt",0.23809523809523814
+"RNA_SeqC.txt,merge_trimmed_SE.txt",0.25609756097560976
+"RNA_SeqC.txt,trimgaloreSE.txt",0.1820851688693098
+"RNA_SeqC.txt,fastQCtrimmed 2.txt",0.23867595818815335
+"RNA_SeqC.txt,fastqcrim.txt",0.48606271777003485
+"RNA_SeqC.txt,sortedbam_to_rmdup.txt",0.14930409110080134
+"RNA_SeqC.txt,sort_index_bams.txt",0.23693379790940772
+"RNA_SeqC.txt,fastqc 3.txt",0.13745704467353947
+"RNA_SeqC.txt,fastqc 2.txt",0.29268292682926833
+"RNA_SeqC.txt,rsem_norm.txt",0.344782034346103
+"RNA_SeqC.txt,featureCounts.txt",0.16898954703832758
+"RNA_SeqC.txt,merge_trimmed_PE.txt",0.26593137254901966
+"RNA_SeqC.txt,trimgalorePE.txt",0.18762475049900196
+"RNA_SeqC.txt,compare_reference_stringtie.txt",0.2979094076655052
+"RNA_SeqC.txt,hisat2.txt",0.2857142857142857
+"RNA_SeqC.txt,counts_matrix.txt",0.16863587540279268
+"RNA_SeqC.txt,sortbam.txt",0.17944250871080136
+"RNA_SeqC.txt,starSE.txt",0.20854271356783916
+"RNA_SeqC.txt,fetch_unique_stringtie.txt",0.29965156794425085
+"RNA_SeqC.txt,bigwig.txt",0.18768046198267563
+"RNA_SeqC.txt,cutadapt 2.txt",0.28753180661577604
+"RNA_SeqC.txt,cutadapt.txt",0.181184668989547
+"RNA_SeqC.txt,MultiQC.txt",0.14982578397212543
+"RNA_SeqC.txt,salmon_quant_pe.txt",0.2552135054617676
+"RNA_SeqC.txt,tximeta.txt",0.20574162679425834
+"RNA_SeqC.txt,salmon_quant.txt",0.25676855895196504
+"RNA_SeqC.txt,sort_bams.txt",0.22299651567944256
+"RNA_SeqC.txt,mark_dups.txt",0.4823348694316436
+"RNA_SeqC.txt,fastp_trimming_PE.txt",0.20948616600790515
+"RNA_SeqC.txt,salmonPE.txt",0.1932227829848594
+"RNA_SeqC.txt,samtools_bam.txt",0.17421602787456447
+"RNA_SeqC.txt,bamindex.txt",0.19860627177700352
+"RNA_SeqC.txt,generate_genome_star_index.txt",0.1759581881533101
+"RNA_SeqC.txt,run_star_pe.txt",0.2082474226804124
+"RNA_SeqC.txt,pass1.txt",0.23864511162432644
+"RNA_SeqC.txt,fastqc_trimmed.txt",0.2752613240418118
+"RNA_SeqC.txt,run_multiqc.txt",0.2142857142857143
+"RNA_SeqC.txt,sampleReads.txt",0.26132404181184665
+"RNA_SeqC.txt,pass2.txt",0.24351585014409227
+"fastqc 6.txt,star_genome.txt",0.1898454746136865
+"fastqc 6.txt,edgeR.txt",0.13703382480485693
+"fastqc 6.txt,startPE.txt",0.12791472351765487
+"fastqc 6.txt,tastq_to_bam_HISAT.txt",0.056508577194752774
+"fastqc 6.txt,fastqc 5.txt",0.26112759643916916
+"fastqc 6.txt,multiqc 2.txt",0.28370221327967804
+"fastqc 6.txt,kallistoQuant.txt",0.30559757942511345
+"fastqc 6.txt,salmon_index.txt",0.23982558139534882
+"fastqc 6.txt,trim_galore_pe.txt",0.24480000000000002
+"fastqc 6.txt,samlon_quant.txt",0.19181585677749358
+"fastqc 6.txt,sortedbam_to_counts.txt",0.07316421895861147
+"fastqc 6.txt,featureCounts 2.txt",0.2958397534668721
+"fastqc 6.txt,fastqc 4.txt",0.32296650717703346
+"fastqc 6.txt,multiqc 3.txt",0.2806122448979592
+"fastqc 6.txt,merge_trimmed_SE.txt",0.2662835249042146
+"fastqc 6.txt,trimgaloreSE.txt",0.2011747430249633
+"fastqc 6.txt,fastQCtrimmed 2.txt",0.7908309455587392
+"fastqc 6.txt,fastqcrim.txt",0.29359823399558493
+"fastqc 6.txt,sortedbam_to_rmdup.txt",0.10164487557992408
+"fastqc 6.txt,sort_index_bams.txt",0.17210682492581597
+"fastqc 6.txt,fastqc 3.txt",0.23539518900343648
+"fastqc 6.txt,fastqc 2.txt",0.42708333333333337
+"fastqc 6.txt,rsem_norm.txt",0.22192866578599735
+"fastqc 6.txt,featureCounts.txt",0.19246031746031744
+"fastqc 6.txt,merge_trimmed_PE.txt",0.21568627450980393
+"fastqc 6.txt,trimgalorePE.txt",0.1596806387225549
+"fastqc 6.txt,compare_reference_stringtie.txt",0.2506738544474394
+"fastqc 6.txt,hisat2.txt",0.3349753694581281
+"fastqc 6.txt,counts_matrix.txt",0.11976369495166483
+"fastqc 6.txt,sortbam.txt",0.228486646884273
+"fastqc 6.txt,starSE.txt",0.1474036850921273
+"fastqc 6.txt,fetch_unique_stringtie.txt",0.2766393442622951
+"fastqc 6.txt,bigwig.txt",0.15495668912415783
+"fastqc 6.txt,cutadapt 2.txt",0.306615776081425
+"fastqc 6.txt,cutadapt.txt",0.16320474777448069
+"fastqc 6.txt,MultiQC.txt",0.18265682656826565
+"fastqc 6.txt,salmon_quant_pe.txt",0.20854021847070503
+"fastqc 6.txt,tximeta.txt",0.1435406698564593
+"fastqc 6.txt,salmon_quant.txt",0.1938864628820961
+"fastqc 6.txt,sort_bams.txt",0.18694362017804156
+"fastqc 6.txt,mark_dups.txt",0.23502304147465436
+"fastqc 6.txt,fastp_trimming_PE.txt",0.15019762845849804
+"fastqc 6.txt,salmonPE.txt",0.1333813987022351
+"fastqc 6.txt,samtools_bam.txt",0.20474777448071213
+"fastqc 6.txt,bamindex.txt",0.2023346303501945
+"fastqc 6.txt,generate_genome_star_index.txt",0.18582375478927204
+"fastqc 6.txt,run_star_pe.txt",0.16804123711340202
+"fastqc 6.txt,pass1.txt",0.1531947652040031
+"fastqc 6.txt,fastqc_trimmed.txt",0.42105263157894735
+"fastqc 6.txt,run_multiqc.txt",0.24806201550387597
+"fastqc 6.txt,sampleReads.txt",0.3680555555555556
+"fastqc 6.txt,pass2.txt",0.14337175792507206
+"star_genome.txt,edgeR.txt",0.17692974848222032
+"star_genome.txt,startPE.txt",0.1958694203864091
+"star_genome.txt,tastq_to_bam_HISAT.txt",0.12492431886982847
+"star_genome.txt,fastqc 5.txt",0.09933774834437081
+"star_genome.txt,multiqc 2.txt",0.21412803532008828
+"star_genome.txt,kallistoQuant.txt",0.2759381898454746
+"star_genome.txt,salmon_index.txt",0.32229580573951433
+"star_genome.txt,trim_galore_pe.txt",0.36534216335540837
+"star_genome.txt,samlon_quant.txt",0.19977924944812364
+"star_genome.txt,sortedbam_to_counts.txt",0.15781041388518025
+"star_genome.txt,featureCounts 2.txt",0.3068432671081678
+"star_genome.txt,fastqc 4.txt",0.30242825607064017
+"star_genome.txt,multiqc 3.txt",0.30242825607064017
+"star_genome.txt,merge_trimmed_SE.txt",0.27041942604856517
+"star_genome.txt,trimgaloreSE.txt",0.17991169977924948
+"star_genome.txt,fastQCtrimmed 2.txt",0.1909492273730684
+"star_genome.txt,fastqcrim.txt",0.2715231788079471
+"star_genome.txt,sortedbam_to_rmdup.txt",0.200337410375369
+"star_genome.txt,sort_index_bams.txt",0.13024282560706402
+"star_genome.txt,fastqc 3.txt",0.19536423841059603
+"star_genome.txt,fastqc 2.txt",0.22626931567328923
+"star_genome.txt,rsem_norm.txt",0.4381898454746137
+"star_genome.txt,featureCounts.txt",0.2163355408388521
+"star_genome.txt,merge_trimmed_PE.txt",0.24392935982339958
+"star_genome.txt,trimgalorePE.txt",0.1596806387225549
+"star_genome.txt,compare_reference_stringtie.txt",0.22737306843267113
+"star_genome.txt,hisat2.txt",0.2582781456953642
+"star_genome.txt,counts_matrix.txt",0.2287862513426423
+"star_genome.txt,sortbam.txt",0.12251655629139069
+"star_genome.txt,starSE.txt",0.19262981574539362
+"star_genome.txt,fetch_unique_stringtie.txt",0.26158940397350994
+"star_genome.txt,bigwig.txt",0.15014436958614052
+"star_genome.txt,cutadapt 2.txt",0.2582781456953642
+"star_genome.txt,cutadapt.txt",0.16225165562913912
+"star_genome.txt,MultiQC.txt",0.16887417218543044
+"star_genome.txt,salmon_quant_pe.txt",0.31380337636544187
+"star_genome.txt,tximeta.txt",0.16842105263157892
+"star_genome.txt,salmon_quant.txt",0.3126637554585153
+"star_genome.txt,sort_bams.txt",0.13686534216335544
+"star_genome.txt,mark_dups.txt",0.3068432671081678
+"star_genome.txt,fastp_trimming_PE.txt",0.26679841897233203
+"star_genome.txt,salmonPE.txt",0.18961788031723148
+"star_genome.txt,samtools_bam.txt",0.1258278145695364
+"star_genome.txt,bamindex.txt",0.16777041942604853
+"star_genome.txt,generate_genome_star_index.txt",0.35651214128035325
+"star_genome.txt,run_star_pe.txt",0.16597938144329893
+"star_genome.txt,pass1.txt",0.3564280215550424
+"star_genome.txt,fastqc_trimmed.txt",0.23951434878587197
+"star_genome.txt,run_multiqc.txt",0.21302428256070638
+"star_genome.txt,sampleReads.txt",0.24392935982339958
+"star_genome.txt,pass2.txt",0.3580691642651297
+"edgeR.txt,startPE.txt",0.2564956695536309
+"edgeR.txt,tastq_to_bam_HISAT.txt",0.12351160443995968
+"edgeR.txt,fastqc 5.txt",0.0867302688638335
+"edgeR.txt,multiqc 2.txt",0.1699913269731136
+"edgeR.txt,kallistoQuant.txt",0.18733738074588036
+"edgeR.txt,salmon_index.txt",0.24631396357328705
+"edgeR.txt,trim_galore_pe.txt",0.19080659150043366
+"edgeR.txt,samlon_quant.txt",0.1699913269731136
+"edgeR.txt,sortedbam_to_counts.txt",0.15967957276368494
+"edgeR.txt,featureCounts 2.txt",0.20988725065047698
+"edgeR.txt,fastqc 4.txt",0.1673894189071986
+"edgeR.txt,multiqc 3.txt",0.21422376409366872
+"edgeR.txt,merge_trimmed_SE.txt",0.1856027753686036
+"edgeR.txt,trimgaloreSE.txt",0.30875975715524717
+"edgeR.txt,fastQCtrimmed 2.txt",0.14137033824804857
+"edgeR.txt,fastqcrim.txt",0.17172593235039024
+"edgeR.txt,sortedbam_to_rmdup.txt",0.16322226908477433
+"edgeR.txt,sort_index_bams.txt",0.12315698178664358
+"edgeR.txt,fastqc 3.txt",0.207285342584562
+"edgeR.txt,fastqc 2.txt",0.160450997398092
+"edgeR.txt,rsem_norm.txt",0.20381613183000868
+"edgeR.txt,featureCounts.txt",0.19080659150043366
+"edgeR.txt,merge_trimmed_PE.txt",0.18647007805724203
+"edgeR.txt,trimgalorePE.txt",0.2810060711188205
+"edgeR.txt,compare_reference_stringtie.txt",0.18473547267996526
+"edgeR.txt,hisat2.txt",0.16912402428447526
+"edgeR.txt,counts_matrix.txt",0.18259935553168638
+"edgeR.txt,sortbam.txt",0.11621856027753685
+"edgeR.txt,starSE.txt",0.20268006700167507
+"edgeR.txt,fetch_unique_stringtie.txt",0.21162185602775374
+"edgeR.txt,bigwig.txt",0.25498699045967044
+"edgeR.txt,cutadapt 2.txt",0.1986123156981786
+"edgeR.txt,cutadapt.txt",0.15004336513443195
+"edgeR.txt,MultiQC.txt",0.2948829141370338
+"edgeR.txt,salmon_quant_pe.txt",0.20294882914137036
+"edgeR.txt,tximeta.txt",0.3469210754553339
+"edgeR.txt,salmon_quant.txt",0.160450997398092
+"edgeR.txt,sort_bams.txt",0.12489158716392024
+"edgeR.txt,mark_dups.txt",0.18386816999132694
+"edgeR.txt,fastp_trimming_PE.txt",0.19499341238471668
+"edgeR.txt,salmonPE.txt",0.250901225666907
+"edgeR.txt,samtools_bam.txt",0.11708586296617518
+"edgeR.txt,bamindex.txt",0.2601908065915004
+"edgeR.txt,generate_genome_star_index.txt",0.18993928881179534
+"edgeR.txt,run_star_pe.txt",0.2168256721595837
+"edgeR.txt,pass1.txt",0.14857582755966126
+"edgeR.txt,fastqc_trimmed.txt",0.17432784041630534
+"edgeR.txt,run_multiqc.txt",0.18126626192541195
+"edgeR.txt,sampleReads.txt",0.18386816999132694
+"edgeR.txt,pass2.txt",0.15994236311239196
+"startPE.txt,tastq_to_bam_HISAT.txt",0.1428859737638749
+"startPE.txt,fastqc 5.txt",0.08194536975349764
+"startPE.txt,multiqc 2.txt",0.18520986009327112
+"startPE.txt,kallistoQuant.txt",0.17455029980013326
+"startPE.txt,salmon_index.txt",0.20119920053297802
+"startPE.txt,trim_galore_pe.txt",0.1912058627581612
+"startPE.txt,samlon_quant.txt",0.17055296469020653
+"startPE.txt,sortedbam_to_counts.txt",0.17703604806408546
+"startPE.txt,featureCounts 2.txt",0.18454363757495007
+"startPE.txt,fastqc 4.txt",0.1652231845436376
+"startPE.txt,multiqc 3.txt",0.17854763491005998
+"startPE.txt,merge_trimmed_SE.txt",0.17055296469020653
+"startPE.txt,trimgaloreSE.txt",0.32245169886742175
+"startPE.txt,fastQCtrimmed 2.txt",0.13590939373750832
+"startPE.txt,fastqcrim.txt",0.17188540972684874
+"startPE.txt,sortedbam_to_rmdup.txt",0.17882749894559258
+"startPE.txt,sort_index_bams.txt",0.11725516322451701
+"startPE.txt,fastqc 3.txt",0.21785476349100596
+"startPE.txt,fastqc 2.txt",0.15189873417721522
+"startPE.txt,rsem_norm.txt",0.18920719520319784
+"startPE.txt,featureCounts.txt",0.1725516322451699
+"startPE.txt,merge_trimmed_PE.txt",0.20519653564290474
+"startPE.txt,trimgalorePE.txt",0.43970686209193866
+"startPE.txt,compare_reference_stringtie.txt",0.16588940706195865
+"startPE.txt,hisat2.txt",0.14656895403064618
+"startPE.txt,counts_matrix.txt",0.16326530612244894
+"startPE.txt,sortbam.txt",0.10459693537641568
+"startPE.txt,starSE.txt",0.7668221185876083
+"startPE.txt,fetch_unique_stringtie.txt",0.189873417721519
+"startPE.txt,bigwig.txt",0.3131245836109261
+"startPE.txt,cutadapt 2.txt",0.18520986009327112
+"startPE.txt,cutadapt.txt",0.14390406395736177
+"startPE.txt,MultiQC.txt",0.25183211192538313
+"startPE.txt,salmon_quant_pe.txt",0.21518987341772156
+"startPE.txt,tximeta.txt",0.34710193204530315
+"startPE.txt,salmon_quant.txt",0.2218520986009327
+"startPE.txt,sort_bams.txt",0.1159227181878747
+"startPE.txt,mark_dups.txt",0.1885409726848768
+"startPE.txt,fastp_trimming_PE.txt",0.1271409749670619
+"startPE.txt,salmonPE.txt",0.7701532311792139
+"startPE.txt,samtools_bam.txt",0.10259826782145232
+"startPE.txt,bamindex.txt",0.285143237841439
+"startPE.txt,generate_genome_star_index.txt",0.17788141239173882
+"startPE.txt,run_star_pe.txt",0.26315789473684215
+"startPE.txt,pass1.txt",0.16322451698867424
+"startPE.txt,fastqc_trimmed.txt",0.1665556295802798
+"startPE.txt,run_multiqc.txt",0.17921385742838103
+"startPE.txt,sampleReads.txt",0.1578947368421053
+"startPE.txt,pass2.txt",0.1505662891405729
+"tastq_to_bam_HISAT.txt,fastqc 5.txt",0.026437941473259285
+"tastq_to_bam_HISAT.txt,multiqc 2.txt",0.07749747729566092
+"tastq_to_bam_HISAT.txt,kallistoQuant.txt",0.1023208879919274
+"tastq_to_bam_HISAT.txt,salmon_index.txt",0.10353178607467206
+"tastq_to_bam_HISAT.txt,trim_galore_pe.txt",0.09303733602421793
+"tastq_to_bam_HISAT.txt,samlon_quant.txt",0.06115035317860751
+"tastq_to_bam_HISAT.txt,sortedbam_to_counts.txt",0.36104944500504543
+"tastq_to_bam_HISAT.txt,featureCounts 2.txt",0.10211907164480327
+"tastq_to_bam_HISAT.txt,fastqc 4.txt",0.06720484359233103
+"tastq_to_bam_HISAT.txt,multiqc 3.txt",0.09061553985872861
+"tastq_to_bam_HISAT.txt,merge_trimmed_SE.txt",0.08940464177598384
+"tastq_to_bam_HISAT.txt,trimgaloreSE.txt",0.08900100908173558
+"tastq_to_bam_HISAT.txt,fastQCtrimmed 2.txt",0.05973763874873861
+"tastq_to_bam_HISAT.txt,fastqcrim.txt",0.07305751765893043
+"tastq_to_bam_HISAT.txt,sortedbam_to_rmdup.txt",0.3218970736629667
+"tastq_to_bam_HISAT.txt,sort_index_bams.txt",0.03794147325933406
+"tastq_to_bam_HISAT.txt,fastqc 3.txt",0.07729566094853679
+"tastq_to_bam_HISAT.txt,fastqc 2.txt",0.0670030272452069
+"tastq_to_bam_HISAT.txt,rsem_norm.txt",0.11321897073662968
+"tastq_to_bam_HISAT.txt,featureCounts.txt",0.07003027245206861
+"tastq_to_bam_HISAT.txt,merge_trimmed_PE.txt",0.12270433905146316
+"tastq_to_bam_HISAT.txt,trimgalorePE.txt",0.11140262361251263
+"tastq_to_bam_HISAT.txt,compare_reference_stringtie.txt",0.06518668012108986
+"tastq_to_bam_HISAT.txt,hisat2.txt",0.0714429868819374
+"tastq_to_bam_HISAT.txt,counts_matrix.txt",0.23430877901109992
+"tastq_to_bam_HISAT.txt,sortbam.txt",0.03390514631685171
+"tastq_to_bam_HISAT.txt,starSE.txt",0.12633703329969725
+"tastq_to_bam_HISAT.txt,fetch_unique_stringtie.txt",0.08012108980827448
+"tastq_to_bam_HISAT.txt,bigwig.txt",0.11604439959636725
+"tastq_to_bam_HISAT.txt,cutadapt 2.txt",0.11301715438950555
+"tastq_to_bam_HISAT.txt,cutadapt.txt",0.05186680121089804
+"tastq_to_bam_HISAT.txt,MultiQC.txt",0.07346115035317857
+"tastq_to_bam_HISAT.txt,salmon_quant_pe.txt",0.13864783047426843
+"tastq_to_bam_HISAT.txt,tximeta.txt",0.11382441977800206
+"tastq_to_bam_HISAT.txt,salmon_quant.txt",0.15055499495459135
+"tastq_to_bam_HISAT.txt,sort_bams.txt",0.03632694248234103
+"tastq_to_bam_HISAT.txt,mark_dups.txt",0.08859737638748744
+"tastq_to_bam_HISAT.txt,fastp_trimming_PE.txt",0.18728557013118063
+"tastq_to_bam_HISAT.txt,salmonPE.txt",0.1384460141271443
+"tastq_to_bam_HISAT.txt,samtools_bam.txt",0.0361251261352169
+"tastq_to_bam_HISAT.txt,bamindex.txt",0.0736629667003027
+"tastq_to_bam_HISAT.txt,generate_genome_star_index.txt",0.06962663975782035
+"tastq_to_bam_HISAT.txt,run_star_pe.txt",0.10776992936427854
+"tastq_to_bam_HISAT.txt,pass1.txt",0.15882946518668017
+"tastq_to_bam_HISAT.txt,fastqc_trimmed.txt",0.075882946518668
+"tastq_to_bam_HISAT.txt,run_multiqc.txt",0.08133198789101914
+"tastq_to_bam_HISAT.txt,sampleReads.txt",0.07265388496468217
+"tastq_to_bam_HISAT.txt,pass2.txt",0.16609485368314836
+"fastqc 5.txt,multiqc 2.txt",0.21529175050301808
+"fastqc 5.txt,kallistoQuant.txt",0.13313161875945534
+"fastqc 5.txt,salmon_index.txt",0.12354651162790697
+"fastqc 5.txt,trim_galore_pe.txt",0.14559999999999995
+"fastqc 5.txt,samlon_quant.txt",0.24296675191815853
+"fastqc 5.txt,sortedbam_to_counts.txt",0.034178905206942556
+"fastqc 5.txt,featureCounts 2.txt",0.14175654853620956
+"fastqc 5.txt,fastqc 4.txt",0.2296650717703349
+"fastqc 5.txt,multiqc 3.txt",0.141156462585034
+"fastqc 5.txt,merge_trimmed_SE.txt",0.15900383141762453
+"fastqc 5.txt,trimgaloreSE.txt",0.15712187958883994
+"fastqc 5.txt,fastQCtrimmed 2.txt",0.28939828080229224
+"fastqc 5.txt,fastqcrim.txt",0.22295805739514352
+"fastqc 5.txt,sortedbam_to_rmdup.txt",0.05018979333614504
+"fastqc 5.txt,sort_index_bams.txt",0.30092592592592593
+"fastqc 5.txt,fastqc 3.txt",0.20274914089347074
+"fastqc 5.txt,fastqc 2.txt",0.2890625
+"fastqc 5.txt,rsem_norm.txt",0.12285336856010565
+"fastqc 5.txt,featureCounts.txt",0.20436507936507942
+"fastqc 5.txt,merge_trimmed_PE.txt",0.12132352941176472
+"fastqc 5.txt,trimgalorePE.txt",0.11477045908183636
+"fastqc 5.txt,compare_reference_stringtie.txt",0.2264150943396226
+"fastqc 5.txt,hisat2.txt",0.17487684729064035
+"fastqc 5.txt,counts_matrix.txt",0.057465091299677806
+"fastqc 5.txt,sortbam.txt",0.3402061855670103
+"fastqc 5.txt,starSE.txt",0.09966499162479059
+"fastqc 5.txt,fetch_unique_stringtie.txt",0.18442622950819676
+"fastqc 5.txt,bigwig.txt",0.1029836381135707
+"fastqc 5.txt,cutadapt 2.txt",0.1081424936386769
+"fastqc 5.txt,cutadapt.txt",0.28963414634146345
+"fastqc 5.txt,MultiQC.txt",0.16789667896678961
+"fastqc 5.txt,salmon_quant_pe.txt",0.10625620655412116
+"fastqc 5.txt,tximeta.txt",0.1004784688995215
+"fastqc 5.txt,salmon_quant.txt",0.096943231441048
+"fastqc 5.txt,sort_bams.txt",0.30952380952380953
+"fastqc 5.txt,mark_dups.txt",0.12903225806451613
+"fastqc 5.txt,fastp_trimming_PE.txt",0.0810276679841897
+"fastqc 5.txt,salmonPE.txt",0.08579668348954583
+"fastqc 5.txt,samtools_bam.txt",0.3152709359605911
+"fastqc 5.txt,bamindex.txt",0.188715953307393
+"fastqc 5.txt,generate_genome_star_index.txt",0.15900383141762453
+"fastqc 5.txt,run_star_pe.txt",0.1123711340206186
+"fastqc 5.txt,pass1.txt",0.07929176289453421
+"fastqc 5.txt,fastqc_trimmed.txt",0.2745995423340961
+"fastqc 5.txt,run_multiqc.txt",0.1763565891472868
+"fastqc 5.txt,sampleReads.txt",0.22685185185185186
+"fastqc 5.txt,pass2.txt",0.07564841498559083
+"multiqc 2.txt,kallistoQuant.txt",0.2723146747352496
+"multiqc 2.txt,salmon_index.txt",0.24127906976744184
+"multiqc 2.txt,trim_galore_pe.txt",0.24639999999999995
+"multiqc 2.txt,samlon_quant.txt",0.2716297786720322
+"multiqc 2.txt,sortedbam_to_counts.txt",0.1033377837116155
+"multiqc 2.txt,featureCounts 2.txt",0.26348228043143296
+"multiqc 2.txt,fastqc 4.txt",0.24547283702213285
+"multiqc 2.txt,multiqc 3.txt",0.2517006802721088
+"multiqc 2.txt,merge_trimmed_SE.txt",0.1954022988505747
+"multiqc 2.txt,trimgaloreSE.txt",0.2276064610866373
+"multiqc 2.txt,fastQCtrimmed 2.txt",0.2756539235412475
+"multiqc 2.txt,fastqcrim.txt",0.2233400402414487
+"multiqc 2.txt,sortedbam_to_rmdup.txt",0.1277941796710249
+"multiqc 2.txt,sort_index_bams.txt",0.20724346076458755
+"multiqc 2.txt,fastqc 3.txt",0.21134020618556704
+"multiqc 2.txt,fastqc 2.txt",0.323943661971831
+"multiqc 2.txt,rsem_norm.txt",0.24306472919418753
+"multiqc 2.txt,featureCounts.txt",0.1865079365079365
+"multiqc 2.txt,merge_trimmed_PE.txt",0.2279411764705882
+"multiqc 2.txt,trimgalorePE.txt",0.2065868263473054
+"multiqc 2.txt,compare_reference_stringtie.txt",0.2193158953722334
+"multiqc 2.txt,hisat2.txt",0.2796780684104627
+"multiqc 2.txt,counts_matrix.txt",0.15520945220193338
+"multiqc 2.txt,sortbam.txt",0.19919517102615691
+"multiqc 2.txt,starSE.txt",0.19681742043551087
+"multiqc 2.txt,fetch_unique_stringtie.txt",0.1810865191146881
+"multiqc 2.txt,bigwig.txt",0.19441770933589986
+"multiqc 2.txt,cutadapt 2.txt",0.2506361323155216
+"multiqc 2.txt,cutadapt.txt",0.2776659959758552
+"multiqc 2.txt,MultiQC.txt",0.18450184501845024
+"multiqc 2.txt,salmon_quant_pe.txt",0.23336643495531284
+"multiqc 2.txt,tximeta.txt",0.1990430622009569
+"multiqc 2.txt,salmon_quant.txt",0.2235807860262009
+"multiqc 2.txt,sort_bams.txt",0.21730382293762573
+"multiqc 2.txt,mark_dups.txt",0.2089093701996928
+"multiqc 2.txt,fastp_trimming_PE.txt",0.18511198945981555
+"multiqc 2.txt,salmonPE.txt",0.201153568853641
+"multiqc 2.txt,samtools_bam.txt",0.2474849094567404
+"multiqc 2.txt,bamindex.txt",0.17898832684824906
+"multiqc 2.txt,generate_genome_star_index.txt",0.14942528735632188
+"multiqc 2.txt,run_star_pe.txt",0.20618556701030932
+"multiqc 2.txt,pass1.txt",0.18398768283294842
+"multiqc 2.txt,fastqc_trimmed.txt",0.31589537223340036
+"multiqc 2.txt,run_multiqc.txt",0.21124031007751942
+"multiqc 2.txt,sampleReads.txt",0.26961770623742454
+"multiqc 2.txt,pass2.txt",0.17651296829971186
+"kallistoQuant.txt,salmon_index.txt",0.2718023255813954
+"kallistoQuant.txt,trim_galore_pe.txt",0.2223903177004538
+"kallistoQuant.txt,samlon_quant.txt",0.20121028744326774
+"kallistoQuant.txt,sortedbam_to_counts.txt",0.13431241655540715
+"kallistoQuant.txt,featureCounts 2.txt",0.3071104387291982
+"kallistoQuant.txt,fastqc 4.txt",0.2677760968229954
+"kallistoQuant.txt,multiqc 3.txt",0.26475037821482605
+"kallistoQuant.txt,merge_trimmed_SE.txt",0.26928895612708015
+"kallistoQuant.txt,trimgaloreSE.txt",0.1336270190895742
+"kallistoQuant.txt,fastQCtrimmed 2.txt",0.302571860816944
+"kallistoQuant.txt,fastqcrim.txt",0.254160363086233
+"kallistoQuant.txt,sortedbam_to_rmdup.txt",0.17123576549978914
+"kallistoQuant.txt,sort_index_bams.txt",0.15582450832072614
+"kallistoQuant.txt,fastqc 3.txt",0.1679273827534039
+"kallistoQuant.txt,fastqc 2.txt",0.302571860816944
+"kallistoQuant.txt,rsem_norm.txt",0.2681638044914135
+"kallistoQuant.txt,featureCounts.txt",0.19364599092284418
+"kallistoQuant.txt,merge_trimmed_PE.txt",0.26225490196078427
+"kallistoQuant.txt,trimgalorePE.txt",0.17964071856287422
+"kallistoQuant.txt,compare_reference_stringtie.txt",0.2586989409984871
+"kallistoQuant.txt,hisat2.txt",0.45537065052950076
+"kallistoQuant.txt,counts_matrix.txt",0.2126745435016112
+"kallistoQuant.txt,sortbam.txt",0.15733736762481088
+"kallistoQuant.txt,starSE.txt",0.19262981574539362
+"kallistoQuant.txt,fetch_unique_stringtie.txt",0.26475037821482605
+"kallistoQuant.txt,bigwig.txt",0.1886429258902791
+"kallistoQuant.txt,cutadapt 2.txt",0.40839694656488545
+"kallistoQuant.txt,cutadapt.txt",0.19364599092284418
+"kallistoQuant.txt,MultiQC.txt",0.1679273827534039
+"kallistoQuant.txt,salmon_quant_pe.txt",0.2850049652432969
+"kallistoQuant.txt,tximeta.txt",0.184688995215311
+"kallistoQuant.txt,salmon_quant.txt",0.27510917030567683
+"kallistoQuant.txt,sort_bams.txt",0.15279878971255678
+"kallistoQuant.txt,mark_dups.txt",0.21633888048411498
+"kallistoQuant.txt,fastp_trimming_PE.txt",0.23122529644268774
+"kallistoQuant.txt,salmonPE.txt",0.1852919971160779
+"kallistoQuant.txt,samtools_bam.txt",0.1588502269288956
+"kallistoQuant.txt,bamindex.txt",0.1906202723146747
+"kallistoQuant.txt,generate_genome_star_index.txt",0.19515885022692891
+"kallistoQuant.txt,run_star_pe.txt",0.18041237113402064
+"kallistoQuant.txt,pass1.txt",0.24403387220939188
+"kallistoQuant.txt,fastqc_trimmed.txt",0.2859304084720121
+"kallistoQuant.txt,run_multiqc.txt",0.24205748865355525
+"kallistoQuant.txt,sampleReads.txt",0.313161875945537
+"kallistoQuant.txt,pass2.txt",0.23559077809798268
+"salmon_index.txt,trim_galore_pe.txt",0.2965116279069767
+"salmon_index.txt,samlon_quant.txt",0.2674418604651163
+"salmon_index.txt,sortedbam_to_counts.txt",0.13538050734312412
+"salmon_index.txt,featureCounts 2.txt",0.2965116279069767
+"salmon_index.txt,fastqc 4.txt",0.27470930232558144
+"salmon_index.txt,multiqc 3.txt",0.4273255813953488
+"salmon_index.txt,merge_trimmed_SE.txt",0.2950581395348837
+"salmon_index.txt,trimgaloreSE.txt",0.1758720930232558
+"salmon_index.txt,fastQCtrimmed 2.txt",0.23691860465116277
+"salmon_index.txt,fastqcrim.txt",0.26308139534883723
+"salmon_index.txt,sortedbam_to_rmdup.txt",0.17924926191480384
+"salmon_index.txt,sort_index_bams.txt",0.19476744186046513
+"salmon_index.txt,fastqc 3.txt",0.17877906976744184
+"salmon_index.txt,fastqc 2.txt",0.28633720930232553
+"salmon_index.txt,rsem_norm.txt",0.2879788639365918
+"salmon_index.txt,featureCounts.txt",0.19622093023255816
+"salmon_index.txt,merge_trimmed_PE.txt",0.2769607843137255
+"salmon_index.txt,trimgalorePE.txt",0.20159680638722555
+"salmon_index.txt,compare_reference_stringtie.txt",0.31540697674418605
+"salmon_index.txt,hisat2.txt",0.2834302325581395
+"salmon_index.txt,counts_matrix.txt",0.2132116004296455
+"salmon_index.txt,sortbam.txt",0.1482558139534884
+"salmon_index.txt,starSE.txt",0.22194304857621439
+"salmon_index.txt,fetch_unique_stringtie.txt",0.3183139534883721
+"salmon_index.txt,bigwig.txt",0.21559191530317612
+"salmon_index.txt,cutadapt 2.txt",0.24936386768447838
+"salmon_index.txt,cutadapt.txt",0.2093023255813954
+"salmon_index.txt,MultiQC.txt",0.2107558139534884
+"salmon_index.txt,salmon_quant_pe.txt",0.45580933465739826
+"salmon_index.txt,tximeta.txt",0.21818181818181814
+"salmon_index.txt,salmon_quant.txt",0.37117903930131
+"salmon_index.txt,sort_bams.txt",0.20058139534883723
+"salmon_index.txt,mark_dups.txt",0.21802325581395354
+"salmon_index.txt,fastp_trimming_PE.txt",0.27140974967061926
+"salmon_index.txt,salmonPE.txt",0.21629416005767843
+"salmon_index.txt,samtools_bam.txt",0.17877906976744184
+"salmon_index.txt,bamindex.txt",0.2383720930232558
+"salmon_index.txt,generate_genome_star_index.txt",0.2601744186046512
+"salmon_index.txt,run_star_pe.txt",0.21855670103092784
+"salmon_index.txt,pass1.txt",0.26173979984603546
+"salmon_index.txt,fastqc_trimmed.txt",0.2848837209302325
+"salmon_index.txt,run_multiqc.txt",0.2107558139534884
+"salmon_index.txt,sampleReads.txt",0.3125
+"salmon_index.txt,pass2.txt",0.2528818443804035
+"trim_galore_pe.txt,samlon_quant.txt",0.22719999999999996
+"trim_galore_pe.txt,sortedbam_to_counts.txt",0.11695594125500663
+"trim_galore_pe.txt,featureCounts 2.txt",0.24807395993836667
+"trim_galore_pe.txt,fastqc 4.txt",0.5232
+"trim_galore_pe.txt,multiqc 3.txt",0.30720000000000003
+"trim_galore_pe.txt,merge_trimmed_SE.txt",0.2864
+"trim_galore_pe.txt,trimgaloreSE.txt",0.17767988252569755
+"trim_galore_pe.txt,fastQCtrimmed 2.txt",0.25439999999999996
+"trim_galore_pe.txt,fastqcrim.txt",0.4528
+"trim_galore_pe.txt,sortedbam_to_rmdup.txt",0.1577393504850274
+"trim_galore_pe.txt,sort_index_bams.txt",0.1744
+"trim_galore_pe.txt,fastqc 3.txt",0.17920000000000003
+"trim_galore_pe.txt,fastqc 2.txt",0.2976
+"trim_galore_pe.txt,rsem_norm.txt",0.4570673712021136
+"trim_galore_pe.txt,featureCounts.txt",0.19840000000000002
+"trim_galore_pe.txt,merge_trimmed_PE.txt",0.2855392156862745
+"trim_galore_pe.txt,trimgalorePE.txt",0.23952095808383234
+"trim_galore_pe.txt,compare_reference_stringtie.txt",0.29279999999999995
+"trim_galore_pe.txt,hisat2.txt",0.28159999999999996
+"trim_galore_pe.txt,counts_matrix.txt",0.17722878625134264
+"trim_galore_pe.txt,sortbam.txt",0.15680000000000005
+"trim_galore_pe.txt,starSE.txt",0.19514237855946404
+"trim_galore_pe.txt,fetch_unique_stringtie.txt",0.2912
+"trim_galore_pe.txt,bigwig.txt",0.18190567853705486
+"trim_galore_pe.txt,cutadapt 2.txt",0.29389312977099236
+"trim_galore_pe.txt,cutadapt.txt",0.20799999999999996
+"trim_galore_pe.txt,MultiQC.txt",0.15839999999999999
+"trim_galore_pe.txt,salmon_quant_pe.txt",0.310824230387289
+"trim_galore_pe.txt,tximeta.txt",0.20765550239234454
+"trim_galore_pe.txt,salmon_quant.txt",0.2812227074235808
+"trim_galore_pe.txt,sort_bams.txt",0.1856
+"trim_galore_pe.txt,mark_dups.txt",0.3609831029185868
+"trim_galore_pe.txt,fastp_trimming_PE.txt",0.23583662714097497
+"trim_galore_pe.txt,salmonPE.txt",0.19610670511896178
+"trim_galore_pe.txt,samtools_bam.txt",0.17600000000000005
+"trim_galore_pe.txt,bamindex.txt",0.17759999999999998
+"trim_galore_pe.txt,generate_genome_star_index.txt",0.2128
+"trim_galore_pe.txt,run_star_pe.txt",0.21134020618556704
+"trim_galore_pe.txt,pass1.txt",0.3302540415704388
+"trim_galore_pe.txt,fastqc_trimmed.txt",0.28800000000000003
+"trim_galore_pe.txt,run_multiqc.txt",0.20320000000000005
+"trim_galore_pe.txt,sampleReads.txt",0.28959999999999997
+"trim_galore_pe.txt,pass2.txt",0.3242074927953891
+"samlon_quant.txt,sortedbam_to_counts.txt",0.07797062750333783
+"samlon_quant.txt,featureCounts 2.txt",0.2326656394453005
+"samlon_quant.txt,fastqc 4.txt",0.15071770334928225
+"samlon_quant.txt,multiqc 3.txt",0.2125850340136054
+"samlon_quant.txt,merge_trimmed_SE.txt",0.18965517241379315
+"samlon_quant.txt,trimgaloreSE.txt",0.262848751835536
+"samlon_quant.txt,fastQCtrimmed 2.txt",0.18158567774936063
+"samlon_quant.txt,fastqcrim.txt",0.16997792494481234
+"samlon_quant.txt,sortedbam_to_rmdup.txt",0.10037958667229019
+"samlon_quant.txt,sort_index_bams.txt",0.3069053708439897
+"samlon_quant.txt,fastqc 3.txt",0.26975945017182135
+"samlon_quant.txt,fastqc 2.txt",0.2736572890025576
+"samlon_quant.txt,rsem_norm.txt",0.2153236459709379
+"samlon_quant.txt,featureCounts.txt",0.39682539682539686
+"samlon_quant.txt,merge_trimmed_PE.txt",0.17647058823529416
+"samlon_quant.txt,trimgalorePE.txt",0.21556886227544914
+"samlon_quant.txt,compare_reference_stringtie.txt",0.1483375959079284
+"samlon_quant.txt,hisat2.txt",0.14039408866995073
+"samlon_quant.txt,counts_matrix.txt",0.11117078410311498
+"samlon_quant.txt,sortbam.txt",0.2531969309462916
+"samlon_quant.txt,starSE.txt",0.19849246231155782
+"samlon_quant.txt,fetch_unique_stringtie.txt",0.2008196721311475
+"samlon_quant.txt,bigwig.txt",0.21174205967276227
+"samlon_quant.txt,cutadapt 2.txt",0.16157760814249367
+"samlon_quant.txt,cutadapt.txt",0.4194373401534527
+"samlon_quant.txt,MultiQC.txt",0.22878228782287824
+"samlon_quant.txt,salmon_quant_pe.txt",0.25819265143992054
+"samlon_quant.txt,tximeta.txt",0.19234449760765548
+"samlon_quant.txt,salmon_quant.txt",0.23842794759825325
+"samlon_quant.txt,sort_bams.txt",0.31969309462915596
+"samlon_quant.txt,mark_dups.txt",0.1966205837173579
+"samlon_quant.txt,fastp_trimming_PE.txt",0.15349143610013172
+"samlon_quant.txt,salmonPE.txt",0.18745493871665464
+"samlon_quant.txt,samtools_bam.txt",0.3554987212276215
+"samlon_quant.txt,bamindex.txt",0.24513618677042803
+"samlon_quant.txt,generate_genome_star_index.txt",0.3084291187739464
+"samlon_quant.txt,run_star_pe.txt",0.24742268041237114
+"samlon_quant.txt,pass1.txt",0.14934565050038495
+"samlon_quant.txt,fastqc_trimmed.txt",0.26315789473684215
+"samlon_quant.txt,run_multiqc.txt",0.19767441860465118
+"samlon_quant.txt,sampleReads.txt",0.19907407407407407
+"samlon_quant.txt,pass2.txt",0.14841498559077815
+"sortedbam_to_counts.txt,featureCounts 2.txt",0.1433911882510014
+"sortedbam_to_counts.txt,fastqc 4.txt",0.08491321762349802
+"sortedbam_to_counts.txt,multiqc 3.txt",0.12016021361815754
+"sortedbam_to_counts.txt,merge_trimmed_SE.txt",0.11508678237650205
+"sortedbam_to_counts.txt,trimgaloreSE.txt",0.11375166889185584
+"sortedbam_to_counts.txt,fastQCtrimmed 2.txt",0.07610146862483314
+"sortedbam_to_counts.txt,fastqcrim.txt",0.08971962616822426
+"sortedbam_to_counts.txt,sortedbam_to_rmdup.txt",0.3845126835781041
+"sortedbam_to_counts.txt,sort_index_bams.txt",0.047797062750333796
+"sortedbam_to_counts.txt,fastqc 3.txt",0.09799732977303066
+"sortedbam_to_counts.txt,fastqc 2.txt",0.0873164218958612
+"sortedbam_to_counts.txt,rsem_norm.txt",0.14365821094793052
+"sortedbam_to_counts.txt,featureCounts.txt",0.09986648865153536
+"sortedbam_to_counts.txt,merge_trimmed_PE.txt",0.162082777036048
+"sortedbam_to_counts.txt,trimgalorePE.txt",0.1377837116154873
+"sortedbam_to_counts.txt,compare_reference_stringtie.txt",0.08384512683578105
+"sortedbam_to_counts.txt,hisat2.txt",0.0918558077436582
+"sortedbam_to_counts.txt,counts_matrix.txt",0.2929238985313751
+"sortedbam_to_counts.txt,sortbam.txt",0.04485981308411213
+"sortedbam_to_counts.txt,starSE.txt",0.15700934579439252
+"sortedbam_to_counts.txt,fetch_unique_stringtie.txt",0.10493991989319096
+"sortedbam_to_counts.txt,bigwig.txt",0.14873164218958612
+"sortedbam_to_counts.txt,cutadapt 2.txt",0.14526034712950597
+"sortedbam_to_counts.txt,cutadapt.txt",0.06809078771695598
+"sortedbam_to_counts.txt,MultiQC.txt",0.09532710280373835
+"sortedbam_to_counts.txt,salmon_quant_pe.txt",0.17970627503337788
+"sortedbam_to_counts.txt,tximeta.txt",0.14552736982643522
+"sortedbam_to_counts.txt,salmon_quant.txt",0.19225634178905204
+"sortedbam_to_counts.txt,sort_bams.txt",0.047797062750333796
+"sortedbam_to_counts.txt,mark_dups.txt",0.11268357810413887
+"sortedbam_to_counts.txt,fastp_trimming_PE.txt",0.23444592790387186
+"sortedbam_to_counts.txt,salmonPE.txt",0.1759679572763685
+"sortedbam_to_counts.txt,samtools_bam.txt",0.04726301735647531
+"sortedbam_to_counts.txt,bamindex.txt",0.09986648865153536
+"sortedbam_to_counts.txt,generate_genome_star_index.txt",0.08838451268357805
+"sortedbam_to_counts.txt,run_star_pe.txt",0.13991989319092124
+"sortedbam_to_counts.txt,pass1.txt",0.19145527369826432
+"sortedbam_to_counts.txt,fastqc_trimmed.txt",0.09479305740987987
+"sortedbam_to_counts.txt,run_multiqc.txt",0.10387182910547399
+"sortedbam_to_counts.txt,sampleReads.txt",0.09532710280373835
+"sortedbam_to_counts.txt,pass2.txt",0.19546061415220295
+"featureCounts 2.txt,fastqc 4.txt",0.27889060092449924
+"featureCounts 2.txt,multiqc 3.txt",0.3097072419106317
+"featureCounts 2.txt,merge_trimmed_SE.txt",0.26348228043143296
+"featureCounts 2.txt,trimgaloreSE.txt",0.15859030837004406
+"featureCounts 2.txt,fastQCtrimmed 2.txt",0.28967642526964565
+"featureCounts 2.txt,fastqcrim.txt",0.2542372881355932
+"featureCounts 2.txt,sortedbam_to_rmdup.txt",0.17207929143821177
+"featureCounts 2.txt,sort_index_bams.txt",0.1664098613251156
+"featureCounts 2.txt,fastqc 3.txt",0.15562403697996918
+"featureCounts 2.txt,fastqc 2.txt",0.32665639445300465
+"featureCounts 2.txt,rsem_norm.txt",0.285336856010568
+"featureCounts 2.txt,featureCounts.txt",0.28967642526964565
+"featureCounts 2.txt,merge_trimmed_PE.txt",0.24632352941176472
+"featureCounts 2.txt,trimgalorePE.txt",0.2055888223552894
+"featureCounts 2.txt,compare_reference_stringtie.txt",0.288135593220339
+"featureCounts 2.txt,hisat2.txt",0.44838212634822805
+"featureCounts 2.txt,counts_matrix.txt",0.20569280343716434
+"featureCounts 2.txt,sortbam.txt",0.18027734976887522
+"featureCounts 2.txt,starSE.txt",0.2018425460636516
+"featureCounts 2.txt,fetch_unique_stringtie.txt",0.3066255778120185
+"featureCounts 2.txt,bigwig.txt",0.19441770933589986
+"featureCounts 2.txt,cutadapt 2.txt",0.2951653944020356
+"featureCounts 2.txt,cutadapt.txt",0.20801232665639446
+"featureCounts 2.txt,MultiQC.txt",0.19106317411402152
+"featureCounts 2.txt,salmon_quant_pe.txt",0.31181727904667333
+"featureCounts 2.txt,tximeta.txt",0.21818181818181814
+"featureCounts 2.txt,salmon_quant.txt",0.3004366812227074
+"featureCounts 2.txt,sort_bams.txt",0.18027734976887522
+"featureCounts 2.txt,mark_dups.txt",0.2319508448540707
+"featureCounts 2.txt,fastp_trimming_PE.txt",0.25230566534914356
+"featureCounts 2.txt,salmonPE.txt",0.19538572458543624
+"featureCounts 2.txt,samtools_bam.txt",0.18181818181818177
+"featureCounts 2.txt,bamindex.txt",0.20493066255778125
+"featureCounts 2.txt,generate_genome_star_index.txt",0.20801232665639446
+"featureCounts 2.txt,run_star_pe.txt",0.22783505154639172
+"featureCounts 2.txt,pass1.txt",0.2340261739799846
+"featureCounts 2.txt,fastqc_trimmed.txt",0.325115562403698
+"featureCounts 2.txt,run_multiqc.txt",0.2218798151001541
+"featureCounts 2.txt,sampleReads.txt",0.40832049306625573
+"featureCounts 2.txt,pass2.txt",0.22334293948126804
+"fastqc 4.txt,multiqc 3.txt",0.30952380952380953
+"fastqc 4.txt,merge_trimmed_SE.txt",0.2816091954022989
+"fastqc 4.txt,trimgaloreSE.txt",0.20998531571218793
+"fastqc 4.txt,fastQCtrimmed 2.txt",0.31818181818181823
+"fastqc 4.txt,fastqcrim.txt",0.7350993377483444
+"fastqc 4.txt,sortedbam_to_rmdup.txt",0.11556305356389707
+"fastqc 4.txt,sort_index_bams.txt",0.21052631578947367
+"fastqc 4.txt,fastqc 3.txt",0.2319587628865979
+"fastqc 4.txt,fastqc 2.txt",0.3588516746411483
+"fastqc 4.txt,rsem_norm.txt",0.4015852047556143
+"fastqc 4.txt,featureCounts.txt",0.20039682539682535
+"fastqc 4.txt,merge_trimmed_PE.txt",0.25
+"fastqc 4.txt,trimgalorePE.txt",0.19860279441117767
+"fastqc 4.txt,compare_reference_stringtie.txt",0.3110047846889952
+"fastqc 4.txt,hisat2.txt",0.23205741626794263
+"fastqc 4.txt,counts_matrix.txt",0.13050483351235231
+"fastqc 4.txt,sortbam.txt",0.2009569377990431
+"fastqc 4.txt,starSE.txt",0.1876046901172529
+"fastqc 4.txt,fetch_unique_stringtie.txt",0.2827868852459017
+"fastqc 4.txt,bigwig.txt",0.16650625601539937
+"fastqc 4.txt,cutadapt 2.txt",0.2531806615776081
+"fastqc 4.txt,cutadapt.txt",0.21770334928229662
+"fastqc 4.txt,MultiQC.txt",0.19003690036900367
+"fastqc 4.txt,salmon_quant_pe.txt",0.2313803376365442
+"fastqc 4.txt,tximeta.txt",0.17990430622009568
+"fastqc 4.txt,salmon_quant.txt",0.2139737991266376
+"fastqc 4.txt,sort_bams.txt",0.23684210526315785
+"fastqc 4.txt,mark_dups.txt",0.45622119815668205
+"fastqc 4.txt,fastp_trimming_PE.txt",0.1785243741765481
+"fastqc 4.txt,salmonPE.txt",0.167267483777938
+"fastqc 4.txt,samtools_bam.txt",0.21052631578947367
+"fastqc 4.txt,bamindex.txt",0.19455252918287935
+"fastqc 4.txt,generate_genome_star_index.txt",0.22030651340996166
+"fastqc 4.txt,run_star_pe.txt",0.19072164948453607
+"fastqc 4.txt,pass1.txt",0.27097767513471904
+"fastqc 4.txt,fastqc_trimmed.txt",0.34553775743707094
+"fastqc 4.txt,run_multiqc.txt",0.21124031007751942
+"fastqc 4.txt,sampleReads.txt",0.26157407407407407
+"fastqc 4.txt,pass2.txt",0.2579250720461095
+"multiqc 3.txt,merge_trimmed_SE.txt",0.27210884353741494
+"multiqc 3.txt,trimgaloreSE.txt",0.23054331864904554
+"multiqc 3.txt,fastQCtrimmed 2.txt",0.26870748299319724
+"multiqc 3.txt,fastqcrim.txt",0.29931972789115646
+"multiqc 3.txt,sortedbam_to_rmdup.txt",0.16026992830029518
+"multiqc 3.txt,sort_index_bams.txt",0.20578231292517002
+"multiqc 3.txt,fastqc 3.txt",0.16836734693877553
+"multiqc 3.txt,fastqc 2.txt",0.3248299319727891
+"multiqc 3.txt,rsem_norm.txt",0.33025099075297226
+"multiqc 3.txt,featureCounts.txt",0.16666666666666663
+"multiqc 3.txt,merge_trimmed_PE.txt",0.2806372549019608
+"multiqc 3.txt,trimgalorePE.txt",0.2065868263473054
+"multiqc 3.txt,compare_reference_stringtie.txt",0.3299319727891157
+"multiqc 3.txt,hisat2.txt",0.30102040816326525
+"multiqc 3.txt,counts_matrix.txt",0.19280343716433945
+"multiqc 3.txt,sortbam.txt",0.15476190476190477
+"multiqc 3.txt,starSE.txt",0.20519262981574538
+"multiqc 3.txt,fetch_unique_stringtie.txt",0.30102040816326525
+"multiqc 3.txt,bigwig.txt",0.20692974013474497
+"multiqc 3.txt,cutadapt 2.txt",0.29898218829516543
+"multiqc 3.txt,cutadapt.txt",0.2125850340136054
+"multiqc 3.txt,MultiQC.txt",0.24319727891156462
+"multiqc 3.txt,salmon_quant_pe.txt",0.365441906653426
+"multiqc 3.txt,tximeta.txt",0.20574162679425834
+"multiqc 3.txt,salmon_quant.txt",0.31353711790393013
+"multiqc 3.txt,sort_bams.txt",0.21938775510204078
+"multiqc 3.txt,mark_dups.txt",0.2411674347158218
+"multiqc 3.txt,fastp_trimming_PE.txt",0.25296442687747034
+"multiqc 3.txt,salmonPE.txt",0.19033886085075702
+"multiqc 3.txt,samtools_bam.txt",0.1768707482993197
+"multiqc 3.txt,bamindex.txt",0.20408163265306123
+"multiqc 3.txt,generate_genome_star_index.txt",0.19557823129251706
+"multiqc 3.txt,run_star_pe.txt",0.22886597938144326
+"multiqc 3.txt,pass1.txt",0.2409545804464973
+"multiqc 3.txt,fastqc_trimmed.txt",0.30612244897959184
+"multiqc 3.txt,run_multiqc.txt",0.22619047619047616
+"multiqc 3.txt,sampleReads.txt",0.3520408163265306
+"multiqc 3.txt,pass2.txt",0.2334293948126801
+"merge_trimmed_SE.txt,trimgaloreSE.txt",0.1820851688693098
+"merge_trimmed_SE.txt,fastQCtrimmed 2.txt",0.2777777777777778
+"merge_trimmed_SE.txt,fastqcrim.txt",0.27203065134099613
+"merge_trimmed_SE.txt,sortedbam_to_rmdup.txt",0.15647406157739352
+"merge_trimmed_SE.txt,sort_index_bams.txt",0.21647509578544066
+"merge_trimmed_SE.txt,fastqc 3.txt",0.24226804123711343
+"merge_trimmed_SE.txt,fastqc 2.txt",0.29501915708812265
+"merge_trimmed_SE.txt,rsem_norm.txt",0.2760898282694848
+"merge_trimmed_SE.txt,featureCounts.txt",0.13793103448275867
+"merge_trimmed_SE.txt,merge_trimmed_PE.txt",0.6397058823529411
+"merge_trimmed_SE.txt,trimgalorePE.txt",0.18962075848303395
+"merge_trimmed_SE.txt,compare_reference_stringtie.txt",0.3045977011494253
+"merge_trimmed_SE.txt,hisat2.txt",0.2701149425287356
+"merge_trimmed_SE.txt,counts_matrix.txt",0.17883995703544575
+"merge_trimmed_SE.txt,sortbam.txt",0.17432950191570884
+"merge_trimmed_SE.txt,starSE.txt",0.18509212730318259
+"merge_trimmed_SE.txt,fetch_unique_stringtie.txt",0.27969348659003834
+"merge_trimmed_SE.txt,bigwig.txt",0.18286814244465832
+"merge_trimmed_SE.txt,cutadapt 2.txt",0.2684478371501272
+"merge_trimmed_SE.txt,cutadapt.txt",0.20498084291187735
+"merge_trimmed_SE.txt,MultiQC.txt",0.12915129151291516
+"merge_trimmed_SE.txt,salmon_quant_pe.txt",0.30188679245283023
+"merge_trimmed_SE.txt,tximeta.txt",0.1904306220095694
+"merge_trimmed_SE.txt,salmon_quant.txt",0.27685589519650655
+"merge_trimmed_SE.txt,sort_bams.txt",0.2222222222222222
+"merge_trimmed_SE.txt,mark_dups.txt",0.2549923195084486
+"merge_trimmed_SE.txt,fastp_trimming_PE.txt",0.2779973649538867
+"merge_trimmed_SE.txt,salmonPE.txt",0.18168709444844988
+"merge_trimmed_SE.txt,samtools_bam.txt",0.1954022988505747
+"merge_trimmed_SE.txt,bamindex.txt",0.12452107279693492
+"merge_trimmed_SE.txt,generate_genome_star_index.txt",0.15900383141762453
+"merge_trimmed_SE.txt,run_star_pe.txt",0.2319587628865979
+"merge_trimmed_SE.txt,pass1.txt",0.2170900692840647
+"merge_trimmed_SE.txt,fastqc_trimmed.txt",0.3045977011494253
+"merge_trimmed_SE.txt,run_multiqc.txt",0.19731800766283525
+"merge_trimmed_SE.txt,sampleReads.txt",0.2816091954022989
+"merge_trimmed_SE.txt,pass2.txt",0.2139769452449568
+"trimgaloreSE.txt,fastQCtrimmed 2.txt",0.2011747430249633
+"trimgaloreSE.txt,fastqcrim.txt",0.22613803230543317
+"trimgaloreSE.txt,sortedbam_to_rmdup.txt",0.1358076760860396
+"trimgaloreSE.txt,sort_index_bams.txt",0.21145374449339205
+"trimgaloreSE.txt,fastqc 3.txt",0.19823788546255505
+"trimgaloreSE.txt,fastqc 2.txt",0.21732745961820854
+"trimgaloreSE.txt,rsem_norm.txt",0.1730515191545574
+"trimgaloreSE.txt,featureCounts.txt",0.21292217327459617
+"trimgaloreSE.txt,merge_trimmed_PE.txt",0.16789215686274506
+"trimgaloreSE.txt,trimgalorePE.txt",0.6786427145708582
+"trimgaloreSE.txt,compare_reference_stringtie.txt",0.2217327459618208
+"trimgaloreSE.txt,hisat2.txt",0.19970631424375918
+"trimgaloreSE.txt,counts_matrix.txt",0.15198711063372716
+"trimgaloreSE.txt,sortbam.txt",0.1806167400881057
+"trimgaloreSE.txt,starSE.txt",0.3492462311557789
+"trimgaloreSE.txt,fetch_unique_stringtie.txt",0.21732745961820854
+"trimgaloreSE.txt,bigwig.txt",0.4879692011549567
+"trimgaloreSE.txt,cutadapt 2.txt",0.16793893129770987
+"trimgaloreSE.txt,cutadapt.txt",0.26578560939794416
+"trimgaloreSE.txt,MultiQC.txt",0.5624082232011747
+"trimgaloreSE.txt,salmon_quant_pe.txt",0.23336643495531284
+"trimgaloreSE.txt,tximeta.txt",0.29186602870813394
+"trimgaloreSE.txt,salmon_quant.txt",0.23144104803493448
+"trimgaloreSE.txt,sort_bams.txt",0.20998531571218793
+"trimgaloreSE.txt,mark_dups.txt",0.12922173274596183
+"trimgaloreSE.txt,fastp_trimming_PE.txt",0.1811594202898551
+"trimgaloreSE.txt,salmonPE.txt",0.34030281182408073
+"trimgaloreSE.txt,samtools_bam.txt",0.19383259911894268
+"trimgaloreSE.txt,bamindex.txt",0.5330396475770924
+"trimgaloreSE.txt,generate_genome_star_index.txt",0.22320117474302492
+"trimgaloreSE.txt,run_star_pe.txt",0.24536082474226806
+"trimgaloreSE.txt,pass1.txt",0.17859892224788299
+"trimgaloreSE.txt,fastqc_trimmed.txt",0.23641703377386192
+"trimgaloreSE.txt,run_multiqc.txt",0.19236417033773867
+"trimgaloreSE.txt,sampleReads.txt",0.22320117474302492
+"trimgaloreSE.txt,pass2.txt",0.1750720461095101
+"fastQCtrimmed 2.txt,fastqcrim.txt",0.3156732891832229
+"fastQCtrimmed 2.txt,sortedbam_to_rmdup.txt",0.10417545339519185
+"fastQCtrimmed 2.txt,sort_index_bams.txt",0.18338108882521487
+"fastQCtrimmed 2.txt,fastqc 3.txt",0.23367697594501713
+"fastQCtrimmed 2.txt,fastqc 2.txt",0.41927083333333337
+"fastQCtrimmed 2.txt,rsem_norm.txt",0.22324966974900928
+"fastQCtrimmed 2.txt,featureCounts.txt",0.2063492063492064
+"fastQCtrimmed 2.txt,merge_trimmed_PE.txt",0.22426470588235292
+"fastQCtrimmed 2.txt,trimgalorePE.txt",0.16666666666666663
+"fastQCtrimmed 2.txt,compare_reference_stringtie.txt",0.261455525606469
+"fastQCtrimmed 2.txt,hisat2.txt",0.30295566502463056
+"fastQCtrimmed 2.txt,counts_matrix.txt",0.12298603651987106
+"fastQCtrimmed 2.txt,sortbam.txt",0.21489971346704873
+"fastQCtrimmed 2.txt,starSE.txt",0.1566164154103853
+"fastQCtrimmed 2.txt,fetch_unique_stringtie.txt",0.2786885245901639
+"fastQCtrimmed 2.txt,bigwig.txt",0.15880654475457168
+"fastQCtrimmed 2.txt,cutadapt 2.txt",0.2646310432569975
+"fastQCtrimmed 2.txt,cutadapt.txt",0.20916905444126077
+"fastQCtrimmed 2.txt,MultiQC.txt",0.17712177121771222
+"fastQCtrimmed 2.txt,salmon_quant_pe.txt",0.2025819265143992
+"fastQCtrimmed 2.txt,tximeta.txt",0.1473684210526316
+"fastQCtrimmed 2.txt,salmon_quant.txt",0.19039301310043666
+"fastQCtrimmed 2.txt,sort_bams.txt",0.19770773638968486
+"fastQCtrimmed 2.txt,mark_dups.txt",0.2304147465437788
+"fastQCtrimmed 2.txt,fastp_trimming_PE.txt",0.1541501976284585
+"fastQCtrimmed 2.txt,salmonPE.txt",0.13914924297043985
+"fastQCtrimmed 2.txt,samtools_bam.txt",0.22063037249283668
+"fastQCtrimmed 2.txt,bamindex.txt",0.2023346303501945
+"fastQCtrimmed 2.txt,generate_genome_star_index.txt",0.1915708812260536
+"fastQCtrimmed 2.txt,run_star_pe.txt",0.16391752577319585
+"fastQCtrimmed 2.txt,pass1.txt",0.15627405696689767
+"fastQCtrimmed 2.txt,fastqc_trimmed.txt",0.4782608695652174
+"fastQCtrimmed 2.txt,run_multiqc.txt",0.2441860465116279
+"fastQCtrimmed 2.txt,sampleReads.txt",0.4629629629629629
+"fastQCtrimmed 2.txt,pass2.txt",0.14913544668587897
+"fastqcrim.txt,sortedbam_to_rmdup.txt",0.12188949810206662
+"fastqcrim.txt,sort_index_bams.txt",0.22958057395143483
+"fastqcrim.txt,fastqc 3.txt",0.23024054982817865
+"fastqcrim.txt,fastqc 2.txt",0.32450331125827814
+"fastqcrim.txt,rsem_norm.txt",0.35138705416116245
+"fastqcrim.txt,featureCounts.txt",0.17261904761904767
+"fastqcrim.txt,merge_trimmed_PE.txt",0.2634803921568627
+"fastqcrim.txt,trimgalorePE.txt",0.20159680638722555
+"fastqcrim.txt,compare_reference_stringtie.txt",0.32891832229580575
+"fastqcrim.txt,hisat2.txt",0.26269315673289184
+"fastqcrim.txt,counts_matrix.txt",0.13856068743286787
+"fastqcrim.txt,sortbam.txt",0.1920529801324503
+"fastqcrim.txt,starSE.txt",0.18844221105527637
+"fastqcrim.txt,fetch_unique_stringtie.txt",0.27459016393442626
+"fastqcrim.txt,bigwig.txt",0.17420596727622717
+"fastqcrim.txt,cutadapt 2.txt",0.25190839694656486
+"fastqcrim.txt,cutadapt.txt",0.22737306843267113
+"fastqcrim.txt,MultiQC.txt",0.1974169741697417
+"fastqcrim.txt,salmon_quant_pe.txt",0.23932472691161866
+"fastqcrim.txt,tximeta.txt",0.1885167464114833
+"fastqcrim.txt,salmon_quant.txt",0.22882096069868996
+"fastqcrim.txt,sort_bams.txt",0.24282560706401768
+"fastqcrim.txt,mark_dups.txt",0.3932411674347158
+"fastqcrim.txt,fastp_trimming_PE.txt",0.19499341238471668
+"fastqcrim.txt,salmonPE.txt",0.1723143475126172
+"fastqcrim.txt,samtools_bam.txt",0.20971302428256067
+"fastqcrim.txt,bamindex.txt",0.16342412451361865
+"fastqcrim.txt,generate_genome_star_index.txt",0.19731800766283525
+"fastqcrim.txt,run_star_pe.txt",0.19690721649484533
+"fastqcrim.txt,pass1.txt",0.2732871439568899
+"fastqcrim.txt,fastqc_trimmed.txt",0.29801324503311255
+"fastqcrim.txt,run_multiqc.txt",0.22093023255813948
+"fastqcrim.txt,sampleReads.txt",0.26048565121412803
+"fastqcrim.txt,pass2.txt",0.24279538904899134
+"sortedbam_to_rmdup.txt,sort_index_bams.txt",0.06706031210459718
+"sortedbam_to_rmdup.txt,fastqc 3.txt",0.11893715731758747
+"sortedbam_to_rmdup.txt,fastqc 2.txt",0.11935892028679884
+"sortedbam_to_rmdup.txt,rsem_norm.txt",0.1868409953606074
+"sortedbam_to_rmdup.txt,featureCounts.txt",0.11387600168705192
+"sortedbam_to_rmdup.txt,merge_trimmed_PE.txt",0.20244622522142552
+"sortedbam_to_rmdup.txt,trimgalorePE.txt",0.15183466891606912
+"sortedbam_to_rmdup.txt,compare_reference_stringtie.txt",0.11471952762547444
+"sortedbam_to_rmdup.txt,hisat2.txt",0.12695065373260228
+"sortedbam_to_rmdup.txt,counts_matrix.txt",0.3074652045550401
+"sortedbam_to_rmdup.txt,sortbam.txt",0.06410797132011814
+"sortedbam_to_rmdup.txt,starSE.txt",0.16997047659215525
+"sortedbam_to_rmdup.txt,fetch_unique_stringtie.txt",0.13918177983973012
+"sortedbam_to_rmdup.txt,bigwig.txt",0.15520877266975963
+"sortedbam_to_rmdup.txt,cutadapt 2.txt",0.18346689160691687
+"sortedbam_to_rmdup.txt,cutadapt.txt",0.08857022353437372
+"sortedbam_to_rmdup.txt,MultiQC.txt",0.12146773513285536
+"sortedbam_to_rmdup.txt,salmon_quant_pe.txt",0.21847321805145503
+"sortedbam_to_rmdup.txt,tximeta.txt",0.1611134542387178
+"sortedbam_to_rmdup.txt,salmon_quant.txt",0.229439055250949
+"sortedbam_to_rmdup.txt,sort_bams.txt",0.0679038380430198
+"sortedbam_to_rmdup.txt,mark_dups.txt",0.15225643188528049
+"sortedbam_to_rmdup.txt,fastp_trimming_PE.txt",0.2779417967102489
+"sortedbam_to_rmdup.txt,salmonPE.txt",0.17460986925347954
+"sortedbam_to_rmdup.txt,samtools_bam.txt",0.0679038380430198
+"sortedbam_to_rmdup.txt,bamindex.txt",0.11851539434837621
+"sortedbam_to_rmdup.txt,generate_genome_star_index.txt",0.11387600168705192
+"sortedbam_to_rmdup.txt,run_star_pe.txt",0.14930409110080134
+"sortedbam_to_rmdup.txt,pass1.txt",0.23070434415858287
+"sortedbam_to_rmdup.txt,fastqc_trimmed.txt",0.12695065373260228
+"sortedbam_to_rmdup.txt,run_multiqc.txt",0.1417123576549979
+"sortedbam_to_rmdup.txt,sampleReads.txt",0.12948123154787006
+"sortedbam_to_rmdup.txt,pass2.txt",0.23450021088148465
+"sort_index_bams.txt,fastqc 3.txt",0.25773195876288657
+"sort_index_bams.txt,fastqc 2.txt",0.21614583333333337
+"sort_index_bams.txt,rsem_norm.txt",0.15719947159841474
+"sort_index_bams.txt,featureCounts.txt",0.23611111111111116
+"sort_index_bams.txt,merge_trimmed_PE.txt",0.15931372549019607
+"sort_index_bams.txt,trimgalorePE.txt",0.15169660678642716
+"sort_index_bams.txt,compare_reference_stringtie.txt",0.261455525606469
+"sort_index_bams.txt,hisat2.txt",0.1995073891625616
+"sort_index_bams.txt,counts_matrix.txt",0.07572502685284643
+"sort_index_bams.txt,sortbam.txt",0.26388888888888884
+"sort_index_bams.txt,starSE.txt",0.14572864321608037
+"sort_index_bams.txt,fetch_unique_stringtie.txt",0.22540983606557374
+"sort_index_bams.txt,bigwig.txt",0.16746871992300294
+"sort_index_bams.txt,cutadapt 2.txt",0.1323155216284987
+"sort_index_bams.txt,cutadapt.txt",0.2987804878048781
+"sort_index_bams.txt,MultiQC.txt",0.23616236162361626
+"sort_index_bams.txt,salmon_quant_pe.txt",0.15094339622641506
+"sort_index_bams.txt,tximeta.txt",0.13971291866028712
+"sort_index_bams.txt,salmon_quant.txt",0.12751091703056772
+"sort_index_bams.txt,sort_bams.txt",0.8472222222222222
+"sort_index_bams.txt,mark_dups.txt",0.2104454685099847
+"sort_index_bams.txt,fastp_trimming_PE.txt",0.10210803689064563
+"sort_index_bams.txt,salmonPE.txt",0.12472963229992795
+"sort_index_bams.txt,samtools_bam.txt",0.43981481481481477
+"sort_index_bams.txt,bamindex.txt",0.330739299610895
+"sort_index_bams.txt,generate_genome_star_index.txt",0.24521072796934862
+"sort_index_bams.txt,run_star_pe.txt",0.19484536082474224
+"sort_index_bams.txt,pass1.txt",0.10238645111624323
+"sort_index_bams.txt,fastqc_trimmed.txt",0.22654462242562934
+"sort_index_bams.txt,run_multiqc.txt",0.2093023255813954
+"sort_index_bams.txt,sampleReads.txt",0.2060185185185185
+"sort_index_bams.txt,pass2.txt",0.10158501440922185
+"fastqc 3.txt,fastqc 2.txt",0.2405498281786942
+"fastqc 3.txt,rsem_norm.txt",0.18758256274768825
+"fastqc 3.txt,featureCounts.txt",0.1924398625429553
+"fastqc 3.txt,merge_trimmed_PE.txt",0.25245098039215685
+"fastqc 3.txt,trimgalorePE.txt",0.2554890219560878
+"fastqc 3.txt,compare_reference_stringtie.txt",0.20618556701030932
+"fastqc 3.txt,hisat2.txt",0.20274914089347074
+"fastqc 3.txt,counts_matrix.txt",0.13372717508055854
+"fastqc 3.txt,sortbam.txt",0.18041237113402064
+"fastqc 3.txt,starSE.txt",0.24036850921273034
+"fastqc 3.txt,fetch_unique_stringtie.txt",0.18556701030927836
+"fastqc 3.txt,bigwig.txt",0.20404234841193458
+"fastqc 3.txt,cutadapt 2.txt",0.17557251908396942
+"fastqc 3.txt,cutadapt.txt",0.23367697594501713
+"fastqc 3.txt,MultiQC.txt",0.19587628865979378
+"fastqc 3.txt,salmon_quant_pe.txt",0.26812313803376364
+"fastqc 3.txt,tximeta.txt",0.23636363636363633
+"fastqc 3.txt,salmon_quant.txt",0.2427947598253275
+"fastqc 3.txt,sort_bams.txt",0.2766323024054983
+"fastqc 3.txt,mark_dups.txt",0.14900153609831024
+"fastqc 3.txt,fastp_trimming_PE.txt",0.22266139657444006
+"fastqc 3.txt,salmonPE.txt",0.23720259552992073
+"fastqc 3.txt,samtools_bam.txt",0.21649484536082475
+"fastqc 3.txt,bamindex.txt",0.21993127147766323
+"fastqc 3.txt,generate_genome_star_index.txt",0.17697594501718217
+"fastqc 3.txt,run_star_pe.txt",0.3061855670103093
+"fastqc 3.txt,pass1.txt",0.15473441108545039
+"fastqc 3.txt,fastqc_trimmed.txt",0.23539518900343648
+"fastqc 3.txt,run_multiqc.txt",0.1786941580756014
+"fastqc 3.txt,sampleReads.txt",0.20790378006872856
+"fastqc 3.txt,pass2.txt",0.15417867435158505
+"fastqc 2.txt,rsem_norm.txt",0.2615587846763541
+"fastqc 2.txt,featureCounts.txt",0.26190476190476186
+"fastqc 2.txt,merge_trimmed_PE.txt",0.25612745098039214
+"fastqc 2.txt,trimgalorePE.txt",0.18762475049900196
+"fastqc 2.txt,compare_reference_stringtie.txt",0.2890625
+"fastqc 2.txt,hisat2.txt",0.35960591133004927
+"fastqc 2.txt,counts_matrix.txt",0.13748657357679916
+"fastqc 2.txt,sortbam.txt",0.25
+"fastqc 2.txt,starSE.txt",0.17504187604690113
+"fastqc 2.txt,fetch_unique_stringtie.txt",0.2930327868852459
+"fastqc 2.txt,bigwig.txt",0.1761308950914341
+"fastqc 2.txt,cutadapt 2.txt",0.24936386768447838
+"fastqc 2.txt,cutadapt.txt",0.3203125
+"fastqc 2.txt,MultiQC.txt",0.19926199261992616
+"fastqc 2.txt,salmon_quant_pe.txt",0.24031777557100298
+"fastqc 2.txt,tximeta.txt",0.1760765550239235
+"fastqc 2.txt,salmon_quant.txt",0.21572052401746722
+"fastqc 2.txt,sort_bams.txt",0.26041666666666663
+"fastqc 2.txt,mark_dups.txt",0.2949308755760369
+"fastqc 2.txt,fastp_trimming_PE.txt",0.1811594202898551
+"fastqc 2.txt,salmonPE.txt",0.1578947368421053
+"fastqc 2.txt,samtools_bam.txt",0.3125
+"fastqc 2.txt,bamindex.txt",0.21595330739299612
+"fastqc 2.txt,generate_genome_star_index.txt",0.22030651340996166
+"fastqc 2.txt,run_star_pe.txt",0.18556701030927836
+"fastqc 2.txt,pass1.txt",0.18321785989222483
+"fastqc 2.txt,fastqc_trimmed.txt",0.8398169336384439
+"fastqc 2.txt,run_multiqc.txt",0.25
+"fastqc 2.txt,sampleReads.txt",0.3680555555555556
+"fastqc 2.txt,pass2.txt",0.17074927953890495
+"rsem_norm.txt,featureCounts.txt",0.2245706737120211
+"rsem_norm.txt,merge_trimmed_PE.txt",0.22549019607843135
+"rsem_norm.txt,trimgalorePE.txt",0.18562874251497008
+"rsem_norm.txt,compare_reference_stringtie.txt",0.24306472919418753
+"rsem_norm.txt,hisat2.txt",0.2813738441215323
+"rsem_norm.txt,counts_matrix.txt",0.21052631578947367
+"rsem_norm.txt,sortbam.txt",0.142668428005284
+"rsem_norm.txt,starSE.txt",0.19095477386934678
+"rsem_norm.txt,fetch_unique_stringtie.txt",0.2575957727873184
+"rsem_norm.txt,bigwig.txt",0.2011549566891242
+"rsem_norm.txt,cutadapt 2.txt",0.26972010178117045
+"rsem_norm.txt,cutadapt.txt",0.20211360634081899
+"rsem_norm.txt,MultiQC.txt",0.1849405548216645
+"rsem_norm.txt,salmon_quant_pe.txt",0.31380337636544187
+"rsem_norm.txt,tximeta.txt",0.19712918660287082
+"rsem_norm.txt,salmon_quant.txt",0.31353711790393013
+"rsem_norm.txt,sort_bams.txt",0.16644649933949807
+"rsem_norm.txt,mark_dups.txt",0.4015852047556143
+"rsem_norm.txt,fastp_trimming_PE.txt",0.2516469038208169
+"rsem_norm.txt,salmonPE.txt",0.20187454938716654
+"rsem_norm.txt,samtools_bam.txt",0.15191545574636722
+"rsem_norm.txt,bamindex.txt",0.19286657859973577
+"rsem_norm.txt,generate_genome_star_index.txt",0.23778071334214002
+"rsem_norm.txt,run_star_pe.txt",0.19484536082474224
+"rsem_norm.txt,pass1.txt",0.380292532717475
+"rsem_norm.txt,fastqc_trimmed.txt",0.2668428005284016
+"rsem_norm.txt,run_multiqc.txt",0.2153236459709379
+"rsem_norm.txt,sampleReads.txt",0.2800528401585205
+"rsem_norm.txt,pass2.txt",0.3832853025936599
+"featureCounts.txt,merge_trimmed_PE.txt",0.18014705882352944
+"featureCounts.txt,trimgalorePE.txt",0.21457085828343314
+"featureCounts.txt,compare_reference_stringtie.txt",0.19047619047619047
+"featureCounts.txt,hisat2.txt",0.1686507936507936
+"featureCounts.txt,counts_matrix.txt",0.1278195488721805
+"featureCounts.txt,sortbam.txt",0.2142857142857143
+"featureCounts.txt,starSE.txt",0.19262981574539362
+"featureCounts.txt,fetch_unique_stringtie.txt",0.1607142857142857
+"featureCounts.txt,bigwig.txt",0.21174205967276227
+"featureCounts.txt,cutadapt 2.txt",0.1653944020356234
+"featureCounts.txt,cutadapt.txt",0.36309523809523814
+"featureCounts.txt,MultiQC.txt",0.17712177121771222
+"featureCounts.txt,salmon_quant_pe.txt",0.2214498510427011
+"featureCounts.txt,tximeta.txt",0.19617224880382778
+"featureCounts.txt,salmon_quant.txt",0.20960698689956336
+"featureCounts.txt,sort_bams.txt",0.25396825396825395
+"featureCounts.txt,mark_dups.txt",0.17818740399385558
+"featureCounts.txt,fastp_trimming_PE.txt",0.1706192358366272
+"featureCounts.txt,salmonPE.txt",0.1802451333813987
+"featureCounts.txt,samtools_bam.txt",0.3035714285714286
+"featureCounts.txt,bamindex.txt",0.20622568093385218
+"featureCounts.txt,generate_genome_star_index.txt",0.2222222222222222
+"featureCounts.txt,run_star_pe.txt",0.2247422680412371
+"featureCounts.txt,pass1.txt",0.17090069284064668
+"featureCounts.txt,fastqc_trimmed.txt",0.2242063492063492
+"featureCounts.txt,run_multiqc.txt",0.10852713178294571
+"featureCounts.txt,sampleReads.txt",0.21031746031746035
+"featureCounts.txt,pass2.txt",0.16858789625360227
+"merge_trimmed_PE.txt,trimgalorePE.txt",0.16766467065868262
+"merge_trimmed_PE.txt,compare_reference_stringtie.txt",0.28308823529411764
+"merge_trimmed_PE.txt,hisat2.txt",0.2512254901960784
+"merge_trimmed_PE.txt,counts_matrix.txt",0.2303974221267454
+"merge_trimmed_PE.txt,sortbam.txt",0.14093137254901966
+"merge_trimmed_PE.txt,starSE.txt",0.20016750418760465
+"merge_trimmed_PE.txt,fetch_unique_stringtie.txt",0.27818627450980393
+"merge_trimmed_PE.txt,bigwig.txt",0.17998075072184794
+"merge_trimmed_PE.txt,cutadapt 2.txt",0.2046568627450981
+"merge_trimmed_PE.txt,cutadapt.txt",0.17279411764705888
+"merge_trimmed_PE.txt,MultiQC.txt",0.20343137254901966
+"merge_trimmed_PE.txt,salmon_quant_pe.txt",0.31777557100297915
+"merge_trimmed_PE.txt,tximeta.txt",0.19138755980861244
+"merge_trimmed_PE.txt,salmon_quant.txt",0.3117903930131004
+"merge_trimmed_PE.txt,sort_bams.txt",0.16421568627450978
+"merge_trimmed_PE.txt,mark_dups.txt",0.22181372549019607
+"merge_trimmed_PE.txt,fastp_trimming_PE.txt",0.3952569169960475
+"merge_trimmed_PE.txt,salmonPE.txt",0.2076423936553713
+"merge_trimmed_PE.txt,samtools_bam.txt",0.14950980392156865
+"merge_trimmed_PE.txt,bamindex.txt",0.18872549019607843
+"merge_trimmed_PE.txt,generate_genome_star_index.txt",0.18995098039215685
+"merge_trimmed_PE.txt,run_star_pe.txt",0.24020618556701034
+"merge_trimmed_PE.txt,pass1.txt",0.24557351809083916
+"merge_trimmed_PE.txt,fastqc_trimmed.txt",0.2757352941176471
+"merge_trimmed_PE.txt,run_multiqc.txt",0.24877450980392157
+"merge_trimmed_PE.txt,sampleReads.txt",0.2732843137254902
+"merge_trimmed_PE.txt,pass2.txt",0.24279538904899134
+"trimgalorePE.txt,compare_reference_stringtie.txt",0.18762475049900196
+"trimgalorePE.txt,hisat2.txt",0.17465069860279436
+"trimgalorePE.txt,counts_matrix.txt",0.16702470461868957
+"trimgalorePE.txt,sortbam.txt",0.13672654690618757
+"trimgalorePE.txt,starSE.txt",0.3752093802345059
+"trimgalorePE.txt,fetch_unique_stringtie.txt",0.20459081836327342
+"trimgalorePE.txt,bigwig.txt",0.3368623676612127
+"trimgalorePE.txt,cutadapt 2.txt",0.17664670658682635
+"trimgalorePE.txt,cutadapt.txt",0.1946107784431138
+"trimgalorePE.txt,MultiQC.txt",0.43313373253493015
+"trimgalorePE.txt,salmon_quant_pe.txt",0.14895729890764653
+"trimgalorePE.txt,tximeta.txt",0.23732057416267938
+"trimgalorePE.txt,salmon_quant.txt",0.19825327510917035
+"trimgalorePE.txt,sort_bams.txt",0.15568862275449102
+"trimgalorePE.txt,mark_dups.txt",0.17465069860279436
+"trimgalorePE.txt,fastp_trimming_PE.txt",0.19631093544137024
+"trimgalorePE.txt,salmonPE.txt",0.4477289113193944
+"trimgalorePE.txt,samtools_bam.txt",0.14171656686626743
+"trimgalorePE.txt,bamindex.txt",0.39720558882235524
+"trimgalorePE.txt,generate_genome_star_index.txt",0.2075848303393214
+"trimgalorePE.txt,run_star_pe.txt",0.1836327345309381
+"trimgalorePE.txt,pass1.txt",0.17474980754426483
+"trimgalorePE.txt,fastqc_trimmed.txt",0.2075848303393214
+"trimgalorePE.txt,run_multiqc.txt",0.20259481037924154
+"trimgalorePE.txt,sampleReads.txt",0.18762475049900196
+"trimgalorePE.txt,pass2.txt",0.17723342939481268
+"compare_reference_stringtie.txt,hisat2.txt",0.2364532019704434
+"compare_reference_stringtie.txt,counts_matrix.txt",0.13641245972073035
+"compare_reference_stringtie.txt,sortbam.txt",0.21832884097035044
+"compare_reference_stringtie.txt,starSE.txt",0.1876046901172529
+"compare_reference_stringtie.txt,fetch_unique_stringtie.txt",0.6168032786885246
+"compare_reference_stringtie.txt,bigwig.txt",0.1857555341674687
+"compare_reference_stringtie.txt,cutadapt 2.txt",0.24045801526717558
+"compare_reference_stringtie.txt,cutadapt.txt",0.16981132075471694
+"compare_reference_stringtie.txt,MultiQC.txt",0.21955719557195574
+"compare_reference_stringtie.txt,salmon_quant_pe.txt",0.23733862959285001
+"compare_reference_stringtie.txt,tximeta.txt",0.19425837320574157
+"compare_reference_stringtie.txt,salmon_quant.txt",0.23580786026200873
+"compare_reference_stringtie.txt,sort_bams.txt",0.2668463611859838
+"compare_reference_stringtie.txt,mark_dups.txt",0.25960061443932414
+"compare_reference_stringtie.txt,fastp_trimming_PE.txt",0.17325428194993409
+"compare_reference_stringtie.txt,salmonPE.txt",0.17447728911319393
+"compare_reference_stringtie.txt,samtools_bam.txt",0.24258760107816713
+"compare_reference_stringtie.txt,bamindex.txt",0.20817120622568097
+"compare_reference_stringtie.txt,generate_genome_star_index.txt",0.210727969348659
+"compare_reference_stringtie.txt,run_star_pe.txt",0.18865979381443299
+"compare_reference_stringtie.txt,pass1.txt",0.16474210931485755
+"compare_reference_stringtie.txt,fastqc_trimmed.txt",0.30663615560640733
+"compare_reference_stringtie.txt,run_multiqc.txt",0.26937984496124034
+"compare_reference_stringtie.txt,sampleReads.txt",0.28935185185185186
+"compare_reference_stringtie.txt,pass2.txt",0.15922190201729103
+"hisat2.txt,counts_matrix.txt",0.14983888292158964
+"hisat2.txt,sortbam.txt",0.18226600985221675
+"hisat2.txt,starSE.txt",0.16834170854271358
+"hisat2.txt,fetch_unique_stringtie.txt",0.264344262295082
+"hisat2.txt,bigwig.txt",0.16458132820019244
+"hisat2.txt,cutadapt 2.txt",0.37150127226463103
+"hisat2.txt,cutadapt.txt",0.20197044334975367
+"hisat2.txt,MultiQC.txt",0.17712177121771222
+"hisat2.txt,salmon_quant_pe.txt",0.24230387288977162
+"hisat2.txt,tximeta.txt",0.17129186602870816
+"hisat2.txt,salmon_quant.txt",0.2244541484716157
+"hisat2.txt,sort_bams.txt",0.1995073891625616
+"hisat2.txt,mark_dups.txt",0.2657450076804916
+"hisat2.txt,fastp_trimming_PE.txt",0.17457180500658764
+"hisat2.txt,salmonPE.txt",0.15212689257390055
+"hisat2.txt,samtools_bam.txt",0.21182266009852213
+"hisat2.txt,bamindex.txt",0.20817120622568097
+"hisat2.txt,generate_genome_star_index.txt",0.1915708812260536
+"hisat2.txt,run_star_pe.txt",0.17113402061855665
+"hisat2.txt,pass1.txt",0.19168591224018472
+"hisat2.txt,fastqc_trimmed.txt",0.33867276887871856
+"hisat2.txt,run_multiqc.txt",0.2441860465116279
+"hisat2.txt,sampleReads.txt",0.38888888888888884
+"hisat2.txt,pass2.txt",0.18515850144092216
+"counts_matrix.txt,sortbam.txt",0.0714285714285714
+"counts_matrix.txt,starSE.txt",0.18206229860365197
+"counts_matrix.txt,fetch_unique_stringtie.txt",0.16165413533834583
+"counts_matrix.txt,bigwig.txt",0.16756176154672398
+"counts_matrix.txt,cutadapt 2.txt",0.21911922663802363
+"counts_matrix.txt,cutadapt.txt",0.0998925886143931
+"counts_matrix.txt,MultiQC.txt",0.13587540279269605
+"counts_matrix.txt,salmon_quant_pe.txt",0.25187969924812026
+"counts_matrix.txt,tximeta.txt",0.18259935553168638
+"counts_matrix.txt,salmon_quant.txt",0.2593984962406015
+"counts_matrix.txt,sort_bams.txt",0.07572502685284643
+"counts_matrix.txt,mark_dups.txt",0.16058002148227712
+"counts_matrix.txt,fastp_trimming_PE.txt",0.27819548872180455
+"counts_matrix.txt,salmonPE.txt",0.17293233082706772
+"counts_matrix.txt,samtools_bam.txt",0.07626208378088073
+"counts_matrix.txt,bamindex.txt",0.13480128893662724
+"counts_matrix.txt,generate_genome_star_index.txt",0.12674543501611168
+"counts_matrix.txt,run_star_pe.txt",0.16595059076262086
+"counts_matrix.txt,pass1.txt",0.2540279269602578
+"counts_matrix.txt,fastqc_trimmed.txt",0.14769065520945224
+"counts_matrix.txt,run_multiqc.txt",0.16058002148227712
+"counts_matrix.txt,sampleReads.txt",0.14876476906552094
+"counts_matrix.txt,pass2.txt",0.25026852846401715
+"sortbam.txt,starSE.txt",0.12646566164154105
+"sortbam.txt,fetch_unique_stringtie.txt",0.180327868852459
+"sortbam.txt,bigwig.txt",0.13474494706448503
+"sortbam.txt,cutadapt 2.txt",0.11577608142493634
+"sortbam.txt,cutadapt.txt",0.29268292682926833
+"sortbam.txt,MultiQC.txt",0.18634686346863472
+"sortbam.txt,salmon_quant_pe.txt",0.12909632571996033
+"sortbam.txt,tximeta.txt",0.12248803827751198
+"sortbam.txt,salmon_quant.txt",0.12227074235807855
+"sortbam.txt,sort_bams.txt",0.27142857142857146
+"sortbam.txt,mark_dups.txt",0.1751152073732719
+"sortbam.txt,fastp_trimming_PE.txt",0.09025032938076416
+"sortbam.txt,salmonPE.txt",0.10670511896178803
+"sortbam.txt,samtools_bam.txt",0.26108374384236455
+"sortbam.txt,bamindex.txt",0.22762645914396884
+"sortbam.txt,generate_genome_star_index.txt",0.16858237547892718
+"sortbam.txt,run_star_pe.txt",0.13814432989690717
+"sortbam.txt,pass1.txt",0.09545804464973051
+"sortbam.txt,fastqc_trimmed.txt",0.2379862700228833
+"sortbam.txt,run_multiqc.txt",0.19767441860465118
+"sortbam.txt,sampleReads.txt",0.20833333333333337
+"sortbam.txt,pass2.txt",0.09077809798270897
+"starSE.txt,fetch_unique_stringtie.txt",0.2077051926298158
+"starSE.txt,bigwig.txt",0.3232830820770519
+"starSE.txt,cutadapt 2.txt",0.1842546063651591
+"starSE.txt,cutadapt.txt",0.17252931323283083
+"starSE.txt,MultiQC.txt",0.29983249581239535
+"starSE.txt,salmon_quant_pe.txt",0.2077051926298158
+"starSE.txt,tximeta.txt",0.3241206030150754
+"starSE.txt,salmon_quant.txt",0.1758793969849246
+"starSE.txt,sort_bams.txt",0.14070351758793975
+"starSE.txt,mark_dups.txt",0.20938023450586263
+"starSE.txt,fastp_trimming_PE.txt",0.18972332015810278
+"starSE.txt,salmonPE.txt",0.5522710886806057
+"starSE.txt,samtools_bam.txt",0.1247906197654941
+"starSE.txt,bamindex.txt",0.3433835845896147
+"starSE.txt,generate_genome_star_index.txt",0.19849246231155782
+"starSE.txt,run_star_pe.txt",0.2730318257956449
+"starSE.txt,pass1.txt",0.14857582755966126
+"starSE.txt,fastqc_trimmed.txt",0.19095477386934678
+"starSE.txt,run_multiqc.txt",0.20100502512562812
+"starSE.txt,sampleReads.txt",0.1817420435510888
+"starSE.txt,pass2.txt",0.1750720461095101
+"fetch_unique_stringtie.txt,bigwig.txt",0.2088546679499519
+"fetch_unique_stringtie.txt,cutadapt 2.txt",0.2582697201017812
+"fetch_unique_stringtie.txt,cutadapt.txt",0.19672131147540983
+"fetch_unique_stringtie.txt,MultiQC.txt",0.20664206642066418
+"fetch_unique_stringtie.txt,salmon_quant_pe.txt",0.2671300893743793
+"fetch_unique_stringtie.txt,tximeta.txt",0.2354066985645933
+"fetch_unique_stringtie.txt,salmon_quant.txt",0.27685589519650655
+"fetch_unique_stringtie.txt,sort_bams.txt",0.23360655737704916
+"fetch_unique_stringtie.txt,mark_dups.txt",0.2764976958525346
+"fetch_unique_stringtie.txt,fastp_trimming_PE.txt",0.1996047430830039
+"fetch_unique_stringtie.txt,salmonPE.txt",0.19394376351838505
+"fetch_unique_stringtie.txt,samtools_bam.txt",0.21106557377049184
+"fetch_unique_stringtie.txt,bamindex.txt",0.17898832684824906
+"fetch_unique_stringtie.txt,generate_genome_star_index.txt",0.16091954022988508
+"fetch_unique_stringtie.txt,run_star_pe.txt",0.2082474226804124
+"fetch_unique_stringtie.txt,pass1.txt",0.18860662047729027
+"fetch_unique_stringtie.txt,fastqc_trimmed.txt",0.28688524590163933
+"fetch_unique_stringtie.txt,run_multiqc.txt",0.21317829457364346
+"fetch_unique_stringtie.txt,sampleReads.txt",0.2581967213114754
+"fetch_unique_stringtie.txt,pass2.txt",0.18227665706051877
+"bigwig.txt,cutadapt 2.txt",0.16650625601539937
+"bigwig.txt,cutadapt.txt",0.18286814244465832
+"bigwig.txt,MultiQC.txt",0.4100096246390761
+"bigwig.txt,salmon_quant_pe.txt",0.1434071222329163
+"bigwig.txt,tximeta.txt",0.24880382775119614
+"bigwig.txt,salmon_quant.txt",0.17903930131004364
+"bigwig.txt,sort_bams.txt",0.1684311838306064
+"bigwig.txt,mark_dups.txt",0.2232916265640038
+"bigwig.txt,fastp_trimming_PE.txt",0.17654808959156787
+"bigwig.txt,salmonPE.txt",0.3237202595529921
+"bigwig.txt,samtools_bam.txt",0.14244465832531283
+"bigwig.txt,bamindex.txt",0.4215591915303176
+"bigwig.txt,generate_genome_star_index.txt",0.20981713185755535
+"bigwig.txt,run_star_pe.txt",0.16746871992300294
+"bigwig.txt,pass1.txt",0.16397228637413397
+"bigwig.txt,fastqc_trimmed.txt",0.18286814244465832
+"bigwig.txt,run_multiqc.txt",0.18479307025986524
+"bigwig.txt,sampleReads.txt",0.17998075072184794
+"bigwig.txt,pass2.txt",0.17723342939481268
+"cutadapt 2.txt,cutadapt.txt",0.19211195928753177
+"cutadapt 2.txt,MultiQC.txt",0.18829516539440205
+"cutadapt 2.txt,salmon_quant_pe.txt",0.2750744786494538
+"cutadapt 2.txt,tximeta.txt",0.18373205741626797
+"cutadapt 2.txt,salmon_quant.txt",0.28733624454148476
+"cutadapt 2.txt,sort_bams.txt",0.12722646310432573
+"cutadapt 2.txt,mark_dups.txt",0.2379134860050891
+"cutadapt 2.txt,fastp_trimming_PE.txt",0.23978919631093543
+"cutadapt 2.txt,salmonPE.txt",0.19250180245133386
+"cutadapt 2.txt,samtools_bam.txt",0.12595419847328249
+"cutadapt 2.txt,bamindex.txt",0.1870229007633588
+"cutadapt 2.txt,generate_genome_star_index.txt",0.17938931297709926
+"cutadapt 2.txt,run_star_pe.txt",0.16804123711340202
+"cutadapt 2.txt,pass1.txt",0.24865280985373361
+"cutadapt 2.txt,fastqc_trimmed.txt",0.24554707379134855
+"cutadapt 2.txt,run_multiqc.txt",0.2290076335877863
+"cutadapt 2.txt,sampleReads.txt",0.29007633587786263
+"cutadapt 2.txt,pass2.txt",0.24495677233429392
+"cutadapt.txt,MultiQC.txt",0.2232472324723247
+"cutadapt.txt,salmon_quant_pe.txt",0.18570009930486597
+"cutadapt.txt,tximeta.txt",0.16842105263157892
+"cutadapt.txt,salmon_quant.txt",0.16943231441048034
+"cutadapt.txt,sort_bams.txt",0.3414634146341463
+"cutadapt.txt,mark_dups.txt",0.19354838709677424
+"cutadapt.txt,fastp_trimming_PE.txt",0.1324110671936759
+"cutadapt.txt,salmonPE.txt",0.15428983417447728
+"cutadapt.txt,samtools_bam.txt",0.3719512195121951
+"cutadapt.txt,bamindex.txt",0.2782101167315175
+"cutadapt.txt,generate_genome_star_index.txt",0.2701149425287356
+"cutadapt.txt,run_star_pe.txt",0.2154639175257732
+"cutadapt.txt,pass1.txt",0.1385681293302541
+"cutadapt.txt,fastqc_trimmed.txt",0.30205949656750575
+"cutadapt.txt,run_multiqc.txt",0.18023255813953487
+"cutadapt.txt,sampleReads.txt",0.27314814814814814
+"cutadapt.txt,pass2.txt",0.13400576368876083
+"MultiQC.txt,salmon_quant_pe.txt",0.21052631578947367
+"MultiQC.txt,tximeta.txt",0.29377990430622014
+"MultiQC.txt,salmon_quant.txt",0.21484716157205241
+"MultiQC.txt,sort_bams.txt",0.24354243542435428
+"MultiQC.txt,mark_dups.txt",0.13517665130568357
+"MultiQC.txt,fastp_trimming_PE.txt",0.16534914361001318
+"MultiQC.txt,salmonPE.txt",0.2754145638067772
+"MultiQC.txt,samtools_bam.txt",0.21586715867158668
+"MultiQC.txt,bamindex.txt",0.4630996309963099
+"MultiQC.txt,generate_genome_star_index.txt",0.1420664206642066
+"MultiQC.txt,run_star_pe.txt",0.24742268041237114
+"MultiQC.txt,pass1.txt",0.1531947652040031
+"MultiQC.txt,fastqc_trimmed.txt",0.18265682656826565
+"MultiQC.txt,run_multiqc.txt",0.19188191881918815
+"MultiQC.txt,sampleReads.txt",0.1789667896678967
+"MultiQC.txt,pass2.txt",0.15417867435158505
+"salmon_quant_pe.txt,tximeta.txt",0.16459330143540674
+"salmon_quant_pe.txt,salmon_quant.txt",0.640174672489083
+"salmon_quant_pe.txt,sort_bams.txt",0.16087388282025816
+"salmon_quant_pe.txt,mark_dups.txt",0.2571996027805362
+"salmon_quant_pe.txt,fastp_trimming_PE.txt",0.3761528326745718
+"salmon_quant_pe.txt,salmonPE.txt",0.21773612112472962
+"salmon_quant_pe.txt,samtools_bam.txt",0.1380337636544191
+"salmon_quant_pe.txt,bamindex.txt",0.21052631578947367
+"salmon_quant_pe.txt,generate_genome_star_index.txt",0.2601787487586892
+"salmon_quant_pe.txt,run_star_pe.txt",0.2800397219463754
+"salmon_quant_pe.txt,pass1.txt",0.27174749807544263
+"salmon_quant_pe.txt,fastqc_trimmed.txt",0.24826216484607744
+"salmon_quant_pe.txt,run_multiqc.txt",0.21350546176762664
+"salmon_quant_pe.txt,sampleReads.txt",0.2720953326713009
+"salmon_quant_pe.txt,pass2.txt",0.2687319884726225
+"tximeta.txt,salmon_quant.txt",0.20524017467248912
+"tximeta.txt,sort_bams.txt",0.14258373205741626
+"tximeta.txt,mark_dups.txt",0.18947368421052635
+"tximeta.txt,fastp_trimming_PE.txt",0.20948616600790515
+"tximeta.txt,salmonPE.txt",0.3720259552992069
+"tximeta.txt,samtools_bam.txt",0.12822966507177036
+"tximeta.txt,bamindex.txt",0.29186602870813394
+"tximeta.txt,generate_genome_star_index.txt",0.19808612440191387
+"tximeta.txt,run_star_pe.txt",0.16842105263157892
+"tximeta.txt,pass1.txt",0.16551193225558125
+"tximeta.txt,fastqc_trimmed.txt",0.17894736842105263
+"tximeta.txt,run_multiqc.txt",0.20765550239234454
+"tximeta.txt,sampleReads.txt",0.18373205741626797
+"tximeta.txt,pass2.txt",0.16570605187319887
+"salmon_quant.txt,sort_bams.txt",0.13275109170305677
+"salmon_quant.txt,mark_dups.txt",0.24454148471615722
+"salmon_quant.txt,fastp_trimming_PE.txt",0.35309617918313574
+"salmon_quant.txt,salmonPE.txt",0.2220620043258832
+"salmon_quant.txt,samtools_bam.txt",0.11877729257641922
+"salmon_quant.txt,bamindex.txt",0.21834061135371174
+"salmon_quant.txt,generate_genome_star_index.txt",0.21572052401746722
+"salmon_quant.txt,run_star_pe.txt",0.2934497816593886
+"salmon_quant.txt,pass1.txt",0.26173979984603546
+"salmon_quant.txt,fastqc_trimmed.txt",0.222707423580786
+"salmon_quant.txt,run_multiqc.txt",0.21572052401746722
+"salmon_quant.txt,sampleReads.txt",0.23668122270742353
+"salmon_quant.txt,pass2.txt",0.2694524495677233
+"sort_bams.txt,mark_dups.txt",0.22580645161290325
+"sort_bams.txt,fastp_trimming_PE.txt",0.10408432147562585
+"sort_bams.txt,salmonPE.txt",0.12040374909877438
+"sort_bams.txt,samtools_bam.txt",0.5
+"sort_bams.txt,bamindex.txt",0.3093385214007782
+"sort_bams.txt,generate_genome_star_index.txt",0.2586206896551724
+"sort_bams.txt,run_star_pe.txt",0.19484536082474224
+"sort_bams.txt,pass1.txt",0.10623556581986138
+"sort_bams.txt,fastqc_trimmed.txt",0.25858123569794045
+"sort_bams.txt,run_multiqc.txt",0.20348837209302328
+"sort_bams.txt,sampleReads.txt",0.23611111111111116
+"sort_bams.txt,pass2.txt",0.10230547550432278
+"mark_dups.txt,fastp_trimming_PE.txt",0.20750988142292492
+"mark_dups.txt,salmonPE.txt",0.17015140591204037
+"mark_dups.txt,samtools_bam.txt",0.1751152073732719
+"mark_dups.txt,bamindex.txt",0.2411674347158218
+"mark_dups.txt,generate_genome_star_index.txt",0.19969278033794158
+"mark_dups.txt,run_star_pe.txt",0.2010309278350515
+"mark_dups.txt,pass1.txt",0.2678983833718245
+"mark_dups.txt,fastqc_trimmed.txt",0.2980030721966206
+"mark_dups.txt,run_multiqc.txt",0.1858678955453149
+"mark_dups.txt,sampleReads.txt",0.2626728110599078
+"mark_dups.txt,pass2.txt",0.26512968299711814
+"fastp_trimming_PE.txt,salmonPE.txt",0.16337285902503296
+"fastp_trimming_PE.txt,samtools_bam.txt",0.09354413702239794
+"fastp_trimming_PE.txt,bamindex.txt",0.15612648221343872
+"fastp_trimming_PE.txt,generate_genome_star_index.txt",0.1646903820816864
+"fastp_trimming_PE.txt,run_star_pe.txt",0.27667984189723316
+"fastp_trimming_PE.txt,pass1.txt",0.2299077733860343
+"fastp_trimming_PE.txt,fastqc_trimmed.txt",0.20092226613965747
+"fastp_trimming_PE.txt,run_multiqc.txt",0.18313570487483533
+"fastp_trimming_PE.txt,sampleReads.txt",0.18774703557312256
+"fastp_trimming_PE.txt,pass2.txt",0.21409749670619238
+"salmonPE.txt,samtools_bam.txt",0.11391492429704397
+"salmonPE.txt,bamindex.txt",0.29560201874549386
+"salmonPE.txt,generate_genome_star_index.txt",0.1773612112472963
+"salmonPE.txt,run_star_pe.txt",0.21701514059120408
+"salmonPE.txt,pass1.txt",0.14563806777217014
+"salmonPE.txt,fastqc_trimmed.txt",0.1723143475126172
+"salmonPE.txt,run_multiqc.txt",0.18745493871665464
+"salmonPE.txt,sampleReads.txt",0.16366258111031007
+"salmonPE.txt,pass2.txt",0.11599423631123917
+"samtools_bam.txt,bamindex.txt",0.2529182879377432
+"samtools_bam.txt,generate_genome_star_index.txt",0.22030651340996166
+"samtools_bam.txt,run_star_pe.txt",0.1577319587628866
+"samtools_bam.txt,pass1.txt",0.09083910700538878
+"samtools_bam.txt,fastqc_trimmed.txt",0.29519450800915337
+"samtools_bam.txt,run_multiqc.txt",0.19573643410852715
+"samtools_bam.txt,sampleReads.txt",0.2569444444444444
+"samtools_bam.txt,pass2.txt",0.09005763688760804
+"bamindex.txt,generate_genome_star_index.txt",0.13984674329501912
+"bamindex.txt,run_star_pe.txt",0.23711340206185572
+"bamindex.txt,pass1.txt",0.16012317167051582
+"bamindex.txt,fastqc_trimmed.txt",0.19844357976653693
+"bamindex.txt,run_multiqc.txt",0.14341085271317833
+"bamindex.txt,sampleReads.txt",0.20817120622568097
+"bamindex.txt,pass2.txt",0.16282420749279536
+"generate_genome_star_index.txt,run_star_pe.txt",0.25463917525773194
+"generate_genome_star_index.txt,pass1.txt",0.21401077752117015
+"generate_genome_star_index.txt,fastqc_trimmed.txt",0.2030651340996169
+"generate_genome_star_index.txt,run_multiqc.txt",0.1015325670498084
+"generate_genome_star_index.txt,sampleReads.txt",0.18965517241379315
+"generate_genome_star_index.txt,pass2.txt",0.202449567723343
+"run_star_pe.txt,pass1.txt",0.17628945342571212
+"run_star_pe.txt,fastqc_trimmed.txt",0.20309278350515458
+"run_star_pe.txt,run_multiqc.txt",0.19484536082474224
+"run_star_pe.txt,sampleReads.txt",0.19999999999999996
+"run_star_pe.txt,pass2.txt",0.17939481268011526
+"pass1.txt,fastqc_trimmed.txt",0.1855273287143957
+"pass1.txt,run_multiqc.txt",0.17936874518860657
+"pass1.txt,sampleReads.txt",0.19245573518090842
+"pass1.txt,pass2.txt",0.8962536023054755
+"fastqc_trimmed.txt,run_multiqc.txt",0.2325581395348837
+"fastqc_trimmed.txt,sampleReads.txt",0.3272311212814645
+"fastqc_trimmed.txt,pass2.txt",0.17579250720461093
+"run_multiqc.txt,sampleReads.txt",0.22868217054263562
+"run_multiqc.txt,pass2.txt",0.17363112391930835
+"sampleReads.txt,pass2.txt",0.18227665706051877

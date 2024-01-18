@@ -30,8 +30,3 @@ def build_and_save_levenshtein_similarity_matrix(folder, csv_file):
 
     df = pd.DataFrame({'Pair': pairs, 'Similarity': scores})
     df.to_csv(csv_file, index=False)
-
-# Using the function
-folder = 'Attributes/Conda_no_white_spaces'  # Replace with the path to your folder
-csv_file = 'Conda_no_white_spaces_Levenshtein.csv'  # Output CSV file name
-build_and_save_levenshtein_similarity_matrix(folder, csv_file)

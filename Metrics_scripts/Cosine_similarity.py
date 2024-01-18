@@ -21,7 +21,4 @@ def construire_matrice_similarite_et_sauvegarder(dossier, fichier_csv):
     df = pd.DataFrame(matrice_similarite, index=fichiers, columns=fichiers)
     df.to_csv(fichier_csv)
 
-# Utiliser la fonction
-dossier = 'Attributes/Conda_no_white_spaces'  # Remplacer par le chemin vers votre dossier
-fichier_csv = 'Conda_no_white_spaces.csv'  # Nom du fichier CSV de sortie
-construire_matrice_similarite_et_sauvegarder(dossier, fichier_csv)
+

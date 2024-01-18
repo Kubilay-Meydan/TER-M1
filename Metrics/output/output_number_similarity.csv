@@ -1,58 +1,1597 @@
-,compare_reference_stringtie_file_types.txt,sort_index_bams_file_types.txt,salmon_quant_file_types.txt,sortedbam_to_counts_file_types.txt,rsem_norm_file_types.txt,multiqc 2_file_types.txt,samtools_bam_file_types.txt,salmon_index_extended_file_types.txt,fastQCtrimmed 2_file_types.txt,mark_dups_file_types.txt,fastqctrimmed_file_types.txt,fastp_trimming_PE_file_types.txt,multiqc 3_file_types.txt,merge_trimmed_SE_file_types.txt,trim_fasq_fastqc_file_types.txt,run_star_se_file_types.txt,trimgalorePE_file_types.txt,bigwig_file_types.txt,tastq_to_bam_HISAT_file_types.txt,samtools_flagstat_file_types.txt,salmon_quant_pe_file_types.txt,salmon_index_file_types.txt,bamindex_file_types.txt,tximeta_file_types.txt,startPE_file_types.txt,fetch_unique_stringtie_file_types.txt,salmonPE_file_types.txt,edgeR_file_types.txt,cutadapt_file_types.txt,kallistoQuant_file_types.txt,fastqc 3_file_types.txt,fastp_trimming_SE_file_types.txt,featureCounts 2_file_types.txt,sortedbam_to_rmdup_file_types.txt,starSE_file_types.txt,fastqc_trimmed_file_types.txt,featureCounts_file_types.txt,counts_matrix_file_types.txt,run_multiqc_file_types.txt,fastqc 2_file_types.txt,sampleReads_file_types.txt,sort_bams_file_types.txt,samlon_quant_file_types.txt,feature_counts_file_types.txt,salmonSE_file_types.txt,run_star_pe_file_types.txt,trimgaloreSE_file_types.txt,cutadapt 2_file_types.txt,fastqc 6_file_types.txt,MultiQC_file_types.txt,merge_trimmed_PE_file_types.txt,hisat2_file_types.txt,DRIMSeq_file_types.txt,trim_galore_pe_file_types.txt,salmon_quant_se_file_types.txt,fastqScreen_file_types.txt,fastqc_file_types.txt
-compare_reference_stringtie_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-sort_index_bams_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-salmon_quant_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-sortedbam_to_counts_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-rsem_norm_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-multiqc 2_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-samtools_bam_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-salmon_index_extended_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-fastQCtrimmed 2_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-mark_dups_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-fastqctrimmed_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastp_trimming_PE_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-multiqc 3_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-merge_trimmed_SE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-trim_fasq_fastqc_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-run_star_se_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-trimgalorePE_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-bigwig_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-tastq_to_bam_HISAT_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-samtools_flagstat_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-salmon_quant_pe_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-salmon_index_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-bamindex_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-tximeta_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-startPE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fetch_unique_stringtie_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-salmonPE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-edgeR_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-cutadapt_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-kallistoQuant_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-fastqc 3_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastp_trimming_SE_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-featureCounts 2_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-sortedbam_to_rmdup_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-starSE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastqc_trimmed_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-featureCounts_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-counts_matrix_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-run_multiqc_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastqc 2_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-sampleReads_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-sort_bams_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-samlon_quant_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-feature_counts_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-salmonSE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-run_star_pe_file_types.txt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-trimgaloreSE_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-cutadapt 2_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastqc 6_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-MultiQC_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-merge_trimmed_PE_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-hisat2_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-DRIMSeq_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-trim_galore_pe_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-salmon_quant_se_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
-fastqScreen_file_types.txt,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0
-fastqc_file_types.txt,1,1,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,0,1
+Pair,Similarity
+"trim_galore_pe,salmonPE",0
+"trim_galore_pe,mark_dups",1
+"trim_galore_pe,run_star_se",0
+"trim_galore_pe,salmonSE",0
+"trim_galore_pe,run_star_pe",0
+"trim_galore_pe,rsem_norm",0
+"trim_galore_pe,sortedbam_to_rmdup",1
+"trim_galore_pe,cutadapt",0
+"trim_galore_pe,MultiQC",0
+"trim_galore_pe,sort_index_bams",0
+"trim_galore_pe,hisat2",1
+"trim_galore_pe,fetch_unique_stringtie",0
+"trim_galore_pe,salmon_quant",0
+"trim_galore_pe,fastp_trimming_PE",0
+"trim_galore_pe,startPE",0
+"trim_galore_pe,compare_reference_stringtie",0
+"trim_galore_pe,fastp_trimming_SE",0
+"trim_galore_pe,sortedbam_to_counts",1
+"trim_galore_pe,fastqc 3",0
+"trim_galore_pe,fastqc_trimmed",1
+"trim_galore_pe,samtools_bam",1
+"trim_galore_pe,samlon_quant",0
+"trim_galore_pe,kallistoQuant",0
+"trim_galore_pe,fastqc 2",1
+"trim_galore_pe,tastq_to_bam_HISAT",1
+"trim_galore_pe,merge_trimmed_PE",1
+"trim_galore_pe,bamindex",0
+"trim_galore_pe,merge_trimmed_SE",0
+"trim_galore_pe,salmon_index_extended",1
+"trim_galore_pe,featureCounts 2",1
+"trim_galore_pe,tximeta",0
+"trim_galore_pe,fastqScreen",1
+"trim_galore_pe,multiqc 2",0
+"trim_galore_pe,trimgalorePE",1
+"trim_galore_pe,samtools_flagstat",1
+"trim_galore_pe,featureCounts",0
+"trim_galore_pe,counts_matrix",1
+"trim_galore_pe,trimgaloreSE",0
+"trim_galore_pe,multiqc 3",0
+"trim_galore_pe,salmon_quant_pe",0
+"trim_galore_pe,sort_bams",0
+"trim_galore_pe,edgeR",1
+"trim_galore_pe,fastqc",0
+"trim_galore_pe,sampleReads",0
+"trim_galore_pe,salmon_quant_se",0
+"trim_galore_pe,feature_counts",0
+"trim_galore_pe,cutadapt 2",0
+"trim_galore_pe,DRIMSeq",1
+"trim_galore_pe,bigwig",0
+"trim_galore_pe,fastqctrimmed",0
+"trim_galore_pe,fastQCtrimmed 2",1
+"trim_galore_pe,run_multiqc",0
+"trim_galore_pe,starSE",0
+"trim_galore_pe,trim_fasq_fastqc",0
+"trim_galore_pe,fastqc 6",1
+"trim_galore_pe,salmon_index",1
+"salmonPE,mark_dups",0
+"salmonPE,run_star_se",0
+"salmonPE,salmonSE",1
+"salmonPE,run_star_pe",0
+"salmonPE,rsem_norm",1
+"salmonPE,sortedbam_to_rmdup",0
+"salmonPE,cutadapt",1
+"salmonPE,MultiQC",1
+"salmonPE,sort_index_bams",1
+"salmonPE,hisat2",0
+"salmonPE,fetch_unique_stringtie",1
+"salmonPE,salmon_quant",1
+"salmonPE,fastp_trimming_PE",0
+"salmonPE,startPE",1
+"salmonPE,compare_reference_stringtie",1
+"salmonPE,fastp_trimming_SE",0
+"salmonPE,sortedbam_to_counts",0
+"salmonPE,fastqc 3",1
+"salmonPE,fastqc_trimmed",0
+"salmonPE,samtools_bam",0
+"salmonPE,samlon_quant",1
+"salmonPE,kallistoQuant",0
+"salmonPE,fastqc 2",0
+"salmonPE,tastq_to_bam_HISAT",0
+"salmonPE,merge_trimmed_PE",0
+"salmonPE,bamindex",1
+"salmonPE,merge_trimmed_SE",1
+"salmonPE,salmon_index_extended",0
+"salmonPE,featureCounts 2",0
+"salmonPE,tximeta",1
+"salmonPE,fastqScreen",0
+"salmonPE,multiqc 2",1
+"salmonPE,trimgalorePE",0
+"salmonPE,samtools_flagstat",0
+"salmonPE,featureCounts",0
+"salmonPE,counts_matrix",0
+"salmonPE,trimgaloreSE",1
+"salmonPE,multiqc 3",1
+"salmonPE,salmon_quant_pe",1
+"salmonPE,sort_bams",1
+"salmonPE,edgeR",0
+"salmonPE,fastqc",1
+"salmonPE,sampleReads",1
+"salmonPE,salmon_quant_se",1
+"salmonPE,feature_counts",1
+"salmonPE,cutadapt 2",1
+"salmonPE,DRIMSeq",0
+"salmonPE,bigwig",1
+"salmonPE,fastqctrimmed",1
+"salmonPE,fastQCtrimmed 2",0
+"salmonPE,run_multiqc",1
+"salmonPE,starSE",1
+"salmonPE,trim_fasq_fastqc",0
+"salmonPE,fastqc 6",0
+"salmonPE,salmon_index",0
+"mark_dups,run_star_se",0
+"mark_dups,salmonSE",0
+"mark_dups,run_star_pe",0
+"mark_dups,rsem_norm",0
+"mark_dups,sortedbam_to_rmdup",1
+"mark_dups,cutadapt",0
+"mark_dups,MultiQC",0
+"mark_dups,sort_index_bams",0
+"mark_dups,hisat2",1
+"mark_dups,fetch_unique_stringtie",0
+"mark_dups,salmon_quant",0
+"mark_dups,fastp_trimming_PE",0
+"mark_dups,startPE",0
+"mark_dups,compare_reference_stringtie",0
+"mark_dups,fastp_trimming_SE",0
+"mark_dups,sortedbam_to_counts",1
+"mark_dups,fastqc 3",0
+"mark_dups,fastqc_trimmed",1
+"mark_dups,samtools_bam",1
+"mark_dups,samlon_quant",0
+"mark_dups,kallistoQuant",0
+"mark_dups,fastqc 2",1
+"mark_dups,tastq_to_bam_HISAT",1
+"mark_dups,merge_trimmed_PE",1
+"mark_dups,bamindex",0
+"mark_dups,merge_trimmed_SE",0
+"mark_dups,salmon_index_extended",1
+"mark_dups,featureCounts 2",1
+"mark_dups,tximeta",0
+"mark_dups,fastqScreen",1
+"mark_dups,multiqc 2",0
+"mark_dups,trimgalorePE",1
+"mark_dups,samtools_flagstat",1
+"mark_dups,featureCounts",0
+"mark_dups,counts_matrix",1
+"mark_dups,trimgaloreSE",0
+"mark_dups,multiqc 3",0
+"mark_dups,salmon_quant_pe",0
+"mark_dups,sort_bams",0
+"mark_dups,edgeR",1
+"mark_dups,fastqc",0
+"mark_dups,sampleReads",0
+"mark_dups,salmon_quant_se",0
+"mark_dups,feature_counts",0
+"mark_dups,cutadapt 2",0
+"mark_dups,DRIMSeq",1
+"mark_dups,bigwig",0
+"mark_dups,fastqctrimmed",0
+"mark_dups,fastQCtrimmed 2",1
+"mark_dups,run_multiqc",0
+"mark_dups,starSE",0
+"mark_dups,trim_fasq_fastqc",0
+"mark_dups,fastqc 6",1
+"mark_dups,salmon_index",1
+"run_star_se,salmonSE",0
+"run_star_se,run_star_pe",1
+"run_star_se,rsem_norm",0
+"run_star_se,sortedbam_to_rmdup",0
+"run_star_se,cutadapt",0
+"run_star_se,MultiQC",0
+"run_star_se,sort_index_bams",0
+"run_star_se,hisat2",0
+"run_star_se,fetch_unique_stringtie",0
+"run_star_se,salmon_quant",0
+"run_star_se,fastp_trimming_PE",0
+"run_star_se,startPE",0
+"run_star_se,compare_reference_stringtie",0
+"run_star_se,fastp_trimming_SE",1
+"run_star_se,sortedbam_to_counts",0
+"run_star_se,fastqc 3",0
+"run_star_se,fastqc_trimmed",0
+"run_star_se,samtools_bam",0
+"run_star_se,samlon_quant",0
+"run_star_se,kallistoQuant",0
+"run_star_se,fastqc 2",0
+"run_star_se,tastq_to_bam_HISAT",0
+"run_star_se,merge_trimmed_PE",0
+"run_star_se,bamindex",0
+"run_star_se,merge_trimmed_SE",0
+"run_star_se,salmon_index_extended",0
+"run_star_se,featureCounts 2",0
+"run_star_se,tximeta",0
+"run_star_se,fastqScreen",0
+"run_star_se,multiqc 2",0
+"run_star_se,trimgalorePE",0
+"run_star_se,samtools_flagstat",0
+"run_star_se,featureCounts",1
+"run_star_se,counts_matrix",0
+"run_star_se,trimgaloreSE",0
+"run_star_se,multiqc 3",0
+"run_star_se,salmon_quant_pe",0
+"run_star_se,sort_bams",0
+"run_star_se,edgeR",0
+"run_star_se,fastqc",0
+"run_star_se,sampleReads",0
+"run_star_se,salmon_quant_se",0
+"run_star_se,feature_counts",0
+"run_star_se,cutadapt 2",0
+"run_star_se,DRIMSeq",0
+"run_star_se,bigwig",0
+"run_star_se,fastqctrimmed",0
+"run_star_se,fastQCtrimmed 2",0
+"run_star_se,run_multiqc",0
+"run_star_se,starSE",0
+"run_star_se,trim_fasq_fastqc",0
+"run_star_se,fastqc 6",0
+"run_star_se,salmon_index",0
+"salmonSE,run_star_pe",0
+"salmonSE,rsem_norm",1
+"salmonSE,sortedbam_to_rmdup",0
+"salmonSE,cutadapt",1
+"salmonSE,MultiQC",1
+"salmonSE,sort_index_bams",1
+"salmonSE,hisat2",0
+"salmonSE,fetch_unique_stringtie",1
+"salmonSE,salmon_quant",1
+"salmonSE,fastp_trimming_PE",0
+"salmonSE,startPE",1
+"salmonSE,compare_reference_stringtie",1
+"salmonSE,fastp_trimming_SE",0
+"salmonSE,sortedbam_to_counts",0
+"salmonSE,fastqc 3",1
+"salmonSE,fastqc_trimmed",0
+"salmonSE,samtools_bam",0
+"salmonSE,samlon_quant",1
+"salmonSE,kallistoQuant",0
+"salmonSE,fastqc 2",0
+"salmonSE,tastq_to_bam_HISAT",0
+"salmonSE,merge_trimmed_PE",0
+"salmonSE,bamindex",1
+"salmonSE,merge_trimmed_SE",1
+"salmonSE,salmon_index_extended",0
+"salmonSE,featureCounts 2",0
+"salmonSE,tximeta",1
+"salmonSE,fastqScreen",0
+"salmonSE,multiqc 2",1
+"salmonSE,trimgalorePE",0
+"salmonSE,samtools_flagstat",0
+"salmonSE,featureCounts",0
+"salmonSE,counts_matrix",0
+"salmonSE,trimgaloreSE",1
+"salmonSE,multiqc 3",1
+"salmonSE,salmon_quant_pe",1
+"salmonSE,sort_bams",1
+"salmonSE,edgeR",0
+"salmonSE,fastqc",1
+"salmonSE,sampleReads",1
+"salmonSE,salmon_quant_se",1
+"salmonSE,feature_counts",1
+"salmonSE,cutadapt 2",1
+"salmonSE,DRIMSeq",0
+"salmonSE,bigwig",1
+"salmonSE,fastqctrimmed",1
+"salmonSE,fastQCtrimmed 2",0
+"salmonSE,run_multiqc",1
+"salmonSE,starSE",1
+"salmonSE,trim_fasq_fastqc",0
+"salmonSE,fastqc 6",0
+"salmonSE,salmon_index",0
+"run_star_pe,rsem_norm",0
+"run_star_pe,sortedbam_to_rmdup",0
+"run_star_pe,cutadapt",0
+"run_star_pe,MultiQC",0
+"run_star_pe,sort_index_bams",0
+"run_star_pe,hisat2",0
+"run_star_pe,fetch_unique_stringtie",0
+"run_star_pe,salmon_quant",0
+"run_star_pe,fastp_trimming_PE",0
+"run_star_pe,startPE",0
+"run_star_pe,compare_reference_stringtie",0
+"run_star_pe,fastp_trimming_SE",1
+"run_star_pe,sortedbam_to_counts",0
+"run_star_pe,fastqc 3",0
+"run_star_pe,fastqc_trimmed",0
+"run_star_pe,samtools_bam",0
+"run_star_pe,samlon_quant",0
+"run_star_pe,kallistoQuant",0
+"run_star_pe,fastqc 2",0
+"run_star_pe,tastq_to_bam_HISAT",0
+"run_star_pe,merge_trimmed_PE",0
+"run_star_pe,bamindex",0
+"run_star_pe,merge_trimmed_SE",0
+"run_star_pe,salmon_index_extended",0
+"run_star_pe,featureCounts 2",0
+"run_star_pe,tximeta",0
+"run_star_pe,fastqScreen",0
+"run_star_pe,multiqc 2",0
+"run_star_pe,trimgalorePE",0
+"run_star_pe,samtools_flagstat",0
+"run_star_pe,featureCounts",1
+"run_star_pe,counts_matrix",0
+"run_star_pe,trimgaloreSE",0
+"run_star_pe,multiqc 3",0
+"run_star_pe,salmon_quant_pe",0
+"run_star_pe,sort_bams",0
+"run_star_pe,edgeR",0
+"run_star_pe,fastqc",0
+"run_star_pe,sampleReads",0
+"run_star_pe,salmon_quant_se",0
+"run_star_pe,feature_counts",0
+"run_star_pe,cutadapt 2",0
+"run_star_pe,DRIMSeq",0
+"run_star_pe,bigwig",0
+"run_star_pe,fastqctrimmed",0
+"run_star_pe,fastQCtrimmed 2",0
+"run_star_pe,run_multiqc",0
+"run_star_pe,starSE",0
+"run_star_pe,trim_fasq_fastqc",0
+"run_star_pe,fastqc 6",0
+"run_star_pe,salmon_index",0
+"rsem_norm,sortedbam_to_rmdup",0
+"rsem_norm,cutadapt",1
+"rsem_norm,MultiQC",1
+"rsem_norm,sort_index_bams",1
+"rsem_norm,hisat2",0
+"rsem_norm,fetch_unique_stringtie",1
+"rsem_norm,salmon_quant",1
+"rsem_norm,fastp_trimming_PE",0
+"rsem_norm,startPE",1
+"rsem_norm,compare_reference_stringtie",1
+"rsem_norm,fastp_trimming_SE",0
+"rsem_norm,sortedbam_to_counts",0
+"rsem_norm,fastqc 3",1
+"rsem_norm,fastqc_trimmed",0
+"rsem_norm,samtools_bam",0
+"rsem_norm,samlon_quant",1
+"rsem_norm,kallistoQuant",0
+"rsem_norm,fastqc 2",0
+"rsem_norm,tastq_to_bam_HISAT",0
+"rsem_norm,merge_trimmed_PE",0
+"rsem_norm,bamindex",1
+"rsem_norm,merge_trimmed_SE",1
+"rsem_norm,salmon_index_extended",0
+"rsem_norm,featureCounts 2",0
+"rsem_norm,tximeta",1
+"rsem_norm,fastqScreen",0
+"rsem_norm,multiqc 2",1
+"rsem_norm,trimgalorePE",0
+"rsem_norm,samtools_flagstat",0
+"rsem_norm,featureCounts",0
+"rsem_norm,counts_matrix",0
+"rsem_norm,trimgaloreSE",1
+"rsem_norm,multiqc 3",1
+"rsem_norm,salmon_quant_pe",1
+"rsem_norm,sort_bams",1
+"rsem_norm,edgeR",0
+"rsem_norm,fastqc",1
+"rsem_norm,sampleReads",1
+"rsem_norm,salmon_quant_se",1
+"rsem_norm,feature_counts",1
+"rsem_norm,cutadapt 2",1
+"rsem_norm,DRIMSeq",0
+"rsem_norm,bigwig",1
+"rsem_norm,fastqctrimmed",1
+"rsem_norm,fastQCtrimmed 2",0
+"rsem_norm,run_multiqc",1
+"rsem_norm,starSE",1
+"rsem_norm,trim_fasq_fastqc",0
+"rsem_norm,fastqc 6",0
+"rsem_norm,salmon_index",0
+"sortedbam_to_rmdup,cutadapt",0
+"sortedbam_to_rmdup,MultiQC",0
+"sortedbam_to_rmdup,sort_index_bams",0
+"sortedbam_to_rmdup,hisat2",1
+"sortedbam_to_rmdup,fetch_unique_stringtie",0
+"sortedbam_to_rmdup,salmon_quant",0
+"sortedbam_to_rmdup,fastp_trimming_PE",0
+"sortedbam_to_rmdup,startPE",0
+"sortedbam_to_rmdup,compare_reference_stringtie",0
+"sortedbam_to_rmdup,fastp_trimming_SE",0
+"sortedbam_to_rmdup,sortedbam_to_counts",1
+"sortedbam_to_rmdup,fastqc 3",0
+"sortedbam_to_rmdup,fastqc_trimmed",1
+"sortedbam_to_rmdup,samtools_bam",1
+"sortedbam_to_rmdup,samlon_quant",0
+"sortedbam_to_rmdup,kallistoQuant",0
+"sortedbam_to_rmdup,fastqc 2",1
+"sortedbam_to_rmdup,tastq_to_bam_HISAT",1
+"sortedbam_to_rmdup,merge_trimmed_PE",1
+"sortedbam_to_rmdup,bamindex",0
+"sortedbam_to_rmdup,merge_trimmed_SE",0
+"sortedbam_to_rmdup,salmon_index_extended",1
+"sortedbam_to_rmdup,featureCounts 2",1
+"sortedbam_to_rmdup,tximeta",0
+"sortedbam_to_rmdup,fastqScreen",1
+"sortedbam_to_rmdup,multiqc 2",0
+"sortedbam_to_rmdup,trimgalorePE",1
+"sortedbam_to_rmdup,samtools_flagstat",1
+"sortedbam_to_rmdup,featureCounts",0
+"sortedbam_to_rmdup,counts_matrix",1
+"sortedbam_to_rmdup,trimgaloreSE",0
+"sortedbam_to_rmdup,multiqc 3",0
+"sortedbam_to_rmdup,salmon_quant_pe",0
+"sortedbam_to_rmdup,sort_bams",0
+"sortedbam_to_rmdup,edgeR",1
+"sortedbam_to_rmdup,fastqc",0
+"sortedbam_to_rmdup,sampleReads",0
+"sortedbam_to_rmdup,salmon_quant_se",0
+"sortedbam_to_rmdup,feature_counts",0
+"sortedbam_to_rmdup,cutadapt 2",0
+"sortedbam_to_rmdup,DRIMSeq",1
+"sortedbam_to_rmdup,bigwig",0
+"sortedbam_to_rmdup,fastqctrimmed",0
+"sortedbam_to_rmdup,fastQCtrimmed 2",1
+"sortedbam_to_rmdup,run_multiqc",0
+"sortedbam_to_rmdup,starSE",0
+"sortedbam_to_rmdup,trim_fasq_fastqc",0
+"sortedbam_to_rmdup,fastqc 6",1
+"sortedbam_to_rmdup,salmon_index",1
+"cutadapt,MultiQC",1
+"cutadapt,sort_index_bams",1
+"cutadapt,hisat2",0
+"cutadapt,fetch_unique_stringtie",1
+"cutadapt,salmon_quant",1
+"cutadapt,fastp_trimming_PE",0
+"cutadapt,startPE",1
+"cutadapt,compare_reference_stringtie",1
+"cutadapt,fastp_trimming_SE",0
+"cutadapt,sortedbam_to_counts",0
+"cutadapt,fastqc 3",1
+"cutadapt,fastqc_trimmed",0
+"cutadapt,samtools_bam",0
+"cutadapt,samlon_quant",1
+"cutadapt,kallistoQuant",0
+"cutadapt,fastqc 2",0
+"cutadapt,tastq_to_bam_HISAT",0
+"cutadapt,merge_trimmed_PE",0
+"cutadapt,bamindex",1
+"cutadapt,merge_trimmed_SE",1
+"cutadapt,salmon_index_extended",0
+"cutadapt,featureCounts 2",0
+"cutadapt,tximeta",1
+"cutadapt,fastqScreen",0
+"cutadapt,multiqc 2",1
+"cutadapt,trimgalorePE",0
+"cutadapt,samtools_flagstat",0
+"cutadapt,featureCounts",0
+"cutadapt,counts_matrix",0
+"cutadapt,trimgaloreSE",1
+"cutadapt,multiqc 3",1
+"cutadapt,salmon_quant_pe",1
+"cutadapt,sort_bams",1
+"cutadapt,edgeR",0
+"cutadapt,fastqc",1
+"cutadapt,sampleReads",1
+"cutadapt,salmon_quant_se",1
+"cutadapt,feature_counts",1
+"cutadapt,cutadapt 2",1
+"cutadapt,DRIMSeq",0
+"cutadapt,bigwig",1
+"cutadapt,fastqctrimmed",1
+"cutadapt,fastQCtrimmed 2",0
+"cutadapt,run_multiqc",1
+"cutadapt,starSE",1
+"cutadapt,trim_fasq_fastqc",0
+"cutadapt,fastqc 6",0
+"cutadapt,salmon_index",0
+"MultiQC,sort_index_bams",1
+"MultiQC,hisat2",0
+"MultiQC,fetch_unique_stringtie",1
+"MultiQC,salmon_quant",1
+"MultiQC,fastp_trimming_PE",0
+"MultiQC,startPE",1
+"MultiQC,compare_reference_stringtie",1
+"MultiQC,fastp_trimming_SE",0
+"MultiQC,sortedbam_to_counts",0
+"MultiQC,fastqc 3",1
+"MultiQC,fastqc_trimmed",0
+"MultiQC,samtools_bam",0
+"MultiQC,samlon_quant",1
+"MultiQC,kallistoQuant",0
+"MultiQC,fastqc 2",0
+"MultiQC,tastq_to_bam_HISAT",0
+"MultiQC,merge_trimmed_PE",0
+"MultiQC,bamindex",1
+"MultiQC,merge_trimmed_SE",1
+"MultiQC,salmon_index_extended",0
+"MultiQC,featureCounts 2",0
+"MultiQC,tximeta",1
+"MultiQC,fastqScreen",0
+"MultiQC,multiqc 2",1
+"MultiQC,trimgalorePE",0
+"MultiQC,samtools_flagstat",0
+"MultiQC,featureCounts",0
+"MultiQC,counts_matrix",0
+"MultiQC,trimgaloreSE",1
+"MultiQC,multiqc 3",1
+"MultiQC,salmon_quant_pe",1
+"MultiQC,sort_bams",1
+"MultiQC,edgeR",0
+"MultiQC,fastqc",1
+"MultiQC,sampleReads",1
+"MultiQC,salmon_quant_se",1
+"MultiQC,feature_counts",1
+"MultiQC,cutadapt 2",1
+"MultiQC,DRIMSeq",0
+"MultiQC,bigwig",1
+"MultiQC,fastqctrimmed",1
+"MultiQC,fastQCtrimmed 2",0
+"MultiQC,run_multiqc",1
+"MultiQC,starSE",1
+"MultiQC,trim_fasq_fastqc",0
+"MultiQC,fastqc 6",0
+"MultiQC,salmon_index",0
+"sort_index_bams,hisat2",0
+"sort_index_bams,fetch_unique_stringtie",1
+"sort_index_bams,salmon_quant",1
+"sort_index_bams,fastp_trimming_PE",0
+"sort_index_bams,startPE",1
+"sort_index_bams,compare_reference_stringtie",1
+"sort_index_bams,fastp_trimming_SE",0
+"sort_index_bams,sortedbam_to_counts",0
+"sort_index_bams,fastqc 3",1
+"sort_index_bams,fastqc_trimmed",0
+"sort_index_bams,samtools_bam",0
+"sort_index_bams,samlon_quant",1
+"sort_index_bams,kallistoQuant",0
+"sort_index_bams,fastqc 2",0
+"sort_index_bams,tastq_to_bam_HISAT",0
+"sort_index_bams,merge_trimmed_PE",0
+"sort_index_bams,bamindex",1
+"sort_index_bams,merge_trimmed_SE",1
+"sort_index_bams,salmon_index_extended",0
+"sort_index_bams,featureCounts 2",0
+"sort_index_bams,tximeta",1
+"sort_index_bams,fastqScreen",0
+"sort_index_bams,multiqc 2",1
+"sort_index_bams,trimgalorePE",0
+"sort_index_bams,samtools_flagstat",0
+"sort_index_bams,featureCounts",0
+"sort_index_bams,counts_matrix",0
+"sort_index_bams,trimgaloreSE",1
+"sort_index_bams,multiqc 3",1
+"sort_index_bams,salmon_quant_pe",1
+"sort_index_bams,sort_bams",1
+"sort_index_bams,edgeR",0
+"sort_index_bams,fastqc",1
+"sort_index_bams,sampleReads",1
+"sort_index_bams,salmon_quant_se",1
+"sort_index_bams,feature_counts",1
+"sort_index_bams,cutadapt 2",1
+"sort_index_bams,DRIMSeq",0
+"sort_index_bams,bigwig",1
+"sort_index_bams,fastqctrimmed",1
+"sort_index_bams,fastQCtrimmed 2",0
+"sort_index_bams,run_multiqc",1
+"sort_index_bams,starSE",1
+"sort_index_bams,trim_fasq_fastqc",0
+"sort_index_bams,fastqc 6",0
+"sort_index_bams,salmon_index",0
+"hisat2,fetch_unique_stringtie",0
+"hisat2,salmon_quant",0
+"hisat2,fastp_trimming_PE",0
+"hisat2,startPE",0
+"hisat2,compare_reference_stringtie",0
+"hisat2,fastp_trimming_SE",0
+"hisat2,sortedbam_to_counts",1
+"hisat2,fastqc 3",0
+"hisat2,fastqc_trimmed",1
+"hisat2,samtools_bam",1
+"hisat2,samlon_quant",0
+"hisat2,kallistoQuant",0
+"hisat2,fastqc 2",1
+"hisat2,tastq_to_bam_HISAT",1
+"hisat2,merge_trimmed_PE",1
+"hisat2,bamindex",0
+"hisat2,merge_trimmed_SE",0
+"hisat2,salmon_index_extended",1
+"hisat2,featureCounts 2",1
+"hisat2,tximeta",0
+"hisat2,fastqScreen",1
+"hisat2,multiqc 2",0
+"hisat2,trimgalorePE",1
+"hisat2,samtools_flagstat",1
+"hisat2,featureCounts",0
+"hisat2,counts_matrix",1
+"hisat2,trimgaloreSE",0
+"hisat2,multiqc 3",0
+"hisat2,salmon_quant_pe",0
+"hisat2,sort_bams",0
+"hisat2,edgeR",1
+"hisat2,fastqc",0
+"hisat2,sampleReads",0
+"hisat2,salmon_quant_se",0
+"hisat2,feature_counts",0
+"hisat2,cutadapt 2",0
+"hisat2,DRIMSeq",1
+"hisat2,bigwig",0
+"hisat2,fastqctrimmed",0
+"hisat2,fastQCtrimmed 2",1
+"hisat2,run_multiqc",0
+"hisat2,starSE",0
+"hisat2,trim_fasq_fastqc",0
+"hisat2,fastqc 6",1
+"hisat2,salmon_index",1
+"fetch_unique_stringtie,salmon_quant",1
+"fetch_unique_stringtie,fastp_trimming_PE",0
+"fetch_unique_stringtie,startPE",1
+"fetch_unique_stringtie,compare_reference_stringtie",1
+"fetch_unique_stringtie,fastp_trimming_SE",0
+"fetch_unique_stringtie,sortedbam_to_counts",0
+"fetch_unique_stringtie,fastqc 3",1
+"fetch_unique_stringtie,fastqc_trimmed",0
+"fetch_unique_stringtie,samtools_bam",0
+"fetch_unique_stringtie,samlon_quant",1
+"fetch_unique_stringtie,kallistoQuant",0
+"fetch_unique_stringtie,fastqc 2",0
+"fetch_unique_stringtie,tastq_to_bam_HISAT",0
+"fetch_unique_stringtie,merge_trimmed_PE",0
+"fetch_unique_stringtie,bamindex",1
+"fetch_unique_stringtie,merge_trimmed_SE",1
+"fetch_unique_stringtie,salmon_index_extended",0
+"fetch_unique_stringtie,featureCounts 2",0
+"fetch_unique_stringtie,tximeta",1
+"fetch_unique_stringtie,fastqScreen",0
+"fetch_unique_stringtie,multiqc 2",1
+"fetch_unique_stringtie,trimgalorePE",0
+"fetch_unique_stringtie,samtools_flagstat",0
+"fetch_unique_stringtie,featureCounts",0
+"fetch_unique_stringtie,counts_matrix",0
+"fetch_unique_stringtie,trimgaloreSE",1
+"fetch_unique_stringtie,multiqc 3",1
+"fetch_unique_stringtie,salmon_quant_pe",1
+"fetch_unique_stringtie,sort_bams",1
+"fetch_unique_stringtie,edgeR",0
+"fetch_unique_stringtie,fastqc",1
+"fetch_unique_stringtie,sampleReads",1
+"fetch_unique_stringtie,salmon_quant_se",1
+"fetch_unique_stringtie,feature_counts",1
+"fetch_unique_stringtie,cutadapt 2",1
+"fetch_unique_stringtie,DRIMSeq",0
+"fetch_unique_stringtie,bigwig",1
+"fetch_unique_stringtie,fastqctrimmed",1
+"fetch_unique_stringtie,fastQCtrimmed 2",0
+"fetch_unique_stringtie,run_multiqc",1
+"fetch_unique_stringtie,starSE",1
+"fetch_unique_stringtie,trim_fasq_fastqc",0
+"fetch_unique_stringtie,fastqc 6",0
+"fetch_unique_stringtie,salmon_index",0
+"salmon_quant,fastp_trimming_PE",0
+"salmon_quant,startPE",1
+"salmon_quant,compare_reference_stringtie",1
+"salmon_quant,fastp_trimming_SE",0
+"salmon_quant,sortedbam_to_counts",0
+"salmon_quant,fastqc 3",1
+"salmon_quant,fastqc_trimmed",0
+"salmon_quant,samtools_bam",0
+"salmon_quant,samlon_quant",1
+"salmon_quant,kallistoQuant",0
+"salmon_quant,fastqc 2",0
+"salmon_quant,tastq_to_bam_HISAT",0
+"salmon_quant,merge_trimmed_PE",0
+"salmon_quant,bamindex",1
+"salmon_quant,merge_trimmed_SE",1
+"salmon_quant,salmon_index_extended",0
+"salmon_quant,featureCounts 2",0
+"salmon_quant,tximeta",1
+"salmon_quant,fastqScreen",0
+"salmon_quant,multiqc 2",1
+"salmon_quant,trimgalorePE",0
+"salmon_quant,samtools_flagstat",0
+"salmon_quant,featureCounts",0
+"salmon_quant,counts_matrix",0
+"salmon_quant,trimgaloreSE",1
+"salmon_quant,multiqc 3",1
+"salmon_quant,salmon_quant_pe",1
+"salmon_quant,sort_bams",1
+"salmon_quant,edgeR",0
+"salmon_quant,fastqc",1
+"salmon_quant,sampleReads",1
+"salmon_quant,salmon_quant_se",1
+"salmon_quant,feature_counts",1
+"salmon_quant,cutadapt 2",1
+"salmon_quant,DRIMSeq",0
+"salmon_quant,bigwig",1
+"salmon_quant,fastqctrimmed",1
+"salmon_quant,fastQCtrimmed 2",0
+"salmon_quant,run_multiqc",1
+"salmon_quant,starSE",1
+"salmon_quant,trim_fasq_fastqc",0
+"salmon_quant,fastqc 6",0
+"salmon_quant,salmon_index",0
+"fastp_trimming_PE,startPE",0
+"fastp_trimming_PE,compare_reference_stringtie",0
+"fastp_trimming_PE,fastp_trimming_SE",0
+"fastp_trimming_PE,sortedbam_to_counts",0
+"fastp_trimming_PE,fastqc 3",0
+"fastp_trimming_PE,fastqc_trimmed",0
+"fastp_trimming_PE,samtools_bam",0
+"fastp_trimming_PE,samlon_quant",0
+"fastp_trimming_PE,kallistoQuant",1
+"fastp_trimming_PE,fastqc 2",0
+"fastp_trimming_PE,tastq_to_bam_HISAT",0
+"fastp_trimming_PE,merge_trimmed_PE",0
+"fastp_trimming_PE,bamindex",0
+"fastp_trimming_PE,merge_trimmed_SE",0
+"fastp_trimming_PE,salmon_index_extended",0
+"fastp_trimming_PE,featureCounts 2",0
+"fastp_trimming_PE,tximeta",0
+"fastp_trimming_PE,fastqScreen",0
+"fastp_trimming_PE,multiqc 2",0
+"fastp_trimming_PE,trimgalorePE",0
+"fastp_trimming_PE,samtools_flagstat",0
+"fastp_trimming_PE,featureCounts",0
+"fastp_trimming_PE,counts_matrix",0
+"fastp_trimming_PE,trimgaloreSE",0
+"fastp_trimming_PE,multiqc 3",0
+"fastp_trimming_PE,salmon_quant_pe",0
+"fastp_trimming_PE,sort_bams",0
+"fastp_trimming_PE,edgeR",0
+"fastp_trimming_PE,fastqc",0
+"fastp_trimming_PE,sampleReads",0
+"fastp_trimming_PE,salmon_quant_se",0
+"fastp_trimming_PE,feature_counts",0
+"fastp_trimming_PE,cutadapt 2",0
+"fastp_trimming_PE,DRIMSeq",0
+"fastp_trimming_PE,bigwig",0
+"fastp_trimming_PE,fastqctrimmed",0
+"fastp_trimming_PE,fastQCtrimmed 2",0
+"fastp_trimming_PE,run_multiqc",0
+"fastp_trimming_PE,starSE",0
+"fastp_trimming_PE,trim_fasq_fastqc",1
+"fastp_trimming_PE,fastqc 6",0
+"fastp_trimming_PE,salmon_index",0
+"startPE,compare_reference_stringtie",1
+"startPE,fastp_trimming_SE",0
+"startPE,sortedbam_to_counts",0
+"startPE,fastqc 3",1
+"startPE,fastqc_trimmed",0
+"startPE,samtools_bam",0
+"startPE,samlon_quant",1
+"startPE,kallistoQuant",0
+"startPE,fastqc 2",0
+"startPE,tastq_to_bam_HISAT",0
+"startPE,merge_trimmed_PE",0
+"startPE,bamindex",1
+"startPE,merge_trimmed_SE",1
+"startPE,salmon_index_extended",0
+"startPE,featureCounts 2",0
+"startPE,tximeta",1
+"startPE,fastqScreen",0
+"startPE,multiqc 2",1
+"startPE,trimgalorePE",0
+"startPE,samtools_flagstat",0
+"startPE,featureCounts",0
+"startPE,counts_matrix",0
+"startPE,trimgaloreSE",1
+"startPE,multiqc 3",1
+"startPE,salmon_quant_pe",1
+"startPE,sort_bams",1
+"startPE,edgeR",0
+"startPE,fastqc",1
+"startPE,sampleReads",1
+"startPE,salmon_quant_se",1
+"startPE,feature_counts",1
+"startPE,cutadapt 2",1
+"startPE,DRIMSeq",0
+"startPE,bigwig",1
+"startPE,fastqctrimmed",1
+"startPE,fastQCtrimmed 2",0
+"startPE,run_multiqc",1
+"startPE,starSE",1
+"startPE,trim_fasq_fastqc",0
+"startPE,fastqc 6",0
+"startPE,salmon_index",0
+"compare_reference_stringtie,fastp_trimming_SE",0
+"compare_reference_stringtie,sortedbam_to_counts",0
+"compare_reference_stringtie,fastqc 3",1
+"compare_reference_stringtie,fastqc_trimmed",0
+"compare_reference_stringtie,samtools_bam",0
+"compare_reference_stringtie,samlon_quant",1
+"compare_reference_stringtie,kallistoQuant",0
+"compare_reference_stringtie,fastqc 2",0
+"compare_reference_stringtie,tastq_to_bam_HISAT",0
+"compare_reference_stringtie,merge_trimmed_PE",0
+"compare_reference_stringtie,bamindex",1
+"compare_reference_stringtie,merge_trimmed_SE",1
+"compare_reference_stringtie,salmon_index_extended",0
+"compare_reference_stringtie,featureCounts 2",0
+"compare_reference_stringtie,tximeta",1
+"compare_reference_stringtie,fastqScreen",0
+"compare_reference_stringtie,multiqc 2",1
+"compare_reference_stringtie,trimgalorePE",0
+"compare_reference_stringtie,samtools_flagstat",0
+"compare_reference_stringtie,featureCounts",0
+"compare_reference_stringtie,counts_matrix",0
+"compare_reference_stringtie,trimgaloreSE",1
+"compare_reference_stringtie,multiqc 3",1
+"compare_reference_stringtie,salmon_quant_pe",1
+"compare_reference_stringtie,sort_bams",1
+"compare_reference_stringtie,edgeR",0
+"compare_reference_stringtie,fastqc",1
+"compare_reference_stringtie,sampleReads",1
+"compare_reference_stringtie,salmon_quant_se",1
+"compare_reference_stringtie,feature_counts",1
+"compare_reference_stringtie,cutadapt 2",1
+"compare_reference_stringtie,DRIMSeq",0
+"compare_reference_stringtie,bigwig",1
+"compare_reference_stringtie,fastqctrimmed",1
+"compare_reference_stringtie,fastQCtrimmed 2",0
+"compare_reference_stringtie,run_multiqc",1
+"compare_reference_stringtie,starSE",1
+"compare_reference_stringtie,trim_fasq_fastqc",0
+"compare_reference_stringtie,fastqc 6",0
+"compare_reference_stringtie,salmon_index",0
+"fastp_trimming_SE,sortedbam_to_counts",0
+"fastp_trimming_SE,fastqc 3",0
+"fastp_trimming_SE,fastqc_trimmed",0
+"fastp_trimming_SE,samtools_bam",0
+"fastp_trimming_SE,samlon_quant",0
+"fastp_trimming_SE,kallistoQuant",0
+"fastp_trimming_SE,fastqc 2",0
+"fastp_trimming_SE,tastq_to_bam_HISAT",0
+"fastp_trimming_SE,merge_trimmed_PE",0
+"fastp_trimming_SE,bamindex",0
+"fastp_trimming_SE,merge_trimmed_SE",0
+"fastp_trimming_SE,salmon_index_extended",0
+"fastp_trimming_SE,featureCounts 2",0
+"fastp_trimming_SE,tximeta",0
+"fastp_trimming_SE,fastqScreen",0
+"fastp_trimming_SE,multiqc 2",0
+"fastp_trimming_SE,trimgalorePE",0
+"fastp_trimming_SE,samtools_flagstat",0
+"fastp_trimming_SE,featureCounts",1
+"fastp_trimming_SE,counts_matrix",0
+"fastp_trimming_SE,trimgaloreSE",0
+"fastp_trimming_SE,multiqc 3",0
+"fastp_trimming_SE,salmon_quant_pe",0
+"fastp_trimming_SE,sort_bams",0
+"fastp_trimming_SE,edgeR",0
+"fastp_trimming_SE,fastqc",0
+"fastp_trimming_SE,sampleReads",0
+"fastp_trimming_SE,salmon_quant_se",0
+"fastp_trimming_SE,feature_counts",0
+"fastp_trimming_SE,cutadapt 2",0
+"fastp_trimming_SE,DRIMSeq",0
+"fastp_trimming_SE,bigwig",0
+"fastp_trimming_SE,fastqctrimmed",0
+"fastp_trimming_SE,fastQCtrimmed 2",0
+"fastp_trimming_SE,run_multiqc",0
+"fastp_trimming_SE,starSE",0
+"fastp_trimming_SE,trim_fasq_fastqc",0
+"fastp_trimming_SE,fastqc 6",0
+"fastp_trimming_SE,salmon_index",0
+"sortedbam_to_counts,fastqc 3",0
+"sortedbam_to_counts,fastqc_trimmed",1
+"sortedbam_to_counts,samtools_bam",1
+"sortedbam_to_counts,samlon_quant",0
+"sortedbam_to_counts,kallistoQuant",0
+"sortedbam_to_counts,fastqc 2",1
+"sortedbam_to_counts,tastq_to_bam_HISAT",1
+"sortedbam_to_counts,merge_trimmed_PE",1
+"sortedbam_to_counts,bamindex",0
+"sortedbam_to_counts,merge_trimmed_SE",0
+"sortedbam_to_counts,salmon_index_extended",1
+"sortedbam_to_counts,featureCounts 2",1
+"sortedbam_to_counts,tximeta",0
+"sortedbam_to_counts,fastqScreen",1
+"sortedbam_to_counts,multiqc 2",0
+"sortedbam_to_counts,trimgalorePE",1
+"sortedbam_to_counts,samtools_flagstat",1
+"sortedbam_to_counts,featureCounts",0
+"sortedbam_to_counts,counts_matrix",1
+"sortedbam_to_counts,trimgaloreSE",0
+"sortedbam_to_counts,multiqc 3",0
+"sortedbam_to_counts,salmon_quant_pe",0
+"sortedbam_to_counts,sort_bams",0
+"sortedbam_to_counts,edgeR",1
+"sortedbam_to_counts,fastqc",0
+"sortedbam_to_counts,sampleReads",0
+"sortedbam_to_counts,salmon_quant_se",0
+"sortedbam_to_counts,feature_counts",0
+"sortedbam_to_counts,cutadapt 2",0
+"sortedbam_to_counts,DRIMSeq",1
+"sortedbam_to_counts,bigwig",0
+"sortedbam_to_counts,fastqctrimmed",0
+"sortedbam_to_counts,fastQCtrimmed 2",1
+"sortedbam_to_counts,run_multiqc",0
+"sortedbam_to_counts,starSE",0
+"sortedbam_to_counts,trim_fasq_fastqc",0
+"sortedbam_to_counts,fastqc 6",1
+"sortedbam_to_counts,salmon_index",1
+"fastqc 3,fastqc_trimmed",0
+"fastqc 3,samtools_bam",0
+"fastqc 3,samlon_quant",1
+"fastqc 3,kallistoQuant",0
+"fastqc 3,fastqc 2",0
+"fastqc 3,tastq_to_bam_HISAT",0
+"fastqc 3,merge_trimmed_PE",0
+"fastqc 3,bamindex",1
+"fastqc 3,merge_trimmed_SE",1
+"fastqc 3,salmon_index_extended",0
+"fastqc 3,featureCounts 2",0
+"fastqc 3,tximeta",1
+"fastqc 3,fastqScreen",0
+"fastqc 3,multiqc 2",1
+"fastqc 3,trimgalorePE",0
+"fastqc 3,samtools_flagstat",0
+"fastqc 3,featureCounts",0
+"fastqc 3,counts_matrix",0
+"fastqc 3,trimgaloreSE",1
+"fastqc 3,multiqc 3",1
+"fastqc 3,salmon_quant_pe",1
+"fastqc 3,sort_bams",1
+"fastqc 3,edgeR",0
+"fastqc 3,fastqc",1
+"fastqc 3,sampleReads",1
+"fastqc 3,salmon_quant_se",1
+"fastqc 3,feature_counts",1
+"fastqc 3,cutadapt 2",1
+"fastqc 3,DRIMSeq",0
+"fastqc 3,bigwig",1
+"fastqc 3,fastqctrimmed",1
+"fastqc 3,fastQCtrimmed 2",0
+"fastqc 3,run_multiqc",1
+"fastqc 3,starSE",1
+"fastqc 3,trim_fasq_fastqc",0
+"fastqc 3,fastqc 6",0
+"fastqc 3,salmon_index",0
+"fastqc_trimmed,samtools_bam",1
+"fastqc_trimmed,samlon_quant",0
+"fastqc_trimmed,kallistoQuant",0
+"fastqc_trimmed,fastqc 2",1
+"fastqc_trimmed,tastq_to_bam_HISAT",1
+"fastqc_trimmed,merge_trimmed_PE",1
+"fastqc_trimmed,bamindex",0
+"fastqc_trimmed,merge_trimmed_SE",0
+"fastqc_trimmed,salmon_index_extended",1
+"fastqc_trimmed,featureCounts 2",1
+"fastqc_trimmed,tximeta",0
+"fastqc_trimmed,fastqScreen",1
+"fastqc_trimmed,multiqc 2",0
+"fastqc_trimmed,trimgalorePE",1
+"fastqc_trimmed,samtools_flagstat",1
+"fastqc_trimmed,featureCounts",0
+"fastqc_trimmed,counts_matrix",1
+"fastqc_trimmed,trimgaloreSE",0
+"fastqc_trimmed,multiqc 3",0
+"fastqc_trimmed,salmon_quant_pe",0
+"fastqc_trimmed,sort_bams",0
+"fastqc_trimmed,edgeR",1
+"fastqc_trimmed,fastqc",0
+"fastqc_trimmed,sampleReads",0
+"fastqc_trimmed,salmon_quant_se",0
+"fastqc_trimmed,feature_counts",0
+"fastqc_trimmed,cutadapt 2",0
+"fastqc_trimmed,DRIMSeq",1
+"fastqc_trimmed,bigwig",0
+"fastqc_trimmed,fastqctrimmed",0
+"fastqc_trimmed,fastQCtrimmed 2",1
+"fastqc_trimmed,run_multiqc",0
+"fastqc_trimmed,starSE",0
+"fastqc_trimmed,trim_fasq_fastqc",0
+"fastqc_trimmed,fastqc 6",1
+"fastqc_trimmed,salmon_index",1
+"samtools_bam,samlon_quant",0
+"samtools_bam,kallistoQuant",0
+"samtools_bam,fastqc 2",1
+"samtools_bam,tastq_to_bam_HISAT",1
+"samtools_bam,merge_trimmed_PE",1
+"samtools_bam,bamindex",0
+"samtools_bam,merge_trimmed_SE",0
+"samtools_bam,salmon_index_extended",1
+"samtools_bam,featureCounts 2",1
+"samtools_bam,tximeta",0
+"samtools_bam,fastqScreen",1
+"samtools_bam,multiqc 2",0
+"samtools_bam,trimgalorePE",1
+"samtools_bam,samtools_flagstat",1
+"samtools_bam,featureCounts",0
+"samtools_bam,counts_matrix",1
+"samtools_bam,trimgaloreSE",0
+"samtools_bam,multiqc 3",0
+"samtools_bam,salmon_quant_pe",0
+"samtools_bam,sort_bams",0
+"samtools_bam,edgeR",1
+"samtools_bam,fastqc",0
+"samtools_bam,sampleReads",0
+"samtools_bam,salmon_quant_se",0
+"samtools_bam,feature_counts",0
+"samtools_bam,cutadapt 2",0
+"samtools_bam,DRIMSeq",1
+"samtools_bam,bigwig",0
+"samtools_bam,fastqctrimmed",0
+"samtools_bam,fastQCtrimmed 2",1
+"samtools_bam,run_multiqc",0
+"samtools_bam,starSE",0
+"samtools_bam,trim_fasq_fastqc",0
+"samtools_bam,fastqc 6",1
+"samtools_bam,salmon_index",1
+"samlon_quant,kallistoQuant",0
+"samlon_quant,fastqc 2",0
+"samlon_quant,tastq_to_bam_HISAT",0
+"samlon_quant,merge_trimmed_PE",0
+"samlon_quant,bamindex",1
+"samlon_quant,merge_trimmed_SE",1
+"samlon_quant,salmon_index_extended",0
+"samlon_quant,featureCounts 2",0
+"samlon_quant,tximeta",1
+"samlon_quant,fastqScreen",0
+"samlon_quant,multiqc 2",1
+"samlon_quant,trimgalorePE",0
+"samlon_quant,samtools_flagstat",0
+"samlon_quant,featureCounts",0
+"samlon_quant,counts_matrix",0
+"samlon_quant,trimgaloreSE",1
+"samlon_quant,multiqc 3",1
+"samlon_quant,salmon_quant_pe",1
+"samlon_quant,sort_bams",1
+"samlon_quant,edgeR",0
+"samlon_quant,fastqc",1
+"samlon_quant,sampleReads",1
+"samlon_quant,salmon_quant_se",1
+"samlon_quant,feature_counts",1
+"samlon_quant,cutadapt 2",1
+"samlon_quant,DRIMSeq",0
+"samlon_quant,bigwig",1
+"samlon_quant,fastqctrimmed",1
+"samlon_quant,fastQCtrimmed 2",0
+"samlon_quant,run_multiqc",1
+"samlon_quant,starSE",1
+"samlon_quant,trim_fasq_fastqc",0
+"samlon_quant,fastqc 6",0
+"samlon_quant,salmon_index",0
+"kallistoQuant,fastqc 2",0
+"kallistoQuant,tastq_to_bam_HISAT",0
+"kallistoQuant,merge_trimmed_PE",0
+"kallistoQuant,bamindex",0
+"kallistoQuant,merge_trimmed_SE",0
+"kallistoQuant,salmon_index_extended",0
+"kallistoQuant,featureCounts 2",0
+"kallistoQuant,tximeta",0
+"kallistoQuant,fastqScreen",0
+"kallistoQuant,multiqc 2",0
+"kallistoQuant,trimgalorePE",0
+"kallistoQuant,samtools_flagstat",0
+"kallistoQuant,featureCounts",0
+"kallistoQuant,counts_matrix",0
+"kallistoQuant,trimgaloreSE",0
+"kallistoQuant,multiqc 3",0
+"kallistoQuant,salmon_quant_pe",0
+"kallistoQuant,sort_bams",0
+"kallistoQuant,edgeR",0
+"kallistoQuant,fastqc",0
+"kallistoQuant,sampleReads",0
+"kallistoQuant,salmon_quant_se",0
+"kallistoQuant,feature_counts",0
+"kallistoQuant,cutadapt 2",0
+"kallistoQuant,DRIMSeq",0
+"kallistoQuant,bigwig",0
+"kallistoQuant,fastqctrimmed",0
+"kallistoQuant,fastQCtrimmed 2",0
+"kallistoQuant,run_multiqc",0
+"kallistoQuant,starSE",0
+"kallistoQuant,trim_fasq_fastqc",1
+"kallistoQuant,fastqc 6",0
+"kallistoQuant,salmon_index",0
+"fastqc 2,tastq_to_bam_HISAT",1
+"fastqc 2,merge_trimmed_PE",1
+"fastqc 2,bamindex",0
+"fastqc 2,merge_trimmed_SE",0
+"fastqc 2,salmon_index_extended",1
+"fastqc 2,featureCounts 2",1
+"fastqc 2,tximeta",0
+"fastqc 2,fastqScreen",1
+"fastqc 2,multiqc 2",0
+"fastqc 2,trimgalorePE",1
+"fastqc 2,samtools_flagstat",1
+"fastqc 2,featureCounts",0
+"fastqc 2,counts_matrix",1
+"fastqc 2,trimgaloreSE",0
+"fastqc 2,multiqc 3",0
+"fastqc 2,salmon_quant_pe",0
+"fastqc 2,sort_bams",0
+"fastqc 2,edgeR",1
+"fastqc 2,fastqc",0
+"fastqc 2,sampleReads",0
+"fastqc 2,salmon_quant_se",0
+"fastqc 2,feature_counts",0
+"fastqc 2,cutadapt 2",0
+"fastqc 2,DRIMSeq",1
+"fastqc 2,bigwig",0
+"fastqc 2,fastqctrimmed",0
+"fastqc 2,fastQCtrimmed 2",1
+"fastqc 2,run_multiqc",0
+"fastqc 2,starSE",0
+"fastqc 2,trim_fasq_fastqc",0
+"fastqc 2,fastqc 6",1
+"fastqc 2,salmon_index",1
+"tastq_to_bam_HISAT,merge_trimmed_PE",1
+"tastq_to_bam_HISAT,bamindex",0
+"tastq_to_bam_HISAT,merge_trimmed_SE",0
+"tastq_to_bam_HISAT,salmon_index_extended",1
+"tastq_to_bam_HISAT,featureCounts 2",1
+"tastq_to_bam_HISAT,tximeta",0
+"tastq_to_bam_HISAT,fastqScreen",1
+"tastq_to_bam_HISAT,multiqc 2",0
+"tastq_to_bam_HISAT,trimgalorePE",1
+"tastq_to_bam_HISAT,samtools_flagstat",1
+"tastq_to_bam_HISAT,featureCounts",0
+"tastq_to_bam_HISAT,counts_matrix",1
+"tastq_to_bam_HISAT,trimgaloreSE",0
+"tastq_to_bam_HISAT,multiqc 3",0
+"tastq_to_bam_HISAT,salmon_quant_pe",0
+"tastq_to_bam_HISAT,sort_bams",0
+"tastq_to_bam_HISAT,edgeR",1
+"tastq_to_bam_HISAT,fastqc",0
+"tastq_to_bam_HISAT,sampleReads",0
+"tastq_to_bam_HISAT,salmon_quant_se",0
+"tastq_to_bam_HISAT,feature_counts",0
+"tastq_to_bam_HISAT,cutadapt 2",0
+"tastq_to_bam_HISAT,DRIMSeq",1
+"tastq_to_bam_HISAT,bigwig",0
+"tastq_to_bam_HISAT,fastqctrimmed",0
+"tastq_to_bam_HISAT,fastQCtrimmed 2",1
+"tastq_to_bam_HISAT,run_multiqc",0
+"tastq_to_bam_HISAT,starSE",0
+"tastq_to_bam_HISAT,trim_fasq_fastqc",0
+"tastq_to_bam_HISAT,fastqc 6",1
+"tastq_to_bam_HISAT,salmon_index",1
+"merge_trimmed_PE,bamindex",0
+"merge_trimmed_PE,merge_trimmed_SE",0
+"merge_trimmed_PE,salmon_index_extended",1
+"merge_trimmed_PE,featureCounts 2",1
+"merge_trimmed_PE,tximeta",0
+"merge_trimmed_PE,fastqScreen",1
+"merge_trimmed_PE,multiqc 2",0
+"merge_trimmed_PE,trimgalorePE",1
+"merge_trimmed_PE,samtools_flagstat",1
+"merge_trimmed_PE,featureCounts",0
+"merge_trimmed_PE,counts_matrix",1
+"merge_trimmed_PE,trimgaloreSE",0
+"merge_trimmed_PE,multiqc 3",0
+"merge_trimmed_PE,salmon_quant_pe",0
+"merge_trimmed_PE,sort_bams",0
+"merge_trimmed_PE,edgeR",1
+"merge_trimmed_PE,fastqc",0
+"merge_trimmed_PE,sampleReads",0
+"merge_trimmed_PE,salmon_quant_se",0
+"merge_trimmed_PE,feature_counts",0
+"merge_trimmed_PE,cutadapt 2",0
+"merge_trimmed_PE,DRIMSeq",1
+"merge_trimmed_PE,bigwig",0
+"merge_trimmed_PE,fastqctrimmed",0
+"merge_trimmed_PE,fastQCtrimmed 2",1
+"merge_trimmed_PE,run_multiqc",0
+"merge_trimmed_PE,starSE",0
+"merge_trimmed_PE,trim_fasq_fastqc",0
+"merge_trimmed_PE,fastqc 6",1
+"merge_trimmed_PE,salmon_index",1
+"bamindex,merge_trimmed_SE",1
+"bamindex,salmon_index_extended",0
+"bamindex,featureCounts 2",0
+"bamindex,tximeta",1
+"bamindex,fastqScreen",0
+"bamindex,multiqc 2",1
+"bamindex,trimgalorePE",0
+"bamindex,samtools_flagstat",0
+"bamindex,featureCounts",0
+"bamindex,counts_matrix",0
+"bamindex,trimgaloreSE",1
+"bamindex,multiqc 3",1
+"bamindex,salmon_quant_pe",1
+"bamindex,sort_bams",1
+"bamindex,edgeR",0
+"bamindex,fastqc",1
+"bamindex,sampleReads",1
+"bamindex,salmon_quant_se",1
+"bamindex,feature_counts",1
+"bamindex,cutadapt 2",1
+"bamindex,DRIMSeq",0
+"bamindex,bigwig",1
+"bamindex,fastqctrimmed",1
+"bamindex,fastQCtrimmed 2",0
+"bamindex,run_multiqc",1
+"bamindex,starSE",1
+"bamindex,trim_fasq_fastqc",0
+"bamindex,fastqc 6",0
+"bamindex,salmon_index",0
+"merge_trimmed_SE,salmon_index_extended",0
+"merge_trimmed_SE,featureCounts 2",0
+"merge_trimmed_SE,tximeta",1
+"merge_trimmed_SE,fastqScreen",0
+"merge_trimmed_SE,multiqc 2",1
+"merge_trimmed_SE,trimgalorePE",0
+"merge_trimmed_SE,samtools_flagstat",0
+"merge_trimmed_SE,featureCounts",0
+"merge_trimmed_SE,counts_matrix",0
+"merge_trimmed_SE,trimgaloreSE",1
+"merge_trimmed_SE,multiqc 3",1
+"merge_trimmed_SE,salmon_quant_pe",1
+"merge_trimmed_SE,sort_bams",1
+"merge_trimmed_SE,edgeR",0
+"merge_trimmed_SE,fastqc",1
+"merge_trimmed_SE,sampleReads",1
+"merge_trimmed_SE,salmon_quant_se",1
+"merge_trimmed_SE,feature_counts",1
+"merge_trimmed_SE,cutadapt 2",1
+"merge_trimmed_SE,DRIMSeq",0
+"merge_trimmed_SE,bigwig",1
+"merge_trimmed_SE,fastqctrimmed",1
+"merge_trimmed_SE,fastQCtrimmed 2",0
+"merge_trimmed_SE,run_multiqc",1
+"merge_trimmed_SE,starSE",1
+"merge_trimmed_SE,trim_fasq_fastqc",0
+"merge_trimmed_SE,fastqc 6",0
+"merge_trimmed_SE,salmon_index",0
+"salmon_index_extended,featureCounts 2",1
+"salmon_index_extended,tximeta",0
+"salmon_index_extended,fastqScreen",1
+"salmon_index_extended,multiqc 2",0
+"salmon_index_extended,trimgalorePE",1
+"salmon_index_extended,samtools_flagstat",1
+"salmon_index_extended,featureCounts",0
+"salmon_index_extended,counts_matrix",1
+"salmon_index_extended,trimgaloreSE",0
+"salmon_index_extended,multiqc 3",0
+"salmon_index_extended,salmon_quant_pe",0
+"salmon_index_extended,sort_bams",0
+"salmon_index_extended,edgeR",1
+"salmon_index_extended,fastqc",0
+"salmon_index_extended,sampleReads",0
+"salmon_index_extended,salmon_quant_se",0
+"salmon_index_extended,feature_counts",0
+"salmon_index_extended,cutadapt 2",0
+"salmon_index_extended,DRIMSeq",1
+"salmon_index_extended,bigwig",0
+"salmon_index_extended,fastqctrimmed",0
+"salmon_index_extended,fastQCtrimmed 2",1
+"salmon_index_extended,run_multiqc",0
+"salmon_index_extended,starSE",0
+"salmon_index_extended,trim_fasq_fastqc",0
+"salmon_index_extended,fastqc 6",1
+"salmon_index_extended,salmon_index",1
+"featureCounts 2,tximeta",0
+"featureCounts 2,fastqScreen",1
+"featureCounts 2,multiqc 2",0
+"featureCounts 2,trimgalorePE",1
+"featureCounts 2,samtools_flagstat",1
+"featureCounts 2,featureCounts",0
+"featureCounts 2,counts_matrix",1
+"featureCounts 2,trimgaloreSE",0
+"featureCounts 2,multiqc 3",0
+"featureCounts 2,salmon_quant_pe",0
+"featureCounts 2,sort_bams",0
+"featureCounts 2,edgeR",1
+"featureCounts 2,fastqc",0
+"featureCounts 2,sampleReads",0
+"featureCounts 2,salmon_quant_se",0
+"featureCounts 2,feature_counts",0
+"featureCounts 2,cutadapt 2",0
+"featureCounts 2,DRIMSeq",1
+"featureCounts 2,bigwig",0
+"featureCounts 2,fastqctrimmed",0
+"featureCounts 2,fastQCtrimmed 2",1
+"featureCounts 2,run_multiqc",0
+"featureCounts 2,starSE",0
+"featureCounts 2,trim_fasq_fastqc",0
+"featureCounts 2,fastqc 6",1
+"featureCounts 2,salmon_index",1
+"tximeta,fastqScreen",0
+"tximeta,multiqc 2",1
+"tximeta,trimgalorePE",0
+"tximeta,samtools_flagstat",0
+"tximeta,featureCounts",0
+"tximeta,counts_matrix",0
+"tximeta,trimgaloreSE",1
+"tximeta,multiqc 3",1
+"tximeta,salmon_quant_pe",1
+"tximeta,sort_bams",1
+"tximeta,edgeR",0
+"tximeta,fastqc",1
+"tximeta,sampleReads",1
+"tximeta,salmon_quant_se",1
+"tximeta,feature_counts",1
+"tximeta,cutadapt 2",1
+"tximeta,DRIMSeq",0
+"tximeta,bigwig",1
+"tximeta,fastqctrimmed",1
+"tximeta,fastQCtrimmed 2",0
+"tximeta,run_multiqc",1
+"tximeta,starSE",1
+"tximeta,trim_fasq_fastqc",0
+"tximeta,fastqc 6",0
+"tximeta,salmon_index",0
+"fastqScreen,multiqc 2",0
+"fastqScreen,trimgalorePE",1
+"fastqScreen,samtools_flagstat",1
+"fastqScreen,featureCounts",0
+"fastqScreen,counts_matrix",1
+"fastqScreen,trimgaloreSE",0
+"fastqScreen,multiqc 3",0
+"fastqScreen,salmon_quant_pe",0
+"fastqScreen,sort_bams",0
+"fastqScreen,edgeR",1
+"fastqScreen,fastqc",0
+"fastqScreen,sampleReads",0
+"fastqScreen,salmon_quant_se",0
+"fastqScreen,feature_counts",0
+"fastqScreen,cutadapt 2",0
+"fastqScreen,DRIMSeq",1
+"fastqScreen,bigwig",0
+"fastqScreen,fastqctrimmed",0
+"fastqScreen,fastQCtrimmed 2",1
+"fastqScreen,run_multiqc",0
+"fastqScreen,starSE",0
+"fastqScreen,trim_fasq_fastqc",0
+"fastqScreen,fastqc 6",1
+"fastqScreen,salmon_index",1
+"multiqc 2,trimgalorePE",0
+"multiqc 2,samtools_flagstat",0
+"multiqc 2,featureCounts",0
+"multiqc 2,counts_matrix",0
+"multiqc 2,trimgaloreSE",1
+"multiqc 2,multiqc 3",1
+"multiqc 2,salmon_quant_pe",1
+"multiqc 2,sort_bams",1
+"multiqc 2,edgeR",0
+"multiqc 2,fastqc",1
+"multiqc 2,sampleReads",1
+"multiqc 2,salmon_quant_se",1
+"multiqc 2,feature_counts",1
+"multiqc 2,cutadapt 2",1
+"multiqc 2,DRIMSeq",0
+"multiqc 2,bigwig",1
+"multiqc 2,fastqctrimmed",1
+"multiqc 2,fastQCtrimmed 2",0
+"multiqc 2,run_multiqc",1
+"multiqc 2,starSE",1
+"multiqc 2,trim_fasq_fastqc",0
+"multiqc 2,fastqc 6",0
+"multiqc 2,salmon_index",0
+"trimgalorePE,samtools_flagstat",1
+"trimgalorePE,featureCounts",0
+"trimgalorePE,counts_matrix",1
+"trimgalorePE,trimgaloreSE",0
+"trimgalorePE,multiqc 3",0
+"trimgalorePE,salmon_quant_pe",0
+"trimgalorePE,sort_bams",0
+"trimgalorePE,edgeR",1
+"trimgalorePE,fastqc",0
+"trimgalorePE,sampleReads",0
+"trimgalorePE,salmon_quant_se",0
+"trimgalorePE,feature_counts",0
+"trimgalorePE,cutadapt 2",0
+"trimgalorePE,DRIMSeq",1
+"trimgalorePE,bigwig",0
+"trimgalorePE,fastqctrimmed",0
+"trimgalorePE,fastQCtrimmed 2",1
+"trimgalorePE,run_multiqc",0
+"trimgalorePE,starSE",0
+"trimgalorePE,trim_fasq_fastqc",0
+"trimgalorePE,fastqc 6",1
+"trimgalorePE,salmon_index",1
+"samtools_flagstat,featureCounts",0
+"samtools_flagstat,counts_matrix",1
+"samtools_flagstat,trimgaloreSE",0
+"samtools_flagstat,multiqc 3",0
+"samtools_flagstat,salmon_quant_pe",0
+"samtools_flagstat,sort_bams",0
+"samtools_flagstat,edgeR",1
+"samtools_flagstat,fastqc",0
+"samtools_flagstat,sampleReads",0
+"samtools_flagstat,salmon_quant_se",0
+"samtools_flagstat,feature_counts",0
+"samtools_flagstat,cutadapt 2",0
+"samtools_flagstat,DRIMSeq",1
+"samtools_flagstat,bigwig",0
+"samtools_flagstat,fastqctrimmed",0
+"samtools_flagstat,fastQCtrimmed 2",1
+"samtools_flagstat,run_multiqc",0
+"samtools_flagstat,starSE",0
+"samtools_flagstat,trim_fasq_fastqc",0
+"samtools_flagstat,fastqc 6",1
+"samtools_flagstat,salmon_index",1
+"featureCounts,counts_matrix",0
+"featureCounts,trimgaloreSE",0
+"featureCounts,multiqc 3",0
+"featureCounts,salmon_quant_pe",0
+"featureCounts,sort_bams",0
+"featureCounts,edgeR",0
+"featureCounts,fastqc",0
+"featureCounts,sampleReads",0
+"featureCounts,salmon_quant_se",0
+"featureCounts,feature_counts",0
+"featureCounts,cutadapt 2",0
+"featureCounts,DRIMSeq",0
+"featureCounts,bigwig",0
+"featureCounts,fastqctrimmed",0
+"featureCounts,fastQCtrimmed 2",0
+"featureCounts,run_multiqc",0
+"featureCounts,starSE",0
+"featureCounts,trim_fasq_fastqc",0
+"featureCounts,fastqc 6",0
+"featureCounts,salmon_index",0
+"counts_matrix,trimgaloreSE",0
+"counts_matrix,multiqc 3",0
+"counts_matrix,salmon_quant_pe",0
+"counts_matrix,sort_bams",0
+"counts_matrix,edgeR",1
+"counts_matrix,fastqc",0
+"counts_matrix,sampleReads",0
+"counts_matrix,salmon_quant_se",0
+"counts_matrix,feature_counts",0
+"counts_matrix,cutadapt 2",0
+"counts_matrix,DRIMSeq",1
+"counts_matrix,bigwig",0
+"counts_matrix,fastqctrimmed",0
+"counts_matrix,fastQCtrimmed 2",1
+"counts_matrix,run_multiqc",0
+"counts_matrix,starSE",0
+"counts_matrix,trim_fasq_fastqc",0
+"counts_matrix,fastqc 6",1
+"counts_matrix,salmon_index",1
+"trimgaloreSE,multiqc 3",1
+"trimgaloreSE,salmon_quant_pe",1
+"trimgaloreSE,sort_bams",1
+"trimgaloreSE,edgeR",0
+"trimgaloreSE,fastqc",1
+"trimgaloreSE,sampleReads",1
+"trimgaloreSE,salmon_quant_se",1
+"trimgaloreSE,feature_counts",1
+"trimgaloreSE,cutadapt 2",1
+"trimgaloreSE,DRIMSeq",0
+"trimgaloreSE,bigwig",1
+"trimgaloreSE,fastqctrimmed",1
+"trimgaloreSE,fastQCtrimmed 2",0
+"trimgaloreSE,run_multiqc",1
+"trimgaloreSE,starSE",1
+"trimgaloreSE,trim_fasq_fastqc",0
+"trimgaloreSE,fastqc 6",0
+"trimgaloreSE,salmon_index",0
+"multiqc 3,salmon_quant_pe",1
+"multiqc 3,sort_bams",1
+"multiqc 3,edgeR",0
+"multiqc 3,fastqc",1
+"multiqc 3,sampleReads",1
+"multiqc 3,salmon_quant_se",1
+"multiqc 3,feature_counts",1
+"multiqc 3,cutadapt 2",1
+"multiqc 3,DRIMSeq",0
+"multiqc 3,bigwig",1
+"multiqc 3,fastqctrimmed",1
+"multiqc 3,fastQCtrimmed 2",0
+"multiqc 3,run_multiqc",1
+"multiqc 3,starSE",1
+"multiqc 3,trim_fasq_fastqc",0
+"multiqc 3,fastqc 6",0
+"multiqc 3,salmon_index",0
+"salmon_quant_pe,sort_bams",1
+"salmon_quant_pe,edgeR",0
+"salmon_quant_pe,fastqc",1
+"salmon_quant_pe,sampleReads",1
+"salmon_quant_pe,salmon_quant_se",1
+"salmon_quant_pe,feature_counts",1
+"salmon_quant_pe,cutadapt 2",1
+"salmon_quant_pe,DRIMSeq",0
+"salmon_quant_pe,bigwig",1
+"salmon_quant_pe,fastqctrimmed",1
+"salmon_quant_pe,fastQCtrimmed 2",0
+"salmon_quant_pe,run_multiqc",1
+"salmon_quant_pe,starSE",1
+"salmon_quant_pe,trim_fasq_fastqc",0
+"salmon_quant_pe,fastqc 6",0
+"salmon_quant_pe,salmon_index",0
+"sort_bams,edgeR",0
+"sort_bams,fastqc",1
+"sort_bams,sampleReads",1
+"sort_bams,salmon_quant_se",1
+"sort_bams,feature_counts",1
+"sort_bams,cutadapt 2",1
+"sort_bams,DRIMSeq",0
+"sort_bams,bigwig",1
+"sort_bams,fastqctrimmed",1
+"sort_bams,fastQCtrimmed 2",0
+"sort_bams,run_multiqc",1
+"sort_bams,starSE",1
+"sort_bams,trim_fasq_fastqc",0
+"sort_bams,fastqc 6",0
+"sort_bams,salmon_index",0
+"edgeR,fastqc",0
+"edgeR,sampleReads",0
+"edgeR,salmon_quant_se",0
+"edgeR,feature_counts",0
+"edgeR,cutadapt 2",0
+"edgeR,DRIMSeq",1
+"edgeR,bigwig",0
+"edgeR,fastqctrimmed",0
+"edgeR,fastQCtrimmed 2",1
+"edgeR,run_multiqc",0
+"edgeR,starSE",0
+"edgeR,trim_fasq_fastqc",0
+"edgeR,fastqc 6",1
+"edgeR,salmon_index",1
+"fastqc,sampleReads",1
+"fastqc,salmon_quant_se",1
+"fastqc,feature_counts",1
+"fastqc,cutadapt 2",1
+"fastqc,DRIMSeq",0
+"fastqc,bigwig",1
+"fastqc,fastqctrimmed",1
+"fastqc,fastQCtrimmed 2",0
+"fastqc,run_multiqc",1
+"fastqc,starSE",1
+"fastqc,trim_fasq_fastqc",0
+"fastqc,fastqc 6",0
+"fastqc,salmon_index",0
+"sampleReads,salmon_quant_se",1
+"sampleReads,feature_counts",1
+"sampleReads,cutadapt 2",1
+"sampleReads,DRIMSeq",0
+"sampleReads,bigwig",1
+"sampleReads,fastqctrimmed",1
+"sampleReads,fastQCtrimmed 2",0
+"sampleReads,run_multiqc",1
+"sampleReads,starSE",1
+"sampleReads,trim_fasq_fastqc",0
+"sampleReads,fastqc 6",0
+"sampleReads,salmon_index",0
+"salmon_quant_se,feature_counts",1
+"salmon_quant_se,cutadapt 2",1
+"salmon_quant_se,DRIMSeq",0
+"salmon_quant_se,bigwig",1
+"salmon_quant_se,fastqctrimmed",1
+"salmon_quant_se,fastQCtrimmed 2",0
+"salmon_quant_se,run_multiqc",1
+"salmon_quant_se,starSE",1
+"salmon_quant_se,trim_fasq_fastqc",0
+"salmon_quant_se,fastqc 6",0
+"salmon_quant_se,salmon_index",0
+"feature_counts,cutadapt 2",1
+"feature_counts,DRIMSeq",0
+"feature_counts,bigwig",1
+"feature_counts,fastqctrimmed",1
+"feature_counts,fastQCtrimmed 2",0
+"feature_counts,run_multiqc",1
+"feature_counts,starSE",1
+"feature_counts,trim_fasq_fastqc",0
+"feature_counts,fastqc 6",0
+"feature_counts,salmon_index",0
+"cutadapt 2,DRIMSeq",0
+"cutadapt 2,bigwig",1
+"cutadapt 2,fastqctrimmed",1
+"cutadapt 2,fastQCtrimmed 2",0
+"cutadapt 2,run_multiqc",1
+"cutadapt 2,starSE",1
+"cutadapt 2,trim_fasq_fastqc",0
+"cutadapt 2,fastqc 6",0
+"cutadapt 2,salmon_index",0
+"DRIMSeq,bigwig",0
+"DRIMSeq,fastqctrimmed",0
+"DRIMSeq,fastQCtrimmed 2",1
+"DRIMSeq,run_multiqc",0
+"DRIMSeq,starSE",0
+"DRIMSeq,trim_fasq_fastqc",0
+"DRIMSeq,fastqc 6",1
+"DRIMSeq,salmon_index",1
+"bigwig,fastqctrimmed",1
+"bigwig,fastQCtrimmed 2",0
+"bigwig,run_multiqc",1
+"bigwig,starSE",1
+"bigwig,trim_fasq_fastqc",0
+"bigwig,fastqc 6",0
+"bigwig,salmon_index",0
+"fastqctrimmed,fastQCtrimmed 2",0
+"fastqctrimmed,run_multiqc",1
+"fastqctrimmed,starSE",1
+"fastqctrimmed,trim_fasq_fastqc",0
+"fastqctrimmed,fastqc 6",0
+"fastqctrimmed,salmon_index",0
+"fastQCtrimmed 2,run_multiqc",0
+"fastQCtrimmed 2,starSE",0
+"fastQCtrimmed 2,trim_fasq_fastqc",0
+"fastQCtrimmed 2,fastqc 6",1
+"fastQCtrimmed 2,salmon_index",1
+"run_multiqc,starSE",1
+"run_multiqc,trim_fasq_fastqc",0
+"run_multiqc,fastqc 6",0
+"run_multiqc,salmon_index",0
+"starSE,trim_fasq_fastqc",0
+"starSE,fastqc 6",0
+"starSE,salmon_index",0
+"trim_fasq_fastqc,fastqc 6",0
+"trim_fasq_fastqc,salmon_index",0
+"fastqc 6,salmon_index",1
