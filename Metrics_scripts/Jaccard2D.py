@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 def read_text_files(folder):
-    files = [f for f in os.listdir(folder) if f.endswith('.txt')]
+    files = [f for f in os.listdir(folder)]
     texts = []
     for file in files:
         with open(os.path.join(folder, file), 'r', encoding='utf-8') as file:
