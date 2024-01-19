@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Input_number_similarity
 trim_galore_pe,salmonPE,0
 trim_galore_pe,mark_dups,0
 trim_galore_pe,salmonSE,0

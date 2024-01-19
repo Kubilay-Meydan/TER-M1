@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Raw_rules_no_white_spaces_cosine
 map,fastqctrimmed,0.1237991212534372
 map,expressbam,0.2111746005280337
 map,salmonSE,0.1399128838025687

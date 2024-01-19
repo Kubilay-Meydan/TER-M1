@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Conda_no_white_spaces_levenshtein
 salmonPE,run_star_se,0.2857142857142857
 salmonPE,salmonSE,1.0
 salmonPE,run_star_pe,0.5217391304347826

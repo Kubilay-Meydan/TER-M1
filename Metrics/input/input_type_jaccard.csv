@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Input_type_jaccard
 trim_galore_pe,salmonPE,0.5
 trim_galore_pe,mark_dups,0.0
 trim_galore_pe,salmonSE,0.5

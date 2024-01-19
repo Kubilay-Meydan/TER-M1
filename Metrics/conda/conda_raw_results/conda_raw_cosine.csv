@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Conda_raw_cosine
 run_star_se,salmonSE,0.1053254570457264
 run_star_se,run_star_pe,0.8011414932567097
 run_star_se,generate_genome_star_index,0.8011414932567097

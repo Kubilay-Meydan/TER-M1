@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Raw_rules_no_white_spaces_levenshtein
 map,fastqctrimmed,0.165032679738562
 map,expressbam,0.2339285714285713
 map,salmonSE,0.215443279313632

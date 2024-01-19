@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Conda_no_white_spaces_cosine
 salmonPE,run_star_se,0.104048133775781
 salmonPE,salmonSE,1.0
 salmonPE,run_star_pe,0.132022299124279
