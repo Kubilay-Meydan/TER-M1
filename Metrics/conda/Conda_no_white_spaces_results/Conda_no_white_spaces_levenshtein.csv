@@ -1,667 +1,667 @@
-Pair,Similarity
-"salmonPE,run_star_se",0.2857142857142857
-"salmonPE,salmonSE",1.0
-"salmonPE,run_star_pe",0.5217391304347826
-"salmonPE,generate_genome_star_index",0.5217391304347826
-"salmonPE,cutadapt",0.5652173913043479
-"salmonPE,MultiQC",1.0
-"salmonPE,sort_index_bams",0.5217391304347826
-"salmonPE,hisat2",0.10344827586206895
-"salmonPE,fastp_trimming_PE",0.5217391304347826
-"salmonPE,startPE",1.0
-"salmonPE,fastp_trimming_SE",0.5217391304347826
-"salmonPE,fastqc 3",0.5217391304347826
-"salmonPE,fastqc_trimmed",0.4782608695652174
-"salmonPE,samlon_quant",0.6086956521739131
-"salmonPE,kallistoQuant",0.16666666666666663
-"salmonPE,fastqc 2",0.4782608695652174
-"salmonPE,bamindex",1.0
-"salmonPE,featureCounts 2",0.14893617021276595
-"salmonPE,tximeta",0.13043478260869568
-"salmonPE,fastqScreen",0.1568627450980392
-"salmonPE,multiqc 2",0.5217391304347826
-"salmonPE,trimgalorePE",1.0
-"salmonPE,trimgaloreSE",1.0
-"salmonPE,multiqc 3",0.5217391304347826
-"salmonPE,salmon_quant_pe",0.5217391304347826
-"salmonPE,sort_bams",0.5217391304347826
-"salmonPE,edgeR",0.13043478260869568
-"salmonPE,fastqc",0.4893617021276596
-"salmonPE,sampleReads",0.26086956521739135
-"salmonPE,salmon_quant_se",0.5217391304347826
-"salmonPE,cutadapt 2",0.125
-"salmonPE,DRIMSeq",0.25
-"salmonPE,bigwig",1.0
-"salmonPE,fastqctrimmed",0.4893617021276596
-"salmonPE,starSE",1.0
-"salmonPE,salmon_index",0.5217391304347826
-"run_star_se,salmonSE",0.2857142857142857
-"run_star_se,run_star_pe",0.6785714285714286
-"run_star_se,generate_genome_star_index",0.6785714285714286
-"run_star_se,cutadapt",0.2857142857142857
-"run_star_se,MultiQC",0.2857142857142857
-"run_star_se,sort_index_bams",0.6785714285714286
-"run_star_se,hisat2",0.24137931034482762
-"run_star_se,fastp_trimming_PE",0.6785714285714286
-"run_star_se,startPE",0.2857142857142857
-"run_star_se,fastp_trimming_SE",0.6785714285714286
-"run_star_se,fastqc 3",0.6785714285714286
-"run_star_se,fastqc_trimmed",0.3571428571428571
-"run_star_se,samlon_quant",0.4285714285714286
-"run_star_se,kallistoQuant",0.35416666666666663
-"run_star_se,fastqc 2",0.3571428571428571
-"run_star_se,bamindex",0.2857142857142857
-"run_star_se,featureCounts 2",0.2978723404255319
-"run_star_se,tximeta",0.1071428571428571
-"run_star_se,fastqScreen",0.3137254901960784
-"run_star_se,multiqc 2",0.3571428571428571
-"run_star_se,trimgalorePE",0.2857142857142857
-"run_star_se,trimgaloreSE",0.2857142857142857
-"run_star_se,multiqc 3",0.6785714285714286
-"run_star_se,salmon_quant_pe",0.6785714285714286
-"run_star_se,sort_bams",0.6785714285714286
-"run_star_se,edgeR",0.1071428571428571
-"run_star_se,fastqc",0.42553191489361697
-"run_star_se,sampleReads",0.1785714285714286
-"run_star_se,salmon_quant_se",0.6785714285714286
-"run_star_se,cutadapt 2",0.3125
-"run_star_se,DRIMSeq",0.1071428571428571
-"run_star_se,bigwig",0.2857142857142857
-"run_star_se,fastqctrimmed",0.42553191489361697
-"run_star_se,starSE",0.2857142857142857
-"run_star_se,salmon_index",0.6785714285714286
-"salmonSE,run_star_pe",0.5217391304347826
-"salmonSE,generate_genome_star_index",0.5217391304347826
-"salmonSE,cutadapt",0.5652173913043479
-"salmonSE,MultiQC",1.0
-"salmonSE,sort_index_bams",0.5217391304347826
-"salmonSE,hisat2",0.10344827586206895
-"salmonSE,fastp_trimming_PE",0.5217391304347826
-"salmonSE,startPE",1.0
-"salmonSE,fastp_trimming_SE",0.5217391304347826
-"salmonSE,fastqc 3",0.5217391304347826
-"salmonSE,fastqc_trimmed",0.4782608695652174
-"salmonSE,samlon_quant",0.6086956521739131
-"salmonSE,kallistoQuant",0.16666666666666663
-"salmonSE,fastqc 2",0.4782608695652174
-"salmonSE,bamindex",1.0
-"salmonSE,featureCounts 2",0.14893617021276595
-"salmonSE,tximeta",0.13043478260869568
-"salmonSE,fastqScreen",0.1568627450980392
-"salmonSE,multiqc 2",0.5217391304347826
-"salmonSE,trimgalorePE",1.0
-"salmonSE,trimgaloreSE",1.0
-"salmonSE,multiqc 3",0.5217391304347826
-"salmonSE,salmon_quant_pe",0.5217391304347826
-"salmonSE,sort_bams",0.5217391304347826
-"salmonSE,edgeR",0.13043478260869568
-"salmonSE,fastqc",0.4893617021276596
-"salmonSE,sampleReads",0.26086956521739135
-"salmonSE,salmon_quant_se",0.5217391304347826
-"salmonSE,cutadapt 2",0.125
-"salmonSE,DRIMSeq",0.25
-"salmonSE,bigwig",1.0
-"salmonSE,fastqctrimmed",0.4893617021276596
-"salmonSE,starSE",1.0
-"salmonSE,salmon_index",0.5217391304347826
-"run_star_pe,generate_genome_star_index",1.0
-"run_star_pe,cutadapt",0.44999999999999996
-"run_star_pe,MultiQC",0.5217391304347826
-"run_star_pe,sort_index_bams",1.0
-"run_star_pe,hisat2",0.10344827586206895
-"run_star_pe,fastp_trimming_PE",1.0
-"run_star_pe,startPE",0.5217391304347826
-"run_star_pe,fastp_trimming_SE",1.0
-"run_star_pe,fastqc 3",1.0
-"run_star_pe,fastqc_trimmed",0.4736842105263158
-"run_star_pe,samlon_quant",0.631578947368421
-"run_star_pe,kallistoQuant",0.1875
-"run_star_pe,fastqc 2",0.4736842105263158
-"run_star_pe,bamindex",0.5217391304347826
-"run_star_pe,featureCounts 2",0.14893617021276595
-"run_star_pe,tximeta",0.1578947368421053
-"run_star_pe,fastqScreen",0.1568627450980392
-"run_star_pe,multiqc 2",0.5263157894736843
-"run_star_pe,trimgalorePE",0.5217391304347826
-"run_star_pe,trimgaloreSE",0.5217391304347826
-"run_star_pe,multiqc 3",1.0
-"run_star_pe,salmon_quant_pe",1.0
-"run_star_pe,sort_bams",1.0
-"run_star_pe,edgeR",0.1578947368421053
-"run_star_pe,fastqc",0.25531914893617025
-"run_star_pe,sampleReads",0.30000000000000004
-"run_star_pe,salmon_quant_se",1.0
-"run_star_pe,cutadapt 2",0.14583333333333337
-"run_star_pe,DRIMSeq",0.1785714285714286
-"run_star_pe,bigwig",0.5217391304347826
-"run_star_pe,fastqctrimmed",0.25531914893617025
-"run_star_pe,starSE",0.5217391304347826
-"run_star_pe,salmon_index",1.0
-"generate_genome_star_index,cutadapt",0.44999999999999996
-"generate_genome_star_index,MultiQC",0.5217391304347826
-"generate_genome_star_index,sort_index_bams",1.0
-"generate_genome_star_index,hisat2",0.10344827586206895
-"generate_genome_star_index,fastp_trimming_PE",1.0
-"generate_genome_star_index,startPE",0.5217391304347826
-"generate_genome_star_index,fastp_trimming_SE",1.0
-"generate_genome_star_index,fastqc 3",1.0
-"generate_genome_star_index,fastqc_trimmed",0.4736842105263158
-"generate_genome_star_index,samlon_quant",0.631578947368421
-"generate_genome_star_index,kallistoQuant",0.1875
-"generate_genome_star_index,fastqc 2",0.4736842105263158
-"generate_genome_star_index,bamindex",0.5217391304347826
-"generate_genome_star_index,featureCounts 2",0.14893617021276595
-"generate_genome_star_index,tximeta",0.1578947368421053
-"generate_genome_star_index,fastqScreen",0.1568627450980392
-"generate_genome_star_index,multiqc 2",0.5263157894736843
-"generate_genome_star_index,trimgalorePE",0.5217391304347826
-"generate_genome_star_index,trimgaloreSE",0.5217391304347826
-"generate_genome_star_index,multiqc 3",1.0
-"generate_genome_star_index,salmon_quant_pe",1.0
-"generate_genome_star_index,sort_bams",1.0
-"generate_genome_star_index,edgeR",0.1578947368421053
-"generate_genome_star_index,fastqc",0.25531914893617025
-"generate_genome_star_index,sampleReads",0.30000000000000004
-"generate_genome_star_index,salmon_quant_se",1.0
-"generate_genome_star_index,cutadapt 2",0.14583333333333337
-"generate_genome_star_index,DRIMSeq",0.1785714285714286
-"generate_genome_star_index,bigwig",0.5217391304347826
-"generate_genome_star_index,fastqctrimmed",0.25531914893617025
-"generate_genome_star_index,starSE",0.5217391304347826
-"generate_genome_star_index,salmon_index",1.0
-"cutadapt,MultiQC",0.5652173913043479
-"cutadapt,sort_index_bams",0.44999999999999996
-"cutadapt,hisat2",0.12068965517241381
-"cutadapt,fastp_trimming_PE",0.44999999999999996
-"cutadapt,startPE",0.5652173913043479
-"cutadapt,fastp_trimming_SE",0.44999999999999996
-"cutadapt,fastqc 3",0.44999999999999996
-"cutadapt,fastqc_trimmed",0.55
-"cutadapt,samlon_quant",0.65
-"cutadapt,kallistoQuant",0.14583333333333337
-"cutadapt,fastqc 2",0.55
-"cutadapt,bamindex",0.5652173913043479
-"cutadapt,featureCounts 2",0.14893617021276595
-"cutadapt,tximeta",0.15000000000000002
-"cutadapt,fastqScreen",0.13725490196078427
-"cutadapt,multiqc 2",0.6
-"cutadapt,trimgalorePE",0.5652173913043479
-"cutadapt,trimgaloreSE",0.5652173913043479
-"cutadapt,multiqc 3",0.44999999999999996
-"cutadapt,salmon_quant_pe",0.44999999999999996
-"cutadapt,sort_bams",0.44999999999999996
-"cutadapt,edgeR",0.15000000000000002
-"cutadapt,fastqc",0.276595744680851
-"cutadapt,sampleReads",0.25
-"cutadapt,salmon_quant_se",0.44999999999999996
-"cutadapt,cutadapt 2",0.29166666666666663
-"cutadapt,DRIMSeq",0.2142857142857143
-"cutadapt,bigwig",0.5652173913043479
-"cutadapt,fastqctrimmed",0.276595744680851
-"cutadapt,starSE",0.5652173913043479
-"cutadapt,salmon_index",0.44999999999999996
-"MultiQC,sort_index_bams",0.5217391304347826
-"MultiQC,hisat2",0.10344827586206895
-"MultiQC,fastp_trimming_PE",0.5217391304347826
-"MultiQC,startPE",1.0
-"MultiQC,fastp_trimming_SE",0.5217391304347826
-"MultiQC,fastqc 3",0.5217391304347826
-"MultiQC,fastqc_trimmed",0.4782608695652174
-"MultiQC,samlon_quant",0.6086956521739131
-"MultiQC,kallistoQuant",0.16666666666666663
-"MultiQC,fastqc 2",0.4782608695652174
-"MultiQC,bamindex",1.0
-"MultiQC,featureCounts 2",0.14893617021276595
-"MultiQC,tximeta",0.13043478260869568
-"MultiQC,fastqScreen",0.1568627450980392
-"MultiQC,multiqc 2",0.5217391304347826
-"MultiQC,trimgalorePE",1.0
-"MultiQC,trimgaloreSE",1.0
-"MultiQC,multiqc 3",0.5217391304347826
-"MultiQC,salmon_quant_pe",0.5217391304347826
-"MultiQC,sort_bams",0.5217391304347826
-"MultiQC,edgeR",0.13043478260869568
-"MultiQC,fastqc",0.4893617021276596
-"MultiQC,sampleReads",0.26086956521739135
-"MultiQC,salmon_quant_se",0.5217391304347826
-"MultiQC,cutadapt 2",0.125
-"MultiQC,DRIMSeq",0.25
-"MultiQC,bigwig",1.0
-"MultiQC,fastqctrimmed",0.4893617021276596
-"MultiQC,starSE",1.0
-"MultiQC,salmon_index",0.5217391304347826
-"sort_index_bams,hisat2",0.10344827586206895
-"sort_index_bams,fastp_trimming_PE",1.0
-"sort_index_bams,startPE",0.5217391304347826
-"sort_index_bams,fastp_trimming_SE",1.0
-"sort_index_bams,fastqc 3",1.0
-"sort_index_bams,fastqc_trimmed",0.4736842105263158
-"sort_index_bams,samlon_quant",0.631578947368421
-"sort_index_bams,kallistoQuant",0.1875
-"sort_index_bams,fastqc 2",0.4736842105263158
-"sort_index_bams,bamindex",0.5217391304347826
-"sort_index_bams,featureCounts 2",0.14893617021276595
-"sort_index_bams,tximeta",0.1578947368421053
-"sort_index_bams,fastqScreen",0.1568627450980392
-"sort_index_bams,multiqc 2",0.5263157894736843
-"sort_index_bams,trimgalorePE",0.5217391304347826
-"sort_index_bams,trimgaloreSE",0.5217391304347826
-"sort_index_bams,multiqc 3",1.0
-"sort_index_bams,salmon_quant_pe",1.0
-"sort_index_bams,sort_bams",1.0
-"sort_index_bams,edgeR",0.1578947368421053
-"sort_index_bams,fastqc",0.25531914893617025
-"sort_index_bams,sampleReads",0.30000000000000004
-"sort_index_bams,salmon_quant_se",1.0
-"sort_index_bams,cutadapt 2",0.14583333333333337
-"sort_index_bams,DRIMSeq",0.1785714285714286
-"sort_index_bams,bigwig",0.5217391304347826
-"sort_index_bams,fastqctrimmed",0.25531914893617025
-"sort_index_bams,starSE",0.5217391304347826
-"sort_index_bams,salmon_index",1.0
-"hisat2,fastp_trimming_PE",0.10344827586206895
-"hisat2,startPE",0.10344827586206895
-"hisat2,fastp_trimming_SE",0.10344827586206895
-"hisat2,fastqc 3",0.10344827586206895
-"hisat2,fastqc_trimmed",0.12068965517241381
-"hisat2,samlon_quant",0.13793103448275867
-"hisat2,kallistoQuant",0.6896551724137931
-"hisat2,fastqc 2",0.12068965517241381
-"hisat2,bamindex",0.10344827586206895
-"hisat2,featureCounts 2",0.6724137931034483
-"hisat2,tximeta",0.03448275862068961
-"hisat2,fastqScreen",0.6206896551724138
-"hisat2,multiqc 2",0.10344827586206895
-"hisat2,trimgalorePE",0.10344827586206895
-"hisat2,trimgaloreSE",0.10344827586206895
-"hisat2,multiqc 3",0.10344827586206895
-"hisat2,salmon_quant_pe",0.10344827586206895
-"hisat2,sort_bams",0.10344827586206895
-"hisat2,edgeR",0.03448275862068961
-"hisat2,fastqc",0.3620689655172413
-"hisat2,sampleReads",0.27586206896551724
-"hisat2,salmon_quant_se",0.10344827586206895
-"hisat2,cutadapt 2",0.6724137931034483
-"hisat2,DRIMSeq",0.31034482758620685
-"hisat2,bigwig",0.10344827586206895
-"hisat2,fastqctrimmed",0.3620689655172413
-"hisat2,starSE",0.10344827586206895
-"hisat2,salmon_index",0.10344827586206895
-"fastp_trimming_PE,startPE",0.5217391304347826
-"fastp_trimming_PE,fastp_trimming_SE",1.0
-"fastp_trimming_PE,fastqc 3",1.0
-"fastp_trimming_PE,fastqc_trimmed",0.4736842105263158
-"fastp_trimming_PE,samlon_quant",0.631578947368421
-"fastp_trimming_PE,kallistoQuant",0.1875
-"fastp_trimming_PE,fastqc 2",0.4736842105263158
-"fastp_trimming_PE,bamindex",0.5217391304347826
-"fastp_trimming_PE,featureCounts 2",0.14893617021276595
-"fastp_trimming_PE,tximeta",0.1578947368421053
-"fastp_trimming_PE,fastqScreen",0.1568627450980392
-"fastp_trimming_PE,multiqc 2",0.5263157894736843
-"fastp_trimming_PE,trimgalorePE",0.5217391304347826
-"fastp_trimming_PE,trimgaloreSE",0.5217391304347826
-"fastp_trimming_PE,multiqc 3",1.0
-"fastp_trimming_PE,salmon_quant_pe",1.0
-"fastp_trimming_PE,sort_bams",1.0
-"fastp_trimming_PE,edgeR",0.1578947368421053
-"fastp_trimming_PE,fastqc",0.25531914893617025
-"fastp_trimming_PE,sampleReads",0.30000000000000004
-"fastp_trimming_PE,salmon_quant_se",1.0
-"fastp_trimming_PE,cutadapt 2",0.14583333333333337
-"fastp_trimming_PE,DRIMSeq",0.1785714285714286
-"fastp_trimming_PE,bigwig",0.5217391304347826
-"fastp_trimming_PE,fastqctrimmed",0.25531914893617025
-"fastp_trimming_PE,starSE",0.5217391304347826
-"fastp_trimming_PE,salmon_index",1.0
-"startPE,fastp_trimming_SE",0.5217391304347826
-"startPE,fastqc 3",0.5217391304347826
-"startPE,fastqc_trimmed",0.4782608695652174
-"startPE,samlon_quant",0.6086956521739131
-"startPE,kallistoQuant",0.16666666666666663
-"startPE,fastqc 2",0.4782608695652174
-"startPE,bamindex",1.0
-"startPE,featureCounts 2",0.14893617021276595
-"startPE,tximeta",0.13043478260869568
-"startPE,fastqScreen",0.1568627450980392
-"startPE,multiqc 2",0.5217391304347826
-"startPE,trimgalorePE",1.0
-"startPE,trimgaloreSE",1.0
-"startPE,multiqc 3",0.5217391304347826
-"startPE,salmon_quant_pe",0.5217391304347826
-"startPE,sort_bams",0.5217391304347826
-"startPE,edgeR",0.13043478260869568
-"startPE,fastqc",0.4893617021276596
-"startPE,sampleReads",0.26086956521739135
-"startPE,salmon_quant_se",0.5217391304347826
-"startPE,cutadapt 2",0.125
-"startPE,DRIMSeq",0.25
-"startPE,bigwig",1.0
-"startPE,fastqctrimmed",0.4893617021276596
-"startPE,starSE",1.0
-"startPE,salmon_index",0.5217391304347826
-"fastp_trimming_SE,fastqc 3",1.0
-"fastp_trimming_SE,fastqc_trimmed",0.4736842105263158
-"fastp_trimming_SE,samlon_quant",0.631578947368421
-"fastp_trimming_SE,kallistoQuant",0.1875
-"fastp_trimming_SE,fastqc 2",0.4736842105263158
-"fastp_trimming_SE,bamindex",0.5217391304347826
-"fastp_trimming_SE,featureCounts 2",0.14893617021276595
-"fastp_trimming_SE,tximeta",0.1578947368421053
-"fastp_trimming_SE,fastqScreen",0.1568627450980392
-"fastp_trimming_SE,multiqc 2",0.5263157894736843
-"fastp_trimming_SE,trimgalorePE",0.5217391304347826
-"fastp_trimming_SE,trimgaloreSE",0.5217391304347826
-"fastp_trimming_SE,multiqc 3",1.0
-"fastp_trimming_SE,salmon_quant_pe",1.0
-"fastp_trimming_SE,sort_bams",1.0
-"fastp_trimming_SE,edgeR",0.1578947368421053
-"fastp_trimming_SE,fastqc",0.25531914893617025
-"fastp_trimming_SE,sampleReads",0.30000000000000004
-"fastp_trimming_SE,salmon_quant_se",1.0
-"fastp_trimming_SE,cutadapt 2",0.14583333333333337
-"fastp_trimming_SE,DRIMSeq",0.1785714285714286
-"fastp_trimming_SE,bigwig",0.5217391304347826
-"fastp_trimming_SE,fastqctrimmed",0.25531914893617025
-"fastp_trimming_SE,starSE",0.5217391304347826
-"fastp_trimming_SE,salmon_index",1.0
-"fastqc 3,fastqc_trimmed",0.4736842105263158
-"fastqc 3,samlon_quant",0.631578947368421
-"fastqc 3,kallistoQuant",0.1875
-"fastqc 3,fastqc 2",0.4736842105263158
-"fastqc 3,bamindex",0.5217391304347826
-"fastqc 3,featureCounts 2",0.14893617021276595
-"fastqc 3,tximeta",0.1578947368421053
-"fastqc 3,fastqScreen",0.1568627450980392
-"fastqc 3,multiqc 2",0.5263157894736843
-"fastqc 3,trimgalorePE",0.5217391304347826
-"fastqc 3,trimgaloreSE",0.5217391304347826
-"fastqc 3,multiqc 3",1.0
-"fastqc 3,salmon_quant_pe",1.0
-"fastqc 3,sort_bams",1.0
-"fastqc 3,edgeR",0.1578947368421053
-"fastqc 3,fastqc",0.25531914893617025
-"fastqc 3,sampleReads",0.30000000000000004
-"fastqc 3,salmon_quant_se",1.0
-"fastqc 3,cutadapt 2",0.14583333333333337
-"fastqc 3,DRIMSeq",0.1785714285714286
-"fastqc 3,bigwig",0.5217391304347826
-"fastqc 3,fastqctrimmed",0.25531914893617025
-"fastqc 3,starSE",0.5217391304347826
-"fastqc 3,salmon_index",1.0
-"fastqc_trimmed,samlon_quant",0.6111111111111112
-"fastqc_trimmed,kallistoQuant",0.125
-"fastqc_trimmed,fastqc 2",1.0
-"fastqc_trimmed,bamindex",0.4782608695652174
-"fastqc_trimmed,featureCounts 2",0.12765957446808507
-"fastqc_trimmed,tximeta",0.19999999999999996
-"fastqc_trimmed,fastqScreen",0.1568627450980392
-"fastqc_trimmed,multiqc 2",0.9333333333333333
-"fastqc_trimmed,trimgalorePE",0.4782608695652174
-"fastqc_trimmed,trimgaloreSE",0.4782608695652174
-"fastqc_trimmed,multiqc 3",0.4736842105263158
-"fastqc_trimmed,salmon_quant_pe",0.4736842105263158
-"fastqc_trimmed,sort_bams",0.4736842105263158
-"fastqc_trimmed,edgeR",0.19999999999999996
-"fastqc_trimmed,fastqc",0.25531914893617025
-"fastqc_trimmed,sampleReads",0.30000000000000004
-"fastqc_trimmed,salmon_quant_se",0.4736842105263158
-"fastqc_trimmed,cutadapt 2",0.125
-"fastqc_trimmed,DRIMSeq",0.1785714285714286
-"fastqc_trimmed,bigwig",0.4782608695652174
-"fastqc_trimmed,fastqctrimmed",0.25531914893617025
-"fastqc_trimmed,starSE",0.4782608695652174
-"fastqc_trimmed,salmon_index",0.4736842105263158
-"samlon_quant,kallistoQuant",0.16666666666666663
-"samlon_quant,fastqc 2",0.6111111111111112
-"samlon_quant,bamindex",0.6086956521739131
-"samlon_quant,featureCounts 2",0.14893617021276595
-"samlon_quant,tximeta",0.16666666666666663
-"samlon_quant,fastqScreen",0.1568627450980392
-"samlon_quant,multiqc 2",0.6666666666666667
-"samlon_quant,trimgalorePE",0.6086956521739131
-"samlon_quant,trimgaloreSE",0.6086956521739131
-"samlon_quant,multiqc 3",0.631578947368421
-"samlon_quant,salmon_quant_pe",0.631578947368421
-"samlon_quant,sort_bams",0.631578947368421
-"samlon_quant,edgeR",0.16666666666666663
-"samlon_quant,fastqc",0.2978723404255319
-"samlon_quant,sampleReads",0.30000000000000004
-"samlon_quant,salmon_quant_se",0.631578947368421
-"samlon_quant,cutadapt 2",0.14583333333333337
-"samlon_quant,DRIMSeq",0.25
-"samlon_quant,bigwig",0.6086956521739131
-"samlon_quant,fastqctrimmed",0.2978723404255319
-"samlon_quant,starSE",0.6086956521739131
-"samlon_quant,salmon_index",0.631578947368421
-"kallistoQuant,fastqc 2",0.125
-"kallistoQuant,bamindex",0.16666666666666663
-"kallistoQuant,featureCounts 2",0.8333333333333334
-"kallistoQuant,tximeta",0.04166666666666663
-"kallistoQuant,fastqScreen",0.803921568627451
-"kallistoQuant,multiqc 2",0.125
-"kallistoQuant,trimgalorePE",0.16666666666666663
-"kallistoQuant,trimgaloreSE",0.16666666666666663
-"kallistoQuant,multiqc 3",0.1875
-"kallistoQuant,salmon_quant_pe",0.1875
-"kallistoQuant,sort_bams",0.1875
-"kallistoQuant,edgeR",0.04166666666666663
-"kallistoQuant,fastqc",0.47916666666666663
-"kallistoQuant,sampleReads",0.33333333333333337
-"kallistoQuant,salmon_quant_se",0.1875
-"kallistoQuant,cutadapt 2",0.8333333333333334
-"kallistoQuant,DRIMSeq",0.375
-"kallistoQuant,bigwig",0.16666666666666663
-"kallistoQuant,fastqctrimmed",0.47916666666666663
-"kallistoQuant,starSE",0.16666666666666663
-"kallistoQuant,salmon_index",0.1875
-"fastqc 2,bamindex",0.4782608695652174
-"fastqc 2,featureCounts 2",0.12765957446808507
-"fastqc 2,tximeta",0.19999999999999996
-"fastqc 2,fastqScreen",0.1568627450980392
-"fastqc 2,multiqc 2",0.9333333333333333
-"fastqc 2,trimgalorePE",0.4782608695652174
-"fastqc 2,trimgaloreSE",0.4782608695652174
-"fastqc 2,multiqc 3",0.4736842105263158
-"fastqc 2,salmon_quant_pe",0.4736842105263158
-"fastqc 2,sort_bams",0.4736842105263158
-"fastqc 2,edgeR",0.19999999999999996
-"fastqc 2,fastqc",0.25531914893617025
-"fastqc 2,sampleReads",0.30000000000000004
-"fastqc 2,salmon_quant_se",0.4736842105263158
-"fastqc 2,cutadapt 2",0.125
-"fastqc 2,DRIMSeq",0.1785714285714286
-"fastqc 2,bigwig",0.4782608695652174
-"fastqc 2,fastqctrimmed",0.25531914893617025
-"fastqc 2,starSE",0.4782608695652174
-"fastqc 2,salmon_index",0.4736842105263158
-"bamindex,featureCounts 2",0.14893617021276595
-"bamindex,tximeta",0.13043478260869568
-"bamindex,fastqScreen",0.1568627450980392
-"bamindex,multiqc 2",0.5217391304347826
-"bamindex,trimgalorePE",1.0
-"bamindex,trimgaloreSE",1.0
-"bamindex,multiqc 3",0.5217391304347826
-"bamindex,salmon_quant_pe",0.5217391304347826
-"bamindex,sort_bams",0.5217391304347826
-"bamindex,edgeR",0.13043478260869568
-"bamindex,fastqc",0.4893617021276596
-"bamindex,sampleReads",0.26086956521739135
-"bamindex,salmon_quant_se",0.5217391304347826
-"bamindex,cutadapt 2",0.125
-"bamindex,DRIMSeq",0.25
-"bamindex,bigwig",1.0
-"bamindex,fastqctrimmed",0.4893617021276596
-"bamindex,starSE",1.0
-"bamindex,salmon_index",0.5217391304347826
-"featureCounts 2,tximeta",0.04255319148936165
-"featureCounts 2,fastqScreen",0.8431372549019608
-"featureCounts 2,multiqc 2",0.12765957446808507
-"featureCounts 2,trimgalorePE",0.14893617021276595
-"featureCounts 2,trimgaloreSE",0.14893617021276595
-"featureCounts 2,multiqc 3",0.14893617021276595
-"featureCounts 2,salmon_quant_pe",0.14893617021276595
-"featureCounts 2,sort_bams",0.14893617021276595
-"featureCounts 2,edgeR",0.04255319148936165
-"featureCounts 2,fastqc",0.4893617021276596
-"featureCounts 2,sampleReads",0.34042553191489366
-"featureCounts 2,salmon_quant_se",0.14893617021276595
-"featureCounts 2,cutadapt 2",0.875
-"featureCounts 2,DRIMSeq",0.4042553191489362
-"featureCounts 2,bigwig",0.14893617021276595
-"featureCounts 2,fastqctrimmed",0.4893617021276596
-"featureCounts 2,starSE",0.14893617021276595
-"featureCounts 2,salmon_index",0.14893617021276595
-"tximeta,fastqScreen",0.039215686274509776
-"tximeta,multiqc 2",0.2142857142857143
-"tximeta,trimgalorePE",0.13043478260869568
-"tximeta,trimgaloreSE",0.13043478260869568
-"tximeta,multiqc 3",0.1578947368421053
-"tximeta,salmon_quant_pe",0.1578947368421053
-"tximeta,sort_bams",0.1578947368421053
-"tximeta,edgeR",1.0
-"tximeta,fastqc",0.06382978723404253
-"tximeta,sampleReads",0.050000000000000044
-"tximeta,salmon_quant_se",0.1578947368421053
-"tximeta,cutadapt 2",0.04166666666666663
-"tximeta,DRIMSeq",0.1428571428571429
-"tximeta,bigwig",0.13043478260869568
-"tximeta,fastqctrimmed",0.06382978723404253
-"tximeta,starSE",0.13043478260869568
-"tximeta,salmon_index",0.1578947368421053
-"fastqScreen,multiqc 2",0.1568627450980392
-"fastqScreen,trimgalorePE",0.1568627450980392
-"fastqScreen,trimgaloreSE",0.1568627450980392
-"fastqScreen,multiqc 3",0.1568627450980392
-"fastqScreen,salmon_quant_pe",0.1568627450980392
-"fastqScreen,sort_bams",0.1568627450980392
-"fastqScreen,edgeR",0.039215686274509776
-"fastqScreen,fastqc",0.4901960784313726
-"fastqScreen,sampleReads",0.33333333333333337
-"fastqScreen,salmon_quant_se",0.1568627450980392
-"fastqScreen,cutadapt 2",0.803921568627451
-"fastqScreen,DRIMSeq",0.3921568627450981
-"fastqScreen,bigwig",0.1568627450980392
-"fastqScreen,fastqctrimmed",0.4901960784313726
-"fastqScreen,starSE",0.1568627450980392
-"fastqScreen,salmon_index",0.1568627450980392
-"multiqc 2,trimgalorePE",0.5217391304347826
-"multiqc 2,trimgaloreSE",0.5217391304347826
-"multiqc 2,multiqc 3",0.5263157894736843
-"multiqc 2,salmon_quant_pe",0.5263157894736843
-"multiqc 2,sort_bams",0.5263157894736843
-"multiqc 2,edgeR",0.2142857142857143
-"multiqc 2,fastqc",0.25531914893617025
-"multiqc 2,sampleReads",0.35
-"multiqc 2,salmon_quant_se",0.5263157894736843
-"multiqc 2,cutadapt 2",0.125
-"multiqc 2,DRIMSeq",0.1785714285714286
-"multiqc 2,bigwig",0.5217391304347826
-"multiqc 2,fastqctrimmed",0.25531914893617025
-"multiqc 2,starSE",0.5217391304347826
-"multiqc 2,salmon_index",0.5263157894736843
-"trimgalorePE,trimgaloreSE",1.0
-"trimgalorePE,multiqc 3",0.5217391304347826
-"trimgalorePE,salmon_quant_pe",0.5217391304347826
-"trimgalorePE,sort_bams",0.5217391304347826
-"trimgalorePE,edgeR",0.13043478260869568
-"trimgalorePE,fastqc",0.4893617021276596
-"trimgalorePE,sampleReads",0.26086956521739135
-"trimgalorePE,salmon_quant_se",0.5217391304347826
-"trimgalorePE,cutadapt 2",0.125
-"trimgalorePE,DRIMSeq",0.25
-"trimgalorePE,bigwig",1.0
-"trimgalorePE,fastqctrimmed",0.4893617021276596
-"trimgalorePE,starSE",1.0
-"trimgalorePE,salmon_index",0.5217391304347826
-"trimgaloreSE,multiqc 3",0.5217391304347826
-"trimgaloreSE,salmon_quant_pe",0.5217391304347826
-"trimgaloreSE,sort_bams",0.5217391304347826
-"trimgaloreSE,edgeR",0.13043478260869568
-"trimgaloreSE,fastqc",0.4893617021276596
-"trimgaloreSE,sampleReads",0.26086956521739135
-"trimgaloreSE,salmon_quant_se",0.5217391304347826
-"trimgaloreSE,cutadapt 2",0.125
-"trimgaloreSE,DRIMSeq",0.25
-"trimgaloreSE,bigwig",1.0
-"trimgaloreSE,fastqctrimmed",0.4893617021276596
-"trimgaloreSE,starSE",1.0
-"trimgaloreSE,salmon_index",0.5217391304347826
-"multiqc 3,salmon_quant_pe",1.0
-"multiqc 3,sort_bams",1.0
-"multiqc 3,edgeR",0.1578947368421053
-"multiqc 3,fastqc",0.25531914893617025
-"multiqc 3,sampleReads",0.30000000000000004
-"multiqc 3,salmon_quant_se",1.0
-"multiqc 3,cutadapt 2",0.14583333333333337
-"multiqc 3,DRIMSeq",0.1785714285714286
-"multiqc 3,bigwig",0.5217391304347826
-"multiqc 3,fastqctrimmed",0.25531914893617025
-"multiqc 3,starSE",0.5217391304347826
-"multiqc 3,salmon_index",1.0
-"salmon_quant_pe,sort_bams",1.0
-"salmon_quant_pe,edgeR",0.1578947368421053
-"salmon_quant_pe,fastqc",0.25531914893617025
-"salmon_quant_pe,sampleReads",0.30000000000000004
-"salmon_quant_pe,salmon_quant_se",1.0
-"salmon_quant_pe,cutadapt 2",0.14583333333333337
-"salmon_quant_pe,DRIMSeq",0.1785714285714286
-"salmon_quant_pe,bigwig",0.5217391304347826
-"salmon_quant_pe,fastqctrimmed",0.25531914893617025
-"salmon_quant_pe,starSE",0.5217391304347826
-"salmon_quant_pe,salmon_index",1.0
-"sort_bams,edgeR",0.1578947368421053
-"sort_bams,fastqc",0.25531914893617025
-"sort_bams,sampleReads",0.30000000000000004
-"sort_bams,salmon_quant_se",1.0
-"sort_bams,cutadapt 2",0.14583333333333337
-"sort_bams,DRIMSeq",0.1785714285714286
-"sort_bams,bigwig",0.5217391304347826
-"sort_bams,fastqctrimmed",0.25531914893617025
-"sort_bams,starSE",0.5217391304347826
-"sort_bams,salmon_index",1.0
-"edgeR,fastqc",0.06382978723404253
-"edgeR,sampleReads",0.050000000000000044
-"edgeR,salmon_quant_se",0.1578947368421053
-"edgeR,cutadapt 2",0.04166666666666663
-"edgeR,DRIMSeq",0.1428571428571429
-"edgeR,bigwig",0.13043478260869568
-"edgeR,fastqctrimmed",0.06382978723404253
-"edgeR,starSE",0.13043478260869568
-"edgeR,salmon_index",0.1578947368421053
-"fastqc,sampleReads",0.12765957446808507
-"fastqc,salmon_quant_se",0.25531914893617025
-"fastqc,cutadapt 2",0.5
-"fastqc,DRIMSeq",0.574468085106383
-"fastqc,bigwig",0.4893617021276596
-"fastqc,fastqctrimmed",1.0
-"fastqc,starSE",0.4893617021276596
-"fastqc,salmon_index",0.25531914893617025
-"sampleReads,salmon_quant_se",0.30000000000000004
-"sampleReads,cutadapt 2",0.3125
-"sampleReads,DRIMSeq",0.0357142857142857
-"sampleReads,bigwig",0.26086956521739135
-"sampleReads,fastqctrimmed",0.12765957446808507
-"sampleReads,starSE",0.26086956521739135
-"sampleReads,salmon_index",0.30000000000000004
-"salmon_quant_se,cutadapt 2",0.14583333333333337
-"salmon_quant_se,DRIMSeq",0.1785714285714286
-"salmon_quant_se,bigwig",0.5217391304347826
-"salmon_quant_se,fastqctrimmed",0.25531914893617025
-"salmon_quant_se,starSE",0.5217391304347826
-"salmon_quant_se,salmon_index",1.0
-"cutadapt 2,DRIMSeq",0.375
-"cutadapt 2,bigwig",0.125
-"cutadapt 2,fastqctrimmed",0.5
-"cutadapt 2,starSE",0.125
-"cutadapt 2,salmon_index",0.14583333333333337
-"DRIMSeq,bigwig",0.25
-"DRIMSeq,fastqctrimmed",0.574468085106383
-"DRIMSeq,starSE",0.25
-"DRIMSeq,salmon_index",0.1785714285714286
-"bigwig,fastqctrimmed",0.4893617021276596
-"bigwig,starSE",1.0
-"bigwig,salmon_index",0.5217391304347826
-"fastqctrimmed,starSE",0.4893617021276596
-"fastqctrimmed,salmon_index",0.25531914893617025
-"starSE,salmon_index",0.5217391304347826
+Process A,Process B,Similarity
+salmonPE,run_star_se,0.2857142857142857
+salmonPE,salmonSE,1.0
+salmonPE,run_star_pe,0.5217391304347826
+salmonPE,generate_genome_star_index,0.5217391304347826
+salmonPE,cutadapt,0.5652173913043479
+salmonPE,MultiQC,1.0
+salmonPE,sort_index_bams,0.5217391304347826
+salmonPE,hisat2,0.1034482758620689
+salmonPE,fastp_trimming_PE,0.5217391304347826
+salmonPE,startPE,1.0
+salmonPE,fastp_trimming_SE,0.5217391304347826
+salmonPE,fastqc 3,0.5217391304347826
+salmonPE,fastqc_trimmed,0.4782608695652174
+salmonPE,samlon_quant,0.6086956521739131
+salmonPE,kallistoQuant,0.1666666666666666
+salmonPE,fastqc 2,0.4782608695652174
+salmonPE,bamindex,1.0
+salmonPE,featureCounts 2,0.1489361702127659
+salmonPE,tximeta,0.1304347826086956
+salmonPE,fastqScreen,0.1568627450980392
+salmonPE,multiqc 2,0.5217391304347826
+salmonPE,trimgalorePE,1.0
+salmonPE,trimgaloreSE,1.0
+salmonPE,multiqc 3,0.5217391304347826
+salmonPE,salmon_quant_pe,0.5217391304347826
+salmonPE,sort_bams,0.5217391304347826
+salmonPE,edgeR,0.1304347826086956
+salmonPE,fastqc,0.4893617021276596
+salmonPE,sampleReads,0.2608695652173913
+salmonPE,salmon_quant_se,0.5217391304347826
+salmonPE,cutadapt 2,0.125
+salmonPE,DRIMSeq,0.25
+salmonPE,bigwig,1.0
+salmonPE,fastqctrimmed,0.4893617021276596
+salmonPE,starSE,1.0
+salmonPE,salmon_index,0.5217391304347826
+run_star_se,salmonSE,0.2857142857142857
+run_star_se,run_star_pe,0.6785714285714286
+run_star_se,generate_genome_star_index,0.6785714285714286
+run_star_se,cutadapt,0.2857142857142857
+run_star_se,MultiQC,0.2857142857142857
+run_star_se,sort_index_bams,0.6785714285714286
+run_star_se,hisat2,0.2413793103448276
+run_star_se,fastp_trimming_PE,0.6785714285714286
+run_star_se,startPE,0.2857142857142857
+run_star_se,fastp_trimming_SE,0.6785714285714286
+run_star_se,fastqc 3,0.6785714285714286
+run_star_se,fastqc_trimmed,0.3571428571428571
+run_star_se,samlon_quant,0.4285714285714286
+run_star_se,kallistoQuant,0.3541666666666666
+run_star_se,fastqc 2,0.3571428571428571
+run_star_se,bamindex,0.2857142857142857
+run_star_se,featureCounts 2,0.2978723404255319
+run_star_se,tximeta,0.1071428571428571
+run_star_se,fastqScreen,0.3137254901960784
+run_star_se,multiqc 2,0.3571428571428571
+run_star_se,trimgalorePE,0.2857142857142857
+run_star_se,trimgaloreSE,0.2857142857142857
+run_star_se,multiqc 3,0.6785714285714286
+run_star_se,salmon_quant_pe,0.6785714285714286
+run_star_se,sort_bams,0.6785714285714286
+run_star_se,edgeR,0.1071428571428571
+run_star_se,fastqc,0.4255319148936169
+run_star_se,sampleReads,0.1785714285714286
+run_star_se,salmon_quant_se,0.6785714285714286
+run_star_se,cutadapt 2,0.3125
+run_star_se,DRIMSeq,0.1071428571428571
+run_star_se,bigwig,0.2857142857142857
+run_star_se,fastqctrimmed,0.4255319148936169
+run_star_se,starSE,0.2857142857142857
+run_star_se,salmon_index,0.6785714285714286
+salmonSE,run_star_pe,0.5217391304347826
+salmonSE,generate_genome_star_index,0.5217391304347826
+salmonSE,cutadapt,0.5652173913043479
+salmonSE,MultiQC,1.0
+salmonSE,sort_index_bams,0.5217391304347826
+salmonSE,hisat2,0.1034482758620689
+salmonSE,fastp_trimming_PE,0.5217391304347826
+salmonSE,startPE,1.0
+salmonSE,fastp_trimming_SE,0.5217391304347826
+salmonSE,fastqc 3,0.5217391304347826
+salmonSE,fastqc_trimmed,0.4782608695652174
+salmonSE,samlon_quant,0.6086956521739131
+salmonSE,kallistoQuant,0.1666666666666666
+salmonSE,fastqc 2,0.4782608695652174
+salmonSE,bamindex,1.0
+salmonSE,featureCounts 2,0.1489361702127659
+salmonSE,tximeta,0.1304347826086956
+salmonSE,fastqScreen,0.1568627450980392
+salmonSE,multiqc 2,0.5217391304347826
+salmonSE,trimgalorePE,1.0
+salmonSE,trimgaloreSE,1.0
+salmonSE,multiqc 3,0.5217391304347826
+salmonSE,salmon_quant_pe,0.5217391304347826
+salmonSE,sort_bams,0.5217391304347826
+salmonSE,edgeR,0.1304347826086956
+salmonSE,fastqc,0.4893617021276596
+salmonSE,sampleReads,0.2608695652173913
+salmonSE,salmon_quant_se,0.5217391304347826
+salmonSE,cutadapt 2,0.125
+salmonSE,DRIMSeq,0.25
+salmonSE,bigwig,1.0
+salmonSE,fastqctrimmed,0.4893617021276596
+salmonSE,starSE,1.0
+salmonSE,salmon_index,0.5217391304347826
+run_star_pe,generate_genome_star_index,1.0
+run_star_pe,cutadapt,0.4499999999999999
+run_star_pe,MultiQC,0.5217391304347826
+run_star_pe,sort_index_bams,1.0
+run_star_pe,hisat2,0.1034482758620689
+run_star_pe,fastp_trimming_PE,1.0
+run_star_pe,startPE,0.5217391304347826
+run_star_pe,fastp_trimming_SE,1.0
+run_star_pe,fastqc 3,1.0
+run_star_pe,fastqc_trimmed,0.4736842105263158
+run_star_pe,samlon_quant,0.631578947368421
+run_star_pe,kallistoQuant,0.1875
+run_star_pe,fastqc 2,0.4736842105263158
+run_star_pe,bamindex,0.5217391304347826
+run_star_pe,featureCounts 2,0.1489361702127659
+run_star_pe,tximeta,0.1578947368421053
+run_star_pe,fastqScreen,0.1568627450980392
+run_star_pe,multiqc 2,0.5263157894736843
+run_star_pe,trimgalorePE,0.5217391304347826
+run_star_pe,trimgaloreSE,0.5217391304347826
+run_star_pe,multiqc 3,1.0
+run_star_pe,salmon_quant_pe,1.0
+run_star_pe,sort_bams,1.0
+run_star_pe,edgeR,0.1578947368421053
+run_star_pe,fastqc,0.2553191489361702
+run_star_pe,sampleReads,0.3
+run_star_pe,salmon_quant_se,1.0
+run_star_pe,cutadapt 2,0.1458333333333333
+run_star_pe,DRIMSeq,0.1785714285714286
+run_star_pe,bigwig,0.5217391304347826
+run_star_pe,fastqctrimmed,0.2553191489361702
+run_star_pe,starSE,0.5217391304347826
+run_star_pe,salmon_index,1.0
+generate_genome_star_index,cutadapt,0.4499999999999999
+generate_genome_star_index,MultiQC,0.5217391304347826
+generate_genome_star_index,sort_index_bams,1.0
+generate_genome_star_index,hisat2,0.1034482758620689
+generate_genome_star_index,fastp_trimming_PE,1.0
+generate_genome_star_index,startPE,0.5217391304347826
+generate_genome_star_index,fastp_trimming_SE,1.0
+generate_genome_star_index,fastqc 3,1.0
+generate_genome_star_index,fastqc_trimmed,0.4736842105263158
+generate_genome_star_index,samlon_quant,0.631578947368421
+generate_genome_star_index,kallistoQuant,0.1875
+generate_genome_star_index,fastqc 2,0.4736842105263158
+generate_genome_star_index,bamindex,0.5217391304347826
+generate_genome_star_index,featureCounts 2,0.1489361702127659
+generate_genome_star_index,tximeta,0.1578947368421053
+generate_genome_star_index,fastqScreen,0.1568627450980392
+generate_genome_star_index,multiqc 2,0.5263157894736843
+generate_genome_star_index,trimgalorePE,0.5217391304347826
+generate_genome_star_index,trimgaloreSE,0.5217391304347826
+generate_genome_star_index,multiqc 3,1.0
+generate_genome_star_index,salmon_quant_pe,1.0
+generate_genome_star_index,sort_bams,1.0
+generate_genome_star_index,edgeR,0.1578947368421053
+generate_genome_star_index,fastqc,0.2553191489361702
+generate_genome_star_index,sampleReads,0.3
+generate_genome_star_index,salmon_quant_se,1.0
+generate_genome_star_index,cutadapt 2,0.1458333333333333
+generate_genome_star_index,DRIMSeq,0.1785714285714286
+generate_genome_star_index,bigwig,0.5217391304347826
+generate_genome_star_index,fastqctrimmed,0.2553191489361702
+generate_genome_star_index,starSE,0.5217391304347826
+generate_genome_star_index,salmon_index,1.0
+cutadapt,MultiQC,0.5652173913043479
+cutadapt,sort_index_bams,0.4499999999999999
+cutadapt,hisat2,0.1206896551724138
+cutadapt,fastp_trimming_PE,0.4499999999999999
+cutadapt,startPE,0.5652173913043479
+cutadapt,fastp_trimming_SE,0.4499999999999999
+cutadapt,fastqc 3,0.4499999999999999
+cutadapt,fastqc_trimmed,0.55
+cutadapt,samlon_quant,0.65
+cutadapt,kallistoQuant,0.1458333333333333
+cutadapt,fastqc 2,0.55
+cutadapt,bamindex,0.5652173913043479
+cutadapt,featureCounts 2,0.1489361702127659
+cutadapt,tximeta,0.15
+cutadapt,fastqScreen,0.1372549019607842
+cutadapt,multiqc 2,0.6
+cutadapt,trimgalorePE,0.5652173913043479
+cutadapt,trimgaloreSE,0.5652173913043479
+cutadapt,multiqc 3,0.4499999999999999
+cutadapt,salmon_quant_pe,0.4499999999999999
+cutadapt,sort_bams,0.4499999999999999
+cutadapt,edgeR,0.15
+cutadapt,fastqc,0.276595744680851
+cutadapt,sampleReads,0.25
+cutadapt,salmon_quant_se,0.4499999999999999
+cutadapt,cutadapt 2,0.2916666666666666
+cutadapt,DRIMSeq,0.2142857142857143
+cutadapt,bigwig,0.5652173913043479
+cutadapt,fastqctrimmed,0.276595744680851
+cutadapt,starSE,0.5652173913043479
+cutadapt,salmon_index,0.4499999999999999
+MultiQC,sort_index_bams,0.5217391304347826
+MultiQC,hisat2,0.1034482758620689
+MultiQC,fastp_trimming_PE,0.5217391304347826
+MultiQC,startPE,1.0
+MultiQC,fastp_trimming_SE,0.5217391304347826
+MultiQC,fastqc 3,0.5217391304347826
+MultiQC,fastqc_trimmed,0.4782608695652174
+MultiQC,samlon_quant,0.6086956521739131
+MultiQC,kallistoQuant,0.1666666666666666
+MultiQC,fastqc 2,0.4782608695652174
+MultiQC,bamindex,1.0
+MultiQC,featureCounts 2,0.1489361702127659
+MultiQC,tximeta,0.1304347826086956
+MultiQC,fastqScreen,0.1568627450980392
+MultiQC,multiqc 2,0.5217391304347826
+MultiQC,trimgalorePE,1.0
+MultiQC,trimgaloreSE,1.0
+MultiQC,multiqc 3,0.5217391304347826
+MultiQC,salmon_quant_pe,0.5217391304347826
+MultiQC,sort_bams,0.5217391304347826
+MultiQC,edgeR,0.1304347826086956
+MultiQC,fastqc,0.4893617021276596
+MultiQC,sampleReads,0.2608695652173913
+MultiQC,salmon_quant_se,0.5217391304347826
+MultiQC,cutadapt 2,0.125
+MultiQC,DRIMSeq,0.25
+MultiQC,bigwig,1.0
+MultiQC,fastqctrimmed,0.4893617021276596
+MultiQC,starSE,1.0
+MultiQC,salmon_index,0.5217391304347826
+sort_index_bams,hisat2,0.1034482758620689
+sort_index_bams,fastp_trimming_PE,1.0
+sort_index_bams,startPE,0.5217391304347826
+sort_index_bams,fastp_trimming_SE,1.0
+sort_index_bams,fastqc 3,1.0
+sort_index_bams,fastqc_trimmed,0.4736842105263158
+sort_index_bams,samlon_quant,0.631578947368421
+sort_index_bams,kallistoQuant,0.1875
+sort_index_bams,fastqc 2,0.4736842105263158
+sort_index_bams,bamindex,0.5217391304347826
+sort_index_bams,featureCounts 2,0.1489361702127659
+sort_index_bams,tximeta,0.1578947368421053
+sort_index_bams,fastqScreen,0.1568627450980392
+sort_index_bams,multiqc 2,0.5263157894736843
+sort_index_bams,trimgalorePE,0.5217391304347826
+sort_index_bams,trimgaloreSE,0.5217391304347826
+sort_index_bams,multiqc 3,1.0
+sort_index_bams,salmon_quant_pe,1.0
+sort_index_bams,sort_bams,1.0
+sort_index_bams,edgeR,0.1578947368421053
+sort_index_bams,fastqc,0.2553191489361702
+sort_index_bams,sampleReads,0.3
+sort_index_bams,salmon_quant_se,1.0
+sort_index_bams,cutadapt 2,0.1458333333333333
+sort_index_bams,DRIMSeq,0.1785714285714286
+sort_index_bams,bigwig,0.5217391304347826
+sort_index_bams,fastqctrimmed,0.2553191489361702
+sort_index_bams,starSE,0.5217391304347826
+sort_index_bams,salmon_index,1.0
+hisat2,fastp_trimming_PE,0.1034482758620689
+hisat2,startPE,0.1034482758620689
+hisat2,fastp_trimming_SE,0.1034482758620689
+hisat2,fastqc 3,0.1034482758620689
+hisat2,fastqc_trimmed,0.1206896551724138
+hisat2,samlon_quant,0.1379310344827586
+hisat2,kallistoQuant,0.6896551724137931
+hisat2,fastqc 2,0.1206896551724138
+hisat2,bamindex,0.1034482758620689
+hisat2,featureCounts 2,0.6724137931034483
+hisat2,tximeta,0.0344827586206896
+hisat2,fastqScreen,0.6206896551724138
+hisat2,multiqc 2,0.1034482758620689
+hisat2,trimgalorePE,0.1034482758620689
+hisat2,trimgaloreSE,0.1034482758620689
+hisat2,multiqc 3,0.1034482758620689
+hisat2,salmon_quant_pe,0.1034482758620689
+hisat2,sort_bams,0.1034482758620689
+hisat2,edgeR,0.0344827586206896
+hisat2,fastqc,0.3620689655172413
+hisat2,sampleReads,0.2758620689655172
+hisat2,salmon_quant_se,0.1034482758620689
+hisat2,cutadapt 2,0.6724137931034483
+hisat2,DRIMSeq,0.3103448275862068
+hisat2,bigwig,0.1034482758620689
+hisat2,fastqctrimmed,0.3620689655172413
+hisat2,starSE,0.1034482758620689
+hisat2,salmon_index,0.1034482758620689
+fastp_trimming_PE,startPE,0.5217391304347826
+fastp_trimming_PE,fastp_trimming_SE,1.0
+fastp_trimming_PE,fastqc 3,1.0
+fastp_trimming_PE,fastqc_trimmed,0.4736842105263158
+fastp_trimming_PE,samlon_quant,0.631578947368421
+fastp_trimming_PE,kallistoQuant,0.1875
+fastp_trimming_PE,fastqc 2,0.4736842105263158
+fastp_trimming_PE,bamindex,0.5217391304347826
+fastp_trimming_PE,featureCounts 2,0.1489361702127659
+fastp_trimming_PE,tximeta,0.1578947368421053
+fastp_trimming_PE,fastqScreen,0.1568627450980392
+fastp_trimming_PE,multiqc 2,0.5263157894736843
+fastp_trimming_PE,trimgalorePE,0.5217391304347826
+fastp_trimming_PE,trimgaloreSE,0.5217391304347826
+fastp_trimming_PE,multiqc 3,1.0
+fastp_trimming_PE,salmon_quant_pe,1.0
+fastp_trimming_PE,sort_bams,1.0
+fastp_trimming_PE,edgeR,0.1578947368421053
+fastp_trimming_PE,fastqc,0.2553191489361702
+fastp_trimming_PE,sampleReads,0.3
+fastp_trimming_PE,salmon_quant_se,1.0
+fastp_trimming_PE,cutadapt 2,0.1458333333333333
+fastp_trimming_PE,DRIMSeq,0.1785714285714286
+fastp_trimming_PE,bigwig,0.5217391304347826
+fastp_trimming_PE,fastqctrimmed,0.2553191489361702
+fastp_trimming_PE,starSE,0.5217391304347826
+fastp_trimming_PE,salmon_index,1.0
+startPE,fastp_trimming_SE,0.5217391304347826
+startPE,fastqc 3,0.5217391304347826
+startPE,fastqc_trimmed,0.4782608695652174
+startPE,samlon_quant,0.6086956521739131
+startPE,kallistoQuant,0.1666666666666666
+startPE,fastqc 2,0.4782608695652174
+startPE,bamindex,1.0
+startPE,featureCounts 2,0.1489361702127659
+startPE,tximeta,0.1304347826086956
+startPE,fastqScreen,0.1568627450980392
+startPE,multiqc 2,0.5217391304347826
+startPE,trimgalorePE,1.0
+startPE,trimgaloreSE,1.0
+startPE,multiqc 3,0.5217391304347826
+startPE,salmon_quant_pe,0.5217391304347826
+startPE,sort_bams,0.5217391304347826
+startPE,edgeR,0.1304347826086956
+startPE,fastqc,0.4893617021276596
+startPE,sampleReads,0.2608695652173913
+startPE,salmon_quant_se,0.5217391304347826
+startPE,cutadapt 2,0.125
+startPE,DRIMSeq,0.25
+startPE,bigwig,1.0
+startPE,fastqctrimmed,0.4893617021276596
+startPE,starSE,1.0
+startPE,salmon_index,0.5217391304347826
+fastp_trimming_SE,fastqc 3,1.0
+fastp_trimming_SE,fastqc_trimmed,0.4736842105263158
+fastp_trimming_SE,samlon_quant,0.631578947368421
+fastp_trimming_SE,kallistoQuant,0.1875
+fastp_trimming_SE,fastqc 2,0.4736842105263158
+fastp_trimming_SE,bamindex,0.5217391304347826
+fastp_trimming_SE,featureCounts 2,0.1489361702127659
+fastp_trimming_SE,tximeta,0.1578947368421053
+fastp_trimming_SE,fastqScreen,0.1568627450980392
+fastp_trimming_SE,multiqc 2,0.5263157894736843
+fastp_trimming_SE,trimgalorePE,0.5217391304347826
+fastp_trimming_SE,trimgaloreSE,0.5217391304347826
+fastp_trimming_SE,multiqc 3,1.0
+fastp_trimming_SE,salmon_quant_pe,1.0
+fastp_trimming_SE,sort_bams,1.0
+fastp_trimming_SE,edgeR,0.1578947368421053
+fastp_trimming_SE,fastqc,0.2553191489361702
+fastp_trimming_SE,sampleReads,0.3
+fastp_trimming_SE,salmon_quant_se,1.0
+fastp_trimming_SE,cutadapt 2,0.1458333333333333
+fastp_trimming_SE,DRIMSeq,0.1785714285714286
+fastp_trimming_SE,bigwig,0.5217391304347826
+fastp_trimming_SE,fastqctrimmed,0.2553191489361702
+fastp_trimming_SE,starSE,0.5217391304347826
+fastp_trimming_SE,salmon_index,1.0
+fastqc 3,fastqc_trimmed,0.4736842105263158
+fastqc 3,samlon_quant,0.631578947368421
+fastqc 3,kallistoQuant,0.1875
+fastqc 3,fastqc 2,0.4736842105263158
+fastqc 3,bamindex,0.5217391304347826
+fastqc 3,featureCounts 2,0.1489361702127659
+fastqc 3,tximeta,0.1578947368421053
+fastqc 3,fastqScreen,0.1568627450980392
+fastqc 3,multiqc 2,0.5263157894736843
+fastqc 3,trimgalorePE,0.5217391304347826
+fastqc 3,trimgaloreSE,0.5217391304347826
+fastqc 3,multiqc 3,1.0
+fastqc 3,salmon_quant_pe,1.0
+fastqc 3,sort_bams,1.0
+fastqc 3,edgeR,0.1578947368421053
+fastqc 3,fastqc,0.2553191489361702
+fastqc 3,sampleReads,0.3
+fastqc 3,salmon_quant_se,1.0
+fastqc 3,cutadapt 2,0.1458333333333333
+fastqc 3,DRIMSeq,0.1785714285714286
+fastqc 3,bigwig,0.5217391304347826
+fastqc 3,fastqctrimmed,0.2553191489361702
+fastqc 3,starSE,0.5217391304347826
+fastqc 3,salmon_index,1.0
+fastqc_trimmed,samlon_quant,0.6111111111111112
+fastqc_trimmed,kallistoQuant,0.125
+fastqc_trimmed,fastqc 2,1.0
+fastqc_trimmed,bamindex,0.4782608695652174
+fastqc_trimmed,featureCounts 2,0.127659574468085
+fastqc_trimmed,tximeta,0.1999999999999999
+fastqc_trimmed,fastqScreen,0.1568627450980392
+fastqc_trimmed,multiqc 2,0.9333333333333332
+fastqc_trimmed,trimgalorePE,0.4782608695652174
+fastqc_trimmed,trimgaloreSE,0.4782608695652174
+fastqc_trimmed,multiqc 3,0.4736842105263158
+fastqc_trimmed,salmon_quant_pe,0.4736842105263158
+fastqc_trimmed,sort_bams,0.4736842105263158
+fastqc_trimmed,edgeR,0.1999999999999999
+fastqc_trimmed,fastqc,0.2553191489361702
+fastqc_trimmed,sampleReads,0.3
+fastqc_trimmed,salmon_quant_se,0.4736842105263158
+fastqc_trimmed,cutadapt 2,0.125
+fastqc_trimmed,DRIMSeq,0.1785714285714286
+fastqc_trimmed,bigwig,0.4782608695652174
+fastqc_trimmed,fastqctrimmed,0.2553191489361702
+fastqc_trimmed,starSE,0.4782608695652174
+fastqc_trimmed,salmon_index,0.4736842105263158
+samlon_quant,kallistoQuant,0.1666666666666666
+samlon_quant,fastqc 2,0.6111111111111112
+samlon_quant,bamindex,0.6086956521739131
+samlon_quant,featureCounts 2,0.1489361702127659
+samlon_quant,tximeta,0.1666666666666666
+samlon_quant,fastqScreen,0.1568627450980392
+samlon_quant,multiqc 2,0.6666666666666667
+samlon_quant,trimgalorePE,0.6086956521739131
+samlon_quant,trimgaloreSE,0.6086956521739131
+samlon_quant,multiqc 3,0.631578947368421
+samlon_quant,salmon_quant_pe,0.631578947368421
+samlon_quant,sort_bams,0.631578947368421
+samlon_quant,edgeR,0.1666666666666666
+samlon_quant,fastqc,0.2978723404255319
+samlon_quant,sampleReads,0.3
+samlon_quant,salmon_quant_se,0.631578947368421
+samlon_quant,cutadapt 2,0.1458333333333333
+samlon_quant,DRIMSeq,0.25
+samlon_quant,bigwig,0.6086956521739131
+samlon_quant,fastqctrimmed,0.2978723404255319
+samlon_quant,starSE,0.6086956521739131
+samlon_quant,salmon_index,0.631578947368421
+kallistoQuant,fastqc 2,0.125
+kallistoQuant,bamindex,0.1666666666666666
+kallistoQuant,featureCounts 2,0.8333333333333334
+kallistoQuant,tximeta,0.0416666666666666
+kallistoQuant,fastqScreen,0.803921568627451
+kallistoQuant,multiqc 2,0.125
+kallistoQuant,trimgalorePE,0.1666666666666666
+kallistoQuant,trimgaloreSE,0.1666666666666666
+kallistoQuant,multiqc 3,0.1875
+kallistoQuant,salmon_quant_pe,0.1875
+kallistoQuant,sort_bams,0.1875
+kallistoQuant,edgeR,0.0416666666666666
+kallistoQuant,fastqc,0.4791666666666666
+kallistoQuant,sampleReads,0.3333333333333333
+kallistoQuant,salmon_quant_se,0.1875
+kallistoQuant,cutadapt 2,0.8333333333333334
+kallistoQuant,DRIMSeq,0.375
+kallistoQuant,bigwig,0.1666666666666666
+kallistoQuant,fastqctrimmed,0.4791666666666666
+kallistoQuant,starSE,0.1666666666666666
+kallistoQuant,salmon_index,0.1875
+fastqc 2,bamindex,0.4782608695652174
+fastqc 2,featureCounts 2,0.127659574468085
+fastqc 2,tximeta,0.1999999999999999
+fastqc 2,fastqScreen,0.1568627450980392
+fastqc 2,multiqc 2,0.9333333333333332
+fastqc 2,trimgalorePE,0.4782608695652174
+fastqc 2,trimgaloreSE,0.4782608695652174
+fastqc 2,multiqc 3,0.4736842105263158
+fastqc 2,salmon_quant_pe,0.4736842105263158
+fastqc 2,sort_bams,0.4736842105263158
+fastqc 2,edgeR,0.1999999999999999
+fastqc 2,fastqc,0.2553191489361702
+fastqc 2,sampleReads,0.3
+fastqc 2,salmon_quant_se,0.4736842105263158
+fastqc 2,cutadapt 2,0.125
+fastqc 2,DRIMSeq,0.1785714285714286
+fastqc 2,bigwig,0.4782608695652174
+fastqc 2,fastqctrimmed,0.2553191489361702
+fastqc 2,starSE,0.4782608695652174
+fastqc 2,salmon_index,0.4736842105263158
+bamindex,featureCounts 2,0.1489361702127659
+bamindex,tximeta,0.1304347826086956
+bamindex,fastqScreen,0.1568627450980392
+bamindex,multiqc 2,0.5217391304347826
+bamindex,trimgalorePE,1.0
+bamindex,trimgaloreSE,1.0
+bamindex,multiqc 3,0.5217391304347826
+bamindex,salmon_quant_pe,0.5217391304347826
+bamindex,sort_bams,0.5217391304347826
+bamindex,edgeR,0.1304347826086956
+bamindex,fastqc,0.4893617021276596
+bamindex,sampleReads,0.2608695652173913
+bamindex,salmon_quant_se,0.5217391304347826
+bamindex,cutadapt 2,0.125
+bamindex,DRIMSeq,0.25
+bamindex,bigwig,1.0
+bamindex,fastqctrimmed,0.4893617021276596
+bamindex,starSE,1.0
+bamindex,salmon_index,0.5217391304347826
+featureCounts 2,tximeta,0.0425531914893616
+featureCounts 2,fastqScreen,0.8431372549019608
+featureCounts 2,multiqc 2,0.127659574468085
+featureCounts 2,trimgalorePE,0.1489361702127659
+featureCounts 2,trimgaloreSE,0.1489361702127659
+featureCounts 2,multiqc 3,0.1489361702127659
+featureCounts 2,salmon_quant_pe,0.1489361702127659
+featureCounts 2,sort_bams,0.1489361702127659
+featureCounts 2,edgeR,0.0425531914893616
+featureCounts 2,fastqc,0.4893617021276596
+featureCounts 2,sampleReads,0.3404255319148936
+featureCounts 2,salmon_quant_se,0.1489361702127659
+featureCounts 2,cutadapt 2,0.875
+featureCounts 2,DRIMSeq,0.4042553191489362
+featureCounts 2,bigwig,0.1489361702127659
+featureCounts 2,fastqctrimmed,0.4893617021276596
+featureCounts 2,starSE,0.1489361702127659
+featureCounts 2,salmon_index,0.1489361702127659
+tximeta,fastqScreen,0.0392156862745097
+tximeta,multiqc 2,0.2142857142857143
+tximeta,trimgalorePE,0.1304347826086956
+tximeta,trimgaloreSE,0.1304347826086956
+tximeta,multiqc 3,0.1578947368421053
+tximeta,salmon_quant_pe,0.1578947368421053
+tximeta,sort_bams,0.1578947368421053
+tximeta,edgeR,1.0
+tximeta,fastqc,0.0638297872340425
+tximeta,sampleReads,0.05
+tximeta,salmon_quant_se,0.1578947368421053
+tximeta,cutadapt 2,0.0416666666666666
+tximeta,DRIMSeq,0.1428571428571429
+tximeta,bigwig,0.1304347826086956
+tximeta,fastqctrimmed,0.0638297872340425
+tximeta,starSE,0.1304347826086956
+tximeta,salmon_index,0.1578947368421053
+fastqScreen,multiqc 2,0.1568627450980392
+fastqScreen,trimgalorePE,0.1568627450980392
+fastqScreen,trimgaloreSE,0.1568627450980392
+fastqScreen,multiqc 3,0.1568627450980392
+fastqScreen,salmon_quant_pe,0.1568627450980392
+fastqScreen,sort_bams,0.1568627450980392
+fastqScreen,edgeR,0.0392156862745097
+fastqScreen,fastqc,0.4901960784313726
+fastqScreen,sampleReads,0.3333333333333333
+fastqScreen,salmon_quant_se,0.1568627450980392
+fastqScreen,cutadapt 2,0.803921568627451
+fastqScreen,DRIMSeq,0.3921568627450981
+fastqScreen,bigwig,0.1568627450980392
+fastqScreen,fastqctrimmed,0.4901960784313726
+fastqScreen,starSE,0.1568627450980392
+fastqScreen,salmon_index,0.1568627450980392
+multiqc 2,trimgalorePE,0.5217391304347826
+multiqc 2,trimgaloreSE,0.5217391304347826
+multiqc 2,multiqc 3,0.5263157894736843
+multiqc 2,salmon_quant_pe,0.5263157894736843
+multiqc 2,sort_bams,0.5263157894736843
+multiqc 2,edgeR,0.2142857142857143
+multiqc 2,fastqc,0.2553191489361702
+multiqc 2,sampleReads,0.35
+multiqc 2,salmon_quant_se,0.5263157894736843
+multiqc 2,cutadapt 2,0.125
+multiqc 2,DRIMSeq,0.1785714285714286
+multiqc 2,bigwig,0.5217391304347826
+multiqc 2,fastqctrimmed,0.2553191489361702
+multiqc 2,starSE,0.5217391304347826
+multiqc 2,salmon_index,0.5263157894736843
+trimgalorePE,trimgaloreSE,1.0
+trimgalorePE,multiqc 3,0.5217391304347826
+trimgalorePE,salmon_quant_pe,0.5217391304347826
+trimgalorePE,sort_bams,0.5217391304347826
+trimgalorePE,edgeR,0.1304347826086956
+trimgalorePE,fastqc,0.4893617021276596
+trimgalorePE,sampleReads,0.2608695652173913
+trimgalorePE,salmon_quant_se,0.5217391304347826
+trimgalorePE,cutadapt 2,0.125
+trimgalorePE,DRIMSeq,0.25
+trimgalorePE,bigwig,1.0
+trimgalorePE,fastqctrimmed,0.4893617021276596
+trimgalorePE,starSE,1.0
+trimgalorePE,salmon_index,0.5217391304347826
+trimgaloreSE,multiqc 3,0.5217391304347826
+trimgaloreSE,salmon_quant_pe,0.5217391304347826
+trimgaloreSE,sort_bams,0.5217391304347826
+trimgaloreSE,edgeR,0.1304347826086956
+trimgaloreSE,fastqc,0.4893617021276596
+trimgaloreSE,sampleReads,0.2608695652173913
+trimgaloreSE,salmon_quant_se,0.5217391304347826
+trimgaloreSE,cutadapt 2,0.125
+trimgaloreSE,DRIMSeq,0.25
+trimgaloreSE,bigwig,1.0
+trimgaloreSE,fastqctrimmed,0.4893617021276596
+trimgaloreSE,starSE,1.0
+trimgaloreSE,salmon_index,0.5217391304347826
+multiqc 3,salmon_quant_pe,1.0
+multiqc 3,sort_bams,1.0
+multiqc 3,edgeR,0.1578947368421053
+multiqc 3,fastqc,0.2553191489361702
+multiqc 3,sampleReads,0.3
+multiqc 3,salmon_quant_se,1.0
+multiqc 3,cutadapt 2,0.1458333333333333
+multiqc 3,DRIMSeq,0.1785714285714286
+multiqc 3,bigwig,0.5217391304347826
+multiqc 3,fastqctrimmed,0.2553191489361702
+multiqc 3,starSE,0.5217391304347826
+multiqc 3,salmon_index,1.0
+salmon_quant_pe,sort_bams,1.0
+salmon_quant_pe,edgeR,0.1578947368421053
+salmon_quant_pe,fastqc,0.2553191489361702
+salmon_quant_pe,sampleReads,0.3
+salmon_quant_pe,salmon_quant_se,1.0
+salmon_quant_pe,cutadapt 2,0.1458333333333333
+salmon_quant_pe,DRIMSeq,0.1785714285714286
+salmon_quant_pe,bigwig,0.5217391304347826
+salmon_quant_pe,fastqctrimmed,0.2553191489361702
+salmon_quant_pe,starSE,0.5217391304347826
+salmon_quant_pe,salmon_index,1.0
+sort_bams,edgeR,0.1578947368421053
+sort_bams,fastqc,0.2553191489361702
+sort_bams,sampleReads,0.3
+sort_bams,salmon_quant_se,1.0
+sort_bams,cutadapt 2,0.1458333333333333
+sort_bams,DRIMSeq,0.1785714285714286
+sort_bams,bigwig,0.5217391304347826
+sort_bams,fastqctrimmed,0.2553191489361702
+sort_bams,starSE,0.5217391304347826
+sort_bams,salmon_index,1.0
+edgeR,fastqc,0.0638297872340425
+edgeR,sampleReads,0.05
+edgeR,salmon_quant_se,0.1578947368421053
+edgeR,cutadapt 2,0.0416666666666666
+edgeR,DRIMSeq,0.1428571428571429
+edgeR,bigwig,0.1304347826086956
+edgeR,fastqctrimmed,0.0638297872340425
+edgeR,starSE,0.1304347826086956
+edgeR,salmon_index,0.1578947368421053
+fastqc,sampleReads,0.127659574468085
+fastqc,salmon_quant_se,0.2553191489361702
+fastqc,cutadapt 2,0.5
+fastqc,DRIMSeq,0.574468085106383
+fastqc,bigwig,0.4893617021276596
+fastqc,fastqctrimmed,1.0
+fastqc,starSE,0.4893617021276596
+fastqc,salmon_index,0.2553191489361702
+sampleReads,salmon_quant_se,0.3
+sampleReads,cutadapt 2,0.3125
+sampleReads,DRIMSeq,0.0357142857142857
+sampleReads,bigwig,0.2608695652173913
+sampleReads,fastqctrimmed,0.127659574468085
+sampleReads,starSE,0.2608695652173913
+sampleReads,salmon_index,0.3
+salmon_quant_se,cutadapt 2,0.1458333333333333
+salmon_quant_se,DRIMSeq,0.1785714285714286
+salmon_quant_se,bigwig,0.5217391304347826
+salmon_quant_se,fastqctrimmed,0.2553191489361702
+salmon_quant_se,starSE,0.5217391304347826
+salmon_quant_se,salmon_index,1.0
+cutadapt 2,DRIMSeq,0.375
+cutadapt 2,bigwig,0.125
+cutadapt 2,fastqctrimmed,0.5
+cutadapt 2,starSE,0.125
+cutadapt 2,salmon_index,0.1458333333333333
+DRIMSeq,bigwig,0.25
+DRIMSeq,fastqctrimmed,0.574468085106383
+DRIMSeq,starSE,0.25
+DRIMSeq,salmon_index,0.1785714285714286
+bigwig,fastqctrimmed,0.4893617021276596
+bigwig,starSE,1.0
+bigwig,salmon_index,0.5217391304347826
+fastqctrimmed,starSE,0.4893617021276596
+fastqctrimmed,salmon_index,0.2553191489361702
+starSE,salmon_index,0.5217391304347826

@@ -1,2416 +1,2416 @@
-Pair,Similarity
-"trim_galore_pe,salmonPE",0.0
-"trim_galore_pe,mark_dups",0.0
-"trim_galore_pe,run_star_se",0.0
-"trim_galore_pe,salmonSE",0.0
-"trim_galore_pe,pass1",0.0
-"trim_galore_pe,run_star_pe",0.0
-"trim_galore_pe,rsem_norm",0.0
-"trim_galore_pe,fastqcrim",0.0
-"trim_galore_pe,generate_genome_star_index",0.0
-"trim_galore_pe,picard_rna_seq",0.0
-"trim_galore_pe,sortedbam_to_rmdup",0.0
-"trim_galore_pe,cutadapt",0.0
-"trim_galore_pe,MultiQC",0.0
-"trim_galore_pe,sort_index_bams",0.0
-"trim_galore_pe,hisat2",0.0
-"trim_galore_pe,fetch_unique_stringtie",0.0
-"trim_galore_pe,salmon_quant",0.0
-"trim_galore_pe,fastp_trimming_PE",0.0
-"trim_galore_pe,startPE",0.0
-"trim_galore_pe,compare_reference_stringtie",0.0
-"trim_galore_pe,RNA_SeqC",0.0
-"trim_galore_pe,fastp_trimming_SE",0.0
-"trim_galore_pe,sortedbam_to_counts",0.0
-"trim_galore_pe,fastqc 4",0.0
-"trim_galore_pe,fastqc 3",0.0
-"trim_galore_pe,fastqc_trimmed",0.0
-"trim_galore_pe,samtools_bam",0.0
-"trim_galore_pe,sortbam",0.0
-"trim_galore_pe,samlon_quant",0.0
-"trim_galore_pe,kallistoQuant",0.0
-"trim_galore_pe,fastqc 2",0.0
-"trim_galore_pe,tastq_to_bam_HISAT",0.0
-"trim_galore_pe,fastqc 5",0.0
-"trim_galore_pe,starindex",0.0
-"trim_galore_pe,merge_trimmed_PE",0.0
-"trim_galore_pe,bamindex",0.0
-"trim_galore_pe,map",0.0
-"trim_galore_pe,merge_trimmed_SE",0.0
-"trim_galore_pe,salmon_index_extended",0.0
-"trim_galore_pe,pass2",0.0
-"trim_galore_pe,featureCounts 2",0.0
-"trim_galore_pe,tximeta",0.0
-"trim_galore_pe,fastqScreen",0.0
-"trim_galore_pe,multiqc 2",0.0
-"trim_galore_pe,trimgalorePE",0.0
-"trim_galore_pe,samtools_flagstat",0.0
-"trim_galore_pe,featureCounts",0.0
-"trim_galore_pe,counts_matrix",0.0
-"trim_galore_pe,trimgaloreSE",0.0
-"trim_galore_pe,multiqc 3",0.0
-"trim_galore_pe,star_genome",0.0
-"trim_galore_pe,salmon_quant_pe",0.0
-"trim_galore_pe,sort_bams",0.0
-"trim_galore_pe,edgeR",0.0
-"trim_galore_pe,fastqc",0.0
-"trim_galore_pe,sampleReads",0.0
-"trim_galore_pe,salmon_quant_se",0.0
-"trim_galore_pe,feature_counts",0.0
-"trim_galore_pe,cutadapt 2",0.0
-"trim_galore_pe,DRIMSeq",0.0
-"trim_galore_pe,bigwig",0.0
-"trim_galore_pe,fastqctrimmed",0.0
-"trim_galore_pe,fastQCtrimmed 2",0.0
-"trim_galore_pe,run_multiqc",0.0
-"trim_galore_pe,starSE",0.0
-"trim_galore_pe,trim_fasq_fastqc",0.0
-"trim_galore_pe,fastqc 6",0.0
-"trim_galore_pe,salmon_index",0.0
-"trim_galore_pe,expressbam",0.0
-"salmonPE,mark_dups",0.0
-"salmonPE,run_star_se",0.0
-"salmonPE,salmonSE",0.0
-"salmonPE,pass1",0.0
-"salmonPE,run_star_pe",0.0
-"salmonPE,rsem_norm",0.0
-"salmonPE,fastqcrim",0.0
-"salmonPE,generate_genome_star_index",0.0
-"salmonPE,picard_rna_seq",0.0
-"salmonPE,sortedbam_to_rmdup",0.0
-"salmonPE,cutadapt",0.0
-"salmonPE,MultiQC",0.0
-"salmonPE,sort_index_bams",0.0
-"salmonPE,hisat2",0.0
-"salmonPE,fetch_unique_stringtie",0.0
-"salmonPE,salmon_quant",0.0
-"salmonPE,fastp_trimming_PE",0.0
-"salmonPE,startPE",0.0
-"salmonPE,compare_reference_stringtie",0.0
-"salmonPE,RNA_SeqC",0.0
-"salmonPE,fastp_trimming_SE",0.0
-"salmonPE,sortedbam_to_counts",0.0
-"salmonPE,fastqc 4",0.0
-"salmonPE,fastqc 3",0.0
-"salmonPE,fastqc_trimmed",0.0
-"salmonPE,samtools_bam",0.0
-"salmonPE,sortbam",0.0
-"salmonPE,samlon_quant",0.0
-"salmonPE,kallistoQuant",0.0
-"salmonPE,fastqc 2",0.0
-"salmonPE,tastq_to_bam_HISAT",0.0
-"salmonPE,fastqc 5",0.0
-"salmonPE,starindex",0.0
-"salmonPE,merge_trimmed_PE",0.0
-"salmonPE,bamindex",0.0
-"salmonPE,map",0.0
-"salmonPE,merge_trimmed_SE",0.0
-"salmonPE,salmon_index_extended",0.0
-"salmonPE,pass2",0.0
-"salmonPE,featureCounts 2",0.0
-"salmonPE,tximeta",0.0
-"salmonPE,fastqScreen",0.0
-"salmonPE,multiqc 2",0.0
-"salmonPE,trimgalorePE",0.0
-"salmonPE,samtools_flagstat",0.0
-"salmonPE,featureCounts",0.0
-"salmonPE,counts_matrix",0.0
-"salmonPE,trimgaloreSE",0.0
-"salmonPE,multiqc 3",0.0
-"salmonPE,star_genome",0.0
-"salmonPE,salmon_quant_pe",0.0
-"salmonPE,sort_bams",0.0
-"salmonPE,edgeR",0.0
-"salmonPE,fastqc",0.0
-"salmonPE,sampleReads",0.0
-"salmonPE,salmon_quant_se",0.0
-"salmonPE,feature_counts",0.0
-"salmonPE,cutadapt 2",0.0
-"salmonPE,DRIMSeq",0.0
-"salmonPE,bigwig",0.0
-"salmonPE,fastqctrimmed",0.0
-"salmonPE,fastQCtrimmed 2",0.0
-"salmonPE,run_multiqc",0.0
-"salmonPE,starSE",0.0
-"salmonPE,trim_fasq_fastqc",0.0
-"salmonPE,fastqc 6",0.0
-"salmonPE,salmon_index",0.0
-"salmonPE,expressbam",0.0
-"mark_dups,run_star_se",0.0
-"mark_dups,salmonSE",0.0
-"mark_dups,pass1",0.0
-"mark_dups,run_star_pe",0.0
-"mark_dups,rsem_norm",0.0
-"mark_dups,fastqcrim",0.0
-"mark_dups,generate_genome_star_index",0.0
-"mark_dups,picard_rna_seq",0.0
-"mark_dups,sortedbam_to_rmdup",0.0
-"mark_dups,cutadapt",0.0
-"mark_dups,MultiQC",0.0
-"mark_dups,sort_index_bams",0.0
-"mark_dups,hisat2",0.0
-"mark_dups,fetch_unique_stringtie",0.0
-"mark_dups,salmon_quant",0.0
-"mark_dups,fastp_trimming_PE",0.0
-"mark_dups,startPE",0.0
-"mark_dups,compare_reference_stringtie",0.0
-"mark_dups,RNA_SeqC",0.0
-"mark_dups,fastp_trimming_SE",0.0
-"mark_dups,sortedbam_to_counts",0.0
-"mark_dups,fastqc 4",0.0
-"mark_dups,fastqc 3",0.0
-"mark_dups,fastqc_trimmed",0.0
-"mark_dups,samtools_bam",0.0
-"mark_dups,sortbam",0.0
-"mark_dups,samlon_quant",0.0
-"mark_dups,kallistoQuant",0.0
-"mark_dups,fastqc 2",0.0
-"mark_dups,tastq_to_bam_HISAT",0.0
-"mark_dups,fastqc 5",0.0
-"mark_dups,starindex",0.0
-"mark_dups,merge_trimmed_PE",0.0
-"mark_dups,bamindex",0.0
-"mark_dups,map",0.0
-"mark_dups,merge_trimmed_SE",0.0
-"mark_dups,salmon_index_extended",0.0
-"mark_dups,pass2",0.0
-"mark_dups,featureCounts 2",0.0
-"mark_dups,tximeta",0.0
-"mark_dups,fastqScreen",0.0
-"mark_dups,multiqc 2",0.0
-"mark_dups,trimgalorePE",0.0
-"mark_dups,samtools_flagstat",0.0
-"mark_dups,featureCounts",0.0
-"mark_dups,counts_matrix",0.0
-"mark_dups,trimgaloreSE",0.0
-"mark_dups,multiqc 3",0.0
-"mark_dups,star_genome",0.0
-"mark_dups,salmon_quant_pe",0.0
-"mark_dups,sort_bams",0.0
-"mark_dups,edgeR",0.0
-"mark_dups,fastqc",0.0
-"mark_dups,sampleReads",0.0
-"mark_dups,salmon_quant_se",0.0
-"mark_dups,feature_counts",0.0
-"mark_dups,cutadapt 2",0.0
-"mark_dups,DRIMSeq",0.0
-"mark_dups,bigwig",0.0
-"mark_dups,fastqctrimmed",0.0
-"mark_dups,fastQCtrimmed 2",0.0
-"mark_dups,run_multiqc",0.0
-"mark_dups,starSE",0.0
-"mark_dups,trim_fasq_fastqc",0.0
-"mark_dups,fastqc 6",0.0
-"mark_dups,salmon_index",0.0
-"mark_dups,expressbam",0.0
-"run_star_se,salmonSE",0.0
-"run_star_se,pass1",0.0
-"run_star_se,run_star_pe",0.0
-"run_star_se,rsem_norm",0.0
-"run_star_se,fastqcrim",0.0
-"run_star_se,generate_genome_star_index",0.0
-"run_star_se,picard_rna_seq",0.0
-"run_star_se,sortedbam_to_rmdup",0.0
-"run_star_se,cutadapt",0.0
-"run_star_se,MultiQC",0.0
-"run_star_se,sort_index_bams",0.0
-"run_star_se,hisat2",0.0
-"run_star_se,fetch_unique_stringtie",0.0
-"run_star_se,salmon_quant",0.0
-"run_star_se,fastp_trimming_PE",0.0
-"run_star_se,startPE",0.0
-"run_star_se,compare_reference_stringtie",0.0
-"run_star_se,RNA_SeqC",0.0
-"run_star_se,fastp_trimming_SE",0.0
-"run_star_se,sortedbam_to_counts",0.0
-"run_star_se,fastqc 4",0.0
-"run_star_se,fastqc 3",0.0
-"run_star_se,fastqc_trimmed",0.0
-"run_star_se,samtools_bam",0.0
-"run_star_se,sortbam",0.0
-"run_star_se,samlon_quant",0.0
-"run_star_se,kallistoQuant",0.0
-"run_star_se,fastqc 2",0.0
-"run_star_se,tastq_to_bam_HISAT",0.0
-"run_star_se,fastqc 5",0.0
-"run_star_se,starindex",0.0
-"run_star_se,merge_trimmed_PE",0.0
-"run_star_se,bamindex",0.0
-"run_star_se,map",0.0
-"run_star_se,merge_trimmed_SE",0.0
-"run_star_se,salmon_index_extended",0.0
-"run_star_se,pass2",0.0
-"run_star_se,featureCounts 2",0.0
-"run_star_se,tximeta",0.0
-"run_star_se,fastqScreen",0.0
-"run_star_se,multiqc 2",0.0
-"run_star_se,trimgalorePE",0.0
-"run_star_se,samtools_flagstat",0.0
-"run_star_se,featureCounts",0.0
-"run_star_se,counts_matrix",0.0
-"run_star_se,trimgaloreSE",0.0
-"run_star_se,multiqc 3",0.0
-"run_star_se,star_genome",0.0
-"run_star_se,salmon_quant_pe",0.0
-"run_star_se,sort_bams",0.0
-"run_star_se,edgeR",0.0
-"run_star_se,fastqc",0.0
-"run_star_se,sampleReads",0.0
-"run_star_se,salmon_quant_se",0.0
-"run_star_se,feature_counts",0.0
-"run_star_se,cutadapt 2",0.0
-"run_star_se,DRIMSeq",0.0
-"run_star_se,bigwig",0.0
-"run_star_se,fastqctrimmed",0.0
-"run_star_se,fastQCtrimmed 2",0.0
-"run_star_se,run_multiqc",0.0
-"run_star_se,starSE",0.0
-"run_star_se,trim_fasq_fastqc",0.0
-"run_star_se,fastqc 6",0.0
-"run_star_se,salmon_index",0.0
-"run_star_se,expressbam",0.0
-"salmonSE,pass1",0.0
-"salmonSE,run_star_pe",0.0
-"salmonSE,rsem_norm",0.0
-"salmonSE,fastqcrim",0.0
-"salmonSE,generate_genome_star_index",0.0
-"salmonSE,picard_rna_seq",0.0
-"salmonSE,sortedbam_to_rmdup",0.0
-"salmonSE,cutadapt",0.0
-"salmonSE,MultiQC",0.0
-"salmonSE,sort_index_bams",0.0
-"salmonSE,hisat2",0.0
-"salmonSE,fetch_unique_stringtie",0.0
-"salmonSE,salmon_quant",0.0
-"salmonSE,fastp_trimming_PE",0.0
-"salmonSE,startPE",0.0
-"salmonSE,compare_reference_stringtie",0.0
-"salmonSE,RNA_SeqC",0.0
-"salmonSE,fastp_trimming_SE",0.0
-"salmonSE,sortedbam_to_counts",0.0
-"salmonSE,fastqc 4",0.0
-"salmonSE,fastqc 3",0.0
-"salmonSE,fastqc_trimmed",0.0
-"salmonSE,samtools_bam",0.0
-"salmonSE,sortbam",0.0
-"salmonSE,samlon_quant",0.0
-"salmonSE,kallistoQuant",0.0
-"salmonSE,fastqc 2",0.0
-"salmonSE,tastq_to_bam_HISAT",0.0
-"salmonSE,fastqc 5",0.0
-"salmonSE,starindex",0.0
-"salmonSE,merge_trimmed_PE",0.0
-"salmonSE,bamindex",0.0
-"salmonSE,map",0.0
-"salmonSE,merge_trimmed_SE",0.0
-"salmonSE,salmon_index_extended",0.0
-"salmonSE,pass2",0.0
-"salmonSE,featureCounts 2",0.0
-"salmonSE,tximeta",0.0
-"salmonSE,fastqScreen",0.0
-"salmonSE,multiqc 2",0.0
-"salmonSE,trimgalorePE",0.0
-"salmonSE,samtools_flagstat",0.0
-"salmonSE,featureCounts",0.0
-"salmonSE,counts_matrix",0.0
-"salmonSE,trimgaloreSE",0.0
-"salmonSE,multiqc 3",0.0
-"salmonSE,star_genome",0.0
-"salmonSE,salmon_quant_pe",0.0
-"salmonSE,sort_bams",0.0
-"salmonSE,edgeR",0.0
-"salmonSE,fastqc",0.0
-"salmonSE,sampleReads",0.0
-"salmonSE,salmon_quant_se",0.0
-"salmonSE,feature_counts",0.0
-"salmonSE,cutadapt 2",0.0
-"salmonSE,DRIMSeq",0.0
-"salmonSE,bigwig",0.0
-"salmonSE,fastqctrimmed",0.0
-"salmonSE,fastQCtrimmed 2",0.0
-"salmonSE,run_multiqc",0.0
-"salmonSE,starSE",0.0
-"salmonSE,trim_fasq_fastqc",0.0
-"salmonSE,fastqc 6",0.0
-"salmonSE,salmon_index",0.0
-"salmonSE,expressbam",0.0
-"pass1,run_star_pe",0.0
-"pass1,rsem_norm",0.0
-"pass1,fastqcrim",0.0
-"pass1,generate_genome_star_index",0.0
-"pass1,picard_rna_seq",0.0
-"pass1,sortedbam_to_rmdup",0.0
-"pass1,cutadapt",0.0
-"pass1,MultiQC",0.0
-"pass1,sort_index_bams",0.0
-"pass1,hisat2",0.0
-"pass1,fetch_unique_stringtie",0.0
-"pass1,salmon_quant",0.0
-"pass1,fastp_trimming_PE",0.0
-"pass1,startPE",0.0
-"pass1,compare_reference_stringtie",0.0
-"pass1,RNA_SeqC",0.0
-"pass1,fastp_trimming_SE",0.0
-"pass1,sortedbam_to_counts",0.0
-"pass1,fastqc 4",0.0
-"pass1,fastqc 3",0.0
-"pass1,fastqc_trimmed",0.0
-"pass1,samtools_bam",0.0
-"pass1,sortbam",0.0
-"pass1,samlon_quant",0.0
-"pass1,kallistoQuant",0.0
-"pass1,fastqc 2",0.0
-"pass1,tastq_to_bam_HISAT",0.0
-"pass1,fastqc 5",0.0
-"pass1,starindex",0.0
-"pass1,merge_trimmed_PE",0.0
-"pass1,bamindex",0.0
-"pass1,map",0.0
-"pass1,merge_trimmed_SE",0.0
-"pass1,salmon_index_extended",0.0
-"pass1,pass2",0.0
-"pass1,featureCounts 2",0.0
-"pass1,tximeta",0.0
-"pass1,fastqScreen",0.0
-"pass1,multiqc 2",0.0
-"pass1,trimgalorePE",0.0
-"pass1,samtools_flagstat",0.0
-"pass1,featureCounts",0.0
-"pass1,counts_matrix",0.0
-"pass1,trimgaloreSE",0.0
-"pass1,multiqc 3",0.0
-"pass1,star_genome",0.0
-"pass1,salmon_quant_pe",0.0
-"pass1,sort_bams",0.0
-"pass1,edgeR",0.0
-"pass1,fastqc",0.0
-"pass1,sampleReads",0.0
-"pass1,salmon_quant_se",0.0
-"pass1,feature_counts",0.0
-"pass1,cutadapt 2",0.0
-"pass1,DRIMSeq",0.0
-"pass1,bigwig",0.0
-"pass1,fastqctrimmed",0.0
-"pass1,fastQCtrimmed 2",0.0
-"pass1,run_multiqc",0.0
-"pass1,starSE",0.0
-"pass1,trim_fasq_fastqc",0.0
-"pass1,fastqc 6",0.0
-"pass1,salmon_index",0.0
-"pass1,expressbam",0.0
-"run_star_pe,rsem_norm",0.0
-"run_star_pe,fastqcrim",0.0
-"run_star_pe,generate_genome_star_index",0.0
-"run_star_pe,picard_rna_seq",0.0
-"run_star_pe,sortedbam_to_rmdup",0.0
-"run_star_pe,cutadapt",0.0
-"run_star_pe,MultiQC",0.0
-"run_star_pe,sort_index_bams",0.0
-"run_star_pe,hisat2",0.0
-"run_star_pe,fetch_unique_stringtie",0.0
-"run_star_pe,salmon_quant",0.0
-"run_star_pe,fastp_trimming_PE",0.0
-"run_star_pe,startPE",0.0
-"run_star_pe,compare_reference_stringtie",0.0
-"run_star_pe,RNA_SeqC",0.0
-"run_star_pe,fastp_trimming_SE",0.0
-"run_star_pe,sortedbam_to_counts",0.0
-"run_star_pe,fastqc 4",0.0
-"run_star_pe,fastqc 3",0.0
-"run_star_pe,fastqc_trimmed",0.0
-"run_star_pe,samtools_bam",0.0
-"run_star_pe,sortbam",0.0
-"run_star_pe,samlon_quant",0.0
-"run_star_pe,kallistoQuant",0.0
-"run_star_pe,fastqc 2",0.0
-"run_star_pe,tastq_to_bam_HISAT",0.0
-"run_star_pe,fastqc 5",0.0
-"run_star_pe,starindex",0.0
-"run_star_pe,merge_trimmed_PE",0.0
-"run_star_pe,bamindex",0.0
-"run_star_pe,map",0.0
-"run_star_pe,merge_trimmed_SE",0.0
-"run_star_pe,salmon_index_extended",0.0
-"run_star_pe,pass2",0.0
-"run_star_pe,featureCounts 2",0.0
-"run_star_pe,tximeta",0.0
-"run_star_pe,fastqScreen",0.0
-"run_star_pe,multiqc 2",0.0
-"run_star_pe,trimgalorePE",0.0
-"run_star_pe,samtools_flagstat",0.0
-"run_star_pe,featureCounts",0.0
-"run_star_pe,counts_matrix",0.0
-"run_star_pe,trimgaloreSE",0.0
-"run_star_pe,multiqc 3",0.0
-"run_star_pe,star_genome",0.0
-"run_star_pe,salmon_quant_pe",0.0
-"run_star_pe,sort_bams",0.0
-"run_star_pe,edgeR",0.0
-"run_star_pe,fastqc",0.0
-"run_star_pe,sampleReads",0.0
-"run_star_pe,salmon_quant_se",0.0
-"run_star_pe,feature_counts",0.0
-"run_star_pe,cutadapt 2",0.0
-"run_star_pe,DRIMSeq",0.0
-"run_star_pe,bigwig",0.0
-"run_star_pe,fastqctrimmed",0.0
-"run_star_pe,fastQCtrimmed 2",0.0
-"run_star_pe,run_multiqc",0.0
-"run_star_pe,starSE",0.0
-"run_star_pe,trim_fasq_fastqc",0.0
-"run_star_pe,fastqc 6",0.0
-"run_star_pe,salmon_index",0.0
-"run_star_pe,expressbam",0.0
-"rsem_norm,fastqcrim",0.0
-"rsem_norm,generate_genome_star_index",0.0
-"rsem_norm,picard_rna_seq",0.0
-"rsem_norm,sortedbam_to_rmdup",0.0
-"rsem_norm,cutadapt",0.0
-"rsem_norm,MultiQC",0.0
-"rsem_norm,sort_index_bams",0.0
-"rsem_norm,hisat2",0.0
-"rsem_norm,fetch_unique_stringtie",0.0
-"rsem_norm,salmon_quant",0.0
-"rsem_norm,fastp_trimming_PE",0.0
-"rsem_norm,startPE",0.0
-"rsem_norm,compare_reference_stringtie",0.0
-"rsem_norm,RNA_SeqC",0.0
-"rsem_norm,fastp_trimming_SE",0.0
-"rsem_norm,sortedbam_to_counts",0.0
-"rsem_norm,fastqc 4",0.0
-"rsem_norm,fastqc 3",0.0
-"rsem_norm,fastqc_trimmed",0.0
-"rsem_norm,samtools_bam",0.0
-"rsem_norm,sortbam",0.0
-"rsem_norm,samlon_quant",0.0
-"rsem_norm,kallistoQuant",0.0
-"rsem_norm,fastqc 2",0.0
-"rsem_norm,tastq_to_bam_HISAT",0.0
-"rsem_norm,fastqc 5",0.0
-"rsem_norm,starindex",0.0
-"rsem_norm,merge_trimmed_PE",0.0
-"rsem_norm,bamindex",0.0
-"rsem_norm,map",0.0
-"rsem_norm,merge_trimmed_SE",0.0
-"rsem_norm,salmon_index_extended",0.0
-"rsem_norm,pass2",0.0
-"rsem_norm,featureCounts 2",0.0
-"rsem_norm,tximeta",0.0
-"rsem_norm,fastqScreen",0.0
-"rsem_norm,multiqc 2",0.0
-"rsem_norm,trimgalorePE",0.0
-"rsem_norm,samtools_flagstat",0.0
-"rsem_norm,featureCounts",0.0
-"rsem_norm,counts_matrix",0.0
-"rsem_norm,trimgaloreSE",0.0
-"rsem_norm,multiqc 3",0.0
-"rsem_norm,star_genome",0.0
-"rsem_norm,salmon_quant_pe",0.0
-"rsem_norm,sort_bams",0.0
-"rsem_norm,edgeR",0.0
-"rsem_norm,fastqc",0.0
-"rsem_norm,sampleReads",0.0
-"rsem_norm,salmon_quant_se",0.0
-"rsem_norm,feature_counts",0.0
-"rsem_norm,cutadapt 2",0.0
-"rsem_norm,DRIMSeq",0.0
-"rsem_norm,bigwig",0.0
-"rsem_norm,fastqctrimmed",0.0
-"rsem_norm,fastQCtrimmed 2",0.0
-"rsem_norm,run_multiqc",0.0
-"rsem_norm,starSE",0.0
-"rsem_norm,trim_fasq_fastqc",0.0
-"rsem_norm,fastqc 6",0.0
-"rsem_norm,salmon_index",0.0
-"rsem_norm,expressbam",0.0
-"fastqcrim,generate_genome_star_index",0.0
-"fastqcrim,picard_rna_seq",0.0
-"fastqcrim,sortedbam_to_rmdup",0.0
-"fastqcrim,cutadapt",0.0
-"fastqcrim,MultiQC",0.0
-"fastqcrim,sort_index_bams",0.0
-"fastqcrim,hisat2",0.0
-"fastqcrim,fetch_unique_stringtie",0.0
-"fastqcrim,salmon_quant",0.0
-"fastqcrim,fastp_trimming_PE",0.0
-"fastqcrim,startPE",0.0
-"fastqcrim,compare_reference_stringtie",0.0
-"fastqcrim,RNA_SeqC",0.0
-"fastqcrim,fastp_trimming_SE",0.0
-"fastqcrim,sortedbam_to_counts",0.0
-"fastqcrim,fastqc 4",0.0
-"fastqcrim,fastqc 3",0.0
-"fastqcrim,fastqc_trimmed",0.0
-"fastqcrim,samtools_bam",0.0
-"fastqcrim,sortbam",0.0
-"fastqcrim,samlon_quant",0.0
-"fastqcrim,kallistoQuant",0.0
-"fastqcrim,fastqc 2",0.0
-"fastqcrim,tastq_to_bam_HISAT",0.0
-"fastqcrim,fastqc 5",0.0
-"fastqcrim,starindex",0.0
-"fastqcrim,merge_trimmed_PE",0.0
-"fastqcrim,bamindex",0.0
-"fastqcrim,map",0.0
-"fastqcrim,merge_trimmed_SE",0.0
-"fastqcrim,salmon_index_extended",0.0
-"fastqcrim,pass2",0.0
-"fastqcrim,featureCounts 2",0.0
-"fastqcrim,tximeta",0.0
-"fastqcrim,fastqScreen",0.0
-"fastqcrim,multiqc 2",0.0
-"fastqcrim,trimgalorePE",0.0
-"fastqcrim,samtools_flagstat",0.0
-"fastqcrim,featureCounts",0.0
-"fastqcrim,counts_matrix",0.0
-"fastqcrim,trimgaloreSE",0.0
-"fastqcrim,multiqc 3",0.0
-"fastqcrim,star_genome",0.0
-"fastqcrim,salmon_quant_pe",0.0
-"fastqcrim,sort_bams",0.0
-"fastqcrim,edgeR",0.0
-"fastqcrim,fastqc",0.0
-"fastqcrim,sampleReads",0.0
-"fastqcrim,salmon_quant_se",0.0
-"fastqcrim,feature_counts",0.0
-"fastqcrim,cutadapt 2",0.0
-"fastqcrim,DRIMSeq",0.0
-"fastqcrim,bigwig",0.0
-"fastqcrim,fastqctrimmed",0.0
-"fastqcrim,fastQCtrimmed 2",0.0
-"fastqcrim,run_multiqc",0.0
-"fastqcrim,starSE",0.0
-"fastqcrim,trim_fasq_fastqc",0.0
-"fastqcrim,fastqc 6",0.0
-"fastqcrim,salmon_index",0.0
-"fastqcrim,expressbam",0.0
-"generate_genome_star_index,picard_rna_seq",0.0
-"generate_genome_star_index,sortedbam_to_rmdup",0.0
-"generate_genome_star_index,cutadapt",0.0
-"generate_genome_star_index,MultiQC",0.0
-"generate_genome_star_index,sort_index_bams",0.0
-"generate_genome_star_index,hisat2",0.0
-"generate_genome_star_index,fetch_unique_stringtie",0.0
-"generate_genome_star_index,salmon_quant",0.0
-"generate_genome_star_index,fastp_trimming_PE",0.0
-"generate_genome_star_index,startPE",0.0
-"generate_genome_star_index,compare_reference_stringtie",0.0
-"generate_genome_star_index,RNA_SeqC",0.0
-"generate_genome_star_index,fastp_trimming_SE",0.0
-"generate_genome_star_index,sortedbam_to_counts",0.0
-"generate_genome_star_index,fastqc 4",0.0
-"generate_genome_star_index,fastqc 3",0.0
-"generate_genome_star_index,fastqc_trimmed",0.0
-"generate_genome_star_index,samtools_bam",0.0
-"generate_genome_star_index,sortbam",0.0
-"generate_genome_star_index,samlon_quant",0.0
-"generate_genome_star_index,kallistoQuant",0.0
-"generate_genome_star_index,fastqc 2",0.0
-"generate_genome_star_index,tastq_to_bam_HISAT",0.0
-"generate_genome_star_index,fastqc 5",0.0
-"generate_genome_star_index,starindex",0.0
-"generate_genome_star_index,merge_trimmed_PE",0.0
-"generate_genome_star_index,bamindex",0.0
-"generate_genome_star_index,map",0.0
-"generate_genome_star_index,merge_trimmed_SE",0.0
-"generate_genome_star_index,salmon_index_extended",0.0
-"generate_genome_star_index,pass2",0.0
-"generate_genome_star_index,featureCounts 2",0.0
-"generate_genome_star_index,tximeta",0.0
-"generate_genome_star_index,fastqScreen",0.0
-"generate_genome_star_index,multiqc 2",0.0
-"generate_genome_star_index,trimgalorePE",0.0
-"generate_genome_star_index,samtools_flagstat",0.0
-"generate_genome_star_index,featureCounts",0.0
-"generate_genome_star_index,counts_matrix",0.0
-"generate_genome_star_index,trimgaloreSE",0.0
-"generate_genome_star_index,multiqc 3",0.0
-"generate_genome_star_index,star_genome",0.0
-"generate_genome_star_index,salmon_quant_pe",0.0
-"generate_genome_star_index,sort_bams",0.0
-"generate_genome_star_index,edgeR",0.0
-"generate_genome_star_index,fastqc",0.0
-"generate_genome_star_index,sampleReads",0.0
-"generate_genome_star_index,salmon_quant_se",0.0
-"generate_genome_star_index,feature_counts",0.0
-"generate_genome_star_index,cutadapt 2",0.0
-"generate_genome_star_index,DRIMSeq",0.0
-"generate_genome_star_index,bigwig",0.0
-"generate_genome_star_index,fastqctrimmed",0.0
-"generate_genome_star_index,fastQCtrimmed 2",0.0
-"generate_genome_star_index,run_multiqc",0.0
-"generate_genome_star_index,starSE",0.0
-"generate_genome_star_index,trim_fasq_fastqc",0.0
-"generate_genome_star_index,fastqc 6",0.0
-"generate_genome_star_index,salmon_index",0.0
-"generate_genome_star_index,expressbam",0.0
-"picard_rna_seq,sortedbam_to_rmdup",0.0
-"picard_rna_seq,cutadapt",0.0
-"picard_rna_seq,MultiQC",0.0
-"picard_rna_seq,sort_index_bams",0.0
-"picard_rna_seq,hisat2",0.0
-"picard_rna_seq,fetch_unique_stringtie",0.0
-"picard_rna_seq,salmon_quant",0.0
-"picard_rna_seq,fastp_trimming_PE",0.0
-"picard_rna_seq,startPE",0.0
-"picard_rna_seq,compare_reference_stringtie",0.0
-"picard_rna_seq,RNA_SeqC",0.0
-"picard_rna_seq,fastp_trimming_SE",0.0
-"picard_rna_seq,sortedbam_to_counts",0.0
-"picard_rna_seq,fastqc 4",0.0
-"picard_rna_seq,fastqc 3",0.0
-"picard_rna_seq,fastqc_trimmed",0.0
-"picard_rna_seq,samtools_bam",0.0
-"picard_rna_seq,sortbam",0.0
-"picard_rna_seq,samlon_quant",0.0
-"picard_rna_seq,kallistoQuant",0.0
-"picard_rna_seq,fastqc 2",0.0
-"picard_rna_seq,tastq_to_bam_HISAT",0.0
-"picard_rna_seq,fastqc 5",0.0
-"picard_rna_seq,starindex",0.0
-"picard_rna_seq,merge_trimmed_PE",0.0
-"picard_rna_seq,bamindex",0.0
-"picard_rna_seq,map",0.0
-"picard_rna_seq,merge_trimmed_SE",0.0
-"picard_rna_seq,salmon_index_extended",0.0
-"picard_rna_seq,pass2",0.0
-"picard_rna_seq,featureCounts 2",0.0
-"picard_rna_seq,tximeta",0.0
-"picard_rna_seq,fastqScreen",0.0
-"picard_rna_seq,multiqc 2",0.0
-"picard_rna_seq,trimgalorePE",0.0
-"picard_rna_seq,samtools_flagstat",0.0
-"picard_rna_seq,featureCounts",0.0
-"picard_rna_seq,counts_matrix",0.0
-"picard_rna_seq,trimgaloreSE",0.0
-"picard_rna_seq,multiqc 3",0.0
-"picard_rna_seq,star_genome",0.0
-"picard_rna_seq,salmon_quant_pe",0.0
-"picard_rna_seq,sort_bams",0.0
-"picard_rna_seq,edgeR",0.0
-"picard_rna_seq,fastqc",0.0
-"picard_rna_seq,sampleReads",0.0
-"picard_rna_seq,salmon_quant_se",0.0
-"picard_rna_seq,feature_counts",0.0
-"picard_rna_seq,cutadapt 2",0.0
-"picard_rna_seq,DRIMSeq",0.0
-"picard_rna_seq,bigwig",0.0
-"picard_rna_seq,fastqctrimmed",0.0
-"picard_rna_seq,fastQCtrimmed 2",0.0
-"picard_rna_seq,run_multiqc",0.0
-"picard_rna_seq,starSE",0.0
-"picard_rna_seq,trim_fasq_fastqc",0.0
-"picard_rna_seq,fastqc 6",0.0
-"picard_rna_seq,salmon_index",0.0
-"picard_rna_seq,expressbam",0.0
-"sortedbam_to_rmdup,cutadapt",0.0
-"sortedbam_to_rmdup,MultiQC",0.0
-"sortedbam_to_rmdup,sort_index_bams",0.0
-"sortedbam_to_rmdup,hisat2",0.0
-"sortedbam_to_rmdup,fetch_unique_stringtie",0.0
-"sortedbam_to_rmdup,salmon_quant",0.0
-"sortedbam_to_rmdup,fastp_trimming_PE",0.0
-"sortedbam_to_rmdup,startPE",0.0
-"sortedbam_to_rmdup,compare_reference_stringtie",0.0
-"sortedbam_to_rmdup,RNA_SeqC",0.0
-"sortedbam_to_rmdup,fastp_trimming_SE",0.0
-"sortedbam_to_rmdup,sortedbam_to_counts",0.0
-"sortedbam_to_rmdup,fastqc 4",0.0
-"sortedbam_to_rmdup,fastqc 3",0.0
-"sortedbam_to_rmdup,fastqc_trimmed",0.0
-"sortedbam_to_rmdup,samtools_bam",0.0
-"sortedbam_to_rmdup,sortbam",0.0
-"sortedbam_to_rmdup,samlon_quant",0.0
-"sortedbam_to_rmdup,kallistoQuant",0.0
-"sortedbam_to_rmdup,fastqc 2",0.0
-"sortedbam_to_rmdup,tastq_to_bam_HISAT",0.0
-"sortedbam_to_rmdup,fastqc 5",0.0
-"sortedbam_to_rmdup,starindex",0.0
-"sortedbam_to_rmdup,merge_trimmed_PE",0.0
-"sortedbam_to_rmdup,bamindex",0.0
-"sortedbam_to_rmdup,map",0.0
-"sortedbam_to_rmdup,merge_trimmed_SE",0.0
-"sortedbam_to_rmdup,salmon_index_extended",0.0
-"sortedbam_to_rmdup,pass2",0.0
-"sortedbam_to_rmdup,featureCounts 2",0.0
-"sortedbam_to_rmdup,tximeta",0.0
-"sortedbam_to_rmdup,fastqScreen",0.0
-"sortedbam_to_rmdup,multiqc 2",0.0
-"sortedbam_to_rmdup,trimgalorePE",0.0
-"sortedbam_to_rmdup,samtools_flagstat",0.0
-"sortedbam_to_rmdup,featureCounts",0.0
-"sortedbam_to_rmdup,counts_matrix",0.0
-"sortedbam_to_rmdup,trimgaloreSE",0.0
-"sortedbam_to_rmdup,multiqc 3",0.0
-"sortedbam_to_rmdup,star_genome",0.0
-"sortedbam_to_rmdup,salmon_quant_pe",0.0
-"sortedbam_to_rmdup,sort_bams",0.0
-"sortedbam_to_rmdup,edgeR",0.0
-"sortedbam_to_rmdup,fastqc",0.0
-"sortedbam_to_rmdup,sampleReads",0.0
-"sortedbam_to_rmdup,salmon_quant_se",0.0
-"sortedbam_to_rmdup,feature_counts",0.0
-"sortedbam_to_rmdup,cutadapt 2",0.0
-"sortedbam_to_rmdup,DRIMSeq",0.0
-"sortedbam_to_rmdup,bigwig",0.0
-"sortedbam_to_rmdup,fastqctrimmed",0.0
-"sortedbam_to_rmdup,fastQCtrimmed 2",0.0
-"sortedbam_to_rmdup,run_multiqc",0.0
-"sortedbam_to_rmdup,starSE",0.0
-"sortedbam_to_rmdup,trim_fasq_fastqc",0.0
-"sortedbam_to_rmdup,fastqc 6",0.0
-"sortedbam_to_rmdup,salmon_index",0.0
-"sortedbam_to_rmdup,expressbam",0.0
-"cutadapt,MultiQC",0.0
-"cutadapt,sort_index_bams",0.0
-"cutadapt,hisat2",0.0
-"cutadapt,fetch_unique_stringtie",0.0
-"cutadapt,salmon_quant",0.0
-"cutadapt,fastp_trimming_PE",0.0
-"cutadapt,startPE",0.0
-"cutadapt,compare_reference_stringtie",0.0
-"cutadapt,RNA_SeqC",0.0
-"cutadapt,fastp_trimming_SE",0.0
-"cutadapt,sortedbam_to_counts",0.0
-"cutadapt,fastqc 4",0.0
-"cutadapt,fastqc 3",0.0
-"cutadapt,fastqc_trimmed",0.0
-"cutadapt,samtools_bam",0.0
-"cutadapt,sortbam",0.0
-"cutadapt,samlon_quant",0.0
-"cutadapt,kallistoQuant",0.0
-"cutadapt,fastqc 2",0.0
-"cutadapt,tastq_to_bam_HISAT",0.0
-"cutadapt,fastqc 5",0.0
-"cutadapt,starindex",0.0
-"cutadapt,merge_trimmed_PE",0.0
-"cutadapt,bamindex",0.0
-"cutadapt,map",0.0
-"cutadapt,merge_trimmed_SE",0.0
-"cutadapt,salmon_index_extended",0.0
-"cutadapt,pass2",0.0
-"cutadapt,featureCounts 2",0.0
-"cutadapt,tximeta",0.0
-"cutadapt,fastqScreen",0.0
-"cutadapt,multiqc 2",0.0
-"cutadapt,trimgalorePE",0.0
-"cutadapt,samtools_flagstat",0.0
-"cutadapt,featureCounts",0.0
-"cutadapt,counts_matrix",0.0
-"cutadapt,trimgaloreSE",0.0
-"cutadapt,multiqc 3",0.0
-"cutadapt,star_genome",0.0
-"cutadapt,salmon_quant_pe",0.0
-"cutadapt,sort_bams",0.0
-"cutadapt,edgeR",0.0
-"cutadapt,fastqc",0.0
-"cutadapt,sampleReads",0.0
-"cutadapt,salmon_quant_se",0.0
-"cutadapt,feature_counts",0.0
-"cutadapt,cutadapt 2",1.0
-"cutadapt,DRIMSeq",0.0
-"cutadapt,bigwig",0.0
-"cutadapt,fastqctrimmed",0.0
-"cutadapt,fastQCtrimmed 2",0.0
-"cutadapt,run_multiqc",0.0
-"cutadapt,starSE",0.0
-"cutadapt,trim_fasq_fastqc",0.0
-"cutadapt,fastqc 6",0.0
-"cutadapt,salmon_index",0.0
-"cutadapt,expressbam",0.0
-"MultiQC,sort_index_bams",0.0
-"MultiQC,hisat2",0.0
-"MultiQC,fetch_unique_stringtie",0.0
-"MultiQC,salmon_quant",0.0
-"MultiQC,fastp_trimming_PE",0.0
-"MultiQC,startPE",0.0
-"MultiQC,compare_reference_stringtie",0.0
-"MultiQC,RNA_SeqC",0.0
-"MultiQC,fastp_trimming_SE",0.0
-"MultiQC,sortedbam_to_counts",0.0
-"MultiQC,fastqc 4",0.0
-"MultiQC,fastqc 3",0.0
-"MultiQC,fastqc_trimmed",0.0
-"MultiQC,samtools_bam",0.0
-"MultiQC,sortbam",0.0
-"MultiQC,samlon_quant",0.0
-"MultiQC,kallistoQuant",0.0
-"MultiQC,fastqc 2",0.0
-"MultiQC,tastq_to_bam_HISAT",0.0
-"MultiQC,fastqc 5",0.0
-"MultiQC,starindex",0.0
-"MultiQC,merge_trimmed_PE",0.0
-"MultiQC,bamindex",0.0
-"MultiQC,map",0.0
-"MultiQC,merge_trimmed_SE",0.0
-"MultiQC,salmon_index_extended",0.0
-"MultiQC,pass2",0.0
-"MultiQC,featureCounts 2",0.0
-"MultiQC,tximeta",0.0
-"MultiQC,fastqScreen",0.0
-"MultiQC,multiqc 2",1.0
-"MultiQC,trimgalorePE",0.0
-"MultiQC,samtools_flagstat",0.0
-"MultiQC,featureCounts",0.0
-"MultiQC,counts_matrix",0.0
-"MultiQC,trimgaloreSE",0.0
-"MultiQC,multiqc 3",1.0
-"MultiQC,star_genome",0.0
-"MultiQC,salmon_quant_pe",0.0
-"MultiQC,sort_bams",0.0
-"MultiQC,edgeR",0.0
-"MultiQC,fastqc",0.0
-"MultiQC,sampleReads",0.0
-"MultiQC,salmon_quant_se",0.0
-"MultiQC,feature_counts",0.0
-"MultiQC,cutadapt 2",0.0
-"MultiQC,DRIMSeq",0.0
-"MultiQC,bigwig",0.0
-"MultiQC,fastqctrimmed",0.0
-"MultiQC,fastQCtrimmed 2",0.0
-"MultiQC,run_multiqc",0.0
-"MultiQC,starSE",0.0
-"MultiQC,trim_fasq_fastqc",0.0
-"MultiQC,fastqc 6",0.0
-"MultiQC,salmon_index",0.0
-"MultiQC,expressbam",0.0
-"sort_index_bams,hisat2",0.0
-"sort_index_bams,fetch_unique_stringtie",0.0
-"sort_index_bams,salmon_quant",0.0
-"sort_index_bams,fastp_trimming_PE",0.0
-"sort_index_bams,startPE",0.0
-"sort_index_bams,compare_reference_stringtie",0.0
-"sort_index_bams,RNA_SeqC",0.0
-"sort_index_bams,fastp_trimming_SE",0.0
-"sort_index_bams,sortedbam_to_counts",0.0
-"sort_index_bams,fastqc 4",0.0
-"sort_index_bams,fastqc 3",0.0
-"sort_index_bams,fastqc_trimmed",0.0
-"sort_index_bams,samtools_bam",0.0
-"sort_index_bams,sortbam",0.0
-"sort_index_bams,samlon_quant",0.0
-"sort_index_bams,kallistoQuant",0.0
-"sort_index_bams,fastqc 2",0.0
-"sort_index_bams,tastq_to_bam_HISAT",0.0
-"sort_index_bams,fastqc 5",0.0
-"sort_index_bams,starindex",0.0
-"sort_index_bams,merge_trimmed_PE",0.0
-"sort_index_bams,bamindex",0.0
-"sort_index_bams,map",0.0
-"sort_index_bams,merge_trimmed_SE",0.0
-"sort_index_bams,salmon_index_extended",0.0
-"sort_index_bams,pass2",0.0
-"sort_index_bams,featureCounts 2",0.0
-"sort_index_bams,tximeta",0.0
-"sort_index_bams,fastqScreen",0.0
-"sort_index_bams,multiqc 2",0.0
-"sort_index_bams,trimgalorePE",0.0
-"sort_index_bams,samtools_flagstat",0.0
-"sort_index_bams,featureCounts",0.0
-"sort_index_bams,counts_matrix",0.0
-"sort_index_bams,trimgaloreSE",0.0
-"sort_index_bams,multiqc 3",0.0
-"sort_index_bams,star_genome",0.0
-"sort_index_bams,salmon_quant_pe",0.0
-"sort_index_bams,sort_bams",0.0
-"sort_index_bams,edgeR",0.0
-"sort_index_bams,fastqc",0.0
-"sort_index_bams,sampleReads",0.0
-"sort_index_bams,salmon_quant_se",0.0
-"sort_index_bams,feature_counts",0.0
-"sort_index_bams,cutadapt 2",0.0
-"sort_index_bams,DRIMSeq",0.0
-"sort_index_bams,bigwig",0.0
-"sort_index_bams,fastqctrimmed",0.0
-"sort_index_bams,fastQCtrimmed 2",0.0
-"sort_index_bams,run_multiqc",0.0
-"sort_index_bams,starSE",0.0
-"sort_index_bams,trim_fasq_fastqc",0.0
-"sort_index_bams,fastqc 6",0.0
-"sort_index_bams,salmon_index",0.0
-"sort_index_bams,expressbam",0.0
-"hisat2,fetch_unique_stringtie",0.0
-"hisat2,salmon_quant",0.0
-"hisat2,fastp_trimming_PE",0.0
-"hisat2,startPE",0.0
-"hisat2,compare_reference_stringtie",0.0
-"hisat2,RNA_SeqC",0.0
-"hisat2,fastp_trimming_SE",0.0
-"hisat2,sortedbam_to_counts",0.0
-"hisat2,fastqc 4",0.0
-"hisat2,fastqc 3",0.0
-"hisat2,fastqc_trimmed",0.0
-"hisat2,samtools_bam",0.0
-"hisat2,sortbam",0.0
-"hisat2,samlon_quant",0.0
-"hisat2,kallistoQuant",0.0
-"hisat2,fastqc 2",0.0
-"hisat2,tastq_to_bam_HISAT",0.0
-"hisat2,fastqc 5",0.0
-"hisat2,starindex",0.0
-"hisat2,merge_trimmed_PE",0.0
-"hisat2,bamindex",0.0
-"hisat2,map",0.0
-"hisat2,merge_trimmed_SE",0.0
-"hisat2,salmon_index_extended",0.0
-"hisat2,pass2",0.0
-"hisat2,featureCounts 2",0.0
-"hisat2,tximeta",0.0
-"hisat2,fastqScreen",0.0
-"hisat2,multiqc 2",0.0
-"hisat2,trimgalorePE",0.0
-"hisat2,samtools_flagstat",0.0
-"hisat2,featureCounts",0.0
-"hisat2,counts_matrix",0.0
-"hisat2,trimgaloreSE",0.0
-"hisat2,multiqc 3",0.0
-"hisat2,star_genome",0.0
-"hisat2,salmon_quant_pe",0.0
-"hisat2,sort_bams",0.0
-"hisat2,edgeR",0.0
-"hisat2,fastqc",0.0
-"hisat2,sampleReads",0.0
-"hisat2,salmon_quant_se",0.0
-"hisat2,feature_counts",0.0
-"hisat2,cutadapt 2",0.0
-"hisat2,DRIMSeq",0.0
-"hisat2,bigwig",0.0
-"hisat2,fastqctrimmed",0.0
-"hisat2,fastQCtrimmed 2",0.0
-"hisat2,run_multiqc",0.0
-"hisat2,starSE",0.0
-"hisat2,trim_fasq_fastqc",0.0
-"hisat2,fastqc 6",0.0
-"hisat2,salmon_index",0.0
-"hisat2,expressbam",0.0
-"fetch_unique_stringtie,salmon_quant",0.0
-"fetch_unique_stringtie,fastp_trimming_PE",0.0
-"fetch_unique_stringtie,startPE",0.0
-"fetch_unique_stringtie,compare_reference_stringtie",0.0
-"fetch_unique_stringtie,RNA_SeqC",0.0
-"fetch_unique_stringtie,fastp_trimming_SE",0.0
-"fetch_unique_stringtie,sortedbam_to_counts",0.0
-"fetch_unique_stringtie,fastqc 4",0.0
-"fetch_unique_stringtie,fastqc 3",0.0
-"fetch_unique_stringtie,fastqc_trimmed",0.0
-"fetch_unique_stringtie,samtools_bam",0.0
-"fetch_unique_stringtie,sortbam",0.0
-"fetch_unique_stringtie,samlon_quant",0.0
-"fetch_unique_stringtie,kallistoQuant",0.0
-"fetch_unique_stringtie,fastqc 2",0.0
-"fetch_unique_stringtie,tastq_to_bam_HISAT",0.0
-"fetch_unique_stringtie,fastqc 5",0.0
-"fetch_unique_stringtie,starindex",0.0
-"fetch_unique_stringtie,merge_trimmed_PE",0.0
-"fetch_unique_stringtie,bamindex",0.0
-"fetch_unique_stringtie,map",0.0
-"fetch_unique_stringtie,merge_trimmed_SE",0.0
-"fetch_unique_stringtie,salmon_index_extended",0.0
-"fetch_unique_stringtie,pass2",0.0
-"fetch_unique_stringtie,featureCounts 2",0.0
-"fetch_unique_stringtie,tximeta",0.0
-"fetch_unique_stringtie,fastqScreen",0.0
-"fetch_unique_stringtie,multiqc 2",0.0
-"fetch_unique_stringtie,trimgalorePE",0.0
-"fetch_unique_stringtie,samtools_flagstat",0.0
-"fetch_unique_stringtie,featureCounts",0.0
-"fetch_unique_stringtie,counts_matrix",0.0
-"fetch_unique_stringtie,trimgaloreSE",0.0
-"fetch_unique_stringtie,multiqc 3",0.0
-"fetch_unique_stringtie,star_genome",0.0
-"fetch_unique_stringtie,salmon_quant_pe",0.0
-"fetch_unique_stringtie,sort_bams",0.0
-"fetch_unique_stringtie,edgeR",0.0
-"fetch_unique_stringtie,fastqc",0.0
-"fetch_unique_stringtie,sampleReads",0.0
-"fetch_unique_stringtie,salmon_quant_se",0.0
-"fetch_unique_stringtie,feature_counts",0.0
-"fetch_unique_stringtie,cutadapt 2",0.0
-"fetch_unique_stringtie,DRIMSeq",0.0
-"fetch_unique_stringtie,bigwig",0.0
-"fetch_unique_stringtie,fastqctrimmed",0.0
-"fetch_unique_stringtie,fastQCtrimmed 2",0.0
-"fetch_unique_stringtie,run_multiqc",0.0
-"fetch_unique_stringtie,starSE",0.0
-"fetch_unique_stringtie,trim_fasq_fastqc",0.0
-"fetch_unique_stringtie,fastqc 6",0.0
-"fetch_unique_stringtie,salmon_index",0.0
-"fetch_unique_stringtie,expressbam",0.0
-"salmon_quant,fastp_trimming_PE",0.0
-"salmon_quant,startPE",0.0
-"salmon_quant,compare_reference_stringtie",0.0
-"salmon_quant,RNA_SeqC",0.0
-"salmon_quant,fastp_trimming_SE",0.0
-"salmon_quant,sortedbam_to_counts",0.0
-"salmon_quant,fastqc 4",0.0
-"salmon_quant,fastqc 3",0.0
-"salmon_quant,fastqc_trimmed",0.0
-"salmon_quant,samtools_bam",0.0
-"salmon_quant,sortbam",0.0
-"salmon_quant,samlon_quant",1.0
-"salmon_quant,kallistoQuant",0.0
-"salmon_quant,fastqc 2",0.0
-"salmon_quant,tastq_to_bam_HISAT",0.0
-"salmon_quant,fastqc 5",0.0
-"salmon_quant,starindex",0.0
-"salmon_quant,merge_trimmed_PE",0.0
-"salmon_quant,bamindex",0.0
-"salmon_quant,map",0.0
-"salmon_quant,merge_trimmed_SE",0.0
-"salmon_quant,salmon_index_extended",0.0
-"salmon_quant,pass2",0.0
-"salmon_quant,featureCounts 2",0.0
-"salmon_quant,tximeta",0.0
-"salmon_quant,fastqScreen",0.0
-"salmon_quant,multiqc 2",0.0
-"salmon_quant,trimgalorePE",0.0
-"salmon_quant,samtools_flagstat",0.0
-"salmon_quant,featureCounts",0.0
-"salmon_quant,counts_matrix",0.0
-"salmon_quant,trimgaloreSE",0.0
-"salmon_quant,multiqc 3",0.0
-"salmon_quant,star_genome",0.0
-"salmon_quant,salmon_quant_pe",0.0
-"salmon_quant,sort_bams",0.0
-"salmon_quant,edgeR",0.0
-"salmon_quant,fastqc",0.0
-"salmon_quant,sampleReads",0.0
-"salmon_quant,salmon_quant_se",0.0
-"salmon_quant,feature_counts",0.0
-"salmon_quant,cutadapt 2",0.0
-"salmon_quant,DRIMSeq",0.0
-"salmon_quant,bigwig",0.0
-"salmon_quant,fastqctrimmed",0.0
-"salmon_quant,fastQCtrimmed 2",0.0
-"salmon_quant,run_multiqc",0.0
-"salmon_quant,starSE",0.0
-"salmon_quant,trim_fasq_fastqc",0.0
-"salmon_quant,fastqc 6",0.0
-"salmon_quant,salmon_index",0.0
-"salmon_quant,expressbam",0.0
-"fastp_trimming_PE,startPE",0.0
-"fastp_trimming_PE,compare_reference_stringtie",0.0
-"fastp_trimming_PE,RNA_SeqC",0.0
-"fastp_trimming_PE,fastp_trimming_SE",1.0
-"fastp_trimming_PE,sortedbam_to_counts",0.0
-"fastp_trimming_PE,fastqc 4",0.0
-"fastp_trimming_PE,fastqc 3",0.0
-"fastp_trimming_PE,fastqc_trimmed",0.0
-"fastp_trimming_PE,samtools_bam",0.0
-"fastp_trimming_PE,sortbam",0.0
-"fastp_trimming_PE,samlon_quant",0.0
-"fastp_trimming_PE,kallistoQuant",0.0
-"fastp_trimming_PE,fastqc 2",0.0
-"fastp_trimming_PE,tastq_to_bam_HISAT",0.0
-"fastp_trimming_PE,fastqc 5",0.0
-"fastp_trimming_PE,starindex",0.0
-"fastp_trimming_PE,merge_trimmed_PE",0.0
-"fastp_trimming_PE,bamindex",0.0
-"fastp_trimming_PE,map",0.0
-"fastp_trimming_PE,merge_trimmed_SE",0.0
-"fastp_trimming_PE,salmon_index_extended",0.0
-"fastp_trimming_PE,pass2",0.0
-"fastp_trimming_PE,featureCounts 2",0.0
-"fastp_trimming_PE,tximeta",0.0
-"fastp_trimming_PE,fastqScreen",0.0
-"fastp_trimming_PE,multiqc 2",0.0
-"fastp_trimming_PE,trimgalorePE",0.0
-"fastp_trimming_PE,samtools_flagstat",0.0
-"fastp_trimming_PE,featureCounts",0.0
-"fastp_trimming_PE,counts_matrix",0.0
-"fastp_trimming_PE,trimgaloreSE",0.0
-"fastp_trimming_PE,multiqc 3",0.0
-"fastp_trimming_PE,star_genome",0.0
-"fastp_trimming_PE,salmon_quant_pe",0.0
-"fastp_trimming_PE,sort_bams",0.0
-"fastp_trimming_PE,edgeR",0.0
-"fastp_trimming_PE,fastqc",0.0
-"fastp_trimming_PE,sampleReads",0.0
-"fastp_trimming_PE,salmon_quant_se",0.0
-"fastp_trimming_PE,feature_counts",0.0
-"fastp_trimming_PE,cutadapt 2",0.0
-"fastp_trimming_PE,DRIMSeq",0.0
-"fastp_trimming_PE,bigwig",0.0
-"fastp_trimming_PE,fastqctrimmed",0.0
-"fastp_trimming_PE,fastQCtrimmed 2",0.0
-"fastp_trimming_PE,run_multiqc",0.0
-"fastp_trimming_PE,starSE",0.0
-"fastp_trimming_PE,trim_fasq_fastqc",0.0
-"fastp_trimming_PE,fastqc 6",0.0
-"fastp_trimming_PE,salmon_index",0.0
-"fastp_trimming_PE,expressbam",0.0
-"startPE,compare_reference_stringtie",0.0
-"startPE,RNA_SeqC",0.0
-"startPE,fastp_trimming_SE",0.0
-"startPE,sortedbam_to_counts",0.0
-"startPE,fastqc 4",0.0
-"startPE,fastqc 3",0.0
-"startPE,fastqc_trimmed",0.0
-"startPE,samtools_bam",0.0
-"startPE,sortbam",0.0
-"startPE,samlon_quant",0.0
-"startPE,kallistoQuant",0.0
-"startPE,fastqc 2",0.0
-"startPE,tastq_to_bam_HISAT",0.0
-"startPE,fastqc 5",0.0
-"startPE,starindex",0.0
-"startPE,merge_trimmed_PE",0.0
-"startPE,bamindex",0.0
-"startPE,map",0.0
-"startPE,merge_trimmed_SE",0.0
-"startPE,salmon_index_extended",0.0
-"startPE,pass2",0.0
-"startPE,featureCounts 2",0.0
-"startPE,tximeta",0.0
-"startPE,fastqScreen",0.0
-"startPE,multiqc 2",0.0
-"startPE,trimgalorePE",0.0
-"startPE,samtools_flagstat",0.0
-"startPE,featureCounts",0.0
-"startPE,counts_matrix",0.0
-"startPE,trimgaloreSE",0.0
-"startPE,multiqc 3",0.0
-"startPE,star_genome",0.0
-"startPE,salmon_quant_pe",0.0
-"startPE,sort_bams",0.0
-"startPE,edgeR",0.0
-"startPE,fastqc",0.0
-"startPE,sampleReads",0.0
-"startPE,salmon_quant_se",0.0
-"startPE,feature_counts",0.0
-"startPE,cutadapt 2",0.0
-"startPE,DRIMSeq",0.0
-"startPE,bigwig",0.0
-"startPE,fastqctrimmed",0.0
-"startPE,fastQCtrimmed 2",0.0
-"startPE,run_multiqc",0.0
-"startPE,starSE",0.0
-"startPE,trim_fasq_fastqc",0.0
-"startPE,fastqc 6",0.0
-"startPE,salmon_index",0.0
-"startPE,expressbam",0.0
-"compare_reference_stringtie,RNA_SeqC",0.0
-"compare_reference_stringtie,fastp_trimming_SE",0.0
-"compare_reference_stringtie,sortedbam_to_counts",0.0
-"compare_reference_stringtie,fastqc 4",0.0
-"compare_reference_stringtie,fastqc 3",0.0
-"compare_reference_stringtie,fastqc_trimmed",0.0
-"compare_reference_stringtie,samtools_bam",0.0
-"compare_reference_stringtie,sortbam",0.0
-"compare_reference_stringtie,samlon_quant",0.0
-"compare_reference_stringtie,kallistoQuant",0.0
-"compare_reference_stringtie,fastqc 2",0.0
-"compare_reference_stringtie,tastq_to_bam_HISAT",0.0
-"compare_reference_stringtie,fastqc 5",0.0
-"compare_reference_stringtie,starindex",0.0
-"compare_reference_stringtie,merge_trimmed_PE",0.0
-"compare_reference_stringtie,bamindex",0.0
-"compare_reference_stringtie,map",0.0
-"compare_reference_stringtie,merge_trimmed_SE",0.0
-"compare_reference_stringtie,salmon_index_extended",0.0
-"compare_reference_stringtie,pass2",0.0
-"compare_reference_stringtie,featureCounts 2",0.0
-"compare_reference_stringtie,tximeta",0.0
-"compare_reference_stringtie,fastqScreen",0.0
-"compare_reference_stringtie,multiqc 2",0.0
-"compare_reference_stringtie,trimgalorePE",0.0
-"compare_reference_stringtie,samtools_flagstat",0.0
-"compare_reference_stringtie,featureCounts",0.0
-"compare_reference_stringtie,counts_matrix",0.0
-"compare_reference_stringtie,trimgaloreSE",0.0
-"compare_reference_stringtie,multiqc 3",0.0
-"compare_reference_stringtie,star_genome",0.0
-"compare_reference_stringtie,salmon_quant_pe",0.0
-"compare_reference_stringtie,sort_bams",0.0
-"compare_reference_stringtie,edgeR",0.0
-"compare_reference_stringtie,fastqc",0.0
-"compare_reference_stringtie,sampleReads",0.0
-"compare_reference_stringtie,salmon_quant_se",0.0
-"compare_reference_stringtie,feature_counts",0.0
-"compare_reference_stringtie,cutadapt 2",0.0
-"compare_reference_stringtie,DRIMSeq",0.0
-"compare_reference_stringtie,bigwig",0.0
-"compare_reference_stringtie,fastqctrimmed",0.0
-"compare_reference_stringtie,fastQCtrimmed 2",0.0
-"compare_reference_stringtie,run_multiqc",0.0
-"compare_reference_stringtie,starSE",0.0
-"compare_reference_stringtie,trim_fasq_fastqc",0.0
-"compare_reference_stringtie,fastqc 6",0.0
-"compare_reference_stringtie,salmon_index",0.0
-"compare_reference_stringtie,expressbam",0.0
-"RNA_SeqC,fastp_trimming_SE",0.0
-"RNA_SeqC,sortedbam_to_counts",0.0
-"RNA_SeqC,fastqc 4",0.0
-"RNA_SeqC,fastqc 3",0.0
-"RNA_SeqC,fastqc_trimmed",0.0
-"RNA_SeqC,samtools_bam",0.0
-"RNA_SeqC,sortbam",0.0
-"RNA_SeqC,samlon_quant",0.0
-"RNA_SeqC,kallistoQuant",0.0
-"RNA_SeqC,fastqc 2",0.0
-"RNA_SeqC,tastq_to_bam_HISAT",0.0
-"RNA_SeqC,fastqc 5",0.0
-"RNA_SeqC,starindex",0.0
-"RNA_SeqC,merge_trimmed_PE",0.0
-"RNA_SeqC,bamindex",0.0
-"RNA_SeqC,map",0.0
-"RNA_SeqC,merge_trimmed_SE",0.0
-"RNA_SeqC,salmon_index_extended",0.0
-"RNA_SeqC,pass2",0.0
-"RNA_SeqC,featureCounts 2",0.0
-"RNA_SeqC,tximeta",0.0
-"RNA_SeqC,fastqScreen",0.0
-"RNA_SeqC,multiqc 2",0.0
-"RNA_SeqC,trimgalorePE",0.0
-"RNA_SeqC,samtools_flagstat",0.0
-"RNA_SeqC,featureCounts",0.0
-"RNA_SeqC,counts_matrix",0.0
-"RNA_SeqC,trimgaloreSE",0.0
-"RNA_SeqC,multiqc 3",0.0
-"RNA_SeqC,star_genome",0.0
-"RNA_SeqC,salmon_quant_pe",0.0
-"RNA_SeqC,sort_bams",0.0
-"RNA_SeqC,edgeR",0.0
-"RNA_SeqC,fastqc",0.0
-"RNA_SeqC,sampleReads",0.0
-"RNA_SeqC,salmon_quant_se",0.0
-"RNA_SeqC,feature_counts",0.0
-"RNA_SeqC,cutadapt 2",0.0
-"RNA_SeqC,DRIMSeq",0.0
-"RNA_SeqC,bigwig",0.0
-"RNA_SeqC,fastqctrimmed",0.0
-"RNA_SeqC,fastQCtrimmed 2",0.0
-"RNA_SeqC,run_multiqc",0.0
-"RNA_SeqC,starSE",0.0
-"RNA_SeqC,trim_fasq_fastqc",0.0
-"RNA_SeqC,fastqc 6",0.0
-"RNA_SeqC,salmon_index",0.0
-"RNA_SeqC,expressbam",0.0
-"fastp_trimming_SE,sortedbam_to_counts",0.0
-"fastp_trimming_SE,fastqc 4",0.0
-"fastp_trimming_SE,fastqc 3",0.0
-"fastp_trimming_SE,fastqc_trimmed",0.0
-"fastp_trimming_SE,samtools_bam",0.0
-"fastp_trimming_SE,sortbam",0.0
-"fastp_trimming_SE,samlon_quant",0.0
-"fastp_trimming_SE,kallistoQuant",0.0
-"fastp_trimming_SE,fastqc 2",0.0
-"fastp_trimming_SE,tastq_to_bam_HISAT",0.0
-"fastp_trimming_SE,fastqc 5",0.0
-"fastp_trimming_SE,starindex",0.0
-"fastp_trimming_SE,merge_trimmed_PE",0.0
-"fastp_trimming_SE,bamindex",0.0
-"fastp_trimming_SE,map",0.0
-"fastp_trimming_SE,merge_trimmed_SE",0.0
-"fastp_trimming_SE,salmon_index_extended",0.0
-"fastp_trimming_SE,pass2",0.0
-"fastp_trimming_SE,featureCounts 2",0.0
-"fastp_trimming_SE,tximeta",0.0
-"fastp_trimming_SE,fastqScreen",0.0
-"fastp_trimming_SE,multiqc 2",0.0
-"fastp_trimming_SE,trimgalorePE",0.0
-"fastp_trimming_SE,samtools_flagstat",0.0
-"fastp_trimming_SE,featureCounts",0.0
-"fastp_trimming_SE,counts_matrix",0.0
-"fastp_trimming_SE,trimgaloreSE",0.0
-"fastp_trimming_SE,multiqc 3",0.0
-"fastp_trimming_SE,star_genome",0.0
-"fastp_trimming_SE,salmon_quant_pe",0.0
-"fastp_trimming_SE,sort_bams",0.0
-"fastp_trimming_SE,edgeR",0.0
-"fastp_trimming_SE,fastqc",0.0
-"fastp_trimming_SE,sampleReads",0.0
-"fastp_trimming_SE,salmon_quant_se",0.0
-"fastp_trimming_SE,feature_counts",0.0
-"fastp_trimming_SE,cutadapt 2",0.0
-"fastp_trimming_SE,DRIMSeq",0.0
-"fastp_trimming_SE,bigwig",0.0
-"fastp_trimming_SE,fastqctrimmed",0.0
-"fastp_trimming_SE,fastQCtrimmed 2",0.0
-"fastp_trimming_SE,run_multiqc",0.0
-"fastp_trimming_SE,starSE",0.0
-"fastp_trimming_SE,trim_fasq_fastqc",0.0
-"fastp_trimming_SE,fastqc 6",0.0
-"fastp_trimming_SE,salmon_index",0.0
-"fastp_trimming_SE,expressbam",0.0
-"sortedbam_to_counts,fastqc 4",0.0
-"sortedbam_to_counts,fastqc 3",0.0
-"sortedbam_to_counts,fastqc_trimmed",0.0
-"sortedbam_to_counts,samtools_bam",0.0
-"sortedbam_to_counts,sortbam",0.0
-"sortedbam_to_counts,samlon_quant",0.0
-"sortedbam_to_counts,kallistoQuant",0.0
-"sortedbam_to_counts,fastqc 2",0.0
-"sortedbam_to_counts,tastq_to_bam_HISAT",0.0
-"sortedbam_to_counts,fastqc 5",0.0
-"sortedbam_to_counts,starindex",0.0
-"sortedbam_to_counts,merge_trimmed_PE",0.0
-"sortedbam_to_counts,bamindex",0.0
-"sortedbam_to_counts,map",0.0
-"sortedbam_to_counts,merge_trimmed_SE",0.0
-"sortedbam_to_counts,salmon_index_extended",0.0
-"sortedbam_to_counts,pass2",0.0
-"sortedbam_to_counts,featureCounts 2",0.0
-"sortedbam_to_counts,tximeta",0.0
-"sortedbam_to_counts,fastqScreen",0.0
-"sortedbam_to_counts,multiqc 2",0.0
-"sortedbam_to_counts,trimgalorePE",0.0
-"sortedbam_to_counts,samtools_flagstat",0.0
-"sortedbam_to_counts,featureCounts",0.0
-"sortedbam_to_counts,counts_matrix",0.0
-"sortedbam_to_counts,trimgaloreSE",0.0
-"sortedbam_to_counts,multiqc 3",0.0
-"sortedbam_to_counts,star_genome",0.0
-"sortedbam_to_counts,salmon_quant_pe",0.0
-"sortedbam_to_counts,sort_bams",0.0
-"sortedbam_to_counts,edgeR",0.0
-"sortedbam_to_counts,fastqc",0.0
-"sortedbam_to_counts,sampleReads",0.0
-"sortedbam_to_counts,salmon_quant_se",0.0
-"sortedbam_to_counts,feature_counts",0.0
-"sortedbam_to_counts,cutadapt 2",0.0
-"sortedbam_to_counts,DRIMSeq",0.0
-"sortedbam_to_counts,bigwig",0.0
-"sortedbam_to_counts,fastqctrimmed",0.0
-"sortedbam_to_counts,fastQCtrimmed 2",0.0
-"sortedbam_to_counts,run_multiqc",0.0
-"sortedbam_to_counts,starSE",0.0
-"sortedbam_to_counts,trim_fasq_fastqc",0.0
-"sortedbam_to_counts,fastqc 6",0.0
-"sortedbam_to_counts,salmon_index",0.0
-"sortedbam_to_counts,expressbam",0.0
-"fastqc 4,fastqc 3",1.0
-"fastqc 4,fastqc_trimmed",0.0
-"fastqc 4,samtools_bam",0.0
-"fastqc 4,sortbam",0.0
-"fastqc 4,samlon_quant",0.0
-"fastqc 4,kallistoQuant",0.0
-"fastqc 4,fastqc 2",1.0
-"fastqc 4,tastq_to_bam_HISAT",0.0
-"fastqc 4,fastqc 5",1.0
-"fastqc 4,starindex",0.0
-"fastqc 4,merge_trimmed_PE",0.0
-"fastqc 4,bamindex",0.0
-"fastqc 4,map",0.0
-"fastqc 4,merge_trimmed_SE",0.0
-"fastqc 4,salmon_index_extended",0.0
-"fastqc 4,pass2",0.0
-"fastqc 4,featureCounts 2",0.0
-"fastqc 4,tximeta",0.0
-"fastqc 4,fastqScreen",0.0
-"fastqc 4,multiqc 2",0.0
-"fastqc 4,trimgalorePE",0.0
-"fastqc 4,samtools_flagstat",0.0
-"fastqc 4,featureCounts",0.0
-"fastqc 4,counts_matrix",0.0
-"fastqc 4,trimgaloreSE",0.0
-"fastqc 4,multiqc 3",0.0
-"fastqc 4,star_genome",0.0
-"fastqc 4,salmon_quant_pe",0.0
-"fastqc 4,sort_bams",0.0
-"fastqc 4,edgeR",0.0
-"fastqc 4,fastqc",1.0
-"fastqc 4,sampleReads",0.0
-"fastqc 4,salmon_quant_se",0.0
-"fastqc 4,feature_counts",0.0
-"fastqc 4,cutadapt 2",0.0
-"fastqc 4,DRIMSeq",0.0
-"fastqc 4,bigwig",0.0
-"fastqc 4,fastqctrimmed",0.0
-"fastqc 4,fastQCtrimmed 2",0.0
-"fastqc 4,run_multiqc",0.0
-"fastqc 4,starSE",0.0
-"fastqc 4,trim_fasq_fastqc",0.0
-"fastqc 4,fastqc 6",1.0
-"fastqc 4,salmon_index",0.0
-"fastqc 4,expressbam",0.0
-"fastqc 3,fastqc_trimmed",0.0
-"fastqc 3,samtools_bam",0.0
-"fastqc 3,sortbam",0.0
-"fastqc 3,samlon_quant",0.0
-"fastqc 3,kallistoQuant",0.0
-"fastqc 3,fastqc 2",1.0
-"fastqc 3,tastq_to_bam_HISAT",0.0
-"fastqc 3,fastqc 5",1.0
-"fastqc 3,starindex",0.0
-"fastqc 3,merge_trimmed_PE",0.0
-"fastqc 3,bamindex",0.0
-"fastqc 3,map",0.0
-"fastqc 3,merge_trimmed_SE",0.0
-"fastqc 3,salmon_index_extended",0.0
-"fastqc 3,pass2",0.0
-"fastqc 3,featureCounts 2",0.0
-"fastqc 3,tximeta",0.0
-"fastqc 3,fastqScreen",0.0
-"fastqc 3,multiqc 2",0.0
-"fastqc 3,trimgalorePE",0.0
-"fastqc 3,samtools_flagstat",0.0
-"fastqc 3,featureCounts",0.0
-"fastqc 3,counts_matrix",0.0
-"fastqc 3,trimgaloreSE",0.0
-"fastqc 3,multiqc 3",0.0
-"fastqc 3,star_genome",0.0
-"fastqc 3,salmon_quant_pe",0.0
-"fastqc 3,sort_bams",0.0
-"fastqc 3,edgeR",0.0
-"fastqc 3,fastqc",1.0
-"fastqc 3,sampleReads",0.0
-"fastqc 3,salmon_quant_se",0.0
-"fastqc 3,feature_counts",0.0
-"fastqc 3,cutadapt 2",0.0
-"fastqc 3,DRIMSeq",0.0
-"fastqc 3,bigwig",0.0
-"fastqc 3,fastqctrimmed",0.0
-"fastqc 3,fastQCtrimmed 2",0.0
-"fastqc 3,run_multiqc",0.0
-"fastqc 3,starSE",0.0
-"fastqc 3,trim_fasq_fastqc",0.0
-"fastqc 3,fastqc 6",1.0
-"fastqc 3,salmon_index",0.0
-"fastqc 3,expressbam",0.0
-"fastqc_trimmed,samtools_bam",0.0
-"fastqc_trimmed,sortbam",0.0
-"fastqc_trimmed,samlon_quant",0.0
-"fastqc_trimmed,kallistoQuant",0.0
-"fastqc_trimmed,fastqc 2",0.0
-"fastqc_trimmed,tastq_to_bam_HISAT",0.0
-"fastqc_trimmed,fastqc 5",0.0
-"fastqc_trimmed,starindex",0.0
-"fastqc_trimmed,merge_trimmed_PE",0.0
-"fastqc_trimmed,bamindex",0.0
-"fastqc_trimmed,map",0.0
-"fastqc_trimmed,merge_trimmed_SE",0.0
-"fastqc_trimmed,salmon_index_extended",0.0
-"fastqc_trimmed,pass2",0.0
-"fastqc_trimmed,featureCounts 2",0.0
-"fastqc_trimmed,tximeta",0.0
-"fastqc_trimmed,fastqScreen",0.0
-"fastqc_trimmed,multiqc 2",0.0
-"fastqc_trimmed,trimgalorePE",0.0
-"fastqc_trimmed,samtools_flagstat",0.0
-"fastqc_trimmed,featureCounts",0.0
-"fastqc_trimmed,counts_matrix",0.0
-"fastqc_trimmed,trimgaloreSE",0.0
-"fastqc_trimmed,multiqc 3",0.0
-"fastqc_trimmed,star_genome",0.0
-"fastqc_trimmed,salmon_quant_pe",0.0
-"fastqc_trimmed,sort_bams",0.0
-"fastqc_trimmed,edgeR",0.0
-"fastqc_trimmed,fastqc",0.0
-"fastqc_trimmed,sampleReads",0.0
-"fastqc_trimmed,salmon_quant_se",0.0
-"fastqc_trimmed,feature_counts",0.0
-"fastqc_trimmed,cutadapt 2",0.0
-"fastqc_trimmed,DRIMSeq",0.0
-"fastqc_trimmed,bigwig",0.0
-"fastqc_trimmed,fastqctrimmed",0.0
-"fastqc_trimmed,fastQCtrimmed 2",0.0
-"fastqc_trimmed,run_multiqc",0.0
-"fastqc_trimmed,starSE",0.0
-"fastqc_trimmed,trim_fasq_fastqc",0.0
-"fastqc_trimmed,fastqc 6",0.0
-"fastqc_trimmed,salmon_index",0.0
-"fastqc_trimmed,expressbam",0.0
-"samtools_bam,sortbam",0.0
-"samtools_bam,samlon_quant",0.0
-"samtools_bam,kallistoQuant",0.0
-"samtools_bam,fastqc 2",0.0
-"samtools_bam,tastq_to_bam_HISAT",0.0
-"samtools_bam,fastqc 5",0.0
-"samtools_bam,starindex",0.0
-"samtools_bam,merge_trimmed_PE",0.0
-"samtools_bam,bamindex",0.0
-"samtools_bam,map",0.0
-"samtools_bam,merge_trimmed_SE",0.0
-"samtools_bam,salmon_index_extended",0.0
-"samtools_bam,pass2",0.0
-"samtools_bam,featureCounts 2",0.0
-"samtools_bam,tximeta",0.0
-"samtools_bam,fastqScreen",0.0
-"samtools_bam,multiqc 2",0.0
-"samtools_bam,trimgalorePE",0.0
-"samtools_bam,samtools_flagstat",0.0
-"samtools_bam,featureCounts",0.0
-"samtools_bam,counts_matrix",0.0
-"samtools_bam,trimgaloreSE",0.0
-"samtools_bam,multiqc 3",0.0
-"samtools_bam,star_genome",0.0
-"samtools_bam,salmon_quant_pe",0.0
-"samtools_bam,sort_bams",0.0
-"samtools_bam,edgeR",0.0
-"samtools_bam,fastqc",0.0
-"samtools_bam,sampleReads",0.0
-"samtools_bam,salmon_quant_se",0.0
-"samtools_bam,feature_counts",0.0
-"samtools_bam,cutadapt 2",0.0
-"samtools_bam,DRIMSeq",0.0
-"samtools_bam,bigwig",0.0
-"samtools_bam,fastqctrimmed",0.0
-"samtools_bam,fastQCtrimmed 2",0.0
-"samtools_bam,run_multiqc",0.0
-"samtools_bam,starSE",0.0
-"samtools_bam,trim_fasq_fastqc",0.0
-"samtools_bam,fastqc 6",0.0
-"samtools_bam,salmon_index",0.0
-"samtools_bam,expressbam",0.0
-"sortbam,samlon_quant",0.0
-"sortbam,kallistoQuant",0.0
-"sortbam,fastqc 2",0.0
-"sortbam,tastq_to_bam_HISAT",0.0
-"sortbam,fastqc 5",0.0
-"sortbam,starindex",0.0
-"sortbam,merge_trimmed_PE",0.0
-"sortbam,bamindex",0.0
-"sortbam,map",0.0
-"sortbam,merge_trimmed_SE",0.0
-"sortbam,salmon_index_extended",0.0
-"sortbam,pass2",0.0
-"sortbam,featureCounts 2",0.0
-"sortbam,tximeta",0.0
-"sortbam,fastqScreen",0.0
-"sortbam,multiqc 2",0.0
-"sortbam,trimgalorePE",0.0
-"sortbam,samtools_flagstat",0.0
-"sortbam,featureCounts",0.0
-"sortbam,counts_matrix",0.0
-"sortbam,trimgaloreSE",0.0
-"sortbam,multiqc 3",0.0
-"sortbam,star_genome",0.0
-"sortbam,salmon_quant_pe",0.0
-"sortbam,sort_bams",0.0
-"sortbam,edgeR",0.0
-"sortbam,fastqc",0.0
-"sortbam,sampleReads",0.0
-"sortbam,salmon_quant_se",0.0
-"sortbam,feature_counts",0.0
-"sortbam,cutadapt 2",0.0
-"sortbam,DRIMSeq",0.0
-"sortbam,bigwig",0.0
-"sortbam,fastqctrimmed",0.0
-"sortbam,fastQCtrimmed 2",0.0
-"sortbam,run_multiqc",0.0
-"sortbam,starSE",0.0
-"sortbam,trim_fasq_fastqc",0.0
-"sortbam,fastqc 6",0.0
-"sortbam,salmon_index",0.0
-"sortbam,expressbam",0.0
-"samlon_quant,kallistoQuant",0.0
-"samlon_quant,fastqc 2",0.0
-"samlon_quant,tastq_to_bam_HISAT",0.0
-"samlon_quant,fastqc 5",0.0
-"samlon_quant,starindex",0.0
-"samlon_quant,merge_trimmed_PE",0.0
-"samlon_quant,bamindex",0.0
-"samlon_quant,map",0.0
-"samlon_quant,merge_trimmed_SE",0.0
-"samlon_quant,salmon_index_extended",0.0
-"samlon_quant,pass2",0.0
-"samlon_quant,featureCounts 2",0.0
-"samlon_quant,tximeta",0.0
-"samlon_quant,fastqScreen",0.0
-"samlon_quant,multiqc 2",0.0
-"samlon_quant,trimgalorePE",0.0
-"samlon_quant,samtools_flagstat",0.0
-"samlon_quant,featureCounts",0.0
-"samlon_quant,counts_matrix",0.0
-"samlon_quant,trimgaloreSE",0.0
-"samlon_quant,multiqc 3",0.0
-"samlon_quant,star_genome",0.0
-"samlon_quant,salmon_quant_pe",0.0
-"samlon_quant,sort_bams",0.0
-"samlon_quant,edgeR",0.0
-"samlon_quant,fastqc",0.0
-"samlon_quant,sampleReads",0.0
-"samlon_quant,salmon_quant_se",0.0
-"samlon_quant,feature_counts",0.0
-"samlon_quant,cutadapt 2",0.0
-"samlon_quant,DRIMSeq",0.0
-"samlon_quant,bigwig",0.0
-"samlon_quant,fastqctrimmed",0.0
-"samlon_quant,fastQCtrimmed 2",0.0
-"samlon_quant,run_multiqc",0.0
-"samlon_quant,starSE",0.0
-"samlon_quant,trim_fasq_fastqc",0.0
-"samlon_quant,fastqc 6",0.0
-"samlon_quant,salmon_index",0.0
-"samlon_quant,expressbam",0.0
-"kallistoQuant,fastqc 2",0.0
-"kallistoQuant,tastq_to_bam_HISAT",0.0
-"kallistoQuant,fastqc 5",0.0
-"kallistoQuant,starindex",0.0
-"kallistoQuant,merge_trimmed_PE",0.0
-"kallistoQuant,bamindex",0.0
-"kallistoQuant,map",0.0
-"kallistoQuant,merge_trimmed_SE",0.0
-"kallistoQuant,salmon_index_extended",0.0
-"kallistoQuant,pass2",0.0
-"kallistoQuant,featureCounts 2",0.0
-"kallistoQuant,tximeta",0.0
-"kallistoQuant,fastqScreen",0.0
-"kallistoQuant,multiqc 2",0.0
-"kallistoQuant,trimgalorePE",0.0
-"kallistoQuant,samtools_flagstat",0.0
-"kallistoQuant,featureCounts",0.0
-"kallistoQuant,counts_matrix",0.0
-"kallistoQuant,trimgaloreSE",0.0
-"kallistoQuant,multiqc 3",0.0
-"kallistoQuant,star_genome",0.0
-"kallistoQuant,salmon_quant_pe",0.0
-"kallistoQuant,sort_bams",0.0
-"kallistoQuant,edgeR",0.0
-"kallistoQuant,fastqc",0.0
-"kallistoQuant,sampleReads",0.0
-"kallistoQuant,salmon_quant_se",0.0
-"kallistoQuant,feature_counts",0.0
-"kallistoQuant,cutadapt 2",0.0
-"kallistoQuant,DRIMSeq",0.0
-"kallistoQuant,bigwig",0.0
-"kallistoQuant,fastqctrimmed",0.0
-"kallistoQuant,fastQCtrimmed 2",0.0
-"kallistoQuant,run_multiqc",0.0
-"kallistoQuant,starSE",0.0
-"kallistoQuant,trim_fasq_fastqc",0.0
-"kallistoQuant,fastqc 6",0.0
-"kallistoQuant,salmon_index",0.0
-"kallistoQuant,expressbam",0.0
-"fastqc 2,tastq_to_bam_HISAT",0.0
-"fastqc 2,fastqc 5",1.0
-"fastqc 2,starindex",0.0
-"fastqc 2,merge_trimmed_PE",0.0
-"fastqc 2,bamindex",0.0
-"fastqc 2,map",0.0
-"fastqc 2,merge_trimmed_SE",0.0
-"fastqc 2,salmon_index_extended",0.0
-"fastqc 2,pass2",0.0
-"fastqc 2,featureCounts 2",0.0
-"fastqc 2,tximeta",0.0
-"fastqc 2,fastqScreen",0.0
-"fastqc 2,multiqc 2",0.0
-"fastqc 2,trimgalorePE",0.0
-"fastqc 2,samtools_flagstat",0.0
-"fastqc 2,featureCounts",0.0
-"fastqc 2,counts_matrix",0.0
-"fastqc 2,trimgaloreSE",0.0
-"fastqc 2,multiqc 3",0.0
-"fastqc 2,star_genome",0.0
-"fastqc 2,salmon_quant_pe",0.0
-"fastqc 2,sort_bams",0.0
-"fastqc 2,edgeR",0.0
-"fastqc 2,fastqc",1.0
-"fastqc 2,sampleReads",0.0
-"fastqc 2,salmon_quant_se",0.0
-"fastqc 2,feature_counts",0.0
-"fastqc 2,cutadapt 2",0.0
-"fastqc 2,DRIMSeq",0.0
-"fastqc 2,bigwig",0.0
-"fastqc 2,fastqctrimmed",0.0
-"fastqc 2,fastQCtrimmed 2",0.0
-"fastqc 2,run_multiqc",0.0
-"fastqc 2,starSE",0.0
-"fastqc 2,trim_fasq_fastqc",0.0
-"fastqc 2,fastqc 6",1.0
-"fastqc 2,salmon_index",0.0
-"fastqc 2,expressbam",0.0
-"tastq_to_bam_HISAT,fastqc 5",0.0
-"tastq_to_bam_HISAT,starindex",0.0
-"tastq_to_bam_HISAT,merge_trimmed_PE",0.0
-"tastq_to_bam_HISAT,bamindex",0.0
-"tastq_to_bam_HISAT,map",0.0
-"tastq_to_bam_HISAT,merge_trimmed_SE",0.0
-"tastq_to_bam_HISAT,salmon_index_extended",0.0
-"tastq_to_bam_HISAT,pass2",0.0
-"tastq_to_bam_HISAT,featureCounts 2",0.0
-"tastq_to_bam_HISAT,tximeta",0.0
-"tastq_to_bam_HISAT,fastqScreen",0.0
-"tastq_to_bam_HISAT,multiqc 2",0.0
-"tastq_to_bam_HISAT,trimgalorePE",0.0
-"tastq_to_bam_HISAT,samtools_flagstat",0.0
-"tastq_to_bam_HISAT,featureCounts",0.0
-"tastq_to_bam_HISAT,counts_matrix",0.0
-"tastq_to_bam_HISAT,trimgaloreSE",0.0
-"tastq_to_bam_HISAT,multiqc 3",0.0
-"tastq_to_bam_HISAT,star_genome",0.0
-"tastq_to_bam_HISAT,salmon_quant_pe",0.0
-"tastq_to_bam_HISAT,sort_bams",0.0
-"tastq_to_bam_HISAT,edgeR",0.0
-"tastq_to_bam_HISAT,fastqc",0.0
-"tastq_to_bam_HISAT,sampleReads",0.0
-"tastq_to_bam_HISAT,salmon_quant_se",0.0
-"tastq_to_bam_HISAT,feature_counts",0.0
-"tastq_to_bam_HISAT,cutadapt 2",0.0
-"tastq_to_bam_HISAT,DRIMSeq",0.0
-"tastq_to_bam_HISAT,bigwig",0.0
-"tastq_to_bam_HISAT,fastqctrimmed",0.0
-"tastq_to_bam_HISAT,fastQCtrimmed 2",0.0
-"tastq_to_bam_HISAT,run_multiqc",0.0
-"tastq_to_bam_HISAT,starSE",0.0
-"tastq_to_bam_HISAT,trim_fasq_fastqc",0.0
-"tastq_to_bam_HISAT,fastqc 6",0.0
-"tastq_to_bam_HISAT,salmon_index",0.0
-"tastq_to_bam_HISAT,expressbam",0.0
-"fastqc 5,starindex",0.0
-"fastqc 5,merge_trimmed_PE",0.0
-"fastqc 5,bamindex",0.0
-"fastqc 5,map",0.0
-"fastqc 5,merge_trimmed_SE",0.0
-"fastqc 5,salmon_index_extended",0.0
-"fastqc 5,pass2",0.0
-"fastqc 5,featureCounts 2",0.0
-"fastqc 5,tximeta",0.0
-"fastqc 5,fastqScreen",0.0
-"fastqc 5,multiqc 2",0.0
-"fastqc 5,trimgalorePE",0.0
-"fastqc 5,samtools_flagstat",0.0
-"fastqc 5,featureCounts",0.0
-"fastqc 5,counts_matrix",0.0
-"fastqc 5,trimgaloreSE",0.0
-"fastqc 5,multiqc 3",0.0
-"fastqc 5,star_genome",0.0
-"fastqc 5,salmon_quant_pe",0.0
-"fastqc 5,sort_bams",0.0
-"fastqc 5,edgeR",0.0
-"fastqc 5,fastqc",1.0
-"fastqc 5,sampleReads",0.0
-"fastqc 5,salmon_quant_se",0.0
-"fastqc 5,feature_counts",0.0
-"fastqc 5,cutadapt 2",0.0
-"fastqc 5,DRIMSeq",0.0
-"fastqc 5,bigwig",0.0
-"fastqc 5,fastqctrimmed",0.0
-"fastqc 5,fastQCtrimmed 2",0.0
-"fastqc 5,run_multiqc",0.0
-"fastqc 5,starSE",0.0
-"fastqc 5,trim_fasq_fastqc",0.0
-"fastqc 5,fastqc 6",1.0
-"fastqc 5,salmon_index",0.0
-"fastqc 5,expressbam",0.0
-"starindex,merge_trimmed_PE",0.0
-"starindex,bamindex",0.0
-"starindex,map",0.0
-"starindex,merge_trimmed_SE",0.0
-"starindex,salmon_index_extended",0.0
-"starindex,pass2",0.0
-"starindex,featureCounts 2",0.0
-"starindex,tximeta",0.0
-"starindex,fastqScreen",0.0
-"starindex,multiqc 2",0.0
-"starindex,trimgalorePE",0.0
-"starindex,samtools_flagstat",0.0
-"starindex,featureCounts",0.0
-"starindex,counts_matrix",0.0
-"starindex,trimgaloreSE",0.0
-"starindex,multiqc 3",0.0
-"starindex,star_genome",0.0
-"starindex,salmon_quant_pe",0.0
-"starindex,sort_bams",0.0
-"starindex,edgeR",0.0
-"starindex,fastqc",0.0
-"starindex,sampleReads",0.0
-"starindex,salmon_quant_se",0.0
-"starindex,feature_counts",0.0
-"starindex,cutadapt 2",0.0
-"starindex,DRIMSeq",0.0
-"starindex,bigwig",0.0
-"starindex,fastqctrimmed",0.0
-"starindex,fastQCtrimmed 2",0.0
-"starindex,run_multiqc",0.0
-"starindex,starSE",0.0
-"starindex,trim_fasq_fastqc",0.0
-"starindex,fastqc 6",0.0
-"starindex,salmon_index",0.0
-"starindex,expressbam",0.0
-"merge_trimmed_PE,bamindex",0.0
-"merge_trimmed_PE,map",0.0
-"merge_trimmed_PE,merge_trimmed_SE",1.0
-"merge_trimmed_PE,salmon_index_extended",0.0
-"merge_trimmed_PE,pass2",0.0
-"merge_trimmed_PE,featureCounts 2",0.0
-"merge_trimmed_PE,tximeta",0.0
-"merge_trimmed_PE,fastqScreen",0.0
-"merge_trimmed_PE,multiqc 2",0.0
-"merge_trimmed_PE,trimgalorePE",0.0
-"merge_trimmed_PE,samtools_flagstat",0.0
-"merge_trimmed_PE,featureCounts",0.0
-"merge_trimmed_PE,counts_matrix",0.0
-"merge_trimmed_PE,trimgaloreSE",0.0
-"merge_trimmed_PE,multiqc 3",0.0
-"merge_trimmed_PE,star_genome",0.0
-"merge_trimmed_PE,salmon_quant_pe",0.0
-"merge_trimmed_PE,sort_bams",0.0
-"merge_trimmed_PE,edgeR",0.0
-"merge_trimmed_PE,fastqc",0.0
-"merge_trimmed_PE,sampleReads",0.0
-"merge_trimmed_PE,salmon_quant_se",0.0
-"merge_trimmed_PE,feature_counts",0.0
-"merge_trimmed_PE,cutadapt 2",0.0
-"merge_trimmed_PE,DRIMSeq",0.0
-"merge_trimmed_PE,bigwig",0.0
-"merge_trimmed_PE,fastqctrimmed",0.0
-"merge_trimmed_PE,fastQCtrimmed 2",0.0
-"merge_trimmed_PE,run_multiqc",0.0
-"merge_trimmed_PE,starSE",0.0
-"merge_trimmed_PE,trim_fasq_fastqc",0.0
-"merge_trimmed_PE,fastqc 6",0.0
-"merge_trimmed_PE,salmon_index",0.0
-"merge_trimmed_PE,expressbam",0.0
-"bamindex,map",0.0
-"bamindex,merge_trimmed_SE",0.0
-"bamindex,salmon_index_extended",0.0
-"bamindex,pass2",0.0
-"bamindex,featureCounts 2",0.0
-"bamindex,tximeta",0.0
-"bamindex,fastqScreen",0.0
-"bamindex,multiqc 2",0.0
-"bamindex,trimgalorePE",0.0
-"bamindex,samtools_flagstat",0.0
-"bamindex,featureCounts",0.0
-"bamindex,counts_matrix",0.0
-"bamindex,trimgaloreSE",0.0
-"bamindex,multiqc 3",0.0
-"bamindex,star_genome",0.0
-"bamindex,salmon_quant_pe",0.0
-"bamindex,sort_bams",0.0
-"bamindex,edgeR",0.0
-"bamindex,fastqc",0.0
-"bamindex,sampleReads",0.0
-"bamindex,salmon_quant_se",0.0
-"bamindex,feature_counts",0.0
-"bamindex,cutadapt 2",0.0
-"bamindex,DRIMSeq",0.0
-"bamindex,bigwig",0.0
-"bamindex,fastqctrimmed",0.0
-"bamindex,fastQCtrimmed 2",0.0
-"bamindex,run_multiqc",0.0
-"bamindex,starSE",0.0
-"bamindex,trim_fasq_fastqc",0.0
-"bamindex,fastqc 6",0.0
-"bamindex,salmon_index",0.0
-"bamindex,expressbam",0.0
-"map,merge_trimmed_SE",0.0
-"map,salmon_index_extended",0.0
-"map,pass2",0.0
-"map,featureCounts 2",0.0
-"map,tximeta",0.0
-"map,fastqScreen",0.0
-"map,multiqc 2",0.0
-"map,trimgalorePE",0.0
-"map,samtools_flagstat",0.0
-"map,featureCounts",0.0
-"map,counts_matrix",0.0
-"map,trimgaloreSE",0.0
-"map,multiqc 3",0.0
-"map,star_genome",0.0
-"map,salmon_quant_pe",0.0
-"map,sort_bams",0.0
-"map,edgeR",0.0
-"map,fastqc",0.0
-"map,sampleReads",0.0
-"map,salmon_quant_se",0.0
-"map,feature_counts",0.0
-"map,cutadapt 2",0.0
-"map,DRIMSeq",0.0
-"map,bigwig",0.0
-"map,fastqctrimmed",0.0
-"map,fastQCtrimmed 2",0.0
-"map,run_multiqc",0.0
-"map,starSE",0.0
-"map,trim_fasq_fastqc",0.0
-"map,fastqc 6",0.0
-"map,salmon_index",0.0
-"map,expressbam",0.0
-"merge_trimmed_SE,salmon_index_extended",0.0
-"merge_trimmed_SE,pass2",0.0
-"merge_trimmed_SE,featureCounts 2",0.0
-"merge_trimmed_SE,tximeta",0.0
-"merge_trimmed_SE,fastqScreen",0.0
-"merge_trimmed_SE,multiqc 2",0.0
-"merge_trimmed_SE,trimgalorePE",0.0
-"merge_trimmed_SE,samtools_flagstat",0.0
-"merge_trimmed_SE,featureCounts",0.0
-"merge_trimmed_SE,counts_matrix",0.0
-"merge_trimmed_SE,trimgaloreSE",0.0
-"merge_trimmed_SE,multiqc 3",0.0
-"merge_trimmed_SE,star_genome",0.0
-"merge_trimmed_SE,salmon_quant_pe",0.0
-"merge_trimmed_SE,sort_bams",0.0
-"merge_trimmed_SE,edgeR",0.0
-"merge_trimmed_SE,fastqc",0.0
-"merge_trimmed_SE,sampleReads",0.0
-"merge_trimmed_SE,salmon_quant_se",0.0
-"merge_trimmed_SE,feature_counts",0.0
-"merge_trimmed_SE,cutadapt 2",0.0
-"merge_trimmed_SE,DRIMSeq",0.0
-"merge_trimmed_SE,bigwig",0.0
-"merge_trimmed_SE,fastqctrimmed",0.0
-"merge_trimmed_SE,fastQCtrimmed 2",0.0
-"merge_trimmed_SE,run_multiqc",0.0
-"merge_trimmed_SE,starSE",0.0
-"merge_trimmed_SE,trim_fasq_fastqc",0.0
-"merge_trimmed_SE,fastqc 6",0.0
-"merge_trimmed_SE,salmon_index",0.0
-"merge_trimmed_SE,expressbam",0.0
-"salmon_index_extended,pass2",0.0
-"salmon_index_extended,featureCounts 2",0.0
-"salmon_index_extended,tximeta",0.0
-"salmon_index_extended,fastqScreen",0.0
-"salmon_index_extended,multiqc 2",0.0
-"salmon_index_extended,trimgalorePE",0.0
-"salmon_index_extended,samtools_flagstat",0.0
-"salmon_index_extended,featureCounts",0.0
-"salmon_index_extended,counts_matrix",0.0
-"salmon_index_extended,trimgaloreSE",0.0
-"salmon_index_extended,multiqc 3",0.0
-"salmon_index_extended,star_genome",0.0
-"salmon_index_extended,salmon_quant_pe",0.0
-"salmon_index_extended,sort_bams",0.0
-"salmon_index_extended,edgeR",0.0
-"salmon_index_extended,fastqc",0.0
-"salmon_index_extended,sampleReads",0.0
-"salmon_index_extended,salmon_quant_se",0.0
-"salmon_index_extended,feature_counts",0.0
-"salmon_index_extended,cutadapt 2",0.0
-"salmon_index_extended,DRIMSeq",0.0
-"salmon_index_extended,bigwig",0.0
-"salmon_index_extended,fastqctrimmed",0.0
-"salmon_index_extended,fastQCtrimmed 2",0.0
-"salmon_index_extended,run_multiqc",0.0
-"salmon_index_extended,starSE",0.0
-"salmon_index_extended,trim_fasq_fastqc",0.0
-"salmon_index_extended,fastqc 6",0.0
-"salmon_index_extended,salmon_index",0.0
-"salmon_index_extended,expressbam",0.0
-"pass2,featureCounts 2",0.0
-"pass2,tximeta",0.0
-"pass2,fastqScreen",0.0
-"pass2,multiqc 2",0.0
-"pass2,trimgalorePE",0.0
-"pass2,samtools_flagstat",0.0
-"pass2,featureCounts",0.0
-"pass2,counts_matrix",0.0
-"pass2,trimgaloreSE",0.0
-"pass2,multiqc 3",0.0
-"pass2,star_genome",0.0
-"pass2,salmon_quant_pe",0.0
-"pass2,sort_bams",0.0
-"pass2,edgeR",0.0
-"pass2,fastqc",0.0
-"pass2,sampleReads",0.0
-"pass2,salmon_quant_se",0.0
-"pass2,feature_counts",0.0
-"pass2,cutadapt 2",0.0
-"pass2,DRIMSeq",0.0
-"pass2,bigwig",0.0
-"pass2,fastqctrimmed",0.0
-"pass2,fastQCtrimmed 2",0.0
-"pass2,run_multiqc",0.0
-"pass2,starSE",0.0
-"pass2,trim_fasq_fastqc",0.0
-"pass2,fastqc 6",0.0
-"pass2,salmon_index",0.0
-"pass2,expressbam",0.0
-"featureCounts 2,tximeta",0.0
-"featureCounts 2,fastqScreen",0.0
-"featureCounts 2,multiqc 2",0.0
-"featureCounts 2,trimgalorePE",0.0
-"featureCounts 2,samtools_flagstat",0.0
-"featureCounts 2,featureCounts",1.0
-"featureCounts 2,counts_matrix",0.0
-"featureCounts 2,trimgaloreSE",0.0
-"featureCounts 2,multiqc 3",0.0
-"featureCounts 2,star_genome",0.0
-"featureCounts 2,salmon_quant_pe",0.0
-"featureCounts 2,sort_bams",0.0
-"featureCounts 2,edgeR",0.0
-"featureCounts 2,fastqc",0.0
-"featureCounts 2,sampleReads",0.0
-"featureCounts 2,salmon_quant_se",0.0
-"featureCounts 2,feature_counts",0.0
-"featureCounts 2,cutadapt 2",0.0
-"featureCounts 2,DRIMSeq",0.0
-"featureCounts 2,bigwig",0.0
-"featureCounts 2,fastqctrimmed",0.0
-"featureCounts 2,fastQCtrimmed 2",0.0
-"featureCounts 2,run_multiqc",0.0
-"featureCounts 2,starSE",0.0
-"featureCounts 2,trim_fasq_fastqc",0.0
-"featureCounts 2,fastqc 6",0.0
-"featureCounts 2,salmon_index",0.0
-"featureCounts 2,expressbam",0.0
-"tximeta,fastqScreen",0.0
-"tximeta,multiqc 2",0.0
-"tximeta,trimgalorePE",0.0
-"tximeta,samtools_flagstat",0.0
-"tximeta,featureCounts",0.0
-"tximeta,counts_matrix",0.0
-"tximeta,trimgaloreSE",0.0
-"tximeta,multiqc 3",0.0
-"tximeta,star_genome",0.0
-"tximeta,salmon_quant_pe",0.0
-"tximeta,sort_bams",0.0
-"tximeta,edgeR",0.0
-"tximeta,fastqc",0.0
-"tximeta,sampleReads",0.0
-"tximeta,salmon_quant_se",0.0
-"tximeta,feature_counts",0.0
-"tximeta,cutadapt 2",0.0
-"tximeta,DRIMSeq",0.0
-"tximeta,bigwig",0.0
-"tximeta,fastqctrimmed",0.0
-"tximeta,fastQCtrimmed 2",0.0
-"tximeta,run_multiqc",0.0
-"tximeta,starSE",0.0
-"tximeta,trim_fasq_fastqc",0.0
-"tximeta,fastqc 6",0.0
-"tximeta,salmon_index",0.0
-"tximeta,expressbam",0.0
-"fastqScreen,multiqc 2",0.0
-"fastqScreen,trimgalorePE",0.0
-"fastqScreen,samtools_flagstat",0.0
-"fastqScreen,featureCounts",0.0
-"fastqScreen,counts_matrix",0.0
-"fastqScreen,trimgaloreSE",0.0
-"fastqScreen,multiqc 3",0.0
-"fastqScreen,star_genome",0.0
-"fastqScreen,salmon_quant_pe",0.0
-"fastqScreen,sort_bams",0.0
-"fastqScreen,edgeR",0.0
-"fastqScreen,fastqc",0.0
-"fastqScreen,sampleReads",0.0
-"fastqScreen,salmon_quant_se",0.0
-"fastqScreen,feature_counts",0.0
-"fastqScreen,cutadapt 2",0.0
-"fastqScreen,DRIMSeq",0.0
-"fastqScreen,bigwig",0.0
-"fastqScreen,fastqctrimmed",0.0
-"fastqScreen,fastQCtrimmed 2",0.0
-"fastqScreen,run_multiqc",0.0
-"fastqScreen,starSE",0.0
-"fastqScreen,trim_fasq_fastqc",0.0
-"fastqScreen,fastqc 6",0.0
-"fastqScreen,salmon_index",0.0
-"fastqScreen,expressbam",0.0
-"multiqc 2,trimgalorePE",0.0
-"multiqc 2,samtools_flagstat",0.0
-"multiqc 2,featureCounts",0.0
-"multiqc 2,counts_matrix",0.0
-"multiqc 2,trimgaloreSE",0.0
-"multiqc 2,multiqc 3",1.0
-"multiqc 2,star_genome",0.0
-"multiqc 2,salmon_quant_pe",0.0
-"multiqc 2,sort_bams",0.0
-"multiqc 2,edgeR",0.0
-"multiqc 2,fastqc",0.0
-"multiqc 2,sampleReads",0.0
-"multiqc 2,salmon_quant_se",0.0
-"multiqc 2,feature_counts",0.0
-"multiqc 2,cutadapt 2",0.0
-"multiqc 2,DRIMSeq",0.0
-"multiqc 2,bigwig",0.0
-"multiqc 2,fastqctrimmed",0.0
-"multiqc 2,fastQCtrimmed 2",0.0
-"multiqc 2,run_multiqc",0.0
-"multiqc 2,starSE",0.0
-"multiqc 2,trim_fasq_fastqc",0.0
-"multiqc 2,fastqc 6",0.0
-"multiqc 2,salmon_index",0.0
-"multiqc 2,expressbam",0.0
-"trimgalorePE,samtools_flagstat",0.0
-"trimgalorePE,featureCounts",0.0
-"trimgalorePE,counts_matrix",0.0
-"trimgalorePE,trimgaloreSE",0.0
-"trimgalorePE,multiqc 3",0.0
-"trimgalorePE,star_genome",0.0
-"trimgalorePE,salmon_quant_pe",0.0
-"trimgalorePE,sort_bams",0.0
-"trimgalorePE,edgeR",0.0
-"trimgalorePE,fastqc",0.0
-"trimgalorePE,sampleReads",0.0
-"trimgalorePE,salmon_quant_se",0.0
-"trimgalorePE,feature_counts",0.0
-"trimgalorePE,cutadapt 2",0.0
-"trimgalorePE,DRIMSeq",0.0
-"trimgalorePE,bigwig",0.0
-"trimgalorePE,fastqctrimmed",0.0
-"trimgalorePE,fastQCtrimmed 2",0.0
-"trimgalorePE,run_multiqc",0.0
-"trimgalorePE,starSE",0.0
-"trimgalorePE,trim_fasq_fastqc",0.0
-"trimgalorePE,fastqc 6",0.0
-"trimgalorePE,salmon_index",0.0
-"trimgalorePE,expressbam",0.0
-"samtools_flagstat,featureCounts",0.0
-"samtools_flagstat,counts_matrix",0.0
-"samtools_flagstat,trimgaloreSE",0.0
-"samtools_flagstat,multiqc 3",0.0
-"samtools_flagstat,star_genome",0.0
-"samtools_flagstat,salmon_quant_pe",0.0
-"samtools_flagstat,sort_bams",0.0
-"samtools_flagstat,edgeR",0.0
-"samtools_flagstat,fastqc",0.0
-"samtools_flagstat,sampleReads",0.0
-"samtools_flagstat,salmon_quant_se",0.0
-"samtools_flagstat,feature_counts",0.0
-"samtools_flagstat,cutadapt 2",0.0
-"samtools_flagstat,DRIMSeq",0.0
-"samtools_flagstat,bigwig",0.0
-"samtools_flagstat,fastqctrimmed",0.0
-"samtools_flagstat,fastQCtrimmed 2",0.0
-"samtools_flagstat,run_multiqc",0.0
-"samtools_flagstat,starSE",0.0
-"samtools_flagstat,trim_fasq_fastqc",0.0
-"samtools_flagstat,fastqc 6",0.0
-"samtools_flagstat,salmon_index",0.0
-"samtools_flagstat,expressbam",0.0
-"featureCounts,counts_matrix",0.0
-"featureCounts,trimgaloreSE",0.0
-"featureCounts,multiqc 3",0.0
-"featureCounts,star_genome",0.0
-"featureCounts,salmon_quant_pe",0.0
-"featureCounts,sort_bams",0.0
-"featureCounts,edgeR",0.0
-"featureCounts,fastqc",0.0
-"featureCounts,sampleReads",0.0
-"featureCounts,salmon_quant_se",0.0
-"featureCounts,feature_counts",0.0
-"featureCounts,cutadapt 2",0.0
-"featureCounts,DRIMSeq",0.0
-"featureCounts,bigwig",0.0
-"featureCounts,fastqctrimmed",0.0
-"featureCounts,fastQCtrimmed 2",0.0
-"featureCounts,run_multiqc",0.0
-"featureCounts,starSE",0.0
-"featureCounts,trim_fasq_fastqc",0.0
-"featureCounts,fastqc 6",0.0
-"featureCounts,salmon_index",0.0
-"featureCounts,expressbam",0.0
-"counts_matrix,trimgaloreSE",0.0
-"counts_matrix,multiqc 3",0.0
-"counts_matrix,star_genome",0.0
-"counts_matrix,salmon_quant_pe",0.0
-"counts_matrix,sort_bams",0.0
-"counts_matrix,edgeR",0.0
-"counts_matrix,fastqc",0.0
-"counts_matrix,sampleReads",0.0
-"counts_matrix,salmon_quant_se",0.0
-"counts_matrix,feature_counts",0.0
-"counts_matrix,cutadapt 2",0.0
-"counts_matrix,DRIMSeq",0.0
-"counts_matrix,bigwig",0.0
-"counts_matrix,fastqctrimmed",0.0
-"counts_matrix,fastQCtrimmed 2",0.0
-"counts_matrix,run_multiqc",0.0
-"counts_matrix,starSE",0.0
-"counts_matrix,trim_fasq_fastqc",0.0
-"counts_matrix,fastqc 6",0.0
-"counts_matrix,salmon_index",0.0
-"counts_matrix,expressbam",0.0
-"trimgaloreSE,multiqc 3",0.0
-"trimgaloreSE,star_genome",0.0
-"trimgaloreSE,salmon_quant_pe",0.0
-"trimgaloreSE,sort_bams",0.0
-"trimgaloreSE,edgeR",0.0
-"trimgaloreSE,fastqc",0.0
-"trimgaloreSE,sampleReads",0.0
-"trimgaloreSE,salmon_quant_se",0.0
-"trimgaloreSE,feature_counts",0.0
-"trimgaloreSE,cutadapt 2",0.0
-"trimgaloreSE,DRIMSeq",0.0
-"trimgaloreSE,bigwig",0.0
-"trimgaloreSE,fastqctrimmed",0.0
-"trimgaloreSE,fastQCtrimmed 2",0.0
-"trimgaloreSE,run_multiqc",0.0
-"trimgaloreSE,starSE",0.0
-"trimgaloreSE,trim_fasq_fastqc",0.0
-"trimgaloreSE,fastqc 6",0.0
-"trimgaloreSE,salmon_index",0.0
-"trimgaloreSE,expressbam",0.0
-"multiqc 3,star_genome",0.0
-"multiqc 3,salmon_quant_pe",0.0
-"multiqc 3,sort_bams",0.0
-"multiqc 3,edgeR",0.0
-"multiqc 3,fastqc",0.0
-"multiqc 3,sampleReads",0.0
-"multiqc 3,salmon_quant_se",0.0
-"multiqc 3,feature_counts",0.0
-"multiqc 3,cutadapt 2",0.0
-"multiqc 3,DRIMSeq",0.0
-"multiqc 3,bigwig",0.0
-"multiqc 3,fastqctrimmed",0.0
-"multiqc 3,fastQCtrimmed 2",0.0
-"multiqc 3,run_multiqc",0.0
-"multiqc 3,starSE",0.0
-"multiqc 3,trim_fasq_fastqc",0.0
-"multiqc 3,fastqc 6",0.0
-"multiqc 3,salmon_index",0.0
-"multiqc 3,expressbam",0.0
-"star_genome,salmon_quant_pe",0.0
-"star_genome,sort_bams",0.0
-"star_genome,edgeR",0.0
-"star_genome,fastqc",0.0
-"star_genome,sampleReads",0.0
-"star_genome,salmon_quant_se",0.0
-"star_genome,feature_counts",0.0
-"star_genome,cutadapt 2",0.0
-"star_genome,DRIMSeq",0.0
-"star_genome,bigwig",0.0
-"star_genome,fastqctrimmed",0.0
-"star_genome,fastQCtrimmed 2",0.0
-"star_genome,run_multiqc",0.0
-"star_genome,starSE",0.0
-"star_genome,trim_fasq_fastqc",0.0
-"star_genome,fastqc 6",0.0
-"star_genome,salmon_index",0.0
-"star_genome,expressbam",0.0
-"salmon_quant_pe,sort_bams",0.0
-"salmon_quant_pe,edgeR",0.0
-"salmon_quant_pe,fastqc",0.0
-"salmon_quant_pe,sampleReads",0.0
-"salmon_quant_pe,salmon_quant_se",0.0
-"salmon_quant_pe,feature_counts",0.0
-"salmon_quant_pe,cutadapt 2",0.0
-"salmon_quant_pe,DRIMSeq",0.0
-"salmon_quant_pe,bigwig",0.0
-"salmon_quant_pe,fastqctrimmed",0.0
-"salmon_quant_pe,fastQCtrimmed 2",0.0
-"salmon_quant_pe,run_multiqc",0.0
-"salmon_quant_pe,starSE",0.0
-"salmon_quant_pe,trim_fasq_fastqc",0.0
-"salmon_quant_pe,fastqc 6",0.0
-"salmon_quant_pe,salmon_index",0.0
-"salmon_quant_pe,expressbam",0.0
-"sort_bams,edgeR",0.0
-"sort_bams,fastqc",0.0
-"sort_bams,sampleReads",0.0
-"sort_bams,salmon_quant_se",0.0
-"sort_bams,feature_counts",0.0
-"sort_bams,cutadapt 2",0.0
-"sort_bams,DRIMSeq",0.0
-"sort_bams,bigwig",0.0
-"sort_bams,fastqctrimmed",0.0
-"sort_bams,fastQCtrimmed 2",0.0
-"sort_bams,run_multiqc",0.0
-"sort_bams,starSE",0.0
-"sort_bams,trim_fasq_fastqc",0.0
-"sort_bams,fastqc 6",0.0
-"sort_bams,salmon_index",0.0
-"sort_bams,expressbam",0.0
-"edgeR,fastqc",0.0
-"edgeR,sampleReads",0.0
-"edgeR,salmon_quant_se",0.0
-"edgeR,feature_counts",0.0
-"edgeR,cutadapt 2",0.0
-"edgeR,DRIMSeq",0.0
-"edgeR,bigwig",0.0
-"edgeR,fastqctrimmed",0.0
-"edgeR,fastQCtrimmed 2",0.0
-"edgeR,run_multiqc",0.0
-"edgeR,starSE",0.0
-"edgeR,trim_fasq_fastqc",0.0
-"edgeR,fastqc 6",0.0
-"edgeR,salmon_index",0.0
-"edgeR,expressbam",0.0
-"fastqc,sampleReads",0.0
-"fastqc,salmon_quant_se",0.0
-"fastqc,feature_counts",0.0
-"fastqc,cutadapt 2",0.0
-"fastqc,DRIMSeq",0.0
-"fastqc,bigwig",0.0
-"fastqc,fastqctrimmed",0.0
-"fastqc,fastQCtrimmed 2",0.0
-"fastqc,run_multiqc",0.0
-"fastqc,starSE",0.0
-"fastqc,trim_fasq_fastqc",0.0
-"fastqc,fastqc 6",1.0
-"fastqc,salmon_index",0.0
-"fastqc,expressbam",0.0
-"sampleReads,salmon_quant_se",0.0
-"sampleReads,feature_counts",0.0
-"sampleReads,cutadapt 2",0.0
-"sampleReads,DRIMSeq",0.0
-"sampleReads,bigwig",0.0
-"sampleReads,fastqctrimmed",0.0
-"sampleReads,fastQCtrimmed 2",0.0
-"sampleReads,run_multiqc",0.0
-"sampleReads,starSE",0.0
-"sampleReads,trim_fasq_fastqc",0.0
-"sampleReads,fastqc 6",0.0
-"sampleReads,salmon_index",0.0
-"sampleReads,expressbam",0.0
-"salmon_quant_se,feature_counts",0.0
-"salmon_quant_se,cutadapt 2",0.0
-"salmon_quant_se,DRIMSeq",0.0
-"salmon_quant_se,bigwig",0.0
-"salmon_quant_se,fastqctrimmed",0.0
-"salmon_quant_se,fastQCtrimmed 2",0.0
-"salmon_quant_se,run_multiqc",0.0
-"salmon_quant_se,starSE",0.0
-"salmon_quant_se,trim_fasq_fastqc",0.0
-"salmon_quant_se,fastqc 6",0.0
-"salmon_quant_se,salmon_index",0.0
-"salmon_quant_se,expressbam",0.0
-"feature_counts,cutadapt 2",0.0
-"feature_counts,DRIMSeq",0.0
-"feature_counts,bigwig",0.0
-"feature_counts,fastqctrimmed",0.0
-"feature_counts,fastQCtrimmed 2",0.0
-"feature_counts,run_multiqc",0.0
-"feature_counts,starSE",0.0
-"feature_counts,trim_fasq_fastqc",0.0
-"feature_counts,fastqc 6",0.0
-"feature_counts,salmon_index",0.0
-"feature_counts,expressbam",0.0
-"cutadapt 2,DRIMSeq",0.0
-"cutadapt 2,bigwig",0.0
-"cutadapt 2,fastqctrimmed",0.0
-"cutadapt 2,fastQCtrimmed 2",0.0
-"cutadapt 2,run_multiqc",0.0
-"cutadapt 2,starSE",0.0
-"cutadapt 2,trim_fasq_fastqc",0.0
-"cutadapt 2,fastqc 6",0.0
-"cutadapt 2,salmon_index",0.0
-"cutadapt 2,expressbam",0.0
-"DRIMSeq,bigwig",0.0
-"DRIMSeq,fastqctrimmed",0.0
-"DRIMSeq,fastQCtrimmed 2",0.0
-"DRIMSeq,run_multiqc",0.0
-"DRIMSeq,starSE",0.0
-"DRIMSeq,trim_fasq_fastqc",0.0
-"DRIMSeq,fastqc 6",0.0
-"DRIMSeq,salmon_index",0.0
-"DRIMSeq,expressbam",0.0
-"bigwig,fastqctrimmed",0.0
-"bigwig,fastQCtrimmed 2",0.0
-"bigwig,run_multiqc",0.0
-"bigwig,starSE",0.0
-"bigwig,trim_fasq_fastqc",0.0
-"bigwig,fastqc 6",0.0
-"bigwig,salmon_index",0.0
-"bigwig,expressbam",0.0
-"fastqctrimmed,fastQCtrimmed 2",1.0
-"fastqctrimmed,run_multiqc",0.0
-"fastqctrimmed,starSE",0.0
-"fastqctrimmed,trim_fasq_fastqc",0.0
-"fastqctrimmed,fastqc 6",0.0
-"fastqctrimmed,salmon_index",0.0
-"fastqctrimmed,expressbam",0.0
-"fastQCtrimmed 2,run_multiqc",0.0
-"fastQCtrimmed 2,starSE",0.0
-"fastQCtrimmed 2,trim_fasq_fastqc",0.0
-"fastQCtrimmed 2,fastqc 6",0.0
-"fastQCtrimmed 2,salmon_index",0.0
-"fastQCtrimmed 2,expressbam",0.0
-"run_multiqc,starSE",0.0
-"run_multiqc,trim_fasq_fastqc",0.0
-"run_multiqc,fastqc 6",0.0
-"run_multiqc,salmon_index",0.0
-"run_multiqc,expressbam",0.0
-"starSE,trim_fasq_fastqc",0.0
-"starSE,fastqc 6",0.0
-"starSE,salmon_index",0.0
-"starSE,expressbam",0.0
-"trim_fasq_fastqc,fastqc 6",0.0
-"trim_fasq_fastqc,salmon_index",0.0
-"trim_fasq_fastqc,expressbam",0.0
-"fastqc 6,salmon_index",0.0
-"fastqc 6,expressbam",0.0
-"salmon_index,expressbam",0.0
+Process A,Process B,Similarity
+trim_galore_pe,salmonPE,0.0
+trim_galore_pe,mark_dups,0.0
+trim_galore_pe,run_star_se,0.0
+trim_galore_pe,salmonSE,0.0
+trim_galore_pe,pass1,0.0
+trim_galore_pe,run_star_pe,0.0
+trim_galore_pe,rsem_norm,0.0
+trim_galore_pe,fastqcrim,0.0
+trim_galore_pe,generate_genome_star_index,0.0
+trim_galore_pe,picard_rna_seq,0.0
+trim_galore_pe,sortedbam_to_rmdup,0.0
+trim_galore_pe,cutadapt,0.0
+trim_galore_pe,MultiQC,0.0
+trim_galore_pe,sort_index_bams,0.0
+trim_galore_pe,hisat2,0.0
+trim_galore_pe,fetch_unique_stringtie,0.0
+trim_galore_pe,salmon_quant,0.0
+trim_galore_pe,fastp_trimming_PE,0.0
+trim_galore_pe,startPE,0.0
+trim_galore_pe,compare_reference_stringtie,0.0
+trim_galore_pe,RNA_SeqC,0.0
+trim_galore_pe,fastp_trimming_SE,0.0
+trim_galore_pe,sortedbam_to_counts,0.0
+trim_galore_pe,fastqc 4,0.0
+trim_galore_pe,fastqc 3,0.0
+trim_galore_pe,fastqc_trimmed,0.0
+trim_galore_pe,samtools_bam,0.0
+trim_galore_pe,sortbam,0.0
+trim_galore_pe,samlon_quant,0.0
+trim_galore_pe,kallistoQuant,0.0
+trim_galore_pe,fastqc 2,0.0
+trim_galore_pe,tastq_to_bam_HISAT,0.0
+trim_galore_pe,fastqc 5,0.0
+trim_galore_pe,starindex,0.0
+trim_galore_pe,merge_trimmed_PE,0.0
+trim_galore_pe,bamindex,0.0
+trim_galore_pe,map,0.0
+trim_galore_pe,merge_trimmed_SE,0.0
+trim_galore_pe,salmon_index_extended,0.0
+trim_galore_pe,pass2,0.0
+trim_galore_pe,featureCounts 2,0.0
+trim_galore_pe,tximeta,0.0
+trim_galore_pe,fastqScreen,0.0
+trim_galore_pe,multiqc 2,0.0
+trim_galore_pe,trimgalorePE,0.0
+trim_galore_pe,samtools_flagstat,0.0
+trim_galore_pe,featureCounts,0.0
+trim_galore_pe,counts_matrix,0.0
+trim_galore_pe,trimgaloreSE,0.0
+trim_galore_pe,multiqc 3,0.0
+trim_galore_pe,star_genome,0.0
+trim_galore_pe,salmon_quant_pe,0.0
+trim_galore_pe,sort_bams,0.0
+trim_galore_pe,edgeR,0.0
+trim_galore_pe,fastqc,0.0
+trim_galore_pe,sampleReads,0.0
+trim_galore_pe,salmon_quant_se,0.0
+trim_galore_pe,feature_counts,0.0
+trim_galore_pe,cutadapt 2,0.0
+trim_galore_pe,DRIMSeq,0.0
+trim_galore_pe,bigwig,0.0
+trim_galore_pe,fastqctrimmed,0.0
+trim_galore_pe,fastQCtrimmed 2,0.0
+trim_galore_pe,run_multiqc,0.0
+trim_galore_pe,starSE,0.0
+trim_galore_pe,trim_fasq_fastqc,0.0
+trim_galore_pe,fastqc 6,0.0
+trim_galore_pe,salmon_index,0.0
+trim_galore_pe,expressbam,0.0
+salmonPE,mark_dups,0.0
+salmonPE,run_star_se,0.0
+salmonPE,salmonSE,0.0
+salmonPE,pass1,0.0
+salmonPE,run_star_pe,0.0
+salmonPE,rsem_norm,0.0
+salmonPE,fastqcrim,0.0
+salmonPE,generate_genome_star_index,0.0
+salmonPE,picard_rna_seq,0.0
+salmonPE,sortedbam_to_rmdup,0.0
+salmonPE,cutadapt,0.0
+salmonPE,MultiQC,0.0
+salmonPE,sort_index_bams,0.0
+salmonPE,hisat2,0.0
+salmonPE,fetch_unique_stringtie,0.0
+salmonPE,salmon_quant,0.0
+salmonPE,fastp_trimming_PE,0.0
+salmonPE,startPE,0.0
+salmonPE,compare_reference_stringtie,0.0
+salmonPE,RNA_SeqC,0.0
+salmonPE,fastp_trimming_SE,0.0
+salmonPE,sortedbam_to_counts,0.0
+salmonPE,fastqc 4,0.0
+salmonPE,fastqc 3,0.0
+salmonPE,fastqc_trimmed,0.0
+salmonPE,samtools_bam,0.0
+salmonPE,sortbam,0.0
+salmonPE,samlon_quant,0.0
+salmonPE,kallistoQuant,0.0
+salmonPE,fastqc 2,0.0
+salmonPE,tastq_to_bam_HISAT,0.0
+salmonPE,fastqc 5,0.0
+salmonPE,starindex,0.0
+salmonPE,merge_trimmed_PE,0.0
+salmonPE,bamindex,0.0
+salmonPE,map,0.0
+salmonPE,merge_trimmed_SE,0.0
+salmonPE,salmon_index_extended,0.0
+salmonPE,pass2,0.0
+salmonPE,featureCounts 2,0.0
+salmonPE,tximeta,0.0
+salmonPE,fastqScreen,0.0
+salmonPE,multiqc 2,0.0
+salmonPE,trimgalorePE,0.0
+salmonPE,samtools_flagstat,0.0
+salmonPE,featureCounts,0.0
+salmonPE,counts_matrix,0.0
+salmonPE,trimgaloreSE,0.0
+salmonPE,multiqc 3,0.0
+salmonPE,star_genome,0.0
+salmonPE,salmon_quant_pe,0.0
+salmonPE,sort_bams,0.0
+salmonPE,edgeR,0.0
+salmonPE,fastqc,0.0
+salmonPE,sampleReads,0.0
+salmonPE,salmon_quant_se,0.0
+salmonPE,feature_counts,0.0
+salmonPE,cutadapt 2,0.0
+salmonPE,DRIMSeq,0.0
+salmonPE,bigwig,0.0
+salmonPE,fastqctrimmed,0.0
+salmonPE,fastQCtrimmed 2,0.0
+salmonPE,run_multiqc,0.0
+salmonPE,starSE,0.0
+salmonPE,trim_fasq_fastqc,0.0
+salmonPE,fastqc 6,0.0
+salmonPE,salmon_index,0.0
+salmonPE,expressbam,0.0
+mark_dups,run_star_se,0.0
+mark_dups,salmonSE,0.0
+mark_dups,pass1,0.0
+mark_dups,run_star_pe,0.0
+mark_dups,rsem_norm,0.0
+mark_dups,fastqcrim,0.0
+mark_dups,generate_genome_star_index,0.0
+mark_dups,picard_rna_seq,0.0
+mark_dups,sortedbam_to_rmdup,0.0
+mark_dups,cutadapt,0.0
+mark_dups,MultiQC,0.0
+mark_dups,sort_index_bams,0.0
+mark_dups,hisat2,0.0
+mark_dups,fetch_unique_stringtie,0.0
+mark_dups,salmon_quant,0.0
+mark_dups,fastp_trimming_PE,0.0
+mark_dups,startPE,0.0
+mark_dups,compare_reference_stringtie,0.0
+mark_dups,RNA_SeqC,0.0
+mark_dups,fastp_trimming_SE,0.0
+mark_dups,sortedbam_to_counts,0.0
+mark_dups,fastqc 4,0.0
+mark_dups,fastqc 3,0.0
+mark_dups,fastqc_trimmed,0.0
+mark_dups,samtools_bam,0.0
+mark_dups,sortbam,0.0
+mark_dups,samlon_quant,0.0
+mark_dups,kallistoQuant,0.0
+mark_dups,fastqc 2,0.0
+mark_dups,tastq_to_bam_HISAT,0.0
+mark_dups,fastqc 5,0.0
+mark_dups,starindex,0.0
+mark_dups,merge_trimmed_PE,0.0
+mark_dups,bamindex,0.0
+mark_dups,map,0.0
+mark_dups,merge_trimmed_SE,0.0
+mark_dups,salmon_index_extended,0.0
+mark_dups,pass2,0.0
+mark_dups,featureCounts 2,0.0
+mark_dups,tximeta,0.0
+mark_dups,fastqScreen,0.0
+mark_dups,multiqc 2,0.0
+mark_dups,trimgalorePE,0.0
+mark_dups,samtools_flagstat,0.0
+mark_dups,featureCounts,0.0
+mark_dups,counts_matrix,0.0
+mark_dups,trimgaloreSE,0.0
+mark_dups,multiqc 3,0.0
+mark_dups,star_genome,0.0
+mark_dups,salmon_quant_pe,0.0
+mark_dups,sort_bams,0.0
+mark_dups,edgeR,0.0
+mark_dups,fastqc,0.0
+mark_dups,sampleReads,0.0
+mark_dups,salmon_quant_se,0.0
+mark_dups,feature_counts,0.0
+mark_dups,cutadapt 2,0.0
+mark_dups,DRIMSeq,0.0
+mark_dups,bigwig,0.0
+mark_dups,fastqctrimmed,0.0
+mark_dups,fastQCtrimmed 2,0.0
+mark_dups,run_multiqc,0.0
+mark_dups,starSE,0.0
+mark_dups,trim_fasq_fastqc,0.0
+mark_dups,fastqc 6,0.0
+mark_dups,salmon_index,0.0
+mark_dups,expressbam,0.0
+run_star_se,salmonSE,0.0
+run_star_se,pass1,0.0
+run_star_se,run_star_pe,0.0
+run_star_se,rsem_norm,0.0
+run_star_se,fastqcrim,0.0
+run_star_se,generate_genome_star_index,0.0
+run_star_se,picard_rna_seq,0.0
+run_star_se,sortedbam_to_rmdup,0.0
+run_star_se,cutadapt,0.0
+run_star_se,MultiQC,0.0
+run_star_se,sort_index_bams,0.0
+run_star_se,hisat2,0.0
+run_star_se,fetch_unique_stringtie,0.0
+run_star_se,salmon_quant,0.0
+run_star_se,fastp_trimming_PE,0.0
+run_star_se,startPE,0.0
+run_star_se,compare_reference_stringtie,0.0
+run_star_se,RNA_SeqC,0.0
+run_star_se,fastp_trimming_SE,0.0
+run_star_se,sortedbam_to_counts,0.0
+run_star_se,fastqc 4,0.0
+run_star_se,fastqc 3,0.0
+run_star_se,fastqc_trimmed,0.0
+run_star_se,samtools_bam,0.0
+run_star_se,sortbam,0.0
+run_star_se,samlon_quant,0.0
+run_star_se,kallistoQuant,0.0
+run_star_se,fastqc 2,0.0
+run_star_se,tastq_to_bam_HISAT,0.0
+run_star_se,fastqc 5,0.0
+run_star_se,starindex,0.0
+run_star_se,merge_trimmed_PE,0.0
+run_star_se,bamindex,0.0
+run_star_se,map,0.0
+run_star_se,merge_trimmed_SE,0.0
+run_star_se,salmon_index_extended,0.0
+run_star_se,pass2,0.0
+run_star_se,featureCounts 2,0.0
+run_star_se,tximeta,0.0
+run_star_se,fastqScreen,0.0
+run_star_se,multiqc 2,0.0
+run_star_se,trimgalorePE,0.0
+run_star_se,samtools_flagstat,0.0
+run_star_se,featureCounts,0.0
+run_star_se,counts_matrix,0.0
+run_star_se,trimgaloreSE,0.0
+run_star_se,multiqc 3,0.0
+run_star_se,star_genome,0.0
+run_star_se,salmon_quant_pe,0.0
+run_star_se,sort_bams,0.0
+run_star_se,edgeR,0.0
+run_star_se,fastqc,0.0
+run_star_se,sampleReads,0.0
+run_star_se,salmon_quant_se,0.0
+run_star_se,feature_counts,0.0
+run_star_se,cutadapt 2,0.0
+run_star_se,DRIMSeq,0.0
+run_star_se,bigwig,0.0
+run_star_se,fastqctrimmed,0.0
+run_star_se,fastQCtrimmed 2,0.0
+run_star_se,run_multiqc,0.0
+run_star_se,starSE,0.0
+run_star_se,trim_fasq_fastqc,0.0
+run_star_se,fastqc 6,0.0
+run_star_se,salmon_index,0.0
+run_star_se,expressbam,0.0
+salmonSE,pass1,0.0
+salmonSE,run_star_pe,0.0
+salmonSE,rsem_norm,0.0
+salmonSE,fastqcrim,0.0
+salmonSE,generate_genome_star_index,0.0
+salmonSE,picard_rna_seq,0.0
+salmonSE,sortedbam_to_rmdup,0.0
+salmonSE,cutadapt,0.0
+salmonSE,MultiQC,0.0
+salmonSE,sort_index_bams,0.0
+salmonSE,hisat2,0.0
+salmonSE,fetch_unique_stringtie,0.0
+salmonSE,salmon_quant,0.0
+salmonSE,fastp_trimming_PE,0.0
+salmonSE,startPE,0.0
+salmonSE,compare_reference_stringtie,0.0
+salmonSE,RNA_SeqC,0.0
+salmonSE,fastp_trimming_SE,0.0
+salmonSE,sortedbam_to_counts,0.0
+salmonSE,fastqc 4,0.0
+salmonSE,fastqc 3,0.0
+salmonSE,fastqc_trimmed,0.0
+salmonSE,samtools_bam,0.0
+salmonSE,sortbam,0.0
+salmonSE,samlon_quant,0.0
+salmonSE,kallistoQuant,0.0
+salmonSE,fastqc 2,0.0
+salmonSE,tastq_to_bam_HISAT,0.0
+salmonSE,fastqc 5,0.0
+salmonSE,starindex,0.0
+salmonSE,merge_trimmed_PE,0.0
+salmonSE,bamindex,0.0
+salmonSE,map,0.0
+salmonSE,merge_trimmed_SE,0.0
+salmonSE,salmon_index_extended,0.0
+salmonSE,pass2,0.0
+salmonSE,featureCounts 2,0.0
+salmonSE,tximeta,0.0
+salmonSE,fastqScreen,0.0
+salmonSE,multiqc 2,0.0
+salmonSE,trimgalorePE,0.0
+salmonSE,samtools_flagstat,0.0
+salmonSE,featureCounts,0.0
+salmonSE,counts_matrix,0.0
+salmonSE,trimgaloreSE,0.0
+salmonSE,multiqc 3,0.0
+salmonSE,star_genome,0.0
+salmonSE,salmon_quant_pe,0.0
+salmonSE,sort_bams,0.0
+salmonSE,edgeR,0.0
+salmonSE,fastqc,0.0
+salmonSE,sampleReads,0.0
+salmonSE,salmon_quant_se,0.0
+salmonSE,feature_counts,0.0
+salmonSE,cutadapt 2,0.0
+salmonSE,DRIMSeq,0.0
+salmonSE,bigwig,0.0
+salmonSE,fastqctrimmed,0.0
+salmonSE,fastQCtrimmed 2,0.0
+salmonSE,run_multiqc,0.0
+salmonSE,starSE,0.0
+salmonSE,trim_fasq_fastqc,0.0
+salmonSE,fastqc 6,0.0
+salmonSE,salmon_index,0.0
+salmonSE,expressbam,0.0
+pass1,run_star_pe,0.0
+pass1,rsem_norm,0.0
+pass1,fastqcrim,0.0
+pass1,generate_genome_star_index,0.0
+pass1,picard_rna_seq,0.0
+pass1,sortedbam_to_rmdup,0.0
+pass1,cutadapt,0.0
+pass1,MultiQC,0.0
+pass1,sort_index_bams,0.0
+pass1,hisat2,0.0
+pass1,fetch_unique_stringtie,0.0
+pass1,salmon_quant,0.0
+pass1,fastp_trimming_PE,0.0
+pass1,startPE,0.0
+pass1,compare_reference_stringtie,0.0
+pass1,RNA_SeqC,0.0
+pass1,fastp_trimming_SE,0.0
+pass1,sortedbam_to_counts,0.0
+pass1,fastqc 4,0.0
+pass1,fastqc 3,0.0
+pass1,fastqc_trimmed,0.0
+pass1,samtools_bam,0.0
+pass1,sortbam,0.0
+pass1,samlon_quant,0.0
+pass1,kallistoQuant,0.0
+pass1,fastqc 2,0.0
+pass1,tastq_to_bam_HISAT,0.0
+pass1,fastqc 5,0.0
+pass1,starindex,0.0
+pass1,merge_trimmed_PE,0.0
+pass1,bamindex,0.0
+pass1,map,0.0
+pass1,merge_trimmed_SE,0.0
+pass1,salmon_index_extended,0.0
+pass1,pass2,0.0
+pass1,featureCounts 2,0.0
+pass1,tximeta,0.0
+pass1,fastqScreen,0.0
+pass1,multiqc 2,0.0
+pass1,trimgalorePE,0.0
+pass1,samtools_flagstat,0.0
+pass1,featureCounts,0.0
+pass1,counts_matrix,0.0
+pass1,trimgaloreSE,0.0
+pass1,multiqc 3,0.0
+pass1,star_genome,0.0
+pass1,salmon_quant_pe,0.0
+pass1,sort_bams,0.0
+pass1,edgeR,0.0
+pass1,fastqc,0.0
+pass1,sampleReads,0.0
+pass1,salmon_quant_se,0.0
+pass1,feature_counts,0.0
+pass1,cutadapt 2,0.0
+pass1,DRIMSeq,0.0
+pass1,bigwig,0.0
+pass1,fastqctrimmed,0.0
+pass1,fastQCtrimmed 2,0.0
+pass1,run_multiqc,0.0
+pass1,starSE,0.0
+pass1,trim_fasq_fastqc,0.0
+pass1,fastqc 6,0.0
+pass1,salmon_index,0.0
+pass1,expressbam,0.0
+run_star_pe,rsem_norm,0.0
+run_star_pe,fastqcrim,0.0
+run_star_pe,generate_genome_star_index,0.0
+run_star_pe,picard_rna_seq,0.0
+run_star_pe,sortedbam_to_rmdup,0.0
+run_star_pe,cutadapt,0.0
+run_star_pe,MultiQC,0.0
+run_star_pe,sort_index_bams,0.0
+run_star_pe,hisat2,0.0
+run_star_pe,fetch_unique_stringtie,0.0
+run_star_pe,salmon_quant,0.0
+run_star_pe,fastp_trimming_PE,0.0
+run_star_pe,startPE,0.0
+run_star_pe,compare_reference_stringtie,0.0
+run_star_pe,RNA_SeqC,0.0
+run_star_pe,fastp_trimming_SE,0.0
+run_star_pe,sortedbam_to_counts,0.0
+run_star_pe,fastqc 4,0.0
+run_star_pe,fastqc 3,0.0
+run_star_pe,fastqc_trimmed,0.0
+run_star_pe,samtools_bam,0.0
+run_star_pe,sortbam,0.0
+run_star_pe,samlon_quant,0.0
+run_star_pe,kallistoQuant,0.0
+run_star_pe,fastqc 2,0.0
+run_star_pe,tastq_to_bam_HISAT,0.0
+run_star_pe,fastqc 5,0.0
+run_star_pe,starindex,0.0
+run_star_pe,merge_trimmed_PE,0.0
+run_star_pe,bamindex,0.0
+run_star_pe,map,0.0
+run_star_pe,merge_trimmed_SE,0.0
+run_star_pe,salmon_index_extended,0.0
+run_star_pe,pass2,0.0
+run_star_pe,featureCounts 2,0.0
+run_star_pe,tximeta,0.0
+run_star_pe,fastqScreen,0.0
+run_star_pe,multiqc 2,0.0
+run_star_pe,trimgalorePE,0.0
+run_star_pe,samtools_flagstat,0.0
+run_star_pe,featureCounts,0.0
+run_star_pe,counts_matrix,0.0
+run_star_pe,trimgaloreSE,0.0
+run_star_pe,multiqc 3,0.0
+run_star_pe,star_genome,0.0
+run_star_pe,salmon_quant_pe,0.0
+run_star_pe,sort_bams,0.0
+run_star_pe,edgeR,0.0
+run_star_pe,fastqc,0.0
+run_star_pe,sampleReads,0.0
+run_star_pe,salmon_quant_se,0.0
+run_star_pe,feature_counts,0.0
+run_star_pe,cutadapt 2,0.0
+run_star_pe,DRIMSeq,0.0
+run_star_pe,bigwig,0.0
+run_star_pe,fastqctrimmed,0.0
+run_star_pe,fastQCtrimmed 2,0.0
+run_star_pe,run_multiqc,0.0
+run_star_pe,starSE,0.0
+run_star_pe,trim_fasq_fastqc,0.0
+run_star_pe,fastqc 6,0.0
+run_star_pe,salmon_index,0.0
+run_star_pe,expressbam,0.0
+rsem_norm,fastqcrim,0.0
+rsem_norm,generate_genome_star_index,0.0
+rsem_norm,picard_rna_seq,0.0
+rsem_norm,sortedbam_to_rmdup,0.0
+rsem_norm,cutadapt,0.0
+rsem_norm,MultiQC,0.0
+rsem_norm,sort_index_bams,0.0
+rsem_norm,hisat2,0.0
+rsem_norm,fetch_unique_stringtie,0.0
+rsem_norm,salmon_quant,0.0
+rsem_norm,fastp_trimming_PE,0.0
+rsem_norm,startPE,0.0
+rsem_norm,compare_reference_stringtie,0.0
+rsem_norm,RNA_SeqC,0.0
+rsem_norm,fastp_trimming_SE,0.0
+rsem_norm,sortedbam_to_counts,0.0
+rsem_norm,fastqc 4,0.0
+rsem_norm,fastqc 3,0.0
+rsem_norm,fastqc_trimmed,0.0
+rsem_norm,samtools_bam,0.0
+rsem_norm,sortbam,0.0
+rsem_norm,samlon_quant,0.0
+rsem_norm,kallistoQuant,0.0
+rsem_norm,fastqc 2,0.0
+rsem_norm,tastq_to_bam_HISAT,0.0
+rsem_norm,fastqc 5,0.0
+rsem_norm,starindex,0.0
+rsem_norm,merge_trimmed_PE,0.0
+rsem_norm,bamindex,0.0
+rsem_norm,map,0.0
+rsem_norm,merge_trimmed_SE,0.0
+rsem_norm,salmon_index_extended,0.0
+rsem_norm,pass2,0.0
+rsem_norm,featureCounts 2,0.0
+rsem_norm,tximeta,0.0
+rsem_norm,fastqScreen,0.0
+rsem_norm,multiqc 2,0.0
+rsem_norm,trimgalorePE,0.0
+rsem_norm,samtools_flagstat,0.0
+rsem_norm,featureCounts,0.0
+rsem_norm,counts_matrix,0.0
+rsem_norm,trimgaloreSE,0.0
+rsem_norm,multiqc 3,0.0
+rsem_norm,star_genome,0.0
+rsem_norm,salmon_quant_pe,0.0
+rsem_norm,sort_bams,0.0
+rsem_norm,edgeR,0.0
+rsem_norm,fastqc,0.0
+rsem_norm,sampleReads,0.0
+rsem_norm,salmon_quant_se,0.0
+rsem_norm,feature_counts,0.0
+rsem_norm,cutadapt 2,0.0
+rsem_norm,DRIMSeq,0.0
+rsem_norm,bigwig,0.0
+rsem_norm,fastqctrimmed,0.0
+rsem_norm,fastQCtrimmed 2,0.0
+rsem_norm,run_multiqc,0.0
+rsem_norm,starSE,0.0
+rsem_norm,trim_fasq_fastqc,0.0
+rsem_norm,fastqc 6,0.0
+rsem_norm,salmon_index,0.0
+rsem_norm,expressbam,0.0
+fastqcrim,generate_genome_star_index,0.0
+fastqcrim,picard_rna_seq,0.0
+fastqcrim,sortedbam_to_rmdup,0.0
+fastqcrim,cutadapt,0.0
+fastqcrim,MultiQC,0.0
+fastqcrim,sort_index_bams,0.0
+fastqcrim,hisat2,0.0
+fastqcrim,fetch_unique_stringtie,0.0
+fastqcrim,salmon_quant,0.0
+fastqcrim,fastp_trimming_PE,0.0
+fastqcrim,startPE,0.0
+fastqcrim,compare_reference_stringtie,0.0
+fastqcrim,RNA_SeqC,0.0
+fastqcrim,fastp_trimming_SE,0.0
+fastqcrim,sortedbam_to_counts,0.0
+fastqcrim,fastqc 4,0.0
+fastqcrim,fastqc 3,0.0
+fastqcrim,fastqc_trimmed,0.0
+fastqcrim,samtools_bam,0.0
+fastqcrim,sortbam,0.0
+fastqcrim,samlon_quant,0.0
+fastqcrim,kallistoQuant,0.0
+fastqcrim,fastqc 2,0.0
+fastqcrim,tastq_to_bam_HISAT,0.0
+fastqcrim,fastqc 5,0.0
+fastqcrim,starindex,0.0
+fastqcrim,merge_trimmed_PE,0.0
+fastqcrim,bamindex,0.0
+fastqcrim,map,0.0
+fastqcrim,merge_trimmed_SE,0.0
+fastqcrim,salmon_index_extended,0.0
+fastqcrim,pass2,0.0
+fastqcrim,featureCounts 2,0.0
+fastqcrim,tximeta,0.0
+fastqcrim,fastqScreen,0.0
+fastqcrim,multiqc 2,0.0
+fastqcrim,trimgalorePE,0.0
+fastqcrim,samtools_flagstat,0.0
+fastqcrim,featureCounts,0.0
+fastqcrim,counts_matrix,0.0
+fastqcrim,trimgaloreSE,0.0
+fastqcrim,multiqc 3,0.0
+fastqcrim,star_genome,0.0
+fastqcrim,salmon_quant_pe,0.0
+fastqcrim,sort_bams,0.0
+fastqcrim,edgeR,0.0
+fastqcrim,fastqc,0.0
+fastqcrim,sampleReads,0.0
+fastqcrim,salmon_quant_se,0.0
+fastqcrim,feature_counts,0.0
+fastqcrim,cutadapt 2,0.0
+fastqcrim,DRIMSeq,0.0
+fastqcrim,bigwig,0.0
+fastqcrim,fastqctrimmed,0.0
+fastqcrim,fastQCtrimmed 2,0.0
+fastqcrim,run_multiqc,0.0
+fastqcrim,starSE,0.0
+fastqcrim,trim_fasq_fastqc,0.0
+fastqcrim,fastqc 6,0.0
+fastqcrim,salmon_index,0.0
+fastqcrim,expressbam,0.0
+generate_genome_star_index,picard_rna_seq,0.0
+generate_genome_star_index,sortedbam_to_rmdup,0.0
+generate_genome_star_index,cutadapt,0.0
+generate_genome_star_index,MultiQC,0.0
+generate_genome_star_index,sort_index_bams,0.0
+generate_genome_star_index,hisat2,0.0
+generate_genome_star_index,fetch_unique_stringtie,0.0
+generate_genome_star_index,salmon_quant,0.0
+generate_genome_star_index,fastp_trimming_PE,0.0
+generate_genome_star_index,startPE,0.0
+generate_genome_star_index,compare_reference_stringtie,0.0
+generate_genome_star_index,RNA_SeqC,0.0
+generate_genome_star_index,fastp_trimming_SE,0.0
+generate_genome_star_index,sortedbam_to_counts,0.0
+generate_genome_star_index,fastqc 4,0.0
+generate_genome_star_index,fastqc 3,0.0
+generate_genome_star_index,fastqc_trimmed,0.0
+generate_genome_star_index,samtools_bam,0.0
+generate_genome_star_index,sortbam,0.0
+generate_genome_star_index,samlon_quant,0.0
+generate_genome_star_index,kallistoQuant,0.0
+generate_genome_star_index,fastqc 2,0.0
+generate_genome_star_index,tastq_to_bam_HISAT,0.0
+generate_genome_star_index,fastqc 5,0.0
+generate_genome_star_index,starindex,0.0
+generate_genome_star_index,merge_trimmed_PE,0.0
+generate_genome_star_index,bamindex,0.0
+generate_genome_star_index,map,0.0
+generate_genome_star_index,merge_trimmed_SE,0.0
+generate_genome_star_index,salmon_index_extended,0.0
+generate_genome_star_index,pass2,0.0
+generate_genome_star_index,featureCounts 2,0.0
+generate_genome_star_index,tximeta,0.0
+generate_genome_star_index,fastqScreen,0.0
+generate_genome_star_index,multiqc 2,0.0
+generate_genome_star_index,trimgalorePE,0.0
+generate_genome_star_index,samtools_flagstat,0.0
+generate_genome_star_index,featureCounts,0.0
+generate_genome_star_index,counts_matrix,0.0
+generate_genome_star_index,trimgaloreSE,0.0
+generate_genome_star_index,multiqc 3,0.0
+generate_genome_star_index,star_genome,0.0
+generate_genome_star_index,salmon_quant_pe,0.0
+generate_genome_star_index,sort_bams,0.0
+generate_genome_star_index,edgeR,0.0
+generate_genome_star_index,fastqc,0.0
+generate_genome_star_index,sampleReads,0.0
+generate_genome_star_index,salmon_quant_se,0.0
+generate_genome_star_index,feature_counts,0.0
+generate_genome_star_index,cutadapt 2,0.0
+generate_genome_star_index,DRIMSeq,0.0
+generate_genome_star_index,bigwig,0.0
+generate_genome_star_index,fastqctrimmed,0.0
+generate_genome_star_index,fastQCtrimmed 2,0.0
+generate_genome_star_index,run_multiqc,0.0
+generate_genome_star_index,starSE,0.0
+generate_genome_star_index,trim_fasq_fastqc,0.0
+generate_genome_star_index,fastqc 6,0.0
+generate_genome_star_index,salmon_index,0.0
+generate_genome_star_index,expressbam,0.0
+picard_rna_seq,sortedbam_to_rmdup,0.0
+picard_rna_seq,cutadapt,0.0
+picard_rna_seq,MultiQC,0.0
+picard_rna_seq,sort_index_bams,0.0
+picard_rna_seq,hisat2,0.0
+picard_rna_seq,fetch_unique_stringtie,0.0
+picard_rna_seq,salmon_quant,0.0
+picard_rna_seq,fastp_trimming_PE,0.0
+picard_rna_seq,startPE,0.0
+picard_rna_seq,compare_reference_stringtie,0.0
+picard_rna_seq,RNA_SeqC,0.0
+picard_rna_seq,fastp_trimming_SE,0.0
+picard_rna_seq,sortedbam_to_counts,0.0
+picard_rna_seq,fastqc 4,0.0
+picard_rna_seq,fastqc 3,0.0
+picard_rna_seq,fastqc_trimmed,0.0
+picard_rna_seq,samtools_bam,0.0
+picard_rna_seq,sortbam,0.0
+picard_rna_seq,samlon_quant,0.0
+picard_rna_seq,kallistoQuant,0.0
+picard_rna_seq,fastqc 2,0.0
+picard_rna_seq,tastq_to_bam_HISAT,0.0
+picard_rna_seq,fastqc 5,0.0
+picard_rna_seq,starindex,0.0
+picard_rna_seq,merge_trimmed_PE,0.0
+picard_rna_seq,bamindex,0.0
+picard_rna_seq,map,0.0
+picard_rna_seq,merge_trimmed_SE,0.0
+picard_rna_seq,salmon_index_extended,0.0
+picard_rna_seq,pass2,0.0
+picard_rna_seq,featureCounts 2,0.0
+picard_rna_seq,tximeta,0.0
+picard_rna_seq,fastqScreen,0.0
+picard_rna_seq,multiqc 2,0.0
+picard_rna_seq,trimgalorePE,0.0
+picard_rna_seq,samtools_flagstat,0.0
+picard_rna_seq,featureCounts,0.0
+picard_rna_seq,counts_matrix,0.0
+picard_rna_seq,trimgaloreSE,0.0
+picard_rna_seq,multiqc 3,0.0
+picard_rna_seq,star_genome,0.0
+picard_rna_seq,salmon_quant_pe,0.0
+picard_rna_seq,sort_bams,0.0
+picard_rna_seq,edgeR,0.0
+picard_rna_seq,fastqc,0.0
+picard_rna_seq,sampleReads,0.0
+picard_rna_seq,salmon_quant_se,0.0
+picard_rna_seq,feature_counts,0.0
+picard_rna_seq,cutadapt 2,0.0
+picard_rna_seq,DRIMSeq,0.0
+picard_rna_seq,bigwig,0.0
+picard_rna_seq,fastqctrimmed,0.0
+picard_rna_seq,fastQCtrimmed 2,0.0
+picard_rna_seq,run_multiqc,0.0
+picard_rna_seq,starSE,0.0
+picard_rna_seq,trim_fasq_fastqc,0.0
+picard_rna_seq,fastqc 6,0.0
+picard_rna_seq,salmon_index,0.0
+picard_rna_seq,expressbam,0.0
+sortedbam_to_rmdup,cutadapt,0.0
+sortedbam_to_rmdup,MultiQC,0.0
+sortedbam_to_rmdup,sort_index_bams,0.0
+sortedbam_to_rmdup,hisat2,0.0
+sortedbam_to_rmdup,fetch_unique_stringtie,0.0
+sortedbam_to_rmdup,salmon_quant,0.0
+sortedbam_to_rmdup,fastp_trimming_PE,0.0
+sortedbam_to_rmdup,startPE,0.0
+sortedbam_to_rmdup,compare_reference_stringtie,0.0
+sortedbam_to_rmdup,RNA_SeqC,0.0
+sortedbam_to_rmdup,fastp_trimming_SE,0.0
+sortedbam_to_rmdup,sortedbam_to_counts,0.0
+sortedbam_to_rmdup,fastqc 4,0.0
+sortedbam_to_rmdup,fastqc 3,0.0
+sortedbam_to_rmdup,fastqc_trimmed,0.0
+sortedbam_to_rmdup,samtools_bam,0.0
+sortedbam_to_rmdup,sortbam,0.0
+sortedbam_to_rmdup,samlon_quant,0.0
+sortedbam_to_rmdup,kallistoQuant,0.0
+sortedbam_to_rmdup,fastqc 2,0.0
+sortedbam_to_rmdup,tastq_to_bam_HISAT,0.0
+sortedbam_to_rmdup,fastqc 5,0.0
+sortedbam_to_rmdup,starindex,0.0
+sortedbam_to_rmdup,merge_trimmed_PE,0.0
+sortedbam_to_rmdup,bamindex,0.0
+sortedbam_to_rmdup,map,0.0
+sortedbam_to_rmdup,merge_trimmed_SE,0.0
+sortedbam_to_rmdup,salmon_index_extended,0.0
+sortedbam_to_rmdup,pass2,0.0
+sortedbam_to_rmdup,featureCounts 2,0.0
+sortedbam_to_rmdup,tximeta,0.0
+sortedbam_to_rmdup,fastqScreen,0.0
+sortedbam_to_rmdup,multiqc 2,0.0
+sortedbam_to_rmdup,trimgalorePE,0.0
+sortedbam_to_rmdup,samtools_flagstat,0.0
+sortedbam_to_rmdup,featureCounts,0.0
+sortedbam_to_rmdup,counts_matrix,0.0
+sortedbam_to_rmdup,trimgaloreSE,0.0
+sortedbam_to_rmdup,multiqc 3,0.0
+sortedbam_to_rmdup,star_genome,0.0
+sortedbam_to_rmdup,salmon_quant_pe,0.0
+sortedbam_to_rmdup,sort_bams,0.0
+sortedbam_to_rmdup,edgeR,0.0
+sortedbam_to_rmdup,fastqc,0.0
+sortedbam_to_rmdup,sampleReads,0.0
+sortedbam_to_rmdup,salmon_quant_se,0.0
+sortedbam_to_rmdup,feature_counts,0.0
+sortedbam_to_rmdup,cutadapt 2,0.0
+sortedbam_to_rmdup,DRIMSeq,0.0
+sortedbam_to_rmdup,bigwig,0.0
+sortedbam_to_rmdup,fastqctrimmed,0.0
+sortedbam_to_rmdup,fastQCtrimmed 2,0.0
+sortedbam_to_rmdup,run_multiqc,0.0
+sortedbam_to_rmdup,starSE,0.0
+sortedbam_to_rmdup,trim_fasq_fastqc,0.0
+sortedbam_to_rmdup,fastqc 6,0.0
+sortedbam_to_rmdup,salmon_index,0.0
+sortedbam_to_rmdup,expressbam,0.0
+cutadapt,MultiQC,0.0
+cutadapt,sort_index_bams,0.0
+cutadapt,hisat2,0.0
+cutadapt,fetch_unique_stringtie,0.0
+cutadapt,salmon_quant,0.0
+cutadapt,fastp_trimming_PE,0.0
+cutadapt,startPE,0.0
+cutadapt,compare_reference_stringtie,0.0
+cutadapt,RNA_SeqC,0.0
+cutadapt,fastp_trimming_SE,0.0
+cutadapt,sortedbam_to_counts,0.0
+cutadapt,fastqc 4,0.0
+cutadapt,fastqc 3,0.0
+cutadapt,fastqc_trimmed,0.0
+cutadapt,samtools_bam,0.0
+cutadapt,sortbam,0.0
+cutadapt,samlon_quant,0.0
+cutadapt,kallistoQuant,0.0
+cutadapt,fastqc 2,0.0
+cutadapt,tastq_to_bam_HISAT,0.0
+cutadapt,fastqc 5,0.0
+cutadapt,starindex,0.0
+cutadapt,merge_trimmed_PE,0.0
+cutadapt,bamindex,0.0
+cutadapt,map,0.0
+cutadapt,merge_trimmed_SE,0.0
+cutadapt,salmon_index_extended,0.0
+cutadapt,pass2,0.0
+cutadapt,featureCounts 2,0.0
+cutadapt,tximeta,0.0
+cutadapt,fastqScreen,0.0
+cutadapt,multiqc 2,0.0
+cutadapt,trimgalorePE,0.0
+cutadapt,samtools_flagstat,0.0
+cutadapt,featureCounts,0.0
+cutadapt,counts_matrix,0.0
+cutadapt,trimgaloreSE,0.0
+cutadapt,multiqc 3,0.0
+cutadapt,star_genome,0.0
+cutadapt,salmon_quant_pe,0.0
+cutadapt,sort_bams,0.0
+cutadapt,edgeR,0.0
+cutadapt,fastqc,0.0
+cutadapt,sampleReads,0.0
+cutadapt,salmon_quant_se,0.0
+cutadapt,feature_counts,0.0
+cutadapt,cutadapt 2,1.0
+cutadapt,DRIMSeq,0.0
+cutadapt,bigwig,0.0
+cutadapt,fastqctrimmed,0.0
+cutadapt,fastQCtrimmed 2,0.0
+cutadapt,run_multiqc,0.0
+cutadapt,starSE,0.0
+cutadapt,trim_fasq_fastqc,0.0
+cutadapt,fastqc 6,0.0
+cutadapt,salmon_index,0.0
+cutadapt,expressbam,0.0
+MultiQC,sort_index_bams,0.0
+MultiQC,hisat2,0.0
+MultiQC,fetch_unique_stringtie,0.0
+MultiQC,salmon_quant,0.0
+MultiQC,fastp_trimming_PE,0.0
+MultiQC,startPE,0.0
+MultiQC,compare_reference_stringtie,0.0
+MultiQC,RNA_SeqC,0.0
+MultiQC,fastp_trimming_SE,0.0
+MultiQC,sortedbam_to_counts,0.0
+MultiQC,fastqc 4,0.0
+MultiQC,fastqc 3,0.0
+MultiQC,fastqc_trimmed,0.0
+MultiQC,samtools_bam,0.0
+MultiQC,sortbam,0.0
+MultiQC,samlon_quant,0.0
+MultiQC,kallistoQuant,0.0
+MultiQC,fastqc 2,0.0
+MultiQC,tastq_to_bam_HISAT,0.0
+MultiQC,fastqc 5,0.0
+MultiQC,starindex,0.0
+MultiQC,merge_trimmed_PE,0.0
+MultiQC,bamindex,0.0
+MultiQC,map,0.0
+MultiQC,merge_trimmed_SE,0.0
+MultiQC,salmon_index_extended,0.0
+MultiQC,pass2,0.0
+MultiQC,featureCounts 2,0.0
+MultiQC,tximeta,0.0
+MultiQC,fastqScreen,0.0
+MultiQC,multiqc 2,1.0
+MultiQC,trimgalorePE,0.0
+MultiQC,samtools_flagstat,0.0
+MultiQC,featureCounts,0.0
+MultiQC,counts_matrix,0.0
+MultiQC,trimgaloreSE,0.0
+MultiQC,multiqc 3,1.0
+MultiQC,star_genome,0.0
+MultiQC,salmon_quant_pe,0.0
+MultiQC,sort_bams,0.0
+MultiQC,edgeR,0.0
+MultiQC,fastqc,0.0
+MultiQC,sampleReads,0.0
+MultiQC,salmon_quant_se,0.0
+MultiQC,feature_counts,0.0
+MultiQC,cutadapt 2,0.0
+MultiQC,DRIMSeq,0.0
+MultiQC,bigwig,0.0
+MultiQC,fastqctrimmed,0.0
+MultiQC,fastQCtrimmed 2,0.0
+MultiQC,run_multiqc,0.0
+MultiQC,starSE,0.0
+MultiQC,trim_fasq_fastqc,0.0
+MultiQC,fastqc 6,0.0
+MultiQC,salmon_index,0.0
+MultiQC,expressbam,0.0
+sort_index_bams,hisat2,0.0
+sort_index_bams,fetch_unique_stringtie,0.0
+sort_index_bams,salmon_quant,0.0
+sort_index_bams,fastp_trimming_PE,0.0
+sort_index_bams,startPE,0.0
+sort_index_bams,compare_reference_stringtie,0.0
+sort_index_bams,RNA_SeqC,0.0
+sort_index_bams,fastp_trimming_SE,0.0
+sort_index_bams,sortedbam_to_counts,0.0
+sort_index_bams,fastqc 4,0.0
+sort_index_bams,fastqc 3,0.0
+sort_index_bams,fastqc_trimmed,0.0
+sort_index_bams,samtools_bam,0.0
+sort_index_bams,sortbam,0.0
+sort_index_bams,samlon_quant,0.0
+sort_index_bams,kallistoQuant,0.0
+sort_index_bams,fastqc 2,0.0
+sort_index_bams,tastq_to_bam_HISAT,0.0
+sort_index_bams,fastqc 5,0.0
+sort_index_bams,starindex,0.0
+sort_index_bams,merge_trimmed_PE,0.0
+sort_index_bams,bamindex,0.0
+sort_index_bams,map,0.0
+sort_index_bams,merge_trimmed_SE,0.0
+sort_index_bams,salmon_index_extended,0.0
+sort_index_bams,pass2,0.0
+sort_index_bams,featureCounts 2,0.0
+sort_index_bams,tximeta,0.0
+sort_index_bams,fastqScreen,0.0
+sort_index_bams,multiqc 2,0.0
+sort_index_bams,trimgalorePE,0.0
+sort_index_bams,samtools_flagstat,0.0
+sort_index_bams,featureCounts,0.0
+sort_index_bams,counts_matrix,0.0
+sort_index_bams,trimgaloreSE,0.0
+sort_index_bams,multiqc 3,0.0
+sort_index_bams,star_genome,0.0
+sort_index_bams,salmon_quant_pe,0.0
+sort_index_bams,sort_bams,0.0
+sort_index_bams,edgeR,0.0
+sort_index_bams,fastqc,0.0
+sort_index_bams,sampleReads,0.0
+sort_index_bams,salmon_quant_se,0.0
+sort_index_bams,feature_counts,0.0
+sort_index_bams,cutadapt 2,0.0
+sort_index_bams,DRIMSeq,0.0
+sort_index_bams,bigwig,0.0
+sort_index_bams,fastqctrimmed,0.0
+sort_index_bams,fastQCtrimmed 2,0.0
+sort_index_bams,run_multiqc,0.0
+sort_index_bams,starSE,0.0
+sort_index_bams,trim_fasq_fastqc,0.0
+sort_index_bams,fastqc 6,0.0
+sort_index_bams,salmon_index,0.0
+sort_index_bams,expressbam,0.0
+hisat2,fetch_unique_stringtie,0.0
+hisat2,salmon_quant,0.0
+hisat2,fastp_trimming_PE,0.0
+hisat2,startPE,0.0
+hisat2,compare_reference_stringtie,0.0
+hisat2,RNA_SeqC,0.0
+hisat2,fastp_trimming_SE,0.0
+hisat2,sortedbam_to_counts,0.0
+hisat2,fastqc 4,0.0
+hisat2,fastqc 3,0.0
+hisat2,fastqc_trimmed,0.0
+hisat2,samtools_bam,0.0
+hisat2,sortbam,0.0
+hisat2,samlon_quant,0.0
+hisat2,kallistoQuant,0.0
+hisat2,fastqc 2,0.0
+hisat2,tastq_to_bam_HISAT,0.0
+hisat2,fastqc 5,0.0
+hisat2,starindex,0.0
+hisat2,merge_trimmed_PE,0.0
+hisat2,bamindex,0.0
+hisat2,map,0.0
+hisat2,merge_trimmed_SE,0.0
+hisat2,salmon_index_extended,0.0
+hisat2,pass2,0.0
+hisat2,featureCounts 2,0.0
+hisat2,tximeta,0.0
+hisat2,fastqScreen,0.0
+hisat2,multiqc 2,0.0
+hisat2,trimgalorePE,0.0
+hisat2,samtools_flagstat,0.0
+hisat2,featureCounts,0.0
+hisat2,counts_matrix,0.0
+hisat2,trimgaloreSE,0.0
+hisat2,multiqc 3,0.0
+hisat2,star_genome,0.0
+hisat2,salmon_quant_pe,0.0
+hisat2,sort_bams,0.0
+hisat2,edgeR,0.0
+hisat2,fastqc,0.0
+hisat2,sampleReads,0.0
+hisat2,salmon_quant_se,0.0
+hisat2,feature_counts,0.0
+hisat2,cutadapt 2,0.0
+hisat2,DRIMSeq,0.0
+hisat2,bigwig,0.0
+hisat2,fastqctrimmed,0.0
+hisat2,fastQCtrimmed 2,0.0
+hisat2,run_multiqc,0.0
+hisat2,starSE,0.0
+hisat2,trim_fasq_fastqc,0.0
+hisat2,fastqc 6,0.0
+hisat2,salmon_index,0.0
+hisat2,expressbam,0.0
+fetch_unique_stringtie,salmon_quant,0.0
+fetch_unique_stringtie,fastp_trimming_PE,0.0
+fetch_unique_stringtie,startPE,0.0
+fetch_unique_stringtie,compare_reference_stringtie,0.0
+fetch_unique_stringtie,RNA_SeqC,0.0
+fetch_unique_stringtie,fastp_trimming_SE,0.0
+fetch_unique_stringtie,sortedbam_to_counts,0.0
+fetch_unique_stringtie,fastqc 4,0.0
+fetch_unique_stringtie,fastqc 3,0.0
+fetch_unique_stringtie,fastqc_trimmed,0.0
+fetch_unique_stringtie,samtools_bam,0.0
+fetch_unique_stringtie,sortbam,0.0
+fetch_unique_stringtie,samlon_quant,0.0
+fetch_unique_stringtie,kallistoQuant,0.0
+fetch_unique_stringtie,fastqc 2,0.0
+fetch_unique_stringtie,tastq_to_bam_HISAT,0.0
+fetch_unique_stringtie,fastqc 5,0.0
+fetch_unique_stringtie,starindex,0.0
+fetch_unique_stringtie,merge_trimmed_PE,0.0
+fetch_unique_stringtie,bamindex,0.0
+fetch_unique_stringtie,map,0.0
+fetch_unique_stringtie,merge_trimmed_SE,0.0
+fetch_unique_stringtie,salmon_index_extended,0.0
+fetch_unique_stringtie,pass2,0.0
+fetch_unique_stringtie,featureCounts 2,0.0
+fetch_unique_stringtie,tximeta,0.0
+fetch_unique_stringtie,fastqScreen,0.0
+fetch_unique_stringtie,multiqc 2,0.0
+fetch_unique_stringtie,trimgalorePE,0.0
+fetch_unique_stringtie,samtools_flagstat,0.0
+fetch_unique_stringtie,featureCounts,0.0
+fetch_unique_stringtie,counts_matrix,0.0
+fetch_unique_stringtie,trimgaloreSE,0.0
+fetch_unique_stringtie,multiqc 3,0.0
+fetch_unique_stringtie,star_genome,0.0
+fetch_unique_stringtie,salmon_quant_pe,0.0
+fetch_unique_stringtie,sort_bams,0.0
+fetch_unique_stringtie,edgeR,0.0
+fetch_unique_stringtie,fastqc,0.0
+fetch_unique_stringtie,sampleReads,0.0
+fetch_unique_stringtie,salmon_quant_se,0.0
+fetch_unique_stringtie,feature_counts,0.0
+fetch_unique_stringtie,cutadapt 2,0.0
+fetch_unique_stringtie,DRIMSeq,0.0
+fetch_unique_stringtie,bigwig,0.0
+fetch_unique_stringtie,fastqctrimmed,0.0
+fetch_unique_stringtie,fastQCtrimmed 2,0.0
+fetch_unique_stringtie,run_multiqc,0.0
+fetch_unique_stringtie,starSE,0.0
+fetch_unique_stringtie,trim_fasq_fastqc,0.0
+fetch_unique_stringtie,fastqc 6,0.0
+fetch_unique_stringtie,salmon_index,0.0
+fetch_unique_stringtie,expressbam,0.0
+salmon_quant,fastp_trimming_PE,0.0
+salmon_quant,startPE,0.0
+salmon_quant,compare_reference_stringtie,0.0
+salmon_quant,RNA_SeqC,0.0
+salmon_quant,fastp_trimming_SE,0.0
+salmon_quant,sortedbam_to_counts,0.0
+salmon_quant,fastqc 4,0.0
+salmon_quant,fastqc 3,0.0
+salmon_quant,fastqc_trimmed,0.0
+salmon_quant,samtools_bam,0.0
+salmon_quant,sortbam,0.0
+salmon_quant,samlon_quant,1.0
+salmon_quant,kallistoQuant,0.0
+salmon_quant,fastqc 2,0.0
+salmon_quant,tastq_to_bam_HISAT,0.0
+salmon_quant,fastqc 5,0.0
+salmon_quant,starindex,0.0
+salmon_quant,merge_trimmed_PE,0.0
+salmon_quant,bamindex,0.0
+salmon_quant,map,0.0
+salmon_quant,merge_trimmed_SE,0.0
+salmon_quant,salmon_index_extended,0.0
+salmon_quant,pass2,0.0
+salmon_quant,featureCounts 2,0.0
+salmon_quant,tximeta,0.0
+salmon_quant,fastqScreen,0.0
+salmon_quant,multiqc 2,0.0
+salmon_quant,trimgalorePE,0.0
+salmon_quant,samtools_flagstat,0.0
+salmon_quant,featureCounts,0.0
+salmon_quant,counts_matrix,0.0
+salmon_quant,trimgaloreSE,0.0
+salmon_quant,multiqc 3,0.0
+salmon_quant,star_genome,0.0
+salmon_quant,salmon_quant_pe,0.0
+salmon_quant,sort_bams,0.0
+salmon_quant,edgeR,0.0
+salmon_quant,fastqc,0.0
+salmon_quant,sampleReads,0.0
+salmon_quant,salmon_quant_se,0.0
+salmon_quant,feature_counts,0.0
+salmon_quant,cutadapt 2,0.0
+salmon_quant,DRIMSeq,0.0
+salmon_quant,bigwig,0.0
+salmon_quant,fastqctrimmed,0.0
+salmon_quant,fastQCtrimmed 2,0.0
+salmon_quant,run_multiqc,0.0
+salmon_quant,starSE,0.0
+salmon_quant,trim_fasq_fastqc,0.0
+salmon_quant,fastqc 6,0.0
+salmon_quant,salmon_index,0.0
+salmon_quant,expressbam,0.0
+fastp_trimming_PE,startPE,0.0
+fastp_trimming_PE,compare_reference_stringtie,0.0
+fastp_trimming_PE,RNA_SeqC,0.0
+fastp_trimming_PE,fastp_trimming_SE,1.0
+fastp_trimming_PE,sortedbam_to_counts,0.0
+fastp_trimming_PE,fastqc 4,0.0
+fastp_trimming_PE,fastqc 3,0.0
+fastp_trimming_PE,fastqc_trimmed,0.0
+fastp_trimming_PE,samtools_bam,0.0
+fastp_trimming_PE,sortbam,0.0
+fastp_trimming_PE,samlon_quant,0.0
+fastp_trimming_PE,kallistoQuant,0.0
+fastp_trimming_PE,fastqc 2,0.0
+fastp_trimming_PE,tastq_to_bam_HISAT,0.0
+fastp_trimming_PE,fastqc 5,0.0
+fastp_trimming_PE,starindex,0.0
+fastp_trimming_PE,merge_trimmed_PE,0.0
+fastp_trimming_PE,bamindex,0.0
+fastp_trimming_PE,map,0.0
+fastp_trimming_PE,merge_trimmed_SE,0.0
+fastp_trimming_PE,salmon_index_extended,0.0
+fastp_trimming_PE,pass2,0.0
+fastp_trimming_PE,featureCounts 2,0.0
+fastp_trimming_PE,tximeta,0.0
+fastp_trimming_PE,fastqScreen,0.0
+fastp_trimming_PE,multiqc 2,0.0
+fastp_trimming_PE,trimgalorePE,0.0
+fastp_trimming_PE,samtools_flagstat,0.0
+fastp_trimming_PE,featureCounts,0.0
+fastp_trimming_PE,counts_matrix,0.0
+fastp_trimming_PE,trimgaloreSE,0.0
+fastp_trimming_PE,multiqc 3,0.0
+fastp_trimming_PE,star_genome,0.0
+fastp_trimming_PE,salmon_quant_pe,0.0
+fastp_trimming_PE,sort_bams,0.0
+fastp_trimming_PE,edgeR,0.0
+fastp_trimming_PE,fastqc,0.0
+fastp_trimming_PE,sampleReads,0.0
+fastp_trimming_PE,salmon_quant_se,0.0
+fastp_trimming_PE,feature_counts,0.0
+fastp_trimming_PE,cutadapt 2,0.0
+fastp_trimming_PE,DRIMSeq,0.0
+fastp_trimming_PE,bigwig,0.0
+fastp_trimming_PE,fastqctrimmed,0.0
+fastp_trimming_PE,fastQCtrimmed 2,0.0
+fastp_trimming_PE,run_multiqc,0.0
+fastp_trimming_PE,starSE,0.0
+fastp_trimming_PE,trim_fasq_fastqc,0.0
+fastp_trimming_PE,fastqc 6,0.0
+fastp_trimming_PE,salmon_index,0.0
+fastp_trimming_PE,expressbam,0.0
+startPE,compare_reference_stringtie,0.0
+startPE,RNA_SeqC,0.0
+startPE,fastp_trimming_SE,0.0
+startPE,sortedbam_to_counts,0.0
+startPE,fastqc 4,0.0
+startPE,fastqc 3,0.0
+startPE,fastqc_trimmed,0.0
+startPE,samtools_bam,0.0
+startPE,sortbam,0.0
+startPE,samlon_quant,0.0
+startPE,kallistoQuant,0.0
+startPE,fastqc 2,0.0
+startPE,tastq_to_bam_HISAT,0.0
+startPE,fastqc 5,0.0
+startPE,starindex,0.0
+startPE,merge_trimmed_PE,0.0
+startPE,bamindex,0.0
+startPE,map,0.0
+startPE,merge_trimmed_SE,0.0
+startPE,salmon_index_extended,0.0
+startPE,pass2,0.0
+startPE,featureCounts 2,0.0
+startPE,tximeta,0.0
+startPE,fastqScreen,0.0
+startPE,multiqc 2,0.0
+startPE,trimgalorePE,0.0
+startPE,samtools_flagstat,0.0
+startPE,featureCounts,0.0
+startPE,counts_matrix,0.0
+startPE,trimgaloreSE,0.0
+startPE,multiqc 3,0.0
+startPE,star_genome,0.0
+startPE,salmon_quant_pe,0.0
+startPE,sort_bams,0.0
+startPE,edgeR,0.0
+startPE,fastqc,0.0
+startPE,sampleReads,0.0
+startPE,salmon_quant_se,0.0
+startPE,feature_counts,0.0
+startPE,cutadapt 2,0.0
+startPE,DRIMSeq,0.0
+startPE,bigwig,0.0
+startPE,fastqctrimmed,0.0
+startPE,fastQCtrimmed 2,0.0
+startPE,run_multiqc,0.0
+startPE,starSE,0.0
+startPE,trim_fasq_fastqc,0.0
+startPE,fastqc 6,0.0
+startPE,salmon_index,0.0
+startPE,expressbam,0.0
+compare_reference_stringtie,RNA_SeqC,0.0
+compare_reference_stringtie,fastp_trimming_SE,0.0
+compare_reference_stringtie,sortedbam_to_counts,0.0
+compare_reference_stringtie,fastqc 4,0.0
+compare_reference_stringtie,fastqc 3,0.0
+compare_reference_stringtie,fastqc_trimmed,0.0
+compare_reference_stringtie,samtools_bam,0.0
+compare_reference_stringtie,sortbam,0.0
+compare_reference_stringtie,samlon_quant,0.0
+compare_reference_stringtie,kallistoQuant,0.0
+compare_reference_stringtie,fastqc 2,0.0
+compare_reference_stringtie,tastq_to_bam_HISAT,0.0
+compare_reference_stringtie,fastqc 5,0.0
+compare_reference_stringtie,starindex,0.0
+compare_reference_stringtie,merge_trimmed_PE,0.0
+compare_reference_stringtie,bamindex,0.0
+compare_reference_stringtie,map,0.0
+compare_reference_stringtie,merge_trimmed_SE,0.0
+compare_reference_stringtie,salmon_index_extended,0.0
+compare_reference_stringtie,pass2,0.0
+compare_reference_stringtie,featureCounts 2,0.0
+compare_reference_stringtie,tximeta,0.0
+compare_reference_stringtie,fastqScreen,0.0
+compare_reference_stringtie,multiqc 2,0.0
+compare_reference_stringtie,trimgalorePE,0.0
+compare_reference_stringtie,samtools_flagstat,0.0
+compare_reference_stringtie,featureCounts,0.0
+compare_reference_stringtie,counts_matrix,0.0
+compare_reference_stringtie,trimgaloreSE,0.0
+compare_reference_stringtie,multiqc 3,0.0
+compare_reference_stringtie,star_genome,0.0
+compare_reference_stringtie,salmon_quant_pe,0.0
+compare_reference_stringtie,sort_bams,0.0
+compare_reference_stringtie,edgeR,0.0
+compare_reference_stringtie,fastqc,0.0
+compare_reference_stringtie,sampleReads,0.0
+compare_reference_stringtie,salmon_quant_se,0.0
+compare_reference_stringtie,feature_counts,0.0
+compare_reference_stringtie,cutadapt 2,0.0
+compare_reference_stringtie,DRIMSeq,0.0
+compare_reference_stringtie,bigwig,0.0
+compare_reference_stringtie,fastqctrimmed,0.0
+compare_reference_stringtie,fastQCtrimmed 2,0.0
+compare_reference_stringtie,run_multiqc,0.0
+compare_reference_stringtie,starSE,0.0
+compare_reference_stringtie,trim_fasq_fastqc,0.0
+compare_reference_stringtie,fastqc 6,0.0
+compare_reference_stringtie,salmon_index,0.0
+compare_reference_stringtie,expressbam,0.0
+RNA_SeqC,fastp_trimming_SE,0.0
+RNA_SeqC,sortedbam_to_counts,0.0
+RNA_SeqC,fastqc 4,0.0
+RNA_SeqC,fastqc 3,0.0
+RNA_SeqC,fastqc_trimmed,0.0
+RNA_SeqC,samtools_bam,0.0
+RNA_SeqC,sortbam,0.0
+RNA_SeqC,samlon_quant,0.0
+RNA_SeqC,kallistoQuant,0.0
+RNA_SeqC,fastqc 2,0.0
+RNA_SeqC,tastq_to_bam_HISAT,0.0
+RNA_SeqC,fastqc 5,0.0
+RNA_SeqC,starindex,0.0
+RNA_SeqC,merge_trimmed_PE,0.0
+RNA_SeqC,bamindex,0.0
+RNA_SeqC,map,0.0
+RNA_SeqC,merge_trimmed_SE,0.0
+RNA_SeqC,salmon_index_extended,0.0
+RNA_SeqC,pass2,0.0
+RNA_SeqC,featureCounts 2,0.0
+RNA_SeqC,tximeta,0.0
+RNA_SeqC,fastqScreen,0.0
+RNA_SeqC,multiqc 2,0.0
+RNA_SeqC,trimgalorePE,0.0
+RNA_SeqC,samtools_flagstat,0.0
+RNA_SeqC,featureCounts,0.0
+RNA_SeqC,counts_matrix,0.0
+RNA_SeqC,trimgaloreSE,0.0
+RNA_SeqC,multiqc 3,0.0
+RNA_SeqC,star_genome,0.0
+RNA_SeqC,salmon_quant_pe,0.0
+RNA_SeqC,sort_bams,0.0
+RNA_SeqC,edgeR,0.0
+RNA_SeqC,fastqc,0.0
+RNA_SeqC,sampleReads,0.0
+RNA_SeqC,salmon_quant_se,0.0
+RNA_SeqC,feature_counts,0.0
+RNA_SeqC,cutadapt 2,0.0
+RNA_SeqC,DRIMSeq,0.0
+RNA_SeqC,bigwig,0.0
+RNA_SeqC,fastqctrimmed,0.0
+RNA_SeqC,fastQCtrimmed 2,0.0
+RNA_SeqC,run_multiqc,0.0
+RNA_SeqC,starSE,0.0
+RNA_SeqC,trim_fasq_fastqc,0.0
+RNA_SeqC,fastqc 6,0.0
+RNA_SeqC,salmon_index,0.0
+RNA_SeqC,expressbam,0.0
+fastp_trimming_SE,sortedbam_to_counts,0.0
+fastp_trimming_SE,fastqc 4,0.0
+fastp_trimming_SE,fastqc 3,0.0
+fastp_trimming_SE,fastqc_trimmed,0.0
+fastp_trimming_SE,samtools_bam,0.0
+fastp_trimming_SE,sortbam,0.0
+fastp_trimming_SE,samlon_quant,0.0
+fastp_trimming_SE,kallistoQuant,0.0
+fastp_trimming_SE,fastqc 2,0.0
+fastp_trimming_SE,tastq_to_bam_HISAT,0.0
+fastp_trimming_SE,fastqc 5,0.0
+fastp_trimming_SE,starindex,0.0
+fastp_trimming_SE,merge_trimmed_PE,0.0
+fastp_trimming_SE,bamindex,0.0
+fastp_trimming_SE,map,0.0
+fastp_trimming_SE,merge_trimmed_SE,0.0
+fastp_trimming_SE,salmon_index_extended,0.0
+fastp_trimming_SE,pass2,0.0
+fastp_trimming_SE,featureCounts 2,0.0
+fastp_trimming_SE,tximeta,0.0
+fastp_trimming_SE,fastqScreen,0.0
+fastp_trimming_SE,multiqc 2,0.0
+fastp_trimming_SE,trimgalorePE,0.0
+fastp_trimming_SE,samtools_flagstat,0.0
+fastp_trimming_SE,featureCounts,0.0
+fastp_trimming_SE,counts_matrix,0.0
+fastp_trimming_SE,trimgaloreSE,0.0
+fastp_trimming_SE,multiqc 3,0.0
+fastp_trimming_SE,star_genome,0.0
+fastp_trimming_SE,salmon_quant_pe,0.0
+fastp_trimming_SE,sort_bams,0.0
+fastp_trimming_SE,edgeR,0.0
+fastp_trimming_SE,fastqc,0.0
+fastp_trimming_SE,sampleReads,0.0
+fastp_trimming_SE,salmon_quant_se,0.0
+fastp_trimming_SE,feature_counts,0.0
+fastp_trimming_SE,cutadapt 2,0.0
+fastp_trimming_SE,DRIMSeq,0.0
+fastp_trimming_SE,bigwig,0.0
+fastp_trimming_SE,fastqctrimmed,0.0
+fastp_trimming_SE,fastQCtrimmed 2,0.0
+fastp_trimming_SE,run_multiqc,0.0
+fastp_trimming_SE,starSE,0.0
+fastp_trimming_SE,trim_fasq_fastqc,0.0
+fastp_trimming_SE,fastqc 6,0.0
+fastp_trimming_SE,salmon_index,0.0
+fastp_trimming_SE,expressbam,0.0
+sortedbam_to_counts,fastqc 4,0.0
+sortedbam_to_counts,fastqc 3,0.0
+sortedbam_to_counts,fastqc_trimmed,0.0
+sortedbam_to_counts,samtools_bam,0.0
+sortedbam_to_counts,sortbam,0.0
+sortedbam_to_counts,samlon_quant,0.0
+sortedbam_to_counts,kallistoQuant,0.0
+sortedbam_to_counts,fastqc 2,0.0
+sortedbam_to_counts,tastq_to_bam_HISAT,0.0
+sortedbam_to_counts,fastqc 5,0.0
+sortedbam_to_counts,starindex,0.0
+sortedbam_to_counts,merge_trimmed_PE,0.0
+sortedbam_to_counts,bamindex,0.0
+sortedbam_to_counts,map,0.0
+sortedbam_to_counts,merge_trimmed_SE,0.0
+sortedbam_to_counts,salmon_index_extended,0.0
+sortedbam_to_counts,pass2,0.0
+sortedbam_to_counts,featureCounts 2,0.0
+sortedbam_to_counts,tximeta,0.0
+sortedbam_to_counts,fastqScreen,0.0
+sortedbam_to_counts,multiqc 2,0.0
+sortedbam_to_counts,trimgalorePE,0.0
+sortedbam_to_counts,samtools_flagstat,0.0
+sortedbam_to_counts,featureCounts,0.0
+sortedbam_to_counts,counts_matrix,0.0
+sortedbam_to_counts,trimgaloreSE,0.0
+sortedbam_to_counts,multiqc 3,0.0
+sortedbam_to_counts,star_genome,0.0
+sortedbam_to_counts,salmon_quant_pe,0.0
+sortedbam_to_counts,sort_bams,0.0
+sortedbam_to_counts,edgeR,0.0
+sortedbam_to_counts,fastqc,0.0
+sortedbam_to_counts,sampleReads,0.0
+sortedbam_to_counts,salmon_quant_se,0.0
+sortedbam_to_counts,feature_counts,0.0
+sortedbam_to_counts,cutadapt 2,0.0
+sortedbam_to_counts,DRIMSeq,0.0
+sortedbam_to_counts,bigwig,0.0
+sortedbam_to_counts,fastqctrimmed,0.0
+sortedbam_to_counts,fastQCtrimmed 2,0.0
+sortedbam_to_counts,run_multiqc,0.0
+sortedbam_to_counts,starSE,0.0
+sortedbam_to_counts,trim_fasq_fastqc,0.0
+sortedbam_to_counts,fastqc 6,0.0
+sortedbam_to_counts,salmon_index,0.0
+sortedbam_to_counts,expressbam,0.0
+fastqc 4,fastqc 3,1.0
+fastqc 4,fastqc_trimmed,0.0
+fastqc 4,samtools_bam,0.0
+fastqc 4,sortbam,0.0
+fastqc 4,samlon_quant,0.0
+fastqc 4,kallistoQuant,0.0
+fastqc 4,fastqc 2,1.0
+fastqc 4,tastq_to_bam_HISAT,0.0
+fastqc 4,fastqc 5,1.0
+fastqc 4,starindex,0.0
+fastqc 4,merge_trimmed_PE,0.0
+fastqc 4,bamindex,0.0
+fastqc 4,map,0.0
+fastqc 4,merge_trimmed_SE,0.0
+fastqc 4,salmon_index_extended,0.0
+fastqc 4,pass2,0.0
+fastqc 4,featureCounts 2,0.0
+fastqc 4,tximeta,0.0
+fastqc 4,fastqScreen,0.0
+fastqc 4,multiqc 2,0.0
+fastqc 4,trimgalorePE,0.0
+fastqc 4,samtools_flagstat,0.0
+fastqc 4,featureCounts,0.0
+fastqc 4,counts_matrix,0.0
+fastqc 4,trimgaloreSE,0.0
+fastqc 4,multiqc 3,0.0
+fastqc 4,star_genome,0.0
+fastqc 4,salmon_quant_pe,0.0
+fastqc 4,sort_bams,0.0
+fastqc 4,edgeR,0.0
+fastqc 4,fastqc,1.0
+fastqc 4,sampleReads,0.0
+fastqc 4,salmon_quant_se,0.0
+fastqc 4,feature_counts,0.0
+fastqc 4,cutadapt 2,0.0
+fastqc 4,DRIMSeq,0.0
+fastqc 4,bigwig,0.0
+fastqc 4,fastqctrimmed,0.0
+fastqc 4,fastQCtrimmed 2,0.0
+fastqc 4,run_multiqc,0.0
+fastqc 4,starSE,0.0
+fastqc 4,trim_fasq_fastqc,0.0
+fastqc 4,fastqc 6,1.0
+fastqc 4,salmon_index,0.0
+fastqc 4,expressbam,0.0
+fastqc 3,fastqc_trimmed,0.0
+fastqc 3,samtools_bam,0.0
+fastqc 3,sortbam,0.0
+fastqc 3,samlon_quant,0.0
+fastqc 3,kallistoQuant,0.0
+fastqc 3,fastqc 2,1.0
+fastqc 3,tastq_to_bam_HISAT,0.0
+fastqc 3,fastqc 5,1.0
+fastqc 3,starindex,0.0
+fastqc 3,merge_trimmed_PE,0.0
+fastqc 3,bamindex,0.0
+fastqc 3,map,0.0
+fastqc 3,merge_trimmed_SE,0.0
+fastqc 3,salmon_index_extended,0.0
+fastqc 3,pass2,0.0
+fastqc 3,featureCounts 2,0.0
+fastqc 3,tximeta,0.0
+fastqc 3,fastqScreen,0.0
+fastqc 3,multiqc 2,0.0
+fastqc 3,trimgalorePE,0.0
+fastqc 3,samtools_flagstat,0.0
+fastqc 3,featureCounts,0.0
+fastqc 3,counts_matrix,0.0
+fastqc 3,trimgaloreSE,0.0
+fastqc 3,multiqc 3,0.0
+fastqc 3,star_genome,0.0
+fastqc 3,salmon_quant_pe,0.0
+fastqc 3,sort_bams,0.0
+fastqc 3,edgeR,0.0
+fastqc 3,fastqc,1.0
+fastqc 3,sampleReads,0.0
+fastqc 3,salmon_quant_se,0.0
+fastqc 3,feature_counts,0.0
+fastqc 3,cutadapt 2,0.0
+fastqc 3,DRIMSeq,0.0
+fastqc 3,bigwig,0.0
+fastqc 3,fastqctrimmed,0.0
+fastqc 3,fastQCtrimmed 2,0.0
+fastqc 3,run_multiqc,0.0
+fastqc 3,starSE,0.0
+fastqc 3,trim_fasq_fastqc,0.0
+fastqc 3,fastqc 6,1.0
+fastqc 3,salmon_index,0.0
+fastqc 3,expressbam,0.0
+fastqc_trimmed,samtools_bam,0.0
+fastqc_trimmed,sortbam,0.0
+fastqc_trimmed,samlon_quant,0.0
+fastqc_trimmed,kallistoQuant,0.0
+fastqc_trimmed,fastqc 2,0.0
+fastqc_trimmed,tastq_to_bam_HISAT,0.0
+fastqc_trimmed,fastqc 5,0.0
+fastqc_trimmed,starindex,0.0
+fastqc_trimmed,merge_trimmed_PE,0.0
+fastqc_trimmed,bamindex,0.0
+fastqc_trimmed,map,0.0
+fastqc_trimmed,merge_trimmed_SE,0.0
+fastqc_trimmed,salmon_index_extended,0.0
+fastqc_trimmed,pass2,0.0
+fastqc_trimmed,featureCounts 2,0.0
+fastqc_trimmed,tximeta,0.0
+fastqc_trimmed,fastqScreen,0.0
+fastqc_trimmed,multiqc 2,0.0
+fastqc_trimmed,trimgalorePE,0.0
+fastqc_trimmed,samtools_flagstat,0.0
+fastqc_trimmed,featureCounts,0.0
+fastqc_trimmed,counts_matrix,0.0
+fastqc_trimmed,trimgaloreSE,0.0
+fastqc_trimmed,multiqc 3,0.0
+fastqc_trimmed,star_genome,0.0
+fastqc_trimmed,salmon_quant_pe,0.0
+fastqc_trimmed,sort_bams,0.0
+fastqc_trimmed,edgeR,0.0
+fastqc_trimmed,fastqc,0.0
+fastqc_trimmed,sampleReads,0.0
+fastqc_trimmed,salmon_quant_se,0.0
+fastqc_trimmed,feature_counts,0.0
+fastqc_trimmed,cutadapt 2,0.0
+fastqc_trimmed,DRIMSeq,0.0
+fastqc_trimmed,bigwig,0.0
+fastqc_trimmed,fastqctrimmed,0.0
+fastqc_trimmed,fastQCtrimmed 2,0.0
+fastqc_trimmed,run_multiqc,0.0
+fastqc_trimmed,starSE,0.0
+fastqc_trimmed,trim_fasq_fastqc,0.0
+fastqc_trimmed,fastqc 6,0.0
+fastqc_trimmed,salmon_index,0.0
+fastqc_trimmed,expressbam,0.0
+samtools_bam,sortbam,0.0
+samtools_bam,samlon_quant,0.0
+samtools_bam,kallistoQuant,0.0
+samtools_bam,fastqc 2,0.0
+samtools_bam,tastq_to_bam_HISAT,0.0
+samtools_bam,fastqc 5,0.0
+samtools_bam,starindex,0.0
+samtools_bam,merge_trimmed_PE,0.0
+samtools_bam,bamindex,0.0
+samtools_bam,map,0.0
+samtools_bam,merge_trimmed_SE,0.0
+samtools_bam,salmon_index_extended,0.0
+samtools_bam,pass2,0.0
+samtools_bam,featureCounts 2,0.0
+samtools_bam,tximeta,0.0
+samtools_bam,fastqScreen,0.0
+samtools_bam,multiqc 2,0.0
+samtools_bam,trimgalorePE,0.0
+samtools_bam,samtools_flagstat,0.0
+samtools_bam,featureCounts,0.0
+samtools_bam,counts_matrix,0.0
+samtools_bam,trimgaloreSE,0.0
+samtools_bam,multiqc 3,0.0
+samtools_bam,star_genome,0.0
+samtools_bam,salmon_quant_pe,0.0
+samtools_bam,sort_bams,0.0
+samtools_bam,edgeR,0.0
+samtools_bam,fastqc,0.0
+samtools_bam,sampleReads,0.0
+samtools_bam,salmon_quant_se,0.0
+samtools_bam,feature_counts,0.0
+samtools_bam,cutadapt 2,0.0
+samtools_bam,DRIMSeq,0.0
+samtools_bam,bigwig,0.0
+samtools_bam,fastqctrimmed,0.0
+samtools_bam,fastQCtrimmed 2,0.0
+samtools_bam,run_multiqc,0.0
+samtools_bam,starSE,0.0
+samtools_bam,trim_fasq_fastqc,0.0
+samtools_bam,fastqc 6,0.0
+samtools_bam,salmon_index,0.0
+samtools_bam,expressbam,0.0
+sortbam,samlon_quant,0.0
+sortbam,kallistoQuant,0.0
+sortbam,fastqc 2,0.0
+sortbam,tastq_to_bam_HISAT,0.0
+sortbam,fastqc 5,0.0
+sortbam,starindex,0.0
+sortbam,merge_trimmed_PE,0.0
+sortbam,bamindex,0.0
+sortbam,map,0.0
+sortbam,merge_trimmed_SE,0.0
+sortbam,salmon_index_extended,0.0
+sortbam,pass2,0.0
+sortbam,featureCounts 2,0.0
+sortbam,tximeta,0.0
+sortbam,fastqScreen,0.0
+sortbam,multiqc 2,0.0
+sortbam,trimgalorePE,0.0
+sortbam,samtools_flagstat,0.0
+sortbam,featureCounts,0.0
+sortbam,counts_matrix,0.0
+sortbam,trimgaloreSE,0.0
+sortbam,multiqc 3,0.0
+sortbam,star_genome,0.0
+sortbam,salmon_quant_pe,0.0
+sortbam,sort_bams,0.0
+sortbam,edgeR,0.0
+sortbam,fastqc,0.0
+sortbam,sampleReads,0.0
+sortbam,salmon_quant_se,0.0
+sortbam,feature_counts,0.0
+sortbam,cutadapt 2,0.0
+sortbam,DRIMSeq,0.0
+sortbam,bigwig,0.0
+sortbam,fastqctrimmed,0.0
+sortbam,fastQCtrimmed 2,0.0
+sortbam,run_multiqc,0.0
+sortbam,starSE,0.0
+sortbam,trim_fasq_fastqc,0.0
+sortbam,fastqc 6,0.0
+sortbam,salmon_index,0.0
+sortbam,expressbam,0.0
+samlon_quant,kallistoQuant,0.0
+samlon_quant,fastqc 2,0.0
+samlon_quant,tastq_to_bam_HISAT,0.0
+samlon_quant,fastqc 5,0.0
+samlon_quant,starindex,0.0
+samlon_quant,merge_trimmed_PE,0.0
+samlon_quant,bamindex,0.0
+samlon_quant,map,0.0
+samlon_quant,merge_trimmed_SE,0.0
+samlon_quant,salmon_index_extended,0.0
+samlon_quant,pass2,0.0
+samlon_quant,featureCounts 2,0.0
+samlon_quant,tximeta,0.0
+samlon_quant,fastqScreen,0.0
+samlon_quant,multiqc 2,0.0
+samlon_quant,trimgalorePE,0.0
+samlon_quant,samtools_flagstat,0.0
+samlon_quant,featureCounts,0.0
+samlon_quant,counts_matrix,0.0
+samlon_quant,trimgaloreSE,0.0
+samlon_quant,multiqc 3,0.0
+samlon_quant,star_genome,0.0
+samlon_quant,salmon_quant_pe,0.0
+samlon_quant,sort_bams,0.0
+samlon_quant,edgeR,0.0
+samlon_quant,fastqc,0.0
+samlon_quant,sampleReads,0.0
+samlon_quant,salmon_quant_se,0.0
+samlon_quant,feature_counts,0.0
+samlon_quant,cutadapt 2,0.0
+samlon_quant,DRIMSeq,0.0
+samlon_quant,bigwig,0.0
+samlon_quant,fastqctrimmed,0.0
+samlon_quant,fastQCtrimmed 2,0.0
+samlon_quant,run_multiqc,0.0
+samlon_quant,starSE,0.0
+samlon_quant,trim_fasq_fastqc,0.0
+samlon_quant,fastqc 6,0.0
+samlon_quant,salmon_index,0.0
+samlon_quant,expressbam,0.0
+kallistoQuant,fastqc 2,0.0
+kallistoQuant,tastq_to_bam_HISAT,0.0
+kallistoQuant,fastqc 5,0.0
+kallistoQuant,starindex,0.0
+kallistoQuant,merge_trimmed_PE,0.0
+kallistoQuant,bamindex,0.0
+kallistoQuant,map,0.0
+kallistoQuant,merge_trimmed_SE,0.0
+kallistoQuant,salmon_index_extended,0.0
+kallistoQuant,pass2,0.0
+kallistoQuant,featureCounts 2,0.0
+kallistoQuant,tximeta,0.0
+kallistoQuant,fastqScreen,0.0
+kallistoQuant,multiqc 2,0.0
+kallistoQuant,trimgalorePE,0.0
+kallistoQuant,samtools_flagstat,0.0
+kallistoQuant,featureCounts,0.0
+kallistoQuant,counts_matrix,0.0
+kallistoQuant,trimgaloreSE,0.0
+kallistoQuant,multiqc 3,0.0
+kallistoQuant,star_genome,0.0
+kallistoQuant,salmon_quant_pe,0.0
+kallistoQuant,sort_bams,0.0
+kallistoQuant,edgeR,0.0
+kallistoQuant,fastqc,0.0
+kallistoQuant,sampleReads,0.0
+kallistoQuant,salmon_quant_se,0.0
+kallistoQuant,feature_counts,0.0
+kallistoQuant,cutadapt 2,0.0
+kallistoQuant,DRIMSeq,0.0
+kallistoQuant,bigwig,0.0
+kallistoQuant,fastqctrimmed,0.0
+kallistoQuant,fastQCtrimmed 2,0.0
+kallistoQuant,run_multiqc,0.0
+kallistoQuant,starSE,0.0
+kallistoQuant,trim_fasq_fastqc,0.0
+kallistoQuant,fastqc 6,0.0
+kallistoQuant,salmon_index,0.0
+kallistoQuant,expressbam,0.0
+fastqc 2,tastq_to_bam_HISAT,0.0
+fastqc 2,fastqc 5,1.0
+fastqc 2,starindex,0.0
+fastqc 2,merge_trimmed_PE,0.0
+fastqc 2,bamindex,0.0
+fastqc 2,map,0.0
+fastqc 2,merge_trimmed_SE,0.0
+fastqc 2,salmon_index_extended,0.0
+fastqc 2,pass2,0.0
+fastqc 2,featureCounts 2,0.0
+fastqc 2,tximeta,0.0
+fastqc 2,fastqScreen,0.0
+fastqc 2,multiqc 2,0.0
+fastqc 2,trimgalorePE,0.0
+fastqc 2,samtools_flagstat,0.0
+fastqc 2,featureCounts,0.0
+fastqc 2,counts_matrix,0.0
+fastqc 2,trimgaloreSE,0.0
+fastqc 2,multiqc 3,0.0
+fastqc 2,star_genome,0.0
+fastqc 2,salmon_quant_pe,0.0
+fastqc 2,sort_bams,0.0
+fastqc 2,edgeR,0.0
+fastqc 2,fastqc,1.0
+fastqc 2,sampleReads,0.0
+fastqc 2,salmon_quant_se,0.0
+fastqc 2,feature_counts,0.0
+fastqc 2,cutadapt 2,0.0
+fastqc 2,DRIMSeq,0.0
+fastqc 2,bigwig,0.0
+fastqc 2,fastqctrimmed,0.0
+fastqc 2,fastQCtrimmed 2,0.0
+fastqc 2,run_multiqc,0.0
+fastqc 2,starSE,0.0
+fastqc 2,trim_fasq_fastqc,0.0
+fastqc 2,fastqc 6,1.0
+fastqc 2,salmon_index,0.0
+fastqc 2,expressbam,0.0
+tastq_to_bam_HISAT,fastqc 5,0.0
+tastq_to_bam_HISAT,starindex,0.0
+tastq_to_bam_HISAT,merge_trimmed_PE,0.0
+tastq_to_bam_HISAT,bamindex,0.0
+tastq_to_bam_HISAT,map,0.0
+tastq_to_bam_HISAT,merge_trimmed_SE,0.0
+tastq_to_bam_HISAT,salmon_index_extended,0.0
+tastq_to_bam_HISAT,pass2,0.0
+tastq_to_bam_HISAT,featureCounts 2,0.0
+tastq_to_bam_HISAT,tximeta,0.0
+tastq_to_bam_HISAT,fastqScreen,0.0
+tastq_to_bam_HISAT,multiqc 2,0.0
+tastq_to_bam_HISAT,trimgalorePE,0.0
+tastq_to_bam_HISAT,samtools_flagstat,0.0
+tastq_to_bam_HISAT,featureCounts,0.0
+tastq_to_bam_HISAT,counts_matrix,0.0
+tastq_to_bam_HISAT,trimgaloreSE,0.0
+tastq_to_bam_HISAT,multiqc 3,0.0
+tastq_to_bam_HISAT,star_genome,0.0
+tastq_to_bam_HISAT,salmon_quant_pe,0.0
+tastq_to_bam_HISAT,sort_bams,0.0
+tastq_to_bam_HISAT,edgeR,0.0
+tastq_to_bam_HISAT,fastqc,0.0
+tastq_to_bam_HISAT,sampleReads,0.0
+tastq_to_bam_HISAT,salmon_quant_se,0.0
+tastq_to_bam_HISAT,feature_counts,0.0
+tastq_to_bam_HISAT,cutadapt 2,0.0
+tastq_to_bam_HISAT,DRIMSeq,0.0
+tastq_to_bam_HISAT,bigwig,0.0
+tastq_to_bam_HISAT,fastqctrimmed,0.0
+tastq_to_bam_HISAT,fastQCtrimmed 2,0.0
+tastq_to_bam_HISAT,run_multiqc,0.0
+tastq_to_bam_HISAT,starSE,0.0
+tastq_to_bam_HISAT,trim_fasq_fastqc,0.0
+tastq_to_bam_HISAT,fastqc 6,0.0
+tastq_to_bam_HISAT,salmon_index,0.0
+tastq_to_bam_HISAT,expressbam,0.0
+fastqc 5,starindex,0.0
+fastqc 5,merge_trimmed_PE,0.0
+fastqc 5,bamindex,0.0
+fastqc 5,map,0.0
+fastqc 5,merge_trimmed_SE,0.0
+fastqc 5,salmon_index_extended,0.0
+fastqc 5,pass2,0.0
+fastqc 5,featureCounts 2,0.0
+fastqc 5,tximeta,0.0
+fastqc 5,fastqScreen,0.0
+fastqc 5,multiqc 2,0.0
+fastqc 5,trimgalorePE,0.0
+fastqc 5,samtools_flagstat,0.0
+fastqc 5,featureCounts,0.0
+fastqc 5,counts_matrix,0.0
+fastqc 5,trimgaloreSE,0.0
+fastqc 5,multiqc 3,0.0
+fastqc 5,star_genome,0.0
+fastqc 5,salmon_quant_pe,0.0
+fastqc 5,sort_bams,0.0
+fastqc 5,edgeR,0.0
+fastqc 5,fastqc,1.0
+fastqc 5,sampleReads,0.0
+fastqc 5,salmon_quant_se,0.0
+fastqc 5,feature_counts,0.0
+fastqc 5,cutadapt 2,0.0
+fastqc 5,DRIMSeq,0.0
+fastqc 5,bigwig,0.0
+fastqc 5,fastqctrimmed,0.0
+fastqc 5,fastQCtrimmed 2,0.0
+fastqc 5,run_multiqc,0.0
+fastqc 5,starSE,0.0
+fastqc 5,trim_fasq_fastqc,0.0
+fastqc 5,fastqc 6,1.0
+fastqc 5,salmon_index,0.0
+fastqc 5,expressbam,0.0
+starindex,merge_trimmed_PE,0.0
+starindex,bamindex,0.0
+starindex,map,0.0
+starindex,merge_trimmed_SE,0.0
+starindex,salmon_index_extended,0.0
+starindex,pass2,0.0
+starindex,featureCounts 2,0.0
+starindex,tximeta,0.0
+starindex,fastqScreen,0.0
+starindex,multiqc 2,0.0
+starindex,trimgalorePE,0.0
+starindex,samtools_flagstat,0.0
+starindex,featureCounts,0.0
+starindex,counts_matrix,0.0
+starindex,trimgaloreSE,0.0
+starindex,multiqc 3,0.0
+starindex,star_genome,0.0
+starindex,salmon_quant_pe,0.0
+starindex,sort_bams,0.0
+starindex,edgeR,0.0
+starindex,fastqc,0.0
+starindex,sampleReads,0.0
+starindex,salmon_quant_se,0.0
+starindex,feature_counts,0.0
+starindex,cutadapt 2,0.0
+starindex,DRIMSeq,0.0
+starindex,bigwig,0.0
+starindex,fastqctrimmed,0.0
+starindex,fastQCtrimmed 2,0.0
+starindex,run_multiqc,0.0
+starindex,starSE,0.0
+starindex,trim_fasq_fastqc,0.0
+starindex,fastqc 6,0.0
+starindex,salmon_index,0.0
+starindex,expressbam,0.0
+merge_trimmed_PE,bamindex,0.0
+merge_trimmed_PE,map,0.0
+merge_trimmed_PE,merge_trimmed_SE,1.0
+merge_trimmed_PE,salmon_index_extended,0.0
+merge_trimmed_PE,pass2,0.0
+merge_trimmed_PE,featureCounts 2,0.0
+merge_trimmed_PE,tximeta,0.0
+merge_trimmed_PE,fastqScreen,0.0
+merge_trimmed_PE,multiqc 2,0.0
+merge_trimmed_PE,trimgalorePE,0.0
+merge_trimmed_PE,samtools_flagstat,0.0
+merge_trimmed_PE,featureCounts,0.0
+merge_trimmed_PE,counts_matrix,0.0
+merge_trimmed_PE,trimgaloreSE,0.0
+merge_trimmed_PE,multiqc 3,0.0
+merge_trimmed_PE,star_genome,0.0
+merge_trimmed_PE,salmon_quant_pe,0.0
+merge_trimmed_PE,sort_bams,0.0
+merge_trimmed_PE,edgeR,0.0
+merge_trimmed_PE,fastqc,0.0
+merge_trimmed_PE,sampleReads,0.0
+merge_trimmed_PE,salmon_quant_se,0.0
+merge_trimmed_PE,feature_counts,0.0
+merge_trimmed_PE,cutadapt 2,0.0
+merge_trimmed_PE,DRIMSeq,0.0
+merge_trimmed_PE,bigwig,0.0
+merge_trimmed_PE,fastqctrimmed,0.0
+merge_trimmed_PE,fastQCtrimmed 2,0.0
+merge_trimmed_PE,run_multiqc,0.0
+merge_trimmed_PE,starSE,0.0
+merge_trimmed_PE,trim_fasq_fastqc,0.0
+merge_trimmed_PE,fastqc 6,0.0
+merge_trimmed_PE,salmon_index,0.0
+merge_trimmed_PE,expressbam,0.0
+bamindex,map,0.0
+bamindex,merge_trimmed_SE,0.0
+bamindex,salmon_index_extended,0.0
+bamindex,pass2,0.0
+bamindex,featureCounts 2,0.0
+bamindex,tximeta,0.0
+bamindex,fastqScreen,0.0
+bamindex,multiqc 2,0.0
+bamindex,trimgalorePE,0.0
+bamindex,samtools_flagstat,0.0
+bamindex,featureCounts,0.0
+bamindex,counts_matrix,0.0
+bamindex,trimgaloreSE,0.0
+bamindex,multiqc 3,0.0
+bamindex,star_genome,0.0
+bamindex,salmon_quant_pe,0.0
+bamindex,sort_bams,0.0
+bamindex,edgeR,0.0
+bamindex,fastqc,0.0
+bamindex,sampleReads,0.0
+bamindex,salmon_quant_se,0.0
+bamindex,feature_counts,0.0
+bamindex,cutadapt 2,0.0
+bamindex,DRIMSeq,0.0
+bamindex,bigwig,0.0
+bamindex,fastqctrimmed,0.0
+bamindex,fastQCtrimmed 2,0.0
+bamindex,run_multiqc,0.0
+bamindex,starSE,0.0
+bamindex,trim_fasq_fastqc,0.0
+bamindex,fastqc 6,0.0
+bamindex,salmon_index,0.0
+bamindex,expressbam,0.0
+map,merge_trimmed_SE,0.0
+map,salmon_index_extended,0.0
+map,pass2,0.0
+map,featureCounts 2,0.0
+map,tximeta,0.0
+map,fastqScreen,0.0
+map,multiqc 2,0.0
+map,trimgalorePE,0.0
+map,samtools_flagstat,0.0
+map,featureCounts,0.0
+map,counts_matrix,0.0
+map,trimgaloreSE,0.0
+map,multiqc 3,0.0
+map,star_genome,0.0
+map,salmon_quant_pe,0.0
+map,sort_bams,0.0
+map,edgeR,0.0
+map,fastqc,0.0
+map,sampleReads,0.0
+map,salmon_quant_se,0.0
+map,feature_counts,0.0
+map,cutadapt 2,0.0
+map,DRIMSeq,0.0
+map,bigwig,0.0
+map,fastqctrimmed,0.0
+map,fastQCtrimmed 2,0.0
+map,run_multiqc,0.0
+map,starSE,0.0
+map,trim_fasq_fastqc,0.0
+map,fastqc 6,0.0
+map,salmon_index,0.0
+map,expressbam,0.0
+merge_trimmed_SE,salmon_index_extended,0.0
+merge_trimmed_SE,pass2,0.0
+merge_trimmed_SE,featureCounts 2,0.0
+merge_trimmed_SE,tximeta,0.0
+merge_trimmed_SE,fastqScreen,0.0
+merge_trimmed_SE,multiqc 2,0.0
+merge_trimmed_SE,trimgalorePE,0.0
+merge_trimmed_SE,samtools_flagstat,0.0
+merge_trimmed_SE,featureCounts,0.0
+merge_trimmed_SE,counts_matrix,0.0
+merge_trimmed_SE,trimgaloreSE,0.0
+merge_trimmed_SE,multiqc 3,0.0
+merge_trimmed_SE,star_genome,0.0
+merge_trimmed_SE,salmon_quant_pe,0.0
+merge_trimmed_SE,sort_bams,0.0
+merge_trimmed_SE,edgeR,0.0
+merge_trimmed_SE,fastqc,0.0
+merge_trimmed_SE,sampleReads,0.0
+merge_trimmed_SE,salmon_quant_se,0.0
+merge_trimmed_SE,feature_counts,0.0
+merge_trimmed_SE,cutadapt 2,0.0
+merge_trimmed_SE,DRIMSeq,0.0
+merge_trimmed_SE,bigwig,0.0
+merge_trimmed_SE,fastqctrimmed,0.0
+merge_trimmed_SE,fastQCtrimmed 2,0.0
+merge_trimmed_SE,run_multiqc,0.0
+merge_trimmed_SE,starSE,0.0
+merge_trimmed_SE,trim_fasq_fastqc,0.0
+merge_trimmed_SE,fastqc 6,0.0
+merge_trimmed_SE,salmon_index,0.0
+merge_trimmed_SE,expressbam,0.0
+salmon_index_extended,pass2,0.0
+salmon_index_extended,featureCounts 2,0.0
+salmon_index_extended,tximeta,0.0
+salmon_index_extended,fastqScreen,0.0
+salmon_index_extended,multiqc 2,0.0
+salmon_index_extended,trimgalorePE,0.0
+salmon_index_extended,samtools_flagstat,0.0
+salmon_index_extended,featureCounts,0.0
+salmon_index_extended,counts_matrix,0.0
+salmon_index_extended,trimgaloreSE,0.0
+salmon_index_extended,multiqc 3,0.0
+salmon_index_extended,star_genome,0.0
+salmon_index_extended,salmon_quant_pe,0.0
+salmon_index_extended,sort_bams,0.0
+salmon_index_extended,edgeR,0.0
+salmon_index_extended,fastqc,0.0
+salmon_index_extended,sampleReads,0.0
+salmon_index_extended,salmon_quant_se,0.0
+salmon_index_extended,feature_counts,0.0
+salmon_index_extended,cutadapt 2,0.0
+salmon_index_extended,DRIMSeq,0.0
+salmon_index_extended,bigwig,0.0
+salmon_index_extended,fastqctrimmed,0.0
+salmon_index_extended,fastQCtrimmed 2,0.0
+salmon_index_extended,run_multiqc,0.0
+salmon_index_extended,starSE,0.0
+salmon_index_extended,trim_fasq_fastqc,0.0
+salmon_index_extended,fastqc 6,0.0
+salmon_index_extended,salmon_index,0.0
+salmon_index_extended,expressbam,0.0
+pass2,featureCounts 2,0.0
+pass2,tximeta,0.0
+pass2,fastqScreen,0.0
+pass2,multiqc 2,0.0
+pass2,trimgalorePE,0.0
+pass2,samtools_flagstat,0.0
+pass2,featureCounts,0.0
+pass2,counts_matrix,0.0
+pass2,trimgaloreSE,0.0
+pass2,multiqc 3,0.0
+pass2,star_genome,0.0
+pass2,salmon_quant_pe,0.0
+pass2,sort_bams,0.0
+pass2,edgeR,0.0
+pass2,fastqc,0.0
+pass2,sampleReads,0.0
+pass2,salmon_quant_se,0.0
+pass2,feature_counts,0.0
+pass2,cutadapt 2,0.0
+pass2,DRIMSeq,0.0
+pass2,bigwig,0.0
+pass2,fastqctrimmed,0.0
+pass2,fastQCtrimmed 2,0.0
+pass2,run_multiqc,0.0
+pass2,starSE,0.0
+pass2,trim_fasq_fastqc,0.0
+pass2,fastqc 6,0.0
+pass2,salmon_index,0.0
+pass2,expressbam,0.0
+featureCounts 2,tximeta,0.0
+featureCounts 2,fastqScreen,0.0
+featureCounts 2,multiqc 2,0.0
+featureCounts 2,trimgalorePE,0.0
+featureCounts 2,samtools_flagstat,0.0
+featureCounts 2,featureCounts,1.0
+featureCounts 2,counts_matrix,0.0
+featureCounts 2,trimgaloreSE,0.0
+featureCounts 2,multiqc 3,0.0
+featureCounts 2,star_genome,0.0
+featureCounts 2,salmon_quant_pe,0.0
+featureCounts 2,sort_bams,0.0
+featureCounts 2,edgeR,0.0
+featureCounts 2,fastqc,0.0
+featureCounts 2,sampleReads,0.0
+featureCounts 2,salmon_quant_se,0.0
+featureCounts 2,feature_counts,0.0
+featureCounts 2,cutadapt 2,0.0
+featureCounts 2,DRIMSeq,0.0
+featureCounts 2,bigwig,0.0
+featureCounts 2,fastqctrimmed,0.0
+featureCounts 2,fastQCtrimmed 2,0.0
+featureCounts 2,run_multiqc,0.0
+featureCounts 2,starSE,0.0
+featureCounts 2,trim_fasq_fastqc,0.0
+featureCounts 2,fastqc 6,0.0
+featureCounts 2,salmon_index,0.0
+featureCounts 2,expressbam,0.0
+tximeta,fastqScreen,0.0
+tximeta,multiqc 2,0.0
+tximeta,trimgalorePE,0.0
+tximeta,samtools_flagstat,0.0
+tximeta,featureCounts,0.0
+tximeta,counts_matrix,0.0
+tximeta,trimgaloreSE,0.0
+tximeta,multiqc 3,0.0
+tximeta,star_genome,0.0
+tximeta,salmon_quant_pe,0.0
+tximeta,sort_bams,0.0
+tximeta,edgeR,0.0
+tximeta,fastqc,0.0
+tximeta,sampleReads,0.0
+tximeta,salmon_quant_se,0.0
+tximeta,feature_counts,0.0
+tximeta,cutadapt 2,0.0
+tximeta,DRIMSeq,0.0
+tximeta,bigwig,0.0
+tximeta,fastqctrimmed,0.0
+tximeta,fastQCtrimmed 2,0.0
+tximeta,run_multiqc,0.0
+tximeta,starSE,0.0
+tximeta,trim_fasq_fastqc,0.0
+tximeta,fastqc 6,0.0
+tximeta,salmon_index,0.0
+tximeta,expressbam,0.0
+fastqScreen,multiqc 2,0.0
+fastqScreen,trimgalorePE,0.0
+fastqScreen,samtools_flagstat,0.0
+fastqScreen,featureCounts,0.0
+fastqScreen,counts_matrix,0.0
+fastqScreen,trimgaloreSE,0.0
+fastqScreen,multiqc 3,0.0
+fastqScreen,star_genome,0.0
+fastqScreen,salmon_quant_pe,0.0
+fastqScreen,sort_bams,0.0
+fastqScreen,edgeR,0.0
+fastqScreen,fastqc,0.0
+fastqScreen,sampleReads,0.0
+fastqScreen,salmon_quant_se,0.0
+fastqScreen,feature_counts,0.0
+fastqScreen,cutadapt 2,0.0
+fastqScreen,DRIMSeq,0.0
+fastqScreen,bigwig,0.0
+fastqScreen,fastqctrimmed,0.0
+fastqScreen,fastQCtrimmed 2,0.0
+fastqScreen,run_multiqc,0.0
+fastqScreen,starSE,0.0
+fastqScreen,trim_fasq_fastqc,0.0
+fastqScreen,fastqc 6,0.0
+fastqScreen,salmon_index,0.0
+fastqScreen,expressbam,0.0
+multiqc 2,trimgalorePE,0.0
+multiqc 2,samtools_flagstat,0.0
+multiqc 2,featureCounts,0.0
+multiqc 2,counts_matrix,0.0
+multiqc 2,trimgaloreSE,0.0
+multiqc 2,multiqc 3,1.0
+multiqc 2,star_genome,0.0
+multiqc 2,salmon_quant_pe,0.0
+multiqc 2,sort_bams,0.0
+multiqc 2,edgeR,0.0
+multiqc 2,fastqc,0.0
+multiqc 2,sampleReads,0.0
+multiqc 2,salmon_quant_se,0.0
+multiqc 2,feature_counts,0.0
+multiqc 2,cutadapt 2,0.0
+multiqc 2,DRIMSeq,0.0
+multiqc 2,bigwig,0.0
+multiqc 2,fastqctrimmed,0.0
+multiqc 2,fastQCtrimmed 2,0.0
+multiqc 2,run_multiqc,0.0
+multiqc 2,starSE,0.0
+multiqc 2,trim_fasq_fastqc,0.0
+multiqc 2,fastqc 6,0.0
+multiqc 2,salmon_index,0.0
+multiqc 2,expressbam,0.0
+trimgalorePE,samtools_flagstat,0.0
+trimgalorePE,featureCounts,0.0
+trimgalorePE,counts_matrix,0.0
+trimgalorePE,trimgaloreSE,0.0
+trimgalorePE,multiqc 3,0.0
+trimgalorePE,star_genome,0.0
+trimgalorePE,salmon_quant_pe,0.0
+trimgalorePE,sort_bams,0.0
+trimgalorePE,edgeR,0.0
+trimgalorePE,fastqc,0.0
+trimgalorePE,sampleReads,0.0
+trimgalorePE,salmon_quant_se,0.0
+trimgalorePE,feature_counts,0.0
+trimgalorePE,cutadapt 2,0.0
+trimgalorePE,DRIMSeq,0.0
+trimgalorePE,bigwig,0.0
+trimgalorePE,fastqctrimmed,0.0
+trimgalorePE,fastQCtrimmed 2,0.0
+trimgalorePE,run_multiqc,0.0
+trimgalorePE,starSE,0.0
+trimgalorePE,trim_fasq_fastqc,0.0
+trimgalorePE,fastqc 6,0.0
+trimgalorePE,salmon_index,0.0
+trimgalorePE,expressbam,0.0
+samtools_flagstat,featureCounts,0.0
+samtools_flagstat,counts_matrix,0.0
+samtools_flagstat,trimgaloreSE,0.0
+samtools_flagstat,multiqc 3,0.0
+samtools_flagstat,star_genome,0.0
+samtools_flagstat,salmon_quant_pe,0.0
+samtools_flagstat,sort_bams,0.0
+samtools_flagstat,edgeR,0.0
+samtools_flagstat,fastqc,0.0
+samtools_flagstat,sampleReads,0.0
+samtools_flagstat,salmon_quant_se,0.0
+samtools_flagstat,feature_counts,0.0
+samtools_flagstat,cutadapt 2,0.0
+samtools_flagstat,DRIMSeq,0.0
+samtools_flagstat,bigwig,0.0
+samtools_flagstat,fastqctrimmed,0.0
+samtools_flagstat,fastQCtrimmed 2,0.0
+samtools_flagstat,run_multiqc,0.0
+samtools_flagstat,starSE,0.0
+samtools_flagstat,trim_fasq_fastqc,0.0
+samtools_flagstat,fastqc 6,0.0
+samtools_flagstat,salmon_index,0.0
+samtools_flagstat,expressbam,0.0
+featureCounts,counts_matrix,0.0
+featureCounts,trimgaloreSE,0.0
+featureCounts,multiqc 3,0.0
+featureCounts,star_genome,0.0
+featureCounts,salmon_quant_pe,0.0
+featureCounts,sort_bams,0.0
+featureCounts,edgeR,0.0
+featureCounts,fastqc,0.0
+featureCounts,sampleReads,0.0
+featureCounts,salmon_quant_se,0.0
+featureCounts,feature_counts,0.0
+featureCounts,cutadapt 2,0.0
+featureCounts,DRIMSeq,0.0
+featureCounts,bigwig,0.0
+featureCounts,fastqctrimmed,0.0
+featureCounts,fastQCtrimmed 2,0.0
+featureCounts,run_multiqc,0.0
+featureCounts,starSE,0.0
+featureCounts,trim_fasq_fastqc,0.0
+featureCounts,fastqc 6,0.0
+featureCounts,salmon_index,0.0
+featureCounts,expressbam,0.0
+counts_matrix,trimgaloreSE,0.0
+counts_matrix,multiqc 3,0.0
+counts_matrix,star_genome,0.0
+counts_matrix,salmon_quant_pe,0.0
+counts_matrix,sort_bams,0.0
+counts_matrix,edgeR,0.0
+counts_matrix,fastqc,0.0
+counts_matrix,sampleReads,0.0
+counts_matrix,salmon_quant_se,0.0
+counts_matrix,feature_counts,0.0
+counts_matrix,cutadapt 2,0.0
+counts_matrix,DRIMSeq,0.0
+counts_matrix,bigwig,0.0
+counts_matrix,fastqctrimmed,0.0
+counts_matrix,fastQCtrimmed 2,0.0
+counts_matrix,run_multiqc,0.0
+counts_matrix,starSE,0.0
+counts_matrix,trim_fasq_fastqc,0.0
+counts_matrix,fastqc 6,0.0
+counts_matrix,salmon_index,0.0
+counts_matrix,expressbam,0.0
+trimgaloreSE,multiqc 3,0.0
+trimgaloreSE,star_genome,0.0
+trimgaloreSE,salmon_quant_pe,0.0
+trimgaloreSE,sort_bams,0.0
+trimgaloreSE,edgeR,0.0
+trimgaloreSE,fastqc,0.0
+trimgaloreSE,sampleReads,0.0
+trimgaloreSE,salmon_quant_se,0.0
+trimgaloreSE,feature_counts,0.0
+trimgaloreSE,cutadapt 2,0.0
+trimgaloreSE,DRIMSeq,0.0
+trimgaloreSE,bigwig,0.0
+trimgaloreSE,fastqctrimmed,0.0
+trimgaloreSE,fastQCtrimmed 2,0.0
+trimgaloreSE,run_multiqc,0.0
+trimgaloreSE,starSE,0.0
+trimgaloreSE,trim_fasq_fastqc,0.0
+trimgaloreSE,fastqc 6,0.0
+trimgaloreSE,salmon_index,0.0
+trimgaloreSE,expressbam,0.0
+multiqc 3,star_genome,0.0
+multiqc 3,salmon_quant_pe,0.0
+multiqc 3,sort_bams,0.0
+multiqc 3,edgeR,0.0
+multiqc 3,fastqc,0.0
+multiqc 3,sampleReads,0.0
+multiqc 3,salmon_quant_se,0.0
+multiqc 3,feature_counts,0.0
+multiqc 3,cutadapt 2,0.0
+multiqc 3,DRIMSeq,0.0
+multiqc 3,bigwig,0.0
+multiqc 3,fastqctrimmed,0.0
+multiqc 3,fastQCtrimmed 2,0.0
+multiqc 3,run_multiqc,0.0
+multiqc 3,starSE,0.0
+multiqc 3,trim_fasq_fastqc,0.0
+multiqc 3,fastqc 6,0.0
+multiqc 3,salmon_index,0.0
+multiqc 3,expressbam,0.0
+star_genome,salmon_quant_pe,0.0
+star_genome,sort_bams,0.0
+star_genome,edgeR,0.0
+star_genome,fastqc,0.0
+star_genome,sampleReads,0.0
+star_genome,salmon_quant_se,0.0
+star_genome,feature_counts,0.0
+star_genome,cutadapt 2,0.0
+star_genome,DRIMSeq,0.0
+star_genome,bigwig,0.0
+star_genome,fastqctrimmed,0.0
+star_genome,fastQCtrimmed 2,0.0
+star_genome,run_multiqc,0.0
+star_genome,starSE,0.0
+star_genome,trim_fasq_fastqc,0.0
+star_genome,fastqc 6,0.0
+star_genome,salmon_index,0.0
+star_genome,expressbam,0.0
+salmon_quant_pe,sort_bams,0.0
+salmon_quant_pe,edgeR,0.0
+salmon_quant_pe,fastqc,0.0
+salmon_quant_pe,sampleReads,0.0
+salmon_quant_pe,salmon_quant_se,0.0
+salmon_quant_pe,feature_counts,0.0
+salmon_quant_pe,cutadapt 2,0.0
+salmon_quant_pe,DRIMSeq,0.0
+salmon_quant_pe,bigwig,0.0
+salmon_quant_pe,fastqctrimmed,0.0
+salmon_quant_pe,fastQCtrimmed 2,0.0
+salmon_quant_pe,run_multiqc,0.0
+salmon_quant_pe,starSE,0.0
+salmon_quant_pe,trim_fasq_fastqc,0.0
+salmon_quant_pe,fastqc 6,0.0
+salmon_quant_pe,salmon_index,0.0
+salmon_quant_pe,expressbam,0.0
+sort_bams,edgeR,0.0
+sort_bams,fastqc,0.0
+sort_bams,sampleReads,0.0
+sort_bams,salmon_quant_se,0.0
+sort_bams,feature_counts,0.0
+sort_bams,cutadapt 2,0.0
+sort_bams,DRIMSeq,0.0
+sort_bams,bigwig,0.0
+sort_bams,fastqctrimmed,0.0
+sort_bams,fastQCtrimmed 2,0.0
+sort_bams,run_multiqc,0.0
+sort_bams,starSE,0.0
+sort_bams,trim_fasq_fastqc,0.0
+sort_bams,fastqc 6,0.0
+sort_bams,salmon_index,0.0
+sort_bams,expressbam,0.0
+edgeR,fastqc,0.0
+edgeR,sampleReads,0.0
+edgeR,salmon_quant_se,0.0
+edgeR,feature_counts,0.0
+edgeR,cutadapt 2,0.0
+edgeR,DRIMSeq,0.0
+edgeR,bigwig,0.0
+edgeR,fastqctrimmed,0.0
+edgeR,fastQCtrimmed 2,0.0
+edgeR,run_multiqc,0.0
+edgeR,starSE,0.0
+edgeR,trim_fasq_fastqc,0.0
+edgeR,fastqc 6,0.0
+edgeR,salmon_index,0.0
+edgeR,expressbam,0.0
+fastqc,sampleReads,0.0
+fastqc,salmon_quant_se,0.0
+fastqc,feature_counts,0.0
+fastqc,cutadapt 2,0.0
+fastqc,DRIMSeq,0.0
+fastqc,bigwig,0.0
+fastqc,fastqctrimmed,0.0
+fastqc,fastQCtrimmed 2,0.0
+fastqc,run_multiqc,0.0
+fastqc,starSE,0.0
+fastqc,trim_fasq_fastqc,0.0
+fastqc,fastqc 6,1.0
+fastqc,salmon_index,0.0
+fastqc,expressbam,0.0
+sampleReads,salmon_quant_se,0.0
+sampleReads,feature_counts,0.0
+sampleReads,cutadapt 2,0.0
+sampleReads,DRIMSeq,0.0
+sampleReads,bigwig,0.0
+sampleReads,fastqctrimmed,0.0
+sampleReads,fastQCtrimmed 2,0.0
+sampleReads,run_multiqc,0.0
+sampleReads,starSE,0.0
+sampleReads,trim_fasq_fastqc,0.0
+sampleReads,fastqc 6,0.0
+sampleReads,salmon_index,0.0
+sampleReads,expressbam,0.0
+salmon_quant_se,feature_counts,0.0
+salmon_quant_se,cutadapt 2,0.0
+salmon_quant_se,DRIMSeq,0.0
+salmon_quant_se,bigwig,0.0
+salmon_quant_se,fastqctrimmed,0.0
+salmon_quant_se,fastQCtrimmed 2,0.0
+salmon_quant_se,run_multiqc,0.0
+salmon_quant_se,starSE,0.0
+salmon_quant_se,trim_fasq_fastqc,0.0
+salmon_quant_se,fastqc 6,0.0
+salmon_quant_se,salmon_index,0.0
+salmon_quant_se,expressbam,0.0
+feature_counts,cutadapt 2,0.0
+feature_counts,DRIMSeq,0.0
+feature_counts,bigwig,0.0
+feature_counts,fastqctrimmed,0.0
+feature_counts,fastQCtrimmed 2,0.0
+feature_counts,run_multiqc,0.0
+feature_counts,starSE,0.0
+feature_counts,trim_fasq_fastqc,0.0
+feature_counts,fastqc 6,0.0
+feature_counts,salmon_index,0.0
+feature_counts,expressbam,0.0
+cutadapt 2,DRIMSeq,0.0
+cutadapt 2,bigwig,0.0
+cutadapt 2,fastqctrimmed,0.0
+cutadapt 2,fastQCtrimmed 2,0.0
+cutadapt 2,run_multiqc,0.0
+cutadapt 2,starSE,0.0
+cutadapt 2,trim_fasq_fastqc,0.0
+cutadapt 2,fastqc 6,0.0
+cutadapt 2,salmon_index,0.0
+cutadapt 2,expressbam,0.0
+DRIMSeq,bigwig,0.0
+DRIMSeq,fastqctrimmed,0.0
+DRIMSeq,fastQCtrimmed 2,0.0
+DRIMSeq,run_multiqc,0.0
+DRIMSeq,starSE,0.0
+DRIMSeq,trim_fasq_fastqc,0.0
+DRIMSeq,fastqc 6,0.0
+DRIMSeq,salmon_index,0.0
+DRIMSeq,expressbam,0.0
+bigwig,fastqctrimmed,0.0
+bigwig,fastQCtrimmed 2,0.0
+bigwig,run_multiqc,0.0
+bigwig,starSE,0.0
+bigwig,trim_fasq_fastqc,0.0
+bigwig,fastqc 6,0.0
+bigwig,salmon_index,0.0
+bigwig,expressbam,0.0
+fastqctrimmed,fastQCtrimmed 2,1.0
+fastqctrimmed,run_multiqc,0.0
+fastqctrimmed,starSE,0.0
+fastqctrimmed,trim_fasq_fastqc,0.0
+fastqctrimmed,fastqc 6,0.0
+fastqctrimmed,salmon_index,0.0
+fastqctrimmed,expressbam,0.0
+fastQCtrimmed 2,run_multiqc,0.0
+fastQCtrimmed 2,starSE,0.0
+fastQCtrimmed 2,trim_fasq_fastqc,0.0
+fastQCtrimmed 2,fastqc 6,0.0
+fastQCtrimmed 2,salmon_index,0.0
+fastQCtrimmed 2,expressbam,0.0
+run_multiqc,starSE,0.0
+run_multiqc,trim_fasq_fastqc,0.0
+run_multiqc,fastqc 6,0.0
+run_multiqc,salmon_index,0.0
+run_multiqc,expressbam,0.0
+starSE,trim_fasq_fastqc,0.0
+starSE,fastqc 6,0.0
+starSE,salmon_index,0.0
+starSE,expressbam,0.0
+trim_fasq_fastqc,fastqc 6,0.0
+trim_fasq_fastqc,salmon_index,0.0
+trim_fasq_fastqc,expressbam,0.0
+fastqc 6,salmon_index,0.0
+fastqc 6,expressbam,0.0
+salmon_index,expressbam,0.0
