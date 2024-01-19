@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Shell_tools_description_bioweb_levenshtein
 map,fastqctrimmed,0.2033898305084746
 map,expressbam,0.0
 map,salmonSE,0.240506329113924

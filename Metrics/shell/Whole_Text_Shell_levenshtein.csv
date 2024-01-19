@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Whole_text_shell_levenshtein
 map,fastqctrimmed,0.1501210653753026
 map,expressbam,0.1259079903147699
 map,salmonSE,0.2372881355932203

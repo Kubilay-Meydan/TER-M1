@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Whole_text_shell_cosine
 map,fastqctrimmed,0.0062632191142689
 map,expressbam,0.0640785889241438
 map,salmonSE,0.1980286379213086

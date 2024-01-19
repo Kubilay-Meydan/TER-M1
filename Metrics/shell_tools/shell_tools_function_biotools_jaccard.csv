@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Shell_tools_function_biotools_jaccard
 map,fastqctrimmed,0.0
 map,expressbam,0.0
 map,salmonSE,0.0

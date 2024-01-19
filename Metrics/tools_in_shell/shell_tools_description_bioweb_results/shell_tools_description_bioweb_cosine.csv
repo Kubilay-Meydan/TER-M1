@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Shell_tools_description_bioweb_cosine
 map,fastqctrimmed,0.0708228026134356
 map,expressbam,0.0
 map,salmonSE,0.2411937688030466

@@ -1,4 +1,4 @@
-Process A,Process B,Similarity
+Process A,Process B,Rule_name_levenshtein
 trim_galore_pe,salmonPE,0.1428571428571429
 trim_galore_pe,mark_dups,0.2142857142857143
 trim_galore_pe,run_star_se,0.3571428571428571
