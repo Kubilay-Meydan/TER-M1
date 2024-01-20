@@ -1,21 +1,27 @@
 import pandas as pd
-from itertools import product
+from itertools import combinations as comb
 import os
 
 def extract_process_data(df):
     """
     Extract process names and values from a dataframe.
     """
-    processes = df.columns[1:]  # Assuming first column is unnamed and contains process names
-    values = df.set_index(df.columns[0]).to_dict()
-    return processes, values
+    # Assuming first column is unnamed and contains process names
+    processes = df.columns[1:]
+    values = {}
+    for i, row in df.iterrows():
+        process_row = row[0].lower().replace('.py', '')
+        for process_col in processes:
+            process_col_cleaned = process_col.lower().replace('.py', '')
+            values[(process_row, process_col_cleaned)] = row[process_col]
+    return [process.lower().replace('.py', '') for process in processes], values
 
 def process_csv_files(root_folder_path):
     """
     Process all CSV files in the given folder and its subfolders.
     """
     all_processes = []
-    file_process_mapping = {}
+    process_values = {}
     for root, dirs, files in os.walk(root_folder_path):
         for file_name in files:
             if file_name.endswith('.csv'):
@@ -23,27 +29,20 @@ def process_csv_files(root_folder_path):
                 df = pd.read_csv(file_path)
                 processes, values = extract_process_data(df)
                 all_processes.extend([(process, file_path) for process in processes])
-                file_process_mapping[file_path] = values
+                process_values.update(values)
 
-    # Generating all combinations of processes
-    combinations = list(product(all_processes, repeat=2))
+    # Generating all unique combinations of processes
+    combinations = list(comb(all_processes, 2))
 
     # Preparing data for the new dataframe
     data = []
     for (process_a, file_a), (process_b, file_b) in combinations:
-        # Check if both processes are from the same file
-        if file_a == file_b:
-            annotation = file_process_mapping[file_a][process_b].get(process_a, 'N/A')
-        else:
-            annotation = 'D'  # Different files
+        key = (process_a, process_b) if file_a == file_b else ('D', 'D')
+        annotation = process_values.get(key, 'D')  # Default to 'D' if not found
 
         # Skip comparisons where the value is 'I'
         if annotation == 'I':
             continue
-
-        # Remove '.py' extension from process names
-        process_a = process_a.replace('.py', '')
-        process_b = process_b.replace('.py', '')
 
         data.append({
             'Process A': process_a,

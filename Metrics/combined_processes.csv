@@ -1,0 +1,2416 @@
+Process A,Process B,Annotation
+run_star_pe,generate_genome_star_index,D
+run_star_pe,run_star_se,SS
+run_star_pe,pass1,SS
+run_star_pe,star_genome,SS
+run_star_pe,tastq_to_bam_hisat,SS
+run_star_pe,samtools_bam,SS
+run_star_pe,hisat2,SS
+run_star_pe,sort_bams,SS
+run_star_pe,compare_reference_stringtie,SS
+run_star_pe,map,SS
+run_star_pe,bamindex,SS
+run_star_pe,startpe,S
+run_star_pe,expressbam,D
+run_star_pe,sortedbam_to_rmdup,D
+run_star_pe,sortbam,D
+run_star_pe,fetch_unique_stringtie,D
+run_star_pe,starindex,SS
+run_star_pe,starse,SS
+run_star_pe,sort_index_bams,D
+run_star_pe,rna_seqc,D
+run_star_pe,pass2,S
+run_star_pe,mark_dups,D
+run_star_pe,samtools_flagstat,D
+run_star_pe,picard_rna_seq,D
+run_star_pe,samplereads,D
+run_star_pe,cutadapt 2,D
+run_star_pe,trim_galore_pe,D
+run_star_pe,trimgalorepe,D
+run_star_pe,cutadapt,D
+run_star_pe,trimgalorese,D
+run_star_pe,fastp_trimming_se,D
+run_star_pe,fastp_trimming_pe,D
+run_star_pe,merge_trimmed_pe,D
+run_star_pe,merge_trimmed_se,D
+run_star_pe,drimseq,D
+run_star_pe,edger,D
+run_star_pe,rsem_norm,D
+run_star_pe,feature_counts,D
+run_star_pe,salmon_quant_se,D
+run_star_pe,salmonse,D
+run_star_pe,salmon_quant_pe,D
+run_star_pe,salmonpe,D
+run_star_pe,salmon_index_extended,D
+run_star_pe,counts_matrix,D
+run_star_pe,samlon_quant,D
+run_star_pe,featurecounts 2,D
+run_star_pe,salmon_quant,D
+run_star_pe,salmon_index,D
+run_star_pe,featurecounts,D
+run_star_pe,sortedbam_to_counts,D
+run_star_pe,tximeta,D
+run_star_pe,kallistoquant,D
+run_star_pe,bigwig,D
+run_star_pe,fastqscreen,D
+run_star_pe,multiqc 2,D
+run_star_pe,fastqc 5,D
+run_star_pe,fastqc 4,D
+run_star_pe,multiqc 3,D
+run_star_pe,fastqc,D
+run_star_pe,run_multiqc,D
+run_star_pe,multiqc,D
+run_star_pe,fastqctrimmed,D
+run_star_pe,fastqc_trimmed,D
+run_star_pe,trim_fasq_fastqc,D
+run_star_pe,fastqc 3,D
+run_star_pe,fastqctrimmed 2,D
+run_star_pe,fastqc 2,D
+run_star_pe,fastqcrim,D
+run_star_pe,fastqc 6,D
+generate_genome_star_index,run_star_se,D
+generate_genome_star_index,pass1,D
+generate_genome_star_index,star_genome,S
+generate_genome_star_index,tastq_to_bam_hisat,D
+generate_genome_star_index,samtools_bam,D
+generate_genome_star_index,hisat2,D
+generate_genome_star_index,sort_bams,D
+generate_genome_star_index,compare_reference_stringtie,D
+generate_genome_star_index,map,D
+generate_genome_star_index,bamindex,D
+generate_genome_star_index,startpe,D
+generate_genome_star_index,expressbam,D
+generate_genome_star_index,sortedbam_to_rmdup,D
+generate_genome_star_index,sortbam,D
+generate_genome_star_index,fetch_unique_stringtie,D
+generate_genome_star_index,starindex,D
+generate_genome_star_index,starse,D
+generate_genome_star_index,sort_index_bams,D
+generate_genome_star_index,rna_seqc,D
+generate_genome_star_index,pass2,D
+generate_genome_star_index,mark_dups,D
+generate_genome_star_index,samtools_flagstat,D
+generate_genome_star_index,picard_rna_seq,D
+generate_genome_star_index,samplereads,D
+generate_genome_star_index,cutadapt 2,D
+generate_genome_star_index,trim_galore_pe,D
+generate_genome_star_index,trimgalorepe,D
+generate_genome_star_index,cutadapt,D
+generate_genome_star_index,trimgalorese,D
+generate_genome_star_index,fastp_trimming_se,D
+generate_genome_star_index,fastp_trimming_pe,D
+generate_genome_star_index,merge_trimmed_pe,D
+generate_genome_star_index,merge_trimmed_se,D
+generate_genome_star_index,drimseq,D
+generate_genome_star_index,edger,D
+generate_genome_star_index,rsem_norm,D
+generate_genome_star_index,feature_counts,D
+generate_genome_star_index,salmon_quant_se,D
+generate_genome_star_index,salmonse,D
+generate_genome_star_index,salmon_quant_pe,D
+generate_genome_star_index,salmonpe,D
+generate_genome_star_index,salmon_index_extended,D
+generate_genome_star_index,counts_matrix,D
+generate_genome_star_index,samlon_quant,D
+generate_genome_star_index,featurecounts 2,D
+generate_genome_star_index,salmon_quant,D
+generate_genome_star_index,salmon_index,D
+generate_genome_star_index,featurecounts,D
+generate_genome_star_index,sortedbam_to_counts,D
+generate_genome_star_index,tximeta,D
+generate_genome_star_index,kallistoquant,D
+generate_genome_star_index,bigwig,D
+generate_genome_star_index,fastqscreen,D
+generate_genome_star_index,multiqc 2,D
+generate_genome_star_index,fastqc 5,D
+generate_genome_star_index,fastqc 4,D
+generate_genome_star_index,multiqc 3,D
+generate_genome_star_index,fastqc,D
+generate_genome_star_index,run_multiqc,D
+generate_genome_star_index,multiqc,D
+generate_genome_star_index,fastqctrimmed,D
+generate_genome_star_index,fastqc_trimmed,D
+generate_genome_star_index,trim_fasq_fastqc,D
+generate_genome_star_index,fastqc 3,D
+generate_genome_star_index,fastqctrimmed 2,D
+generate_genome_star_index,fastqc 2,D
+generate_genome_star_index,fastqcrim,D
+generate_genome_star_index,fastqc 6,D
+run_star_se,pass1,SS
+run_star_se,star_genome,D
+run_star_se,tastq_to_bam_hisat,SS
+run_star_se,samtools_bam,D
+run_star_se,hisat2,D
+run_star_se,sort_bams,D
+run_star_se,compare_reference_stringtie,D
+run_star_se,map,SS
+run_star_se,bamindex,D
+run_star_se,startpe,S
+run_star_se,expressbam,D
+run_star_se,sortedbam_to_rmdup,D
+run_star_se,sortbam,D
+run_star_se,fetch_unique_stringtie,D
+run_star_se,starindex,D
+run_star_se,starse,S
+run_star_se,sort_index_bams,D
+run_star_se,rna_seqc,D
+run_star_se,pass2,SS
+run_star_se,mark_dups,D
+run_star_se,samtools_flagstat,D
+run_star_se,picard_rna_seq,D
+run_star_se,samplereads,D
+run_star_se,cutadapt 2,D
+run_star_se,trim_galore_pe,D
+run_star_se,trimgalorepe,D
+run_star_se,cutadapt,D
+run_star_se,trimgalorese,D
+run_star_se,fastp_trimming_se,D
+run_star_se,fastp_trimming_pe,D
+run_star_se,merge_trimmed_pe,D
+run_star_se,merge_trimmed_se,D
+run_star_se,drimseq,D
+run_star_se,edger,D
+run_star_se,rsem_norm,D
+run_star_se,feature_counts,D
+run_star_se,salmon_quant_se,D
+run_star_se,salmonse,D
+run_star_se,salmon_quant_pe,D
+run_star_se,salmonpe,D
+run_star_se,salmon_index_extended,D
+run_star_se,counts_matrix,D
+run_star_se,samlon_quant,D
+run_star_se,featurecounts 2,D
+run_star_se,salmon_quant,D
+run_star_se,salmon_index,D
+run_star_se,featurecounts,D
+run_star_se,sortedbam_to_counts,D
+run_star_se,tximeta,D
+run_star_se,kallistoquant,D
+run_star_se,bigwig,D
+run_star_se,fastqscreen,D
+run_star_se,multiqc 2,D
+run_star_se,fastqc 5,D
+run_star_se,fastqc 4,D
+run_star_se,multiqc 3,D
+run_star_se,fastqc,D
+run_star_se,run_multiqc,D
+run_star_se,multiqc,D
+run_star_se,fastqctrimmed,D
+run_star_se,fastqc_trimmed,D
+run_star_se,trim_fasq_fastqc,D
+run_star_se,fastqc 3,D
+run_star_se,fastqctrimmed 2,D
+run_star_se,fastqc 2,D
+run_star_se,fastqcrim,D
+run_star_se,fastqc 6,D
+pass1,star_genome,SS
+pass1,tastq_to_bam_hisat,SS
+pass1,samtools_bam,D
+pass1,hisat2,D
+pass1,sort_bams,D
+pass1,compare_reference_stringtie,D
+pass1,map,D
+pass1,bamindex,D
+pass1,startpe,SS
+pass1,expressbam,D
+pass1,sortedbam_to_rmdup,D
+pass1,sortbam,D
+pass1,fetch_unique_stringtie,D
+pass1,starindex,D
+pass1,starse,SS
+pass1,sort_index_bams,D
+pass1,rna_seqc,D
+pass1,pass2,S
+pass1,mark_dups,D
+pass1,samtools_flagstat,D
+pass1,picard_rna_seq,D
+pass1,samplereads,D
+pass1,cutadapt 2,D
+pass1,trim_galore_pe,D
+pass1,trimgalorepe,D
+pass1,cutadapt,D
+pass1,trimgalorese,D
+pass1,fastp_trimming_se,D
+pass1,fastp_trimming_pe,D
+pass1,merge_trimmed_pe,D
+pass1,merge_trimmed_se,D
+pass1,drimseq,D
+pass1,edger,D
+pass1,rsem_norm,D
+pass1,feature_counts,D
+pass1,salmon_quant_se,D
+pass1,salmonse,D
+pass1,salmon_quant_pe,D
+pass1,salmonpe,D
+pass1,salmon_index_extended,D
+pass1,counts_matrix,D
+pass1,samlon_quant,D
+pass1,featurecounts 2,D
+pass1,salmon_quant,D
+pass1,salmon_index,D
+pass1,featurecounts,D
+pass1,sortedbam_to_counts,D
+pass1,tximeta,D
+pass1,kallistoquant,D
+pass1,bigwig,D
+pass1,fastqscreen,D
+pass1,multiqc 2,D
+pass1,fastqc 5,D
+pass1,fastqc 4,D
+pass1,multiqc 3,D
+pass1,fastqc,D
+pass1,run_multiqc,D
+pass1,multiqc,D
+pass1,fastqctrimmed,D
+pass1,fastqc_trimmed,D
+pass1,trim_fasq_fastqc,D
+pass1,fastqc 3,D
+pass1,fastqctrimmed 2,D
+pass1,fastqc 2,D
+pass1,fastqcrim,D
+pass1,fastqc 6,D
+star_genome,tastq_to_bam_hisat,SS
+star_genome,samtools_bam,D
+star_genome,hisat2,SS
+star_genome,sort_bams,D
+star_genome,compare_reference_stringtie,D
+star_genome,map,SS
+star_genome,bamindex,D
+star_genome,startpe,D
+star_genome,expressbam,D
+star_genome,sortedbam_to_rmdup,D
+star_genome,sortbam,D
+star_genome,fetch_unique_stringtie,D
+star_genome,starindex,D
+star_genome,starse,D
+star_genome,sort_index_bams,D
+star_genome,rna_seqc,D
+star_genome,pass2,D
+star_genome,mark_dups,D
+star_genome,samtools_flagstat,D
+star_genome,picard_rna_seq,D
+star_genome,samplereads,D
+star_genome,cutadapt 2,D
+star_genome,trim_galore_pe,D
+star_genome,trimgalorepe,D
+star_genome,cutadapt,D
+star_genome,trimgalorese,D
+star_genome,fastp_trimming_se,D
+star_genome,fastp_trimming_pe,D
+star_genome,merge_trimmed_pe,D
+star_genome,merge_trimmed_se,D
+star_genome,drimseq,D
+star_genome,edger,D
+star_genome,rsem_norm,D
+star_genome,feature_counts,D
+star_genome,salmon_quant_se,D
+star_genome,salmonse,D
+star_genome,salmon_quant_pe,D
+star_genome,salmonpe,D
+star_genome,salmon_index_extended,D
+star_genome,counts_matrix,D
+star_genome,samlon_quant,D
+star_genome,featurecounts 2,D
+star_genome,salmon_quant,D
+star_genome,salmon_index,D
+star_genome,featurecounts,D
+star_genome,sortedbam_to_counts,D
+star_genome,tximeta,D
+star_genome,kallistoquant,D
+star_genome,bigwig,D
+star_genome,fastqscreen,D
+star_genome,multiqc 2,D
+star_genome,fastqc 5,D
+star_genome,fastqc 4,D
+star_genome,multiqc 3,D
+star_genome,fastqc,D
+star_genome,run_multiqc,D
+star_genome,multiqc,D
+star_genome,fastqctrimmed,D
+star_genome,fastqc_trimmed,D
+star_genome,trim_fasq_fastqc,D
+star_genome,fastqc 3,D
+star_genome,fastqctrimmed 2,D
+star_genome,fastqc 2,D
+star_genome,fastqcrim,D
+star_genome,fastqc 6,D
+tastq_to_bam_hisat,samtools_bam,D
+tastq_to_bam_hisat,hisat2,SS
+tastq_to_bam_hisat,sort_bams,D
+tastq_to_bam_hisat,compare_reference_stringtie,D
+tastq_to_bam_hisat,map,SS
+tastq_to_bam_hisat,bamindex,SS
+tastq_to_bam_hisat,startpe,SS
+tastq_to_bam_hisat,expressbam,D
+tastq_to_bam_hisat,sortedbam_to_rmdup,D
+tastq_to_bam_hisat,sortbam,D
+tastq_to_bam_hisat,fetch_unique_stringtie,D
+tastq_to_bam_hisat,starindex,D
+tastq_to_bam_hisat,starse,SS
+tastq_to_bam_hisat,sort_index_bams,SS
+tastq_to_bam_hisat,rna_seqc,D
+tastq_to_bam_hisat,pass2,SS
+tastq_to_bam_hisat,mark_dups,D
+tastq_to_bam_hisat,samtools_flagstat,D
+tastq_to_bam_hisat,picard_rna_seq,D
+tastq_to_bam_hisat,samplereads,D
+tastq_to_bam_hisat,cutadapt 2,D
+tastq_to_bam_hisat,trim_galore_pe,D
+tastq_to_bam_hisat,trimgalorepe,D
+tastq_to_bam_hisat,cutadapt,D
+tastq_to_bam_hisat,trimgalorese,D
+tastq_to_bam_hisat,fastp_trimming_se,D
+tastq_to_bam_hisat,fastp_trimming_pe,D
+tastq_to_bam_hisat,merge_trimmed_pe,D
+tastq_to_bam_hisat,merge_trimmed_se,D
+tastq_to_bam_hisat,drimseq,D
+tastq_to_bam_hisat,edger,D
+tastq_to_bam_hisat,rsem_norm,D
+tastq_to_bam_hisat,feature_counts,D
+tastq_to_bam_hisat,salmon_quant_se,D
+tastq_to_bam_hisat,salmonse,D
+tastq_to_bam_hisat,salmon_quant_pe,D
+tastq_to_bam_hisat,salmonpe,D
+tastq_to_bam_hisat,salmon_index_extended,D
+tastq_to_bam_hisat,counts_matrix,D
+tastq_to_bam_hisat,samlon_quant,D
+tastq_to_bam_hisat,featurecounts 2,D
+tastq_to_bam_hisat,salmon_quant,D
+tastq_to_bam_hisat,salmon_index,D
+tastq_to_bam_hisat,featurecounts,D
+tastq_to_bam_hisat,sortedbam_to_counts,D
+tastq_to_bam_hisat,tximeta,D
+tastq_to_bam_hisat,kallistoquant,D
+tastq_to_bam_hisat,bigwig,D
+tastq_to_bam_hisat,fastqscreen,D
+tastq_to_bam_hisat,multiqc 2,D
+tastq_to_bam_hisat,fastqc 5,D
+tastq_to_bam_hisat,fastqc 4,D
+tastq_to_bam_hisat,multiqc 3,D
+tastq_to_bam_hisat,fastqc,D
+tastq_to_bam_hisat,run_multiqc,D
+tastq_to_bam_hisat,multiqc,D
+tastq_to_bam_hisat,fastqctrimmed,D
+tastq_to_bam_hisat,fastqc_trimmed,D
+tastq_to_bam_hisat,trim_fasq_fastqc,D
+tastq_to_bam_hisat,fastqc 3,D
+tastq_to_bam_hisat,fastqctrimmed 2,D
+tastq_to_bam_hisat,fastqc 2,D
+tastq_to_bam_hisat,fastqcrim,D
+tastq_to_bam_hisat,fastqc 6,D
+samtools_bam,hisat2,D
+samtools_bam,sort_bams,D
+samtools_bam,compare_reference_stringtie,D
+samtools_bam,map,D
+samtools_bam,bamindex,D
+samtools_bam,startpe,D
+samtools_bam,expressbam,D
+samtools_bam,sortedbam_to_rmdup,D
+samtools_bam,sortbam,D
+samtools_bam,fetch_unique_stringtie,D
+samtools_bam,starindex,D
+samtools_bam,starse,D
+samtools_bam,sort_index_bams,D
+samtools_bam,rna_seqc,D
+samtools_bam,pass2,D
+samtools_bam,mark_dups,D
+samtools_bam,samtools_flagstat,D
+samtools_bam,picard_rna_seq,D
+samtools_bam,samplereads,D
+samtools_bam,cutadapt 2,D
+samtools_bam,trim_galore_pe,D
+samtools_bam,trimgalorepe,D
+samtools_bam,cutadapt,D
+samtools_bam,trimgalorese,D
+samtools_bam,fastp_trimming_se,D
+samtools_bam,fastp_trimming_pe,D
+samtools_bam,merge_trimmed_pe,D
+samtools_bam,merge_trimmed_se,D
+samtools_bam,drimseq,D
+samtools_bam,edger,D
+samtools_bam,rsem_norm,D
+samtools_bam,feature_counts,D
+samtools_bam,salmon_quant_se,D
+samtools_bam,salmonse,D
+samtools_bam,salmon_quant_pe,D
+samtools_bam,salmonpe,D
+samtools_bam,salmon_index_extended,D
+samtools_bam,counts_matrix,D
+samtools_bam,samlon_quant,D
+samtools_bam,featurecounts 2,D
+samtools_bam,salmon_quant,D
+samtools_bam,salmon_index,D
+samtools_bam,featurecounts,D
+samtools_bam,sortedbam_to_counts,D
+samtools_bam,tximeta,D
+samtools_bam,kallistoquant,D
+samtools_bam,bigwig,D
+samtools_bam,fastqscreen,D
+samtools_bam,multiqc 2,D
+samtools_bam,fastqc 5,D
+samtools_bam,fastqc 4,D
+samtools_bam,multiqc 3,D
+samtools_bam,fastqc,D
+samtools_bam,run_multiqc,D
+samtools_bam,multiqc,D
+samtools_bam,fastqctrimmed,D
+samtools_bam,fastqc_trimmed,D
+samtools_bam,trim_fasq_fastqc,D
+samtools_bam,fastqc 3,D
+samtools_bam,fastqctrimmed 2,D
+samtools_bam,fastqc 2,D
+samtools_bam,fastqcrim,D
+samtools_bam,fastqc 6,D
+hisat2,sort_bams,D
+hisat2,compare_reference_stringtie,D
+hisat2,map,D
+hisat2,bamindex,D
+hisat2,startpe,D
+hisat2,expressbam,D
+hisat2,sortedbam_to_rmdup,D
+hisat2,sortbam,D
+hisat2,fetch_unique_stringtie,D
+hisat2,starindex,D
+hisat2,starse,D
+hisat2,sort_index_bams,D
+hisat2,rna_seqc,D
+hisat2,pass2,D
+hisat2,mark_dups,D
+hisat2,samtools_flagstat,D
+hisat2,picard_rna_seq,D
+hisat2,samplereads,D
+hisat2,cutadapt 2,D
+hisat2,trim_galore_pe,D
+hisat2,trimgalorepe,D
+hisat2,cutadapt,D
+hisat2,trimgalorese,D
+hisat2,fastp_trimming_se,D
+hisat2,fastp_trimming_pe,D
+hisat2,merge_trimmed_pe,D
+hisat2,merge_trimmed_se,D
+hisat2,drimseq,D
+hisat2,edger,D
+hisat2,rsem_norm,D
+hisat2,feature_counts,D
+hisat2,salmon_quant_se,D
+hisat2,salmonse,D
+hisat2,salmon_quant_pe,D
+hisat2,salmonpe,D
+hisat2,salmon_index_extended,D
+hisat2,counts_matrix,D
+hisat2,samlon_quant,D
+hisat2,featurecounts 2,D
+hisat2,salmon_quant,D
+hisat2,salmon_index,D
+hisat2,featurecounts,D
+hisat2,sortedbam_to_counts,D
+hisat2,tximeta,D
+hisat2,kallistoquant,D
+hisat2,bigwig,D
+hisat2,fastqscreen,D
+hisat2,multiqc 2,D
+hisat2,fastqc 5,D
+hisat2,fastqc 4,D
+hisat2,multiqc 3,D
+hisat2,fastqc,D
+hisat2,run_multiqc,D
+hisat2,multiqc,D
+hisat2,fastqctrimmed,D
+hisat2,fastqc_trimmed,D
+hisat2,trim_fasq_fastqc,D
+hisat2,fastqc 3,D
+hisat2,fastqctrimmed 2,D
+hisat2,fastqc 2,D
+hisat2,fastqcrim,D
+hisat2,fastqc 6,D
+sort_bams,compare_reference_stringtie,D
+sort_bams,map,D
+sort_bams,bamindex,D
+sort_bams,startpe,D
+sort_bams,expressbam,D
+sort_bams,sortedbam_to_rmdup,D
+sort_bams,sortbam,VS
+sort_bams,fetch_unique_stringtie,D
+sort_bams,starindex,D
+sort_bams,starse,D
+sort_bams,sort_index_bams,S
+sort_bams,rna_seqc,D
+sort_bams,pass2,D
+sort_bams,mark_dups,D
+sort_bams,samtools_flagstat,D
+sort_bams,picard_rna_seq,D
+sort_bams,samplereads,D
+sort_bams,cutadapt 2,D
+sort_bams,trim_galore_pe,D
+sort_bams,trimgalorepe,D
+sort_bams,cutadapt,D
+sort_bams,trimgalorese,D
+sort_bams,fastp_trimming_se,D
+sort_bams,fastp_trimming_pe,D
+sort_bams,merge_trimmed_pe,D
+sort_bams,merge_trimmed_se,D
+sort_bams,drimseq,D
+sort_bams,edger,D
+sort_bams,rsem_norm,D
+sort_bams,feature_counts,D
+sort_bams,salmon_quant_se,D
+sort_bams,salmonse,D
+sort_bams,salmon_quant_pe,D
+sort_bams,salmonpe,D
+sort_bams,salmon_index_extended,D
+sort_bams,counts_matrix,D
+sort_bams,samlon_quant,D
+sort_bams,featurecounts 2,D
+sort_bams,salmon_quant,D
+sort_bams,salmon_index,D
+sort_bams,featurecounts,D
+sort_bams,sortedbam_to_counts,D
+sort_bams,tximeta,D
+sort_bams,kallistoquant,D
+sort_bams,bigwig,D
+sort_bams,fastqscreen,D
+sort_bams,multiqc 2,D
+sort_bams,fastqc 5,D
+sort_bams,fastqc 4,D
+sort_bams,multiqc 3,D
+sort_bams,fastqc,D
+sort_bams,run_multiqc,D
+sort_bams,multiqc,D
+sort_bams,fastqctrimmed,D
+sort_bams,fastqc_trimmed,D
+sort_bams,trim_fasq_fastqc,D
+sort_bams,fastqc 3,D
+sort_bams,fastqctrimmed 2,D
+sort_bams,fastqc 2,D
+sort_bams,fastqcrim,D
+sort_bams,fastqc 6,D
+compare_reference_stringtie,map,D
+compare_reference_stringtie,bamindex,D
+compare_reference_stringtie,startpe,D
+compare_reference_stringtie,expressbam,D
+compare_reference_stringtie,sortedbam_to_rmdup,D
+compare_reference_stringtie,sortbam,D
+compare_reference_stringtie,fetch_unique_stringtie,D
+compare_reference_stringtie,starindex,D
+compare_reference_stringtie,starse,D
+compare_reference_stringtie,sort_index_bams,D
+compare_reference_stringtie,rna_seqc,D
+compare_reference_stringtie,pass2,D
+compare_reference_stringtie,mark_dups,D
+compare_reference_stringtie,samtools_flagstat,D
+compare_reference_stringtie,picard_rna_seq,D
+compare_reference_stringtie,samplereads,D
+compare_reference_stringtie,cutadapt 2,D
+compare_reference_stringtie,trim_galore_pe,D
+compare_reference_stringtie,trimgalorepe,D
+compare_reference_stringtie,cutadapt,D
+compare_reference_stringtie,trimgalorese,D
+compare_reference_stringtie,fastp_trimming_se,D
+compare_reference_stringtie,fastp_trimming_pe,D
+compare_reference_stringtie,merge_trimmed_pe,D
+compare_reference_stringtie,merge_trimmed_se,D
+compare_reference_stringtie,drimseq,D
+compare_reference_stringtie,edger,D
+compare_reference_stringtie,rsem_norm,D
+compare_reference_stringtie,feature_counts,D
+compare_reference_stringtie,salmon_quant_se,D
+compare_reference_stringtie,salmonse,D
+compare_reference_stringtie,salmon_quant_pe,D
+compare_reference_stringtie,salmonpe,D
+compare_reference_stringtie,salmon_index_extended,D
+compare_reference_stringtie,counts_matrix,D
+compare_reference_stringtie,samlon_quant,D
+compare_reference_stringtie,featurecounts 2,D
+compare_reference_stringtie,salmon_quant,D
+compare_reference_stringtie,salmon_index,D
+compare_reference_stringtie,featurecounts,D
+compare_reference_stringtie,sortedbam_to_counts,D
+compare_reference_stringtie,tximeta,D
+compare_reference_stringtie,kallistoquant,D
+compare_reference_stringtie,bigwig,D
+compare_reference_stringtie,fastqscreen,D
+compare_reference_stringtie,multiqc 2,D
+compare_reference_stringtie,fastqc 5,D
+compare_reference_stringtie,fastqc 4,D
+compare_reference_stringtie,multiqc 3,D
+compare_reference_stringtie,fastqc,D
+compare_reference_stringtie,run_multiqc,D
+compare_reference_stringtie,multiqc,D
+compare_reference_stringtie,fastqctrimmed,D
+compare_reference_stringtie,fastqc_trimmed,D
+compare_reference_stringtie,trim_fasq_fastqc,D
+compare_reference_stringtie,fastqc 3,D
+compare_reference_stringtie,fastqctrimmed 2,D
+compare_reference_stringtie,fastqc 2,D
+compare_reference_stringtie,fastqcrim,D
+compare_reference_stringtie,fastqc 6,D
+map,bamindex,D
+map,startpe,SS
+map,expressbam,D
+map,sortedbam_to_rmdup,D
+map,sortbam,D
+map,fetch_unique_stringtie,D
+map,starindex,D
+map,starse,S
+map,sort_index_bams,D
+map,rna_seqc,D
+map,pass2,SS
+map,mark_dups,D
+map,samtools_flagstat,D
+map,picard_rna_seq,D
+map,samplereads,D
+map,cutadapt 2,D
+map,trim_galore_pe,D
+map,trimgalorepe,D
+map,cutadapt,D
+map,trimgalorese,D
+map,fastp_trimming_se,D
+map,fastp_trimming_pe,D
+map,merge_trimmed_pe,D
+map,merge_trimmed_se,D
+map,drimseq,D
+map,edger,D
+map,rsem_norm,D
+map,feature_counts,D
+map,salmon_quant_se,D
+map,salmonse,D
+map,salmon_quant_pe,D
+map,salmonpe,D
+map,salmon_index_extended,D
+map,counts_matrix,D
+map,samlon_quant,D
+map,featurecounts 2,D
+map,salmon_quant,D
+map,salmon_index,D
+map,featurecounts,D
+map,sortedbam_to_counts,D
+map,tximeta,D
+map,kallistoquant,D
+map,bigwig,D
+map,fastqscreen,D
+map,multiqc 2,D
+map,fastqc 5,D
+map,fastqc 4,D
+map,multiqc 3,D
+map,fastqc,D
+map,run_multiqc,D
+map,multiqc,D
+map,fastqctrimmed,D
+map,fastqc_trimmed,D
+map,trim_fasq_fastqc,D
+map,fastqc 3,D
+map,fastqctrimmed 2,D
+map,fastqc 2,D
+map,fastqcrim,D
+map,fastqc 6,D
+bamindex,startpe,SS
+bamindex,expressbam,SS
+bamindex,sortedbam_to_rmdup,D
+bamindex,sortbam,D
+bamindex,fetch_unique_stringtie,D
+bamindex,starindex,D
+bamindex,starse,D
+bamindex,sort_index_bams,D
+bamindex,rna_seqc,D
+bamindex,pass2,D
+bamindex,mark_dups,D
+bamindex,samtools_flagstat,D
+bamindex,picard_rna_seq,D
+bamindex,samplereads,D
+bamindex,cutadapt 2,D
+bamindex,trim_galore_pe,D
+bamindex,trimgalorepe,D
+bamindex,cutadapt,D
+bamindex,trimgalorese,D
+bamindex,fastp_trimming_se,D
+bamindex,fastp_trimming_pe,D
+bamindex,merge_trimmed_pe,D
+bamindex,merge_trimmed_se,D
+bamindex,drimseq,D
+bamindex,edger,D
+bamindex,rsem_norm,D
+bamindex,feature_counts,D
+bamindex,salmon_quant_se,D
+bamindex,salmonse,D
+bamindex,salmon_quant_pe,D
+bamindex,salmonpe,D
+bamindex,salmon_index_extended,D
+bamindex,counts_matrix,D
+bamindex,samlon_quant,D
+bamindex,featurecounts 2,D
+bamindex,salmon_quant,D
+bamindex,salmon_index,D
+bamindex,featurecounts,D
+bamindex,sortedbam_to_counts,D
+bamindex,tximeta,D
+bamindex,kallistoquant,D
+bamindex,bigwig,D
+bamindex,fastqscreen,D
+bamindex,multiqc 2,D
+bamindex,fastqc 5,D
+bamindex,fastqc 4,D
+bamindex,multiqc 3,D
+bamindex,fastqc,D
+bamindex,run_multiqc,D
+bamindex,multiqc,D
+bamindex,fastqctrimmed,D
+bamindex,fastqc_trimmed,D
+bamindex,trim_fasq_fastqc,D
+bamindex,fastqc 3,D
+bamindex,fastqctrimmed 2,D
+bamindex,fastqc 2,D
+bamindex,fastqcrim,D
+bamindex,fastqc 6,D
+startpe,expressbam,D
+startpe,sortedbam_to_rmdup,D
+startpe,sortbam,D
+startpe,fetch_unique_stringtie,D
+startpe,starindex,D
+startpe,starse,SS
+startpe,sort_index_bams,D
+startpe,rna_seqc,D
+startpe,pass2,S
+startpe,mark_dups,D
+startpe,samtools_flagstat,D
+startpe,picard_rna_seq,D
+startpe,samplereads,D
+startpe,cutadapt 2,D
+startpe,trim_galore_pe,D
+startpe,trimgalorepe,D
+startpe,cutadapt,D
+startpe,trimgalorese,D
+startpe,fastp_trimming_se,D
+startpe,fastp_trimming_pe,D
+startpe,merge_trimmed_pe,D
+startpe,merge_trimmed_se,D
+startpe,drimseq,D
+startpe,edger,D
+startpe,rsem_norm,D
+startpe,feature_counts,D
+startpe,salmon_quant_se,D
+startpe,salmonse,D
+startpe,salmon_quant_pe,D
+startpe,salmonpe,D
+startpe,salmon_index_extended,D
+startpe,counts_matrix,D
+startpe,samlon_quant,D
+startpe,featurecounts 2,D
+startpe,salmon_quant,D
+startpe,salmon_index,D
+startpe,featurecounts,D
+startpe,sortedbam_to_counts,D
+startpe,tximeta,D
+startpe,kallistoquant,D
+startpe,bigwig,D
+startpe,fastqscreen,D
+startpe,multiqc 2,D
+startpe,fastqc 5,D
+startpe,fastqc 4,D
+startpe,multiqc 3,D
+startpe,fastqc,D
+startpe,run_multiqc,D
+startpe,multiqc,D
+startpe,fastqctrimmed,D
+startpe,fastqc_trimmed,D
+startpe,trim_fasq_fastqc,D
+startpe,fastqc 3,D
+startpe,fastqctrimmed 2,D
+startpe,fastqc 2,D
+startpe,fastqcrim,D
+startpe,fastqc 6,D
+expressbam,sortedbam_to_rmdup,D
+expressbam,sortbam,D
+expressbam,fetch_unique_stringtie,D
+expressbam,starindex,D
+expressbam,starse,D
+expressbam,sort_index_bams,D
+expressbam,rna_seqc,D
+expressbam,pass2,D
+expressbam,mark_dups,D
+expressbam,samtools_flagstat,D
+expressbam,picard_rna_seq,D
+expressbam,samplereads,D
+expressbam,cutadapt 2,D
+expressbam,trim_galore_pe,D
+expressbam,trimgalorepe,D
+expressbam,cutadapt,D
+expressbam,trimgalorese,D
+expressbam,fastp_trimming_se,D
+expressbam,fastp_trimming_pe,D
+expressbam,merge_trimmed_pe,D
+expressbam,merge_trimmed_se,D
+expressbam,drimseq,D
+expressbam,edger,D
+expressbam,rsem_norm,D
+expressbam,feature_counts,D
+expressbam,salmon_quant_se,D
+expressbam,salmonse,D
+expressbam,salmon_quant_pe,D
+expressbam,salmonpe,D
+expressbam,salmon_index_extended,D
+expressbam,counts_matrix,D
+expressbam,samlon_quant,D
+expressbam,featurecounts 2,D
+expressbam,salmon_quant,D
+expressbam,salmon_index,D
+expressbam,featurecounts,D
+expressbam,sortedbam_to_counts,D
+expressbam,tximeta,D
+expressbam,kallistoquant,D
+expressbam,bigwig,D
+expressbam,fastqscreen,D
+expressbam,multiqc 2,D
+expressbam,fastqc 5,D
+expressbam,fastqc 4,D
+expressbam,multiqc 3,D
+expressbam,fastqc,D
+expressbam,run_multiqc,D
+expressbam,multiqc,D
+expressbam,fastqctrimmed,D
+expressbam,fastqc_trimmed,D
+expressbam,trim_fasq_fastqc,D
+expressbam,fastqc 3,D
+expressbam,fastqctrimmed 2,D
+expressbam,fastqc 2,D
+expressbam,fastqcrim,D
+expressbam,fastqc 6,D
+sortedbam_to_rmdup,sortbam,D
+sortedbam_to_rmdup,fetch_unique_stringtie,D
+sortedbam_to_rmdup,starindex,D
+sortedbam_to_rmdup,starse,D
+sortedbam_to_rmdup,sort_index_bams,D
+sortedbam_to_rmdup,rna_seqc,D
+sortedbam_to_rmdup,pass2,D
+sortedbam_to_rmdup,mark_dups,D
+sortedbam_to_rmdup,samtools_flagstat,D
+sortedbam_to_rmdup,picard_rna_seq,D
+sortedbam_to_rmdup,samplereads,D
+sortedbam_to_rmdup,cutadapt 2,D
+sortedbam_to_rmdup,trim_galore_pe,D
+sortedbam_to_rmdup,trimgalorepe,D
+sortedbam_to_rmdup,cutadapt,D
+sortedbam_to_rmdup,trimgalorese,D
+sortedbam_to_rmdup,fastp_trimming_se,D
+sortedbam_to_rmdup,fastp_trimming_pe,D
+sortedbam_to_rmdup,merge_trimmed_pe,D
+sortedbam_to_rmdup,merge_trimmed_se,D
+sortedbam_to_rmdup,drimseq,D
+sortedbam_to_rmdup,edger,D
+sortedbam_to_rmdup,rsem_norm,D
+sortedbam_to_rmdup,feature_counts,D
+sortedbam_to_rmdup,salmon_quant_se,D
+sortedbam_to_rmdup,salmonse,D
+sortedbam_to_rmdup,salmon_quant_pe,D
+sortedbam_to_rmdup,salmonpe,D
+sortedbam_to_rmdup,salmon_index_extended,D
+sortedbam_to_rmdup,counts_matrix,D
+sortedbam_to_rmdup,samlon_quant,D
+sortedbam_to_rmdup,featurecounts 2,D
+sortedbam_to_rmdup,salmon_quant,D
+sortedbam_to_rmdup,salmon_index,D
+sortedbam_to_rmdup,featurecounts,D
+sortedbam_to_rmdup,sortedbam_to_counts,D
+sortedbam_to_rmdup,tximeta,D
+sortedbam_to_rmdup,kallistoquant,D
+sortedbam_to_rmdup,bigwig,D
+sortedbam_to_rmdup,fastqscreen,D
+sortedbam_to_rmdup,multiqc 2,D
+sortedbam_to_rmdup,fastqc 5,D
+sortedbam_to_rmdup,fastqc 4,D
+sortedbam_to_rmdup,multiqc 3,D
+sortedbam_to_rmdup,fastqc,D
+sortedbam_to_rmdup,run_multiqc,D
+sortedbam_to_rmdup,multiqc,D
+sortedbam_to_rmdup,fastqctrimmed,D
+sortedbam_to_rmdup,fastqc_trimmed,D
+sortedbam_to_rmdup,trim_fasq_fastqc,D
+sortedbam_to_rmdup,fastqc 3,D
+sortedbam_to_rmdup,fastqctrimmed 2,D
+sortedbam_to_rmdup,fastqc 2,D
+sortedbam_to_rmdup,fastqcrim,D
+sortedbam_to_rmdup,fastqc 6,D
+sortbam,fetch_unique_stringtie,D
+sortbam,starindex,D
+sortbam,starse,D
+sortbam,sort_index_bams,S
+sortbam,rna_seqc,D
+sortbam,pass2,D
+sortbam,mark_dups,D
+sortbam,samtools_flagstat,D
+sortbam,picard_rna_seq,D
+sortbam,samplereads,D
+sortbam,cutadapt 2,D
+sortbam,trim_galore_pe,D
+sortbam,trimgalorepe,D
+sortbam,cutadapt,D
+sortbam,trimgalorese,D
+sortbam,fastp_trimming_se,D
+sortbam,fastp_trimming_pe,D
+sortbam,merge_trimmed_pe,D
+sortbam,merge_trimmed_se,D
+sortbam,drimseq,D
+sortbam,edger,D
+sortbam,rsem_norm,D
+sortbam,feature_counts,D
+sortbam,salmon_quant_se,D
+sortbam,salmonse,D
+sortbam,salmon_quant_pe,D
+sortbam,salmonpe,D
+sortbam,salmon_index_extended,D
+sortbam,counts_matrix,D
+sortbam,samlon_quant,D
+sortbam,featurecounts 2,D
+sortbam,salmon_quant,D
+sortbam,salmon_index,D
+sortbam,featurecounts,D
+sortbam,sortedbam_to_counts,D
+sortbam,tximeta,D
+sortbam,kallistoquant,D
+sortbam,bigwig,D
+sortbam,fastqscreen,D
+sortbam,multiqc 2,D
+sortbam,fastqc 5,D
+sortbam,fastqc 4,D
+sortbam,multiqc 3,D
+sortbam,fastqc,D
+sortbam,run_multiqc,D
+sortbam,multiqc,D
+sortbam,fastqctrimmed,D
+sortbam,fastqc_trimmed,D
+sortbam,trim_fasq_fastqc,D
+sortbam,fastqc 3,D
+sortbam,fastqctrimmed 2,D
+sortbam,fastqc 2,D
+sortbam,fastqcrim,D
+sortbam,fastqc 6,D
+fetch_unique_stringtie,starindex,D
+fetch_unique_stringtie,starse,D
+fetch_unique_stringtie,sort_index_bams,D
+fetch_unique_stringtie,rna_seqc,D
+fetch_unique_stringtie,pass2,D
+fetch_unique_stringtie,mark_dups,D
+fetch_unique_stringtie,samtools_flagstat,D
+fetch_unique_stringtie,picard_rna_seq,D
+fetch_unique_stringtie,samplereads,D
+fetch_unique_stringtie,cutadapt 2,D
+fetch_unique_stringtie,trim_galore_pe,D
+fetch_unique_stringtie,trimgalorepe,D
+fetch_unique_stringtie,cutadapt,D
+fetch_unique_stringtie,trimgalorese,D
+fetch_unique_stringtie,fastp_trimming_se,D
+fetch_unique_stringtie,fastp_trimming_pe,D
+fetch_unique_stringtie,merge_trimmed_pe,D
+fetch_unique_stringtie,merge_trimmed_se,D
+fetch_unique_stringtie,drimseq,D
+fetch_unique_stringtie,edger,D
+fetch_unique_stringtie,rsem_norm,D
+fetch_unique_stringtie,feature_counts,D
+fetch_unique_stringtie,salmon_quant_se,D
+fetch_unique_stringtie,salmonse,D
+fetch_unique_stringtie,salmon_quant_pe,D
+fetch_unique_stringtie,salmonpe,D
+fetch_unique_stringtie,salmon_index_extended,D
+fetch_unique_stringtie,counts_matrix,D
+fetch_unique_stringtie,samlon_quant,D
+fetch_unique_stringtie,featurecounts 2,D
+fetch_unique_stringtie,salmon_quant,D
+fetch_unique_stringtie,salmon_index,D
+fetch_unique_stringtie,featurecounts,D
+fetch_unique_stringtie,sortedbam_to_counts,D
+fetch_unique_stringtie,tximeta,D
+fetch_unique_stringtie,kallistoquant,D
+fetch_unique_stringtie,bigwig,D
+fetch_unique_stringtie,fastqscreen,D
+fetch_unique_stringtie,multiqc 2,D
+fetch_unique_stringtie,fastqc 5,D
+fetch_unique_stringtie,fastqc 4,D
+fetch_unique_stringtie,multiqc 3,D
+fetch_unique_stringtie,fastqc,D
+fetch_unique_stringtie,run_multiqc,D
+fetch_unique_stringtie,multiqc,D
+fetch_unique_stringtie,fastqctrimmed,D
+fetch_unique_stringtie,fastqc_trimmed,D
+fetch_unique_stringtie,trim_fasq_fastqc,D
+fetch_unique_stringtie,fastqc 3,D
+fetch_unique_stringtie,fastqctrimmed 2,D
+fetch_unique_stringtie,fastqc 2,D
+fetch_unique_stringtie,fastqcrim,D
+fetch_unique_stringtie,fastqc 6,D
+starindex,starse,D
+starindex,sort_index_bams,D
+starindex,rna_seqc,D
+starindex,pass2,D
+starindex,mark_dups,D
+starindex,samtools_flagstat,D
+starindex,picard_rna_seq,D
+starindex,samplereads,D
+starindex,cutadapt 2,D
+starindex,trim_galore_pe,D
+starindex,trimgalorepe,D
+starindex,cutadapt,D
+starindex,trimgalorese,D
+starindex,fastp_trimming_se,D
+starindex,fastp_trimming_pe,D
+starindex,merge_trimmed_pe,D
+starindex,merge_trimmed_se,D
+starindex,drimseq,D
+starindex,edger,D
+starindex,rsem_norm,D
+starindex,feature_counts,D
+starindex,salmon_quant_se,D
+starindex,salmonse,D
+starindex,salmon_quant_pe,D
+starindex,salmonpe,D
+starindex,salmon_index_extended,D
+starindex,counts_matrix,D
+starindex,samlon_quant,D
+starindex,featurecounts 2,D
+starindex,salmon_quant,D
+starindex,salmon_index,D
+starindex,featurecounts,D
+starindex,sortedbam_to_counts,D
+starindex,tximeta,D
+starindex,kallistoquant,D
+starindex,bigwig,D
+starindex,fastqscreen,D
+starindex,multiqc 2,D
+starindex,fastqc 5,D
+starindex,fastqc 4,D
+starindex,multiqc 3,D
+starindex,fastqc,D
+starindex,run_multiqc,D
+starindex,multiqc,D
+starindex,fastqctrimmed,D
+starindex,fastqc_trimmed,D
+starindex,trim_fasq_fastqc,D
+starindex,fastqc 3,D
+starindex,fastqctrimmed 2,D
+starindex,fastqc 2,D
+starindex,fastqcrim,D
+starindex,fastqc 6,D
+starse,sort_index_bams,D
+starse,rna_seqc,D
+starse,pass2,SS
+starse,mark_dups,D
+starse,samtools_flagstat,D
+starse,picard_rna_seq,D
+starse,samplereads,D
+starse,cutadapt 2,D
+starse,trim_galore_pe,D
+starse,trimgalorepe,D
+starse,cutadapt,D
+starse,trimgalorese,D
+starse,fastp_trimming_se,D
+starse,fastp_trimming_pe,D
+starse,merge_trimmed_pe,D
+starse,merge_trimmed_se,D
+starse,drimseq,D
+starse,edger,D
+starse,rsem_norm,D
+starse,feature_counts,D
+starse,salmon_quant_se,D
+starse,salmonse,D
+starse,salmon_quant_pe,D
+starse,salmonpe,D
+starse,salmon_index_extended,D
+starse,counts_matrix,D
+starse,samlon_quant,D
+starse,featurecounts 2,D
+starse,salmon_quant,D
+starse,salmon_index,D
+starse,featurecounts,D
+starse,sortedbam_to_counts,D
+starse,tximeta,D
+starse,kallistoquant,D
+starse,bigwig,D
+starse,fastqscreen,D
+starse,multiqc 2,D
+starse,fastqc 5,D
+starse,fastqc 4,D
+starse,multiqc 3,D
+starse,fastqc,D
+starse,run_multiqc,D
+starse,multiqc,D
+starse,fastqctrimmed,D
+starse,fastqc_trimmed,D
+starse,trim_fasq_fastqc,D
+starse,fastqc 3,D
+starse,fastqctrimmed 2,D
+starse,fastqc 2,D
+starse,fastqcrim,D
+starse,fastqc 6,D
+sort_index_bams,rna_seqc,D
+sort_index_bams,pass2,D
+sort_index_bams,mark_dups,D
+sort_index_bams,samtools_flagstat,D
+sort_index_bams,picard_rna_seq,D
+sort_index_bams,samplereads,D
+sort_index_bams,cutadapt 2,D
+sort_index_bams,trim_galore_pe,D
+sort_index_bams,trimgalorepe,D
+sort_index_bams,cutadapt,D
+sort_index_bams,trimgalorese,D
+sort_index_bams,fastp_trimming_se,D
+sort_index_bams,fastp_trimming_pe,D
+sort_index_bams,merge_trimmed_pe,D
+sort_index_bams,merge_trimmed_se,D
+sort_index_bams,drimseq,D
+sort_index_bams,edger,D
+sort_index_bams,rsem_norm,D
+sort_index_bams,feature_counts,D
+sort_index_bams,salmon_quant_se,D
+sort_index_bams,salmonse,D
+sort_index_bams,salmon_quant_pe,D
+sort_index_bams,salmonpe,D
+sort_index_bams,salmon_index_extended,D
+sort_index_bams,counts_matrix,D
+sort_index_bams,samlon_quant,D
+sort_index_bams,featurecounts 2,D
+sort_index_bams,salmon_quant,D
+sort_index_bams,salmon_index,D
+sort_index_bams,featurecounts,D
+sort_index_bams,sortedbam_to_counts,D
+sort_index_bams,tximeta,D
+sort_index_bams,kallistoquant,D
+sort_index_bams,bigwig,D
+sort_index_bams,fastqscreen,D
+sort_index_bams,multiqc 2,D
+sort_index_bams,fastqc 5,D
+sort_index_bams,fastqc 4,D
+sort_index_bams,multiqc 3,D
+sort_index_bams,fastqc,D
+sort_index_bams,run_multiqc,D
+sort_index_bams,multiqc,D
+sort_index_bams,fastqctrimmed,D
+sort_index_bams,fastqc_trimmed,D
+sort_index_bams,trim_fasq_fastqc,D
+sort_index_bams,fastqc 3,D
+sort_index_bams,fastqctrimmed 2,D
+sort_index_bams,fastqc 2,D
+sort_index_bams,fastqcrim,D
+sort_index_bams,fastqc 6,D
+rna_seqc,pass2,D
+rna_seqc,mark_dups,D
+rna_seqc,samtools_flagstat,D
+rna_seqc,picard_rna_seq,D
+rna_seqc,samplereads,D
+rna_seqc,cutadapt 2,D
+rna_seqc,trim_galore_pe,D
+rna_seqc,trimgalorepe,D
+rna_seqc,cutadapt,D
+rna_seqc,trimgalorese,D
+rna_seqc,fastp_trimming_se,D
+rna_seqc,fastp_trimming_pe,D
+rna_seqc,merge_trimmed_pe,D
+rna_seqc,merge_trimmed_se,D
+rna_seqc,drimseq,D
+rna_seqc,edger,D
+rna_seqc,rsem_norm,D
+rna_seqc,feature_counts,D
+rna_seqc,salmon_quant_se,D
+rna_seqc,salmonse,D
+rna_seqc,salmon_quant_pe,D
+rna_seqc,salmonpe,D
+rna_seqc,salmon_index_extended,D
+rna_seqc,counts_matrix,D
+rna_seqc,samlon_quant,D
+rna_seqc,featurecounts 2,D
+rna_seqc,salmon_quant,D
+rna_seqc,salmon_index,D
+rna_seqc,featurecounts,D
+rna_seqc,sortedbam_to_counts,D
+rna_seqc,tximeta,D
+rna_seqc,kallistoquant,D
+rna_seqc,bigwig,D
+rna_seqc,fastqscreen,D
+rna_seqc,multiqc 2,D
+rna_seqc,fastqc 5,D
+rna_seqc,fastqc 4,D
+rna_seqc,multiqc 3,D
+rna_seqc,fastqc,D
+rna_seqc,run_multiqc,D
+rna_seqc,multiqc,D
+rna_seqc,fastqctrimmed,D
+rna_seqc,fastqc_trimmed,D
+rna_seqc,trim_fasq_fastqc,D
+rna_seqc,fastqc 3,D
+rna_seqc,fastqctrimmed 2,D
+rna_seqc,fastqc 2,D
+rna_seqc,fastqcrim,D
+rna_seqc,fastqc 6,D
+pass2,mark_dups,D
+pass2,samtools_flagstat,D
+pass2,picard_rna_seq,D
+pass2,samplereads,D
+pass2,cutadapt 2,D
+pass2,trim_galore_pe,D
+pass2,trimgalorepe,D
+pass2,cutadapt,D
+pass2,trimgalorese,D
+pass2,fastp_trimming_se,D
+pass2,fastp_trimming_pe,D
+pass2,merge_trimmed_pe,D
+pass2,merge_trimmed_se,D
+pass2,drimseq,D
+pass2,edger,D
+pass2,rsem_norm,D
+pass2,feature_counts,D
+pass2,salmon_quant_se,D
+pass2,salmonse,D
+pass2,salmon_quant_pe,D
+pass2,salmonpe,D
+pass2,salmon_index_extended,D
+pass2,counts_matrix,D
+pass2,samlon_quant,D
+pass2,featurecounts 2,D
+pass2,salmon_quant,D
+pass2,salmon_index,D
+pass2,featurecounts,D
+pass2,sortedbam_to_counts,D
+pass2,tximeta,D
+pass2,kallistoquant,D
+pass2,bigwig,D
+pass2,fastqscreen,D
+pass2,multiqc 2,D
+pass2,fastqc 5,D
+pass2,fastqc 4,D
+pass2,multiqc 3,D
+pass2,fastqc,D
+pass2,run_multiqc,D
+pass2,multiqc,D
+pass2,fastqctrimmed,D
+pass2,fastqc_trimmed,D
+pass2,trim_fasq_fastqc,D
+pass2,fastqc 3,D
+pass2,fastqctrimmed 2,D
+pass2,fastqc 2,D
+pass2,fastqcrim,D
+pass2,fastqc 6,D
+mark_dups,samtools_flagstat,D
+mark_dups,picard_rna_seq,D
+mark_dups,samplereads,D
+mark_dups,cutadapt 2,D
+mark_dups,trim_galore_pe,D
+mark_dups,trimgalorepe,D
+mark_dups,cutadapt,D
+mark_dups,trimgalorese,D
+mark_dups,fastp_trimming_se,D
+mark_dups,fastp_trimming_pe,D
+mark_dups,merge_trimmed_pe,D
+mark_dups,merge_trimmed_se,D
+mark_dups,drimseq,D
+mark_dups,edger,D
+mark_dups,rsem_norm,D
+mark_dups,feature_counts,D
+mark_dups,salmon_quant_se,D
+mark_dups,salmonse,D
+mark_dups,salmon_quant_pe,D
+mark_dups,salmonpe,D
+mark_dups,salmon_index_extended,D
+mark_dups,counts_matrix,D
+mark_dups,samlon_quant,D
+mark_dups,featurecounts 2,D
+mark_dups,salmon_quant,D
+mark_dups,salmon_index,D
+mark_dups,featurecounts,D
+mark_dups,sortedbam_to_counts,D
+mark_dups,tximeta,D
+mark_dups,kallistoquant,D
+mark_dups,bigwig,D
+mark_dups,fastqscreen,D
+mark_dups,multiqc 2,D
+mark_dups,fastqc 5,D
+mark_dups,fastqc 4,D
+mark_dups,multiqc 3,D
+mark_dups,fastqc,D
+mark_dups,run_multiqc,D
+mark_dups,multiqc,D
+mark_dups,fastqctrimmed,D
+mark_dups,fastqc_trimmed,D
+mark_dups,trim_fasq_fastqc,D
+mark_dups,fastqc 3,D
+mark_dups,fastqctrimmed 2,D
+mark_dups,fastqc 2,D
+mark_dups,fastqcrim,D
+mark_dups,fastqc 6,D
+samtools_flagstat,picard_rna_seq,D
+samtools_flagstat,samplereads,D
+samtools_flagstat,cutadapt 2,D
+samtools_flagstat,trim_galore_pe,D
+samtools_flagstat,trimgalorepe,D
+samtools_flagstat,cutadapt,D
+samtools_flagstat,trimgalorese,D
+samtools_flagstat,fastp_trimming_se,D
+samtools_flagstat,fastp_trimming_pe,D
+samtools_flagstat,merge_trimmed_pe,D
+samtools_flagstat,merge_trimmed_se,D
+samtools_flagstat,drimseq,D
+samtools_flagstat,edger,D
+samtools_flagstat,rsem_norm,D
+samtools_flagstat,feature_counts,D
+samtools_flagstat,salmon_quant_se,D
+samtools_flagstat,salmonse,D
+samtools_flagstat,salmon_quant_pe,D
+samtools_flagstat,salmonpe,D
+samtools_flagstat,salmon_index_extended,D
+samtools_flagstat,counts_matrix,D
+samtools_flagstat,samlon_quant,D
+samtools_flagstat,featurecounts 2,D
+samtools_flagstat,salmon_quant,D
+samtools_flagstat,salmon_index,D
+samtools_flagstat,featurecounts,D
+samtools_flagstat,sortedbam_to_counts,D
+samtools_flagstat,tximeta,D
+samtools_flagstat,kallistoquant,D
+samtools_flagstat,bigwig,D
+samtools_flagstat,fastqscreen,D
+samtools_flagstat,multiqc 2,D
+samtools_flagstat,fastqc 5,D
+samtools_flagstat,fastqc 4,D
+samtools_flagstat,multiqc 3,D
+samtools_flagstat,fastqc,D
+samtools_flagstat,run_multiqc,D
+samtools_flagstat,multiqc,D
+samtools_flagstat,fastqctrimmed,D
+samtools_flagstat,fastqc_trimmed,D
+samtools_flagstat,trim_fasq_fastqc,D
+samtools_flagstat,fastqc 3,D
+samtools_flagstat,fastqctrimmed 2,D
+samtools_flagstat,fastqc 2,D
+samtools_flagstat,fastqcrim,D
+samtools_flagstat,fastqc 6,D
+picard_rna_seq,samplereads,D
+picard_rna_seq,cutadapt 2,D
+picard_rna_seq,trim_galore_pe,D
+picard_rna_seq,trimgalorepe,D
+picard_rna_seq,cutadapt,D
+picard_rna_seq,trimgalorese,D
+picard_rna_seq,fastp_trimming_se,D
+picard_rna_seq,fastp_trimming_pe,D
+picard_rna_seq,merge_trimmed_pe,D
+picard_rna_seq,merge_trimmed_se,D
+picard_rna_seq,drimseq,D
+picard_rna_seq,edger,D
+picard_rna_seq,rsem_norm,D
+picard_rna_seq,feature_counts,D
+picard_rna_seq,salmon_quant_se,D
+picard_rna_seq,salmonse,D
+picard_rna_seq,salmon_quant_pe,D
+picard_rna_seq,salmonpe,D
+picard_rna_seq,salmon_index_extended,D
+picard_rna_seq,counts_matrix,D
+picard_rna_seq,samlon_quant,D
+picard_rna_seq,featurecounts 2,D
+picard_rna_seq,salmon_quant,D
+picard_rna_seq,salmon_index,D
+picard_rna_seq,featurecounts,D
+picard_rna_seq,sortedbam_to_counts,D
+picard_rna_seq,tximeta,D
+picard_rna_seq,kallistoquant,D
+picard_rna_seq,bigwig,D
+picard_rna_seq,fastqscreen,D
+picard_rna_seq,multiqc 2,D
+picard_rna_seq,fastqc 5,D
+picard_rna_seq,fastqc 4,D
+picard_rna_seq,multiqc 3,D
+picard_rna_seq,fastqc,D
+picard_rna_seq,run_multiqc,D
+picard_rna_seq,multiqc,D
+picard_rna_seq,fastqctrimmed,D
+picard_rna_seq,fastqc_trimmed,D
+picard_rna_seq,trim_fasq_fastqc,D
+picard_rna_seq,fastqc 3,D
+picard_rna_seq,fastqctrimmed 2,D
+picard_rna_seq,fastqc 2,D
+picard_rna_seq,fastqcrim,D
+picard_rna_seq,fastqc 6,D
+samplereads,cutadapt 2,SS
+samplereads,trim_galore_pe,D
+samplereads,trimgalorepe,D
+samplereads,cutadapt,D
+samplereads,trimgalorese,D
+samplereads,fastp_trimming_se,D
+samplereads,fastp_trimming_pe,D
+samplereads,merge_trimmed_pe,D
+samplereads,merge_trimmed_se,D
+samplereads,drimseq,D
+samplereads,edger,D
+samplereads,rsem_norm,D
+samplereads,feature_counts,D
+samplereads,salmon_quant_se,D
+samplereads,salmonse,D
+samplereads,salmon_quant_pe,D
+samplereads,salmonpe,D
+samplereads,salmon_index_extended,D
+samplereads,counts_matrix,D
+samplereads,samlon_quant,D
+samplereads,featurecounts 2,D
+samplereads,salmon_quant,D
+samplereads,salmon_index,D
+samplereads,featurecounts,D
+samplereads,sortedbam_to_counts,D
+samplereads,tximeta,D
+samplereads,kallistoquant,D
+samplereads,bigwig,D
+samplereads,fastqscreen,D
+samplereads,multiqc 2,D
+samplereads,fastqc 5,D
+samplereads,fastqc 4,D
+samplereads,multiqc 3,D
+samplereads,fastqc,D
+samplereads,run_multiqc,D
+samplereads,multiqc,D
+samplereads,fastqctrimmed,D
+samplereads,fastqc_trimmed,D
+samplereads,trim_fasq_fastqc,D
+samplereads,fastqc 3,D
+samplereads,fastqctrimmed 2,D
+samplereads,fastqc 2,D
+samplereads,fastqcrim,D
+samplereads,fastqc 6,D
+cutadapt 2,trim_galore_pe,SS
+cutadapt 2,trimgalorepe,SS
+cutadapt 2,cutadapt,SS
+cutadapt 2,trimgalorese,SS
+cutadapt 2,fastp_trimming_se,SS
+cutadapt 2,fastp_trimming_pe,SS
+cutadapt 2,merge_trimmed_pe,SS
+cutadapt 2,merge_trimmed_se,SS
+cutadapt 2,drimseq,D
+cutadapt 2,edger,D
+cutadapt 2,rsem_norm,D
+cutadapt 2,feature_counts,D
+cutadapt 2,salmon_quant_se,D
+cutadapt 2,salmonse,D
+cutadapt 2,salmon_quant_pe,D
+cutadapt 2,salmonpe,D
+cutadapt 2,salmon_index_extended,D
+cutadapt 2,counts_matrix,D
+cutadapt 2,samlon_quant,D
+cutadapt 2,featurecounts 2,D
+cutadapt 2,salmon_quant,D
+cutadapt 2,salmon_index,D
+cutadapt 2,featurecounts,D
+cutadapt 2,sortedbam_to_counts,D
+cutadapt 2,tximeta,D
+cutadapt 2,kallistoquant,D
+cutadapt 2,bigwig,D
+cutadapt 2,fastqscreen,D
+cutadapt 2,multiqc 2,D
+cutadapt 2,fastqc 5,D
+cutadapt 2,fastqc 4,D
+cutadapt 2,multiqc 3,D
+cutadapt 2,fastqc,D
+cutadapt 2,run_multiqc,D
+cutadapt 2,multiqc,D
+cutadapt 2,fastqctrimmed,D
+cutadapt 2,fastqc_trimmed,D
+cutadapt 2,trim_fasq_fastqc,D
+cutadapt 2,fastqc 3,D
+cutadapt 2,fastqctrimmed 2,D
+cutadapt 2,fastqc 2,D
+cutadapt 2,fastqcrim,D
+cutadapt 2,fastqc 6,D
+trim_galore_pe,trimgalorepe,VS
+trim_galore_pe,cutadapt,SS
+trim_galore_pe,trimgalorese,SS
+trim_galore_pe,fastp_trimming_se,SS
+trim_galore_pe,fastp_trimming_pe,S
+trim_galore_pe,merge_trimmed_pe,D
+trim_galore_pe,merge_trimmed_se,D
+trim_galore_pe,drimseq,D
+trim_galore_pe,edger,D
+trim_galore_pe,rsem_norm,D
+trim_galore_pe,feature_counts,D
+trim_galore_pe,salmon_quant_se,D
+trim_galore_pe,salmonse,D
+trim_galore_pe,salmon_quant_pe,D
+trim_galore_pe,salmonpe,D
+trim_galore_pe,salmon_index_extended,D
+trim_galore_pe,counts_matrix,D
+trim_galore_pe,samlon_quant,D
+trim_galore_pe,featurecounts 2,D
+trim_galore_pe,salmon_quant,D
+trim_galore_pe,salmon_index,D
+trim_galore_pe,featurecounts,D
+trim_galore_pe,sortedbam_to_counts,D
+trim_galore_pe,tximeta,D
+trim_galore_pe,kallistoquant,D
+trim_galore_pe,bigwig,D
+trim_galore_pe,fastqscreen,D
+trim_galore_pe,multiqc 2,D
+trim_galore_pe,fastqc 5,D
+trim_galore_pe,fastqc 4,D
+trim_galore_pe,multiqc 3,D
+trim_galore_pe,fastqc,D
+trim_galore_pe,run_multiqc,D
+trim_galore_pe,multiqc,D
+trim_galore_pe,fastqctrimmed,D
+trim_galore_pe,fastqc_trimmed,D
+trim_galore_pe,trim_fasq_fastqc,D
+trim_galore_pe,fastqc 3,D
+trim_galore_pe,fastqctrimmed 2,D
+trim_galore_pe,fastqc 2,D
+trim_galore_pe,fastqcrim,D
+trim_galore_pe,fastqc 6,D
+trimgalorepe,cutadapt,SS
+trimgalorepe,trimgalorese,SS
+trimgalorepe,fastp_trimming_se,SS
+trimgalorepe,fastp_trimming_pe,S
+trimgalorepe,merge_trimmed_pe,D
+trimgalorepe,merge_trimmed_se,D
+trimgalorepe,drimseq,D
+trimgalorepe,edger,D
+trimgalorepe,rsem_norm,D
+trimgalorepe,feature_counts,D
+trimgalorepe,salmon_quant_se,D
+trimgalorepe,salmonse,D
+trimgalorepe,salmon_quant_pe,D
+trimgalorepe,salmonpe,D
+trimgalorepe,salmon_index_extended,D
+trimgalorepe,counts_matrix,D
+trimgalorepe,samlon_quant,D
+trimgalorepe,featurecounts 2,D
+trimgalorepe,salmon_quant,D
+trimgalorepe,salmon_index,D
+trimgalorepe,featurecounts,D
+trimgalorepe,sortedbam_to_counts,D
+trimgalorepe,tximeta,D
+trimgalorepe,kallistoquant,D
+trimgalorepe,bigwig,D
+trimgalorepe,fastqscreen,D
+trimgalorepe,multiqc 2,D
+trimgalorepe,fastqc 5,D
+trimgalorepe,fastqc 4,D
+trimgalorepe,multiqc 3,D
+trimgalorepe,fastqc,D
+trimgalorepe,run_multiqc,D
+trimgalorepe,multiqc,D
+trimgalorepe,fastqctrimmed,D
+trimgalorepe,fastqc_trimmed,D
+trimgalorepe,trim_fasq_fastqc,D
+trimgalorepe,fastqc 3,D
+trimgalorepe,fastqctrimmed 2,D
+trimgalorepe,fastqc 2,D
+trimgalorepe,fastqcrim,D
+trimgalorepe,fastqc 6,D
+cutadapt,trimgalorese,S
+cutadapt,fastp_trimming_se,S
+cutadapt,fastp_trimming_pe,SS
+cutadapt,merge_trimmed_pe,D
+cutadapt,merge_trimmed_se,D
+cutadapt,drimseq,D
+cutadapt,edger,D
+cutadapt,rsem_norm,D
+cutadapt,feature_counts,D
+cutadapt,salmon_quant_se,D
+cutadapt,salmonse,D
+cutadapt,salmon_quant_pe,D
+cutadapt,salmonpe,D
+cutadapt,salmon_index_extended,D
+cutadapt,counts_matrix,D
+cutadapt,samlon_quant,D
+cutadapt,featurecounts 2,D
+cutadapt,salmon_quant,D
+cutadapt,salmon_index,D
+cutadapt,featurecounts,D
+cutadapt,sortedbam_to_counts,D
+cutadapt,tximeta,D
+cutadapt,kallistoquant,D
+cutadapt,bigwig,D
+cutadapt,fastqscreen,D
+cutadapt,multiqc 2,D
+cutadapt,fastqc 5,D
+cutadapt,fastqc 4,D
+cutadapt,multiqc 3,D
+cutadapt,fastqc,D
+cutadapt,run_multiqc,D
+cutadapt,multiqc,D
+cutadapt,fastqctrimmed,D
+cutadapt,fastqc_trimmed,D
+cutadapt,trim_fasq_fastqc,D
+cutadapt,fastqc 3,D
+cutadapt,fastqctrimmed 2,D
+cutadapt,fastqc 2,D
+cutadapt,fastqcrim,D
+cutadapt,fastqc 6,D
+trimgalorese,fastp_trimming_se,SS
+trimgalorese,fastp_trimming_pe,SS
+trimgalorese,merge_trimmed_pe,SS
+trimgalorese,merge_trimmed_se,SS
+trimgalorese,drimseq,D
+trimgalorese,edger,D
+trimgalorese,rsem_norm,D
+trimgalorese,feature_counts,D
+trimgalorese,salmon_quant_se,D
+trimgalorese,salmonse,D
+trimgalorese,salmon_quant_pe,D
+trimgalorese,salmonpe,D
+trimgalorese,salmon_index_extended,D
+trimgalorese,counts_matrix,D
+trimgalorese,samlon_quant,D
+trimgalorese,featurecounts 2,D
+trimgalorese,salmon_quant,D
+trimgalorese,salmon_index,D
+trimgalorese,featurecounts,D
+trimgalorese,sortedbam_to_counts,D
+trimgalorese,tximeta,D
+trimgalorese,kallistoquant,D
+trimgalorese,bigwig,D
+trimgalorese,fastqscreen,D
+trimgalorese,multiqc 2,D
+trimgalorese,fastqc 5,D
+trimgalorese,fastqc 4,D
+trimgalorese,multiqc 3,D
+trimgalorese,fastqc,D
+trimgalorese,run_multiqc,D
+trimgalorese,multiqc,D
+trimgalorese,fastqctrimmed,D
+trimgalorese,fastqc_trimmed,D
+trimgalorese,trim_fasq_fastqc,D
+trimgalorese,fastqc 3,D
+trimgalorese,fastqctrimmed 2,D
+trimgalorese,fastqc 2,D
+trimgalorese,fastqcrim,D
+trimgalorese,fastqc 6,D
+fastp_trimming_se,fastp_trimming_pe,SS
+fastp_trimming_se,merge_trimmed_pe,SS
+fastp_trimming_se,merge_trimmed_se,D
+fastp_trimming_se,drimseq,D
+fastp_trimming_se,edger,D
+fastp_trimming_se,rsem_norm,D
+fastp_trimming_se,feature_counts,D
+fastp_trimming_se,salmon_quant_se,D
+fastp_trimming_se,salmonse,D
+fastp_trimming_se,salmon_quant_pe,D
+fastp_trimming_se,salmonpe,D
+fastp_trimming_se,salmon_index_extended,D
+fastp_trimming_se,counts_matrix,D
+fastp_trimming_se,samlon_quant,D
+fastp_trimming_se,featurecounts 2,D
+fastp_trimming_se,salmon_quant,D
+fastp_trimming_se,salmon_index,D
+fastp_trimming_se,featurecounts,D
+fastp_trimming_se,sortedbam_to_counts,D
+fastp_trimming_se,tximeta,D
+fastp_trimming_se,kallistoquant,D
+fastp_trimming_se,bigwig,D
+fastp_trimming_se,fastqscreen,D
+fastp_trimming_se,multiqc 2,D
+fastp_trimming_se,fastqc 5,D
+fastp_trimming_se,fastqc 4,D
+fastp_trimming_se,multiqc 3,D
+fastp_trimming_se,fastqc,D
+fastp_trimming_se,run_multiqc,D
+fastp_trimming_se,multiqc,D
+fastp_trimming_se,fastqctrimmed,D
+fastp_trimming_se,fastqc_trimmed,D
+fastp_trimming_se,trim_fasq_fastqc,D
+fastp_trimming_se,fastqc 3,D
+fastp_trimming_se,fastqctrimmed 2,D
+fastp_trimming_se,fastqc 2,D
+fastp_trimming_se,fastqcrim,D
+fastp_trimming_se,fastqc 6,D
+fastp_trimming_pe,merge_trimmed_pe,D
+fastp_trimming_pe,merge_trimmed_se,D
+fastp_trimming_pe,drimseq,D
+fastp_trimming_pe,edger,D
+fastp_trimming_pe,rsem_norm,D
+fastp_trimming_pe,feature_counts,D
+fastp_trimming_pe,salmon_quant_se,D
+fastp_trimming_pe,salmonse,D
+fastp_trimming_pe,salmon_quant_pe,D
+fastp_trimming_pe,salmonpe,D
+fastp_trimming_pe,salmon_index_extended,D
+fastp_trimming_pe,counts_matrix,D
+fastp_trimming_pe,samlon_quant,D
+fastp_trimming_pe,featurecounts 2,D
+fastp_trimming_pe,salmon_quant,D
+fastp_trimming_pe,salmon_index,D
+fastp_trimming_pe,featurecounts,D
+fastp_trimming_pe,sortedbam_to_counts,D
+fastp_trimming_pe,tximeta,D
+fastp_trimming_pe,kallistoquant,D
+fastp_trimming_pe,bigwig,D
+fastp_trimming_pe,fastqscreen,D
+fastp_trimming_pe,multiqc 2,D
+fastp_trimming_pe,fastqc 5,D
+fastp_trimming_pe,fastqc 4,D
+fastp_trimming_pe,multiqc 3,D
+fastp_trimming_pe,fastqc,D
+fastp_trimming_pe,run_multiqc,D
+fastp_trimming_pe,multiqc,D
+fastp_trimming_pe,fastqctrimmed,D
+fastp_trimming_pe,fastqc_trimmed,D
+fastp_trimming_pe,trim_fasq_fastqc,D
+fastp_trimming_pe,fastqc 3,D
+fastp_trimming_pe,fastqctrimmed 2,D
+fastp_trimming_pe,fastqc 2,D
+fastp_trimming_pe,fastqcrim,D
+fastp_trimming_pe,fastqc 6,D
+merge_trimmed_pe,merge_trimmed_se,D
+merge_trimmed_pe,drimseq,D
+merge_trimmed_pe,edger,D
+merge_trimmed_pe,rsem_norm,D
+merge_trimmed_pe,feature_counts,D
+merge_trimmed_pe,salmon_quant_se,D
+merge_trimmed_pe,salmonse,D
+merge_trimmed_pe,salmon_quant_pe,D
+merge_trimmed_pe,salmonpe,D
+merge_trimmed_pe,salmon_index_extended,D
+merge_trimmed_pe,counts_matrix,D
+merge_trimmed_pe,samlon_quant,D
+merge_trimmed_pe,featurecounts 2,D
+merge_trimmed_pe,salmon_quant,D
+merge_trimmed_pe,salmon_index,D
+merge_trimmed_pe,featurecounts,D
+merge_trimmed_pe,sortedbam_to_counts,D
+merge_trimmed_pe,tximeta,D
+merge_trimmed_pe,kallistoquant,D
+merge_trimmed_pe,bigwig,D
+merge_trimmed_pe,fastqscreen,D
+merge_trimmed_pe,multiqc 2,D
+merge_trimmed_pe,fastqc 5,D
+merge_trimmed_pe,fastqc 4,D
+merge_trimmed_pe,multiqc 3,D
+merge_trimmed_pe,fastqc,D
+merge_trimmed_pe,run_multiqc,D
+merge_trimmed_pe,multiqc,D
+merge_trimmed_pe,fastqctrimmed,D
+merge_trimmed_pe,fastqc_trimmed,D
+merge_trimmed_pe,trim_fasq_fastqc,D
+merge_trimmed_pe,fastqc 3,D
+merge_trimmed_pe,fastqctrimmed 2,D
+merge_trimmed_pe,fastqc 2,D
+merge_trimmed_pe,fastqcrim,D
+merge_trimmed_pe,fastqc 6,D
+merge_trimmed_se,drimseq,D
+merge_trimmed_se,edger,D
+merge_trimmed_se,rsem_norm,D
+merge_trimmed_se,feature_counts,D
+merge_trimmed_se,salmon_quant_se,D
+merge_trimmed_se,salmonse,D
+merge_trimmed_se,salmon_quant_pe,D
+merge_trimmed_se,salmonpe,D
+merge_trimmed_se,salmon_index_extended,D
+merge_trimmed_se,counts_matrix,D
+merge_trimmed_se,samlon_quant,D
+merge_trimmed_se,featurecounts 2,D
+merge_trimmed_se,salmon_quant,D
+merge_trimmed_se,salmon_index,D
+merge_trimmed_se,featurecounts,D
+merge_trimmed_se,sortedbam_to_counts,D
+merge_trimmed_se,tximeta,D
+merge_trimmed_se,kallistoquant,D
+merge_trimmed_se,bigwig,D
+merge_trimmed_se,fastqscreen,D
+merge_trimmed_se,multiqc 2,D
+merge_trimmed_se,fastqc 5,D
+merge_trimmed_se,fastqc 4,D
+merge_trimmed_se,multiqc 3,D
+merge_trimmed_se,fastqc,D
+merge_trimmed_se,run_multiqc,D
+merge_trimmed_se,multiqc,D
+merge_trimmed_se,fastqctrimmed,D
+merge_trimmed_se,fastqc_trimmed,D
+merge_trimmed_se,trim_fasq_fastqc,D
+merge_trimmed_se,fastqc 3,D
+merge_trimmed_se,fastqctrimmed 2,D
+merge_trimmed_se,fastqc 2,D
+merge_trimmed_se,fastqcrim,D
+merge_trimmed_se,fastqc 6,D
+drimseq,edger,VS
+drimseq,rsem_norm,D
+drimseq,feature_counts,D
+drimseq,salmon_quant_se,D
+drimseq,salmonse,D
+drimseq,salmon_quant_pe,D
+drimseq,salmonpe,D
+drimseq,salmon_index_extended,D
+drimseq,counts_matrix,D
+drimseq,samlon_quant,D
+drimseq,featurecounts 2,D
+drimseq,salmon_quant,D
+drimseq,salmon_index,D
+drimseq,featurecounts,D
+drimseq,sortedbam_to_counts,D
+drimseq,tximeta,D
+drimseq,kallistoquant,D
+drimseq,bigwig,D
+drimseq,fastqscreen,D
+drimseq,multiqc 2,D
+drimseq,fastqc 5,D
+drimseq,fastqc 4,D
+drimseq,multiqc 3,D
+drimseq,fastqc,D
+drimseq,run_multiqc,D
+drimseq,multiqc,D
+drimseq,fastqctrimmed,D
+drimseq,fastqc_trimmed,D
+drimseq,trim_fasq_fastqc,D
+drimseq,fastqc 3,D
+drimseq,fastqctrimmed 2,D
+drimseq,fastqc 2,D
+drimseq,fastqcrim,D
+drimseq,fastqc 6,D
+edger,rsem_norm,D
+edger,feature_counts,D
+edger,salmon_quant_se,D
+edger,salmonse,D
+edger,salmon_quant_pe,D
+edger,salmonpe,D
+edger,salmon_index_extended,D
+edger,counts_matrix,D
+edger,samlon_quant,D
+edger,featurecounts 2,D
+edger,salmon_quant,D
+edger,salmon_index,D
+edger,featurecounts,D
+edger,sortedbam_to_counts,D
+edger,tximeta,D
+edger,kallistoquant,D
+edger,bigwig,D
+edger,fastqscreen,D
+edger,multiqc 2,D
+edger,fastqc 5,D
+edger,fastqc 4,D
+edger,multiqc 3,D
+edger,fastqc,D
+edger,run_multiqc,D
+edger,multiqc,D
+edger,fastqctrimmed,D
+edger,fastqc_trimmed,D
+edger,trim_fasq_fastqc,D
+edger,fastqc 3,D
+edger,fastqctrimmed 2,D
+edger,fastqc 2,D
+edger,fastqcrim,D
+edger,fastqc 6,D
+rsem_norm,feature_counts,SS
+rsem_norm,salmon_quant_se,D
+rsem_norm,salmonse,D
+rsem_norm,salmon_quant_pe,D
+rsem_norm,salmonpe,D
+rsem_norm,salmon_index_extended,D
+rsem_norm,counts_matrix,D
+rsem_norm,samlon_quant,D
+rsem_norm,featurecounts 2,SS
+rsem_norm,salmon_quant,D
+rsem_norm,salmon_index,D
+rsem_norm,featurecounts,SS
+rsem_norm,sortedbam_to_counts,SS
+rsem_norm,tximeta,D
+rsem_norm,kallistoquant,D
+rsem_norm,bigwig,D
+rsem_norm,fastqscreen,D
+rsem_norm,multiqc 2,D
+rsem_norm,fastqc 5,D
+rsem_norm,fastqc 4,D
+rsem_norm,multiqc 3,D
+rsem_norm,fastqc,D
+rsem_norm,run_multiqc,D
+rsem_norm,multiqc,D
+rsem_norm,fastqctrimmed,D
+rsem_norm,fastqc_trimmed,D
+rsem_norm,trim_fasq_fastqc,D
+rsem_norm,fastqc 3,D
+rsem_norm,fastqctrimmed 2,D
+rsem_norm,fastqc 2,D
+rsem_norm,fastqcrim,D
+rsem_norm,fastqc 6,D
+feature_counts,salmon_quant_se,D
+feature_counts,salmonse,D
+feature_counts,salmon_quant_pe,D
+feature_counts,salmonpe,D
+feature_counts,salmon_index_extended,D
+feature_counts,counts_matrix,D
+feature_counts,samlon_quant,D
+feature_counts,featurecounts 2,SS
+feature_counts,salmon_quant,D
+feature_counts,salmon_index,D
+feature_counts,featurecounts,SS
+feature_counts,sortedbam_to_counts,SS
+feature_counts,tximeta,D
+feature_counts,kallistoquant,D
+feature_counts,bigwig,D
+feature_counts,fastqscreen,D
+feature_counts,multiqc 2,D
+feature_counts,fastqc 5,D
+feature_counts,fastqc 4,D
+feature_counts,multiqc 3,D
+feature_counts,fastqc,D
+feature_counts,run_multiqc,D
+feature_counts,multiqc,D
+feature_counts,fastqctrimmed,D
+feature_counts,fastqc_trimmed,D
+feature_counts,trim_fasq_fastqc,D
+feature_counts,fastqc 3,D
+feature_counts,fastqctrimmed 2,D
+feature_counts,fastqc 2,D
+feature_counts,fastqcrim,D
+feature_counts,fastqc 6,D
+salmon_quant_se,salmonse,S
+salmon_quant_se,salmon_quant_pe,SS
+salmon_quant_se,salmonpe,SS
+salmon_quant_se,salmon_index_extended,D
+salmon_quant_se,counts_matrix,D
+salmon_quant_se,samlon_quant,S
+salmon_quant_se,featurecounts 2,D
+salmon_quant_se,salmon_quant,SS
+salmon_quant_se,salmon_index,D
+salmon_quant_se,featurecounts,D
+salmon_quant_se,sortedbam_to_counts,D
+salmon_quant_se,tximeta,D
+salmon_quant_se,kallistoquant,SS
+salmon_quant_se,bigwig,D
+salmon_quant_se,fastqscreen,D
+salmon_quant_se,multiqc 2,D
+salmon_quant_se,fastqc 5,D
+salmon_quant_se,fastqc 4,D
+salmon_quant_se,multiqc 3,D
+salmon_quant_se,fastqc,D
+salmon_quant_se,run_multiqc,D
+salmon_quant_se,multiqc,D
+salmon_quant_se,fastqctrimmed,D
+salmon_quant_se,fastqc_trimmed,D
+salmon_quant_se,trim_fasq_fastqc,D
+salmon_quant_se,fastqc 3,D
+salmon_quant_se,fastqctrimmed 2,D
+salmon_quant_se,fastqc 2,D
+salmon_quant_se,fastqcrim,D
+salmon_quant_se,fastqc 6,D
+salmonse,salmon_quant_pe,SS
+salmonse,salmonpe,SS
+salmonse,salmon_index_extended,D
+salmonse,counts_matrix,D
+salmonse,samlon_quant,S
+salmonse,featurecounts 2,D
+salmonse,salmon_quant,SS
+salmonse,salmon_index,D
+salmonse,featurecounts,D
+salmonse,sortedbam_to_counts,D
+salmonse,tximeta,D
+salmonse,kallistoquant,SS
+salmonse,bigwig,D
+salmonse,fastqscreen,D
+salmonse,multiqc 2,D
+salmonse,fastqc 5,D
+salmonse,fastqc 4,D
+salmonse,multiqc 3,D
+salmonse,fastqc,D
+salmonse,run_multiqc,D
+salmonse,multiqc,D
+salmonse,fastqctrimmed,D
+salmonse,fastqc_trimmed,D
+salmonse,trim_fasq_fastqc,D
+salmonse,fastqc 3,D
+salmonse,fastqctrimmed 2,D
+salmonse,fastqc 2,D
+salmonse,fastqcrim,D
+salmonse,fastqc 6,D
+salmon_quant_pe,salmonpe,S
+salmon_quant_pe,salmon_index_extended,D
+salmon_quant_pe,counts_matrix,D
+salmon_quant_pe,samlon_quant,SS
+salmon_quant_pe,featurecounts 2,D
+salmon_quant_pe,salmon_quant,S
+salmon_quant_pe,salmon_index,D
+salmon_quant_pe,featurecounts,D
+salmon_quant_pe,sortedbam_to_counts,D
+salmon_quant_pe,tximeta,D
+salmon_quant_pe,kallistoquant,SS
+salmon_quant_pe,bigwig,D
+salmon_quant_pe,fastqscreen,D
+salmon_quant_pe,multiqc 2,D
+salmon_quant_pe,fastqc 5,D
+salmon_quant_pe,fastqc 4,D
+salmon_quant_pe,multiqc 3,D
+salmon_quant_pe,fastqc,D
+salmon_quant_pe,run_multiqc,D
+salmon_quant_pe,multiqc,D
+salmon_quant_pe,fastqctrimmed,D
+salmon_quant_pe,fastqc_trimmed,D
+salmon_quant_pe,trim_fasq_fastqc,D
+salmon_quant_pe,fastqc 3,D
+salmon_quant_pe,fastqctrimmed 2,D
+salmon_quant_pe,fastqc 2,D
+salmon_quant_pe,fastqcrim,D
+salmon_quant_pe,fastqc 6,D
+salmonpe,salmon_index_extended,D
+salmonpe,counts_matrix,D
+salmonpe,samlon_quant,S
+salmonpe,featurecounts 2,D
+salmonpe,salmon_quant,S
+salmonpe,salmon_index,D
+salmonpe,featurecounts,D
+salmonpe,sortedbam_to_counts,D
+salmonpe,tximeta,D
+salmonpe,kallistoquant,SS
+salmonpe,bigwig,D
+salmonpe,fastqscreen,D
+salmonpe,multiqc 2,D
+salmonpe,fastqc 5,D
+salmonpe,fastqc 4,D
+salmonpe,multiqc 3,D
+salmonpe,fastqc,D
+salmonpe,run_multiqc,D
+salmonpe,multiqc,D
+salmonpe,fastqctrimmed,D
+salmonpe,fastqc_trimmed,D
+salmonpe,trim_fasq_fastqc,D
+salmonpe,fastqc 3,D
+salmonpe,fastqctrimmed 2,D
+salmonpe,fastqc 2,D
+salmonpe,fastqcrim,D
+salmonpe,fastqc 6,D
+salmon_index_extended,counts_matrix,D
+salmon_index_extended,samlon_quant,D
+salmon_index_extended,featurecounts 2,D
+salmon_index_extended,salmon_quant,D
+salmon_index_extended,salmon_index,VS
+salmon_index_extended,featurecounts,D
+salmon_index_extended,sortedbam_to_counts,D
+salmon_index_extended,tximeta,D
+salmon_index_extended,kallistoquant,D
+salmon_index_extended,bigwig,D
+salmon_index_extended,fastqscreen,D
+salmon_index_extended,multiqc 2,D
+salmon_index_extended,fastqc 5,D
+salmon_index_extended,fastqc 4,D
+salmon_index_extended,multiqc 3,D
+salmon_index_extended,fastqc,D
+salmon_index_extended,run_multiqc,D
+salmon_index_extended,multiqc,D
+salmon_index_extended,fastqctrimmed,D
+salmon_index_extended,fastqc_trimmed,D
+salmon_index_extended,trim_fasq_fastqc,D
+salmon_index_extended,fastqc 3,D
+salmon_index_extended,fastqctrimmed 2,D
+salmon_index_extended,fastqc 2,D
+salmon_index_extended,fastqcrim,D
+salmon_index_extended,fastqc 6,D
+counts_matrix,samlon_quant,D
+counts_matrix,featurecounts 2,SS
+counts_matrix,salmon_quant,D
+counts_matrix,salmon_index,D
+counts_matrix,featurecounts,SS
+counts_matrix,sortedbam_to_counts,D
+counts_matrix,tximeta,D
+counts_matrix,kallistoquant,D
+counts_matrix,bigwig,D
+counts_matrix,fastqscreen,D
+counts_matrix,multiqc 2,D
+counts_matrix,fastqc 5,D
+counts_matrix,fastqc 4,D
+counts_matrix,multiqc 3,D
+counts_matrix,fastqc,D
+counts_matrix,run_multiqc,D
+counts_matrix,multiqc,D
+counts_matrix,fastqctrimmed,D
+counts_matrix,fastqc_trimmed,D
+counts_matrix,trim_fasq_fastqc,D
+counts_matrix,fastqc 3,D
+counts_matrix,fastqctrimmed 2,D
+counts_matrix,fastqc 2,D
+counts_matrix,fastqcrim,D
+counts_matrix,fastqc 6,D
+samlon_quant,featurecounts 2,D
+samlon_quant,salmon_quant,SS
+samlon_quant,salmon_index,D
+samlon_quant,featurecounts,D
+samlon_quant,sortedbam_to_counts,D
+samlon_quant,tximeta,D
+samlon_quant,kallistoquant,SS
+samlon_quant,bigwig,D
+samlon_quant,fastqscreen,D
+samlon_quant,multiqc 2,D
+samlon_quant,fastqc 5,D
+samlon_quant,fastqc 4,D
+samlon_quant,multiqc 3,D
+samlon_quant,fastqc,D
+samlon_quant,run_multiqc,D
+samlon_quant,multiqc,D
+samlon_quant,fastqctrimmed,D
+samlon_quant,fastqc_trimmed,D
+samlon_quant,trim_fasq_fastqc,D
+samlon_quant,fastqc 3,D
+samlon_quant,fastqctrimmed 2,D
+samlon_quant,fastqc 2,D
+samlon_quant,fastqcrim,D
+samlon_quant,fastqc 6,D
+featurecounts 2,salmon_quant,D
+featurecounts 2,salmon_index,D
+featurecounts 2,featurecounts,S
+featurecounts 2,sortedbam_to_counts,SS
+featurecounts 2,tximeta,D
+featurecounts 2,kallistoquant,D
+featurecounts 2,bigwig,D
+featurecounts 2,fastqscreen,D
+featurecounts 2,multiqc 2,D
+featurecounts 2,fastqc 5,D
+featurecounts 2,fastqc 4,D
+featurecounts 2,multiqc 3,D
+featurecounts 2,fastqc,D
+featurecounts 2,run_multiqc,D
+featurecounts 2,multiqc,D
+featurecounts 2,fastqctrimmed,D
+featurecounts 2,fastqc_trimmed,D
+featurecounts 2,trim_fasq_fastqc,D
+featurecounts 2,fastqc 3,D
+featurecounts 2,fastqctrimmed 2,D
+featurecounts 2,fastqc 2,D
+featurecounts 2,fastqcrim,D
+featurecounts 2,fastqc 6,D
+salmon_quant,salmon_index,D
+salmon_quant,featurecounts,D
+salmon_quant,sortedbam_to_counts,D
+salmon_quant,tximeta,D
+salmon_quant,kallistoquant,SS
+salmon_quant,bigwig,D
+salmon_quant,fastqscreen,D
+salmon_quant,multiqc 2,D
+salmon_quant,fastqc 5,D
+salmon_quant,fastqc 4,D
+salmon_quant,multiqc 3,D
+salmon_quant,fastqc,D
+salmon_quant,run_multiqc,D
+salmon_quant,multiqc,D
+salmon_quant,fastqctrimmed,D
+salmon_quant,fastqc_trimmed,D
+salmon_quant,trim_fasq_fastqc,D
+salmon_quant,fastqc 3,D
+salmon_quant,fastqctrimmed 2,D
+salmon_quant,fastqc 2,D
+salmon_quant,fastqcrim,D
+salmon_quant,fastqc 6,D
+salmon_index,featurecounts,D
+salmon_index,sortedbam_to_counts,D
+salmon_index,tximeta,D
+salmon_index,kallistoquant,SS
+salmon_index,bigwig,D
+salmon_index,fastqscreen,D
+salmon_index,multiqc 2,D
+salmon_index,fastqc 5,D
+salmon_index,fastqc 4,D
+salmon_index,multiqc 3,D
+salmon_index,fastqc,D
+salmon_index,run_multiqc,D
+salmon_index,multiqc,D
+salmon_index,fastqctrimmed,D
+salmon_index,fastqc_trimmed,D
+salmon_index,trim_fasq_fastqc,D
+salmon_index,fastqc 3,D
+salmon_index,fastqctrimmed 2,D
+salmon_index,fastqc 2,D
+salmon_index,fastqcrim,D
+salmon_index,fastqc 6,D
+featurecounts,sortedbam_to_counts,SS
+featurecounts,tximeta,D
+featurecounts,kallistoquant,D
+featurecounts,bigwig,D
+featurecounts,fastqscreen,D
+featurecounts,multiqc 2,D
+featurecounts,fastqc 5,D
+featurecounts,fastqc 4,D
+featurecounts,multiqc 3,D
+featurecounts,fastqc,D
+featurecounts,run_multiqc,D
+featurecounts,multiqc,D
+featurecounts,fastqctrimmed,D
+featurecounts,fastqc_trimmed,D
+featurecounts,trim_fasq_fastqc,D
+featurecounts,fastqc 3,D
+featurecounts,fastqctrimmed 2,D
+featurecounts,fastqc 2,D
+featurecounts,fastqcrim,D
+featurecounts,fastqc 6,D
+sortedbam_to_counts,tximeta,D
+sortedbam_to_counts,kallistoquant,D
+sortedbam_to_counts,bigwig,D
+sortedbam_to_counts,fastqscreen,D
+sortedbam_to_counts,multiqc 2,D
+sortedbam_to_counts,fastqc 5,D
+sortedbam_to_counts,fastqc 4,D
+sortedbam_to_counts,multiqc 3,D
+sortedbam_to_counts,fastqc,D
+sortedbam_to_counts,run_multiqc,D
+sortedbam_to_counts,multiqc,D
+sortedbam_to_counts,fastqctrimmed,D
+sortedbam_to_counts,fastqc_trimmed,D
+sortedbam_to_counts,trim_fasq_fastqc,D
+sortedbam_to_counts,fastqc 3,D
+sortedbam_to_counts,fastqctrimmed 2,D
+sortedbam_to_counts,fastqc 2,D
+sortedbam_to_counts,fastqcrim,D
+sortedbam_to_counts,fastqc 6,D
+tximeta,kallistoquant,D
+tximeta,bigwig,D
+tximeta,fastqscreen,D
+tximeta,multiqc 2,D
+tximeta,fastqc 5,D
+tximeta,fastqc 4,D
+tximeta,multiqc 3,D
+tximeta,fastqc,D
+tximeta,run_multiqc,D
+tximeta,multiqc,D
+tximeta,fastqctrimmed,D
+tximeta,fastqc_trimmed,D
+tximeta,trim_fasq_fastqc,D
+tximeta,fastqc 3,D
+tximeta,fastqctrimmed 2,D
+tximeta,fastqc 2,D
+tximeta,fastqcrim,D
+tximeta,fastqc 6,D
+kallistoquant,bigwig,D
+kallistoquant,fastqscreen,D
+kallistoquant,multiqc 2,D
+kallistoquant,fastqc 5,D
+kallistoquant,fastqc 4,D
+kallistoquant,multiqc 3,D
+kallistoquant,fastqc,D
+kallistoquant,run_multiqc,D
+kallistoquant,multiqc,D
+kallistoquant,fastqctrimmed,D
+kallistoquant,fastqc_trimmed,D
+kallistoquant,trim_fasq_fastqc,D
+kallistoquant,fastqc 3,D
+kallistoquant,fastqctrimmed 2,D
+kallistoquant,fastqc 2,D
+kallistoquant,fastqcrim,D
+kallistoquant,fastqc 6,D
+bigwig,fastqscreen,D
+bigwig,multiqc 2,D
+bigwig,fastqc 5,D
+bigwig,fastqc 4,D
+bigwig,multiqc 3,D
+bigwig,fastqc,D
+bigwig,run_multiqc,D
+bigwig,multiqc,D
+bigwig,fastqctrimmed,D
+bigwig,fastqc_trimmed,D
+bigwig,trim_fasq_fastqc,D
+bigwig,fastqc 3,D
+bigwig,fastqctrimmed 2,D
+bigwig,fastqc 2,D
+bigwig,fastqcrim,D
+bigwig,fastqc 6,D
+fastqscreen,multiqc 2,D
+fastqscreen,fastqc 5,D
+fastqscreen,fastqc 4,D
+fastqscreen,multiqc 3,D
+fastqscreen,fastqc,D
+fastqscreen,run_multiqc,D
+fastqscreen,multiqc,D
+fastqscreen,fastqctrimmed,D
+fastqscreen,fastqc_trimmed,D
+fastqscreen,trim_fasq_fastqc,D
+fastqscreen,fastqc 3,D
+fastqscreen,fastqctrimmed 2,D
+fastqscreen,fastqc 2,D
+fastqscreen,fastqcrim,D
+fastqscreen,fastqc 6,D
+multiqc 2,fastqc 5,SS
+multiqc 2,fastqc 4,SS
+multiqc 2,multiqc 3,VS
+multiqc 2,fastqc,SS
+multiqc 2,run_multiqc,S
+multiqc 2,multiqc,S
+multiqc 2,fastqctrimmed,SS
+multiqc 2,fastqc_trimmed,SS
+multiqc 2,trim_fasq_fastqc,SS
+multiqc 2,fastqc 3,SS
+multiqc 2,fastqctrimmed 2,SS
+multiqc 2,fastqc 2,SS
+multiqc 2,fastqcrim,SS
+multiqc 2,fastqc 6,SS
+fastqc 5,fastqc 4,S
+fastqc 5,multiqc 3,SS
+fastqc 5,fastqc,VS
+fastqc 5,run_multiqc,SS
+fastqc 5,multiqc,SS
+fastqc 5,fastqctrimmed,S
+fastqc 5,fastqc_trimmed,S
+fastqc 5,trim_fasq_fastqc,S
+fastqc 5,fastqc 3,S
+fastqc 5,fastqctrimmed 2,S
+fastqc 5,fastqc 2,VS
+fastqc 5,fastqcrim,S
+fastqc 5,fastqc 6,VS
+fastqc 4,multiqc 3,SS
+fastqc 4,fastqc,VS
+fastqc 4,run_multiqc,SS
+fastqc 4,multiqc,SS
+fastqc 4,fastqctrimmed,S
+fastqc 4,fastqc_trimmed,S
+fastqc 4,trim_fasq_fastqc,S
+fastqc 4,fastqc 3,VS
+fastqc 4,fastqctrimmed 2,S
+fastqc 4,fastqc 2,VS
+fastqc 4,fastqcrim,S
+fastqc 4,fastqc 6,VS
+multiqc 3,fastqc,SS
+multiqc 3,run_multiqc,S
+multiqc 3,multiqc,VS
+multiqc 3,fastqctrimmed,SS
+multiqc 3,fastqc_trimmed,SS
+multiqc 3,trim_fasq_fastqc,SS
+multiqc 3,fastqc 3,SS
+multiqc 3,fastqctrimmed 2,SS
+multiqc 3,fastqc 2,SS
+multiqc 3,fastqcrim,SS
+multiqc 3,fastqc 6,SS
+fastqc,run_multiqc,SS
+fastqc,multiqc,SS
+fastqc,fastqctrimmed,S
+fastqc,fastqc_trimmed,S
+fastqc,trim_fasq_fastqc,S
+fastqc,fastqc 3,S
+fastqc,fastqctrimmed 2,S
+fastqc,fastqc 2,VS
+fastqc,fastqcrim,S
+fastqc,fastqc 6,S
+run_multiqc,multiqc,VS
+run_multiqc,fastqctrimmed,SS
+run_multiqc,fastqc_trimmed,S
+run_multiqc,trim_fasq_fastqc,SS
+run_multiqc,fastqc 3,S
+run_multiqc,fastqctrimmed 2,SS
+run_multiqc,fastqc 2,SS
+run_multiqc,fastqcrim,SS
+run_multiqc,fastqc 6,SS
+multiqc,fastqctrimmed,SS
+multiqc,fastqc_trimmed,SS
+multiqc,trim_fasq_fastqc,SS
+multiqc,fastqc 3,SS
+multiqc,fastqctrimmed 2,SS
+multiqc,fastqc 2,SS
+multiqc,fastqcrim,SS
+multiqc,fastqc 6,SS
+fastqctrimmed,fastqc_trimmed,S
+fastqctrimmed,trim_fasq_fastqc,SS
+fastqctrimmed,fastqc 3,SS
+fastqctrimmed,fastqctrimmed 2,S
+fastqctrimmed,fastqc 2,SS
+fastqctrimmed,fastqcrim,S
+fastqctrimmed,fastqc 6,SS
+fastqc_trimmed,trim_fasq_fastqc,SS
+fastqc_trimmed,fastqc 3,SS
+fastqc_trimmed,fastqctrimmed 2,S
+fastqc_trimmed,fastqc 2,SS
+fastqc_trimmed,fastqcrim,S
+fastqc_trimmed,fastqc 6,SS
+trim_fasq_fastqc,fastqc 3,D
+trim_fasq_fastqc,fastqctrimmed 2,SS
+trim_fasq_fastqc,fastqc 2,D
+trim_fasq_fastqc,fastqcrim,SS
+trim_fasq_fastqc,fastqc 6,D
+fastqc 3,fastqctrimmed 2,SS
+fastqc 3,fastqc 2,S
+fastqc 3,fastqcrim,SS
+fastqc 3,fastqc 6,S
+fastqctrimmed 2,fastqc 2,SS
+fastqctrimmed 2,fastqcrim,S
+fastqctrimmed 2,fastqc 6,SS
+fastqc 2,fastqcrim,SS
+fastqc 2,fastqc 6,VS
+fastqcrim,fastqc 6,SS
