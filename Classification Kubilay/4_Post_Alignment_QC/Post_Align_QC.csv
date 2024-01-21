@@ -1,4 +1,0 @@
-,mark_dups.py,samtools_flagstat.py,picard_rna_seq.py
-mark_dups.py,I,D,D
-samtools_flagstat.py,D,I,D
-picard_rna_seq.py,D,D,I
