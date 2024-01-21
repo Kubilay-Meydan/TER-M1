@@ -31,10 +31,10 @@ get_sensitivity <- function(input_tab, sensivity_of) {
     diff = grep(sensivity_of, colnames(df_sensitivity))[1]
     if(sensivity_of=="D"){
         tp = df_sensitivity$D[diff]
-        fn = df_sensitivity$S[diff]+df_sensitivity$C[diff]+df_sensitivity$VS[diff]
+        fn = df_sensitivity$S[diff]+df_sensitivity$SS[diff]+df_sensitivity$VS[diff]
     }
     if(sensivity_of=="SS"){
-        tp = df_sensitivity$C[diff]
+        tp = df_sensitivity$SS[diff]
         fn = df_sensitivity$S[diff]+df_sensitivity$D[diff]+df_sensitivity$VS[diff]
     }
     if(sensivity_of=="S"){
@@ -42,11 +42,11 @@ get_sensitivity <- function(input_tab, sensivity_of) {
             diff=grep("S", colnames(df_sensitivity))[2]
         }
         tp = df_sensitivity$S[diff]
-        fn = df_sensitivity$C[diff]+df_sensitivity$D[diff]+df_sensitivity$VS[diff]
+        fn = df_sensitivity$SS[diff]+df_sensitivity$D[diff]+df_sensitivity$VS[diff]
     }
     if(sensivity_of=="VS"){
         tp = df_sensitivity$VS[diff]
-        fn = df_sensitivity$S[diff]+df_sensitivity$C[diff]+df_sensitivity$D[diff]
+        fn = df_sensitivity$S[diff]+df_sensitivity$SS[diff]+df_sensitivity$D[diff]
     }
     sensivity = tp/(tp+fn)
     sensivity
@@ -106,7 +106,7 @@ sensitivity_VS = get_sensitivity(table(test$Annotation,pred.cart), "VS")
 
 cat("cart ER ", 1-(sum(diag(table(test$Annotation,pred.cart)))/length(pred.cart)), "\n")
 cat("cart sensitivity_D ", sensitivity_D, "\n")
-cat("cart sensitivity_C ", sensitivity_SS, "\n")
+cat("cart sensitivity_SS ", sensitivity_SS, "\n")
 cat("cart sensitivity_S ", sensitivity_S, "\n")
 cat("cart sensitivity_VS ", sensitivity_VS, "\n")
 
@@ -126,7 +126,7 @@ sensitivity_VS = get_sensitivity(tab.rf, "VS")
 
 cat("random ER ", 1-(sum(diag(table(test$Annotation,pred.rf)))/length(pred.rf)), "\n")
 cat("random sensitivity_D ", sensitivity_D, "\n")
-cat("random sensitivity_C ", sensitivity_SS, "\n")
+cat("random sensitivity_SS ", sensitivity_SS, "\n")
 cat("random sensitivity_S ", sensitivity_S, "\n")
 cat("random sensitivity_VS ", sensitivity_VS, "\n")
 
